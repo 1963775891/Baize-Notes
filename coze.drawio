@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-21T17:23:09.199Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="RXhuvXoi_RuVJA4JwNaV" version="24.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-21T17:36:40.880Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="kM6b1RUw3Q_cya2_ebtC" version="24.6.0" type="github">
   <diagram name="第 1 页" id="9lTrAyYvJ4b7SjN_BanK">
-    <mxGraphModel dx="2606" dy="2012" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="3985" dy="2770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -110,10 +110,13 @@
           <mxGeometry x="71.25" y="752" width="118.25" height="52" as="geometry" />
         </mxCell>
         <mxCell id="lRKWrLbBrvNwT5fJQd2l-49" value="信息检索工作流" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=24;labelBackgroundColor=none;startSize=50;fillColor=#4c477a;strokeColor=#4c477a;fontColor=#FFFFFF;rounded=1;arcSize=14;container=0;" vertex="1" parent="1">
-          <mxGeometry x="1077" y="-550" width="793" height="971" as="geometry" />
+          <mxGeometry x="1077" y="-550" width="793" height="1257" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-133" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#524d84;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="lRKWrLbBrvNwT5fJQd2l-49" source="lRKWrLbBrvNwT5fJQd2l-113" target="lRKWrLbBrvNwT5fJQd2l-129">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lRKWrLbBrvNwT5fJQd2l-113" value="&lt;p style=&quot;color: rgb(82, 77, 132); font-family: &amp;quot;Chiron Sans HK Pro&amp;quot;; font-size: 14px; text-align: left; line-height: 2.8px;&quot;&gt;LLM语言模型：&lt;/p&gt;&lt;p style=&quot;color: rgb(82, 77, 132); font-family: &amp;quot;Chiron Sans HK Pro&amp;quot;; font-size: 14px; text-align: left; line-height: 2.8px;&quot;&gt;GPT4o&lt;/p&gt;" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;startSize=37;fillColor=none;" vertex="1" parent="lRKWrLbBrvNwT5fJQd2l-49">
-          <mxGeometry x="394" y="781" width="262" height="165" as="geometry" />
+          <mxGeometry x="394" y="796" width="262" height="165" as="geometry" />
         </mxCell>
         <mxCell id="lRKWrLbBrvNwT5fJQd2l-114" value="Input：&#xa; - 原始的query&#xa; - 检索的Output&#xa;Pompt：&#xa;1、用户输入的问题Twitter检索的信息&#xa;2、将检索后的信息进行总结和要点提炼&#xa;3、将内容翻译成中文" style="rounded=0;fontFamily=Helvetica;fontSize=13;fontColor=#4c477a;labelBackgroundColor=none;strokeColor=none;dashed=1;strokeWidth=1;spacing=0;align=left;arcSize=0;verticalAlign=middle;fillColor=none;whiteSpace=wrap;horizontal=1;fontStyle=1;" vertex="1" parent="lRKWrLbBrvNwT5fJQd2l-113">
           <mxGeometry x="10" y="44" width="235" height="112" as="geometry" />
@@ -124,7 +127,7 @@
         <mxCell id="lRKWrLbBrvNwT5fJQd2l-48" value="查看检索的结果，将需要提取的内容指令用AI输出代码。例如：&#xa;&#xa;输入参数&#39;twitter_search&#39;中包含&#39;searchTweet&#39;插件的结果&#xa;&#xa;1、需要从&#39;data&#39;的每一条结果中提取&#39;name&#39;、&#39;full_text&#39;、&#39;url&#39;信息，并格式化呈现现字符串，将每一条格式化后的结果拼接成一个长的字符串，输出为&#39;twitter_context&#39;&#xa;&#xa;2、其中&#39;url&#39;是具体的链接数据，请你从&#39;data&#39;中提取所有链接，并格式化成一个字符串，然后将每一条格式化后的结果拼接成一个长的字符串，输出为&#39;twitter_reference&#39;&#xa;" style="rounded=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;fontColor=#524d84;labelBackgroundColor=none;strokeColor=none;dashed=1;strokeWidth=1;spacing=0;align=left;arcSize=17;verticalAlign=top;fillColor=none;fontStyle=1" vertex="1" parent="lRKWrLbBrvNwT5fJQd2l-47">
           <mxGeometry x="15" y="44" width="367" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="lRKWrLbBrvNwT5fJQd2l-116" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeColor=#524d84;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="lRKWrLbBrvNwT5fJQd2l-49" source="lRKWrLbBrvNwT5fJQd2l-47" target="lRKWrLbBrvNwT5fJQd2l-113">
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-116" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#524d84;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="lRKWrLbBrvNwT5fJQd2l-49" source="lRKWrLbBrvNwT5fJQd2l-47" target="lRKWrLbBrvNwT5fJQd2l-113">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="lRKWrLbBrvNwT5fJQd2l-46" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Chiron Sans HK Pro&amp;quot;; vertical-align: middle; color: rgb(82, 77, 132); font-size: 18px; font-weight: bold;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: middle;&quot;&gt;&lt;p&gt;3.提炼需要的内容&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d6d5fd;strokeColor=none;arcSize=50;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=17;fontColor=#524d83;fontStyle=1;" vertex="1" parent="lRKWrLbBrvNwT5fJQd2l-49">
@@ -166,8 +169,11 @@
             <mxPoint x="143" y="358" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-134" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;strokeColor=#524d84;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="lRKWrLbBrvNwT5fJQd2l-49" source="lRKWrLbBrvNwT5fJQd2l-52" target="lRKWrLbBrvNwT5fJQd2l-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="lRKWrLbBrvNwT5fJQd2l-52" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Chiron Sans HK Pro&amp;quot;; vertical-align: middle; color: rgb(82, 77, 132); font-size: 18px; font-weight: bold;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: middle;&quot;&gt;&lt;p&gt;5.输出&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7f4ff;strokeColor=#524d83;arcSize=14;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#333333;fontStyle=1;dashed=1;pointerEvents=0;gradientColor=none;" vertex="1" parent="lRKWrLbBrvNwT5fJQd2l-49">
-          <mxGeometry x="85.57000000000028" y="838" width="114.87" height="43" as="geometry" />
+          <mxGeometry x="86.20000000000027" y="864" width="114.87" height="43" as="geometry" />
         </mxCell>
         <mxCell id="lRKWrLbBrvNwT5fJQd2l-53" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#524d84;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="lRKWrLbBrvNwT5fJQd2l-49" source="lRKWrLbBrvNwT5fJQd2l-50" target="lRKWrLbBrvNwT5fJQd2l-52">
           <mxGeometry relative="1" as="geometry" />
@@ -219,6 +225,9 @@
               <mxPoint x="277" y="98" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-129" value="Output variable：输出变量&#xa;&amp;nbsp;- Return variables, generated by the bot.&#xa;&amp;nbsp; &amp;nbsp; 返回机器人生成的变量。&#xa;&amp;nbsp;- VAnswer directly using Answer Content&#xa;&amp;nbsp; &amp;nbsp; 直接使用回答内容进行回答&#xa;&amp;nbsp; &amp;nbsp;&amp;nbsp;&#xa;Answer content：回答格式&#xa;1、Google search:&#xa;{{google_llm_output}}&#xa;&quot;参考资料&quot;&#xa;{{google_reference}}&#xa;&#xa;2、Twitter search:&#xa;{{twitter_llm_output}}&#xa;&quot;参考资料&quot;&#xa;{{twitter_reference}}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7f4ff;align=left;verticalAlign=top;spacing=3;spacingLeft=12;fontStyle=1;strokeColor=none;glass=0;shadow=1;arcSize=5;fontColor=#524d84;fontSize=13;" vertex="1" parent="lRKWrLbBrvNwT5fJQd2l-49">
+          <mxGeometry x="82.88999999999999" y="954" width="288.43" height="269" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
