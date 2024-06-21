@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-21T17:20:59.738Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="4efp3HumRpZiQ8a8Oby1" version="24.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-21T17:23:09.199Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="RXhuvXoi_RuVJA4JwNaV" version="24.6.0" type="github">
   <diagram name="第 1 页" id="9lTrAyYvJ4b7SjN_BanK">
     <mxGraphModel dx="2606" dy="2012" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -158,12 +158,12 @@
             <mxPoint x="238.0050000000001" y="302.9999999999998" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lRKWrLbBrvNwT5fJQd2l-33" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Chiron Sans HK Pro&amp;quot;; vertical-align: middle; font-size: 17px;&quot;&gt;&lt;p style=&quot;font-size: 17px;&quot;&gt;1.将中文转为英文&lt;/p&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d6d5fd;strokeColor=none;arcSize=50;fontColor=#524d83;fontStyle=1;fontSize=17;" vertex="1" parent="lRKWrLbBrvNwT5fJQd2l-49">
-          <mxGeometry x="50.50500000000011" y="295" width="190" height="60" as="geometry" />
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-33" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Chiron Sans HK Pro&amp;quot;; vertical-align: middle; font-size: 17px;&quot;&gt;&lt;p style=&quot;font-size: 17px;&quot;&gt;1.中转英,并提取关键词&lt;/p&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d6d5fd;strokeColor=none;arcSize=50;fontColor=#524d83;fontStyle=1;fontSize=17;" vertex="1" parent="lRKWrLbBrvNwT5fJQd2l-49">
+          <mxGeometry x="48.63500000000011" y="281" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lRKWrLbBrvNwT5fJQd2l-31" value="" style="edgeStyle=none;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;dashed=1;strokeColor=#524d84;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;endArrow=classic;endFill=1;" edge="1" parent="lRKWrLbBrvNwT5fJQd2l-49" target="lRKWrLbBrvNwT5fJQd2l-36">
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-31" value="" style="edgeStyle=none;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;dashed=1;strokeColor=#524d84;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;endArrow=classic;endFill=1;" edge="1" parent="lRKWrLbBrvNwT5fJQd2l-49" source="lRKWrLbBrvNwT5fJQd2l-33" target="lRKWrLbBrvNwT5fJQd2l-36">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="143.14295620437997" y="332.9999999999998" as="sourcePoint" />
+            <mxPoint x="143" y="358" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lRKWrLbBrvNwT5fJQd2l-52" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Chiron Sans HK Pro&amp;quot;; vertical-align: middle; color: rgb(82, 77, 132); font-size: 18px; font-weight: bold;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: middle;&quot;&gt;&lt;p&gt;5.输出&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7f4ff;strokeColor=#524d83;arcSize=14;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#333333;fontStyle=1;dashed=1;pointerEvents=0;gradientColor=none;" vertex="1" parent="lRKWrLbBrvNwT5fJQd2l-49">
@@ -207,7 +207,7 @@
         <mxCell id="lRKWrLbBrvNwT5fJQd2l-30" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Chiron Sans HK Pro&amp;quot;; vertical-align: middle; color: rgb(82, 77, 132); font-size: 18px; font-weight: bold;&quot;&gt;&lt;p&gt;&lt;span style=&quot;background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;&quot;&gt;输入提示词&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7f4ff;strokeColor=#524d83;fontColor=#333333;dashed=1;" vertex="1" parent="lRKWrLbBrvNwT5fJQd2l-49">
           <mxGeometry x="82.88500000000022" y="134" width="121.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="lRKWrLbBrvNwT5fJQd2l-28" style="edgeStyle=none;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;dashed=1;strokeColor=#524d84;endArrow=classic;endFill=1;" edge="1" parent="lRKWrLbBrvNwT5fJQd2l-49" source="lRKWrLbBrvNwT5fJQd2l-30">
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-28" style="edgeStyle=none;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;dashed=1;strokeColor=#524d84;endArrow=classic;endFill=1;" edge="1" parent="lRKWrLbBrvNwT5fJQd2l-49" source="lRKWrLbBrvNwT5fJQd2l-30" target="lRKWrLbBrvNwT5fJQd2l-33">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="143.0050000000001" y="272.9999999999998" as="targetPoint" />
           </mxGeometry>
