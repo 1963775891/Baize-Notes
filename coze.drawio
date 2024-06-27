@@ -1,0 +1,235 @@
+<mxfile host="app.diagrams.net" modified="2024-06-21T17:36:40.880Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="kM6b1RUw3Q_cya2_ebtC" version="24.6.0" type="github">
+  <diagram name="第 1 页" id="9lTrAyYvJ4b7SjN_BanK">
+    <mxGraphModel dx="3985" dy="2770" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PttNPXMBNqtkQihDIfYs-23" value="&lt;div style=&quot;line-height: 90%; font-family: &amp;quot;Chiron Sans HK Pro&amp;quot;; text-align: left; vertical-align: top;&quot;&gt;&lt;p style=&quot;line-height: 90%;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;节点&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;labelBackgroundColor=none;startSize=33;labelBorderColor=none;strokeColor=#9673a6;fillColor=#4c477a;fontColor=#ffffff;rounded=1;arcSize=13;" parent="1" vertex="1">
+          <mxGeometry x="-35" y="-518" width="207" height="328" as="geometry" />
+        </mxCell>
+        <mxCell id="PttNPXMBNqtkQihDIfYs-34" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;ul style=&quot;line-height: 200%;&quot;&gt;&lt;li&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 14px;&quot;&gt;Plugin:插件&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;J9HjFA61Q-ZLZLiDTO3Z&quot; style=&quot;font-size: 14px;&quot;&gt;LLM:大语言模型&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;J9HjFA61Q-ZLZLiDTO3Z&quot; style=&quot;font-size: 14px;&quot;&gt;Code:代码&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;J9HjFA61Q-ZLZLiDTO3Z&quot; style=&quot;font-size: 14px;&quot;&gt;Knowledge:知识库&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;J9HjFA61Q-ZLZLiDTO3Z&quot; style=&quot;font-size: 14px;&quot;&gt;Workflow:工作流&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;J9HjFA61Q-ZLZLiDTO3Z&quot; style=&quot;font-size: 14px;&quot;&gt;Condition:条件&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;J9HjFA61Q-ZLZLiDTO3Z&quot; style=&quot;font-size: 14px;&quot;&gt;Message:消息V&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font face=&quot;J9HjFA61Q-ZLZLiDTO3Z&quot; style=&quot;font-size: 14px;&quot;&gt;ariable:变量&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;font face=&quot;J9HjFA61Q-ZLZLiDTO3Z&quot;&gt;Database:数据库&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=top;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=#524d83;labelBackgroundColor=default;fontStyle=1" parent="PttNPXMBNqtkQihDIfYs-23" vertex="1">
+          <mxGeometry x="5" y="38" width="184" height="283" as="geometry" />
+        </mxCell>
+        <mxCell id="PttNPXMBNqtkQihDIfYs-35" style="edgeStyle=none;shape=connector;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;dashed=1;strokeColor=#524d84;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endFill=1;endSize=8;" parent="PttNPXMBNqtkQihDIfYs-23" source="PttNPXMBNqtkQihDIfYs-34" target="PttNPXMBNqtkQihDIfYs-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-26" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="196" y="-550" width="844" height="867" as="geometry" />
+        </mxCell>
+        <mxCell id="PttNPXMBNqtkQihDIfYs-9" style="edgeStyle=none;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;dashed=1;strokeColor=#524d84;endArrow=classic;endFill=1;" parent="lRKWrLbBrvNwT5fJQd2l-26" source="FY6Npwd8T1jpSmkpjrEg-1" target="FY6Npwd8T1jpSmkpjrEg-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=#524d84;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="lRKWrLbBrvNwT5fJQd2l-26" source="FY6Npwd8T1jpSmkpjrEg-1" target="PttNPXMBNqtkQihDIfYs-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="332" y="198" />
+              <mxPoint x="332" y="141" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FY6Npwd8T1jpSmkpjrEg-1" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Chiron Sans HK Pro&amp;quot;; vertical-align: middle; color: rgb(82, 77, 132); font-size: 18px; font-weight: bold;&quot;&gt;&lt;p&gt;&lt;span style=&quot;background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;&quot;&gt;输入提示词&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7f4ff;strokeColor=#524d83;fontColor=#333333;dashed=1;" parent="lRKWrLbBrvNwT5fJQd2l-26" vertex="1">
+          <mxGeometry x="71.25" y="173" width="121.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PttNPXMBNqtkQihDIfYs-2" value="" style="edgeStyle=none;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;dashed=1;strokeColor=#524d84;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;endArrow=classic;endFill=1;" parent="lRKWrLbBrvNwT5fJQd2l-26" source="FY6Npwd8T1jpSmkpjrEg-2" target="PttNPXMBNqtkQihDIfYs-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-10" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=#524d84;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="lRKWrLbBrvNwT5fJQd2l-26" source="FY6Npwd8T1jpSmkpjrEg-2" target="lRKWrLbBrvNwT5fJQd2l-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="286" y="319" />
+              <mxPoint x="286" y="319" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FY6Npwd8T1jpSmkpjrEg-2" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Chiron Sans HK Pro&amp;quot;; vertical-align: middle; font-size: 17px;&quot;&gt;&lt;p style=&quot;font-size: 17px;&quot;&gt;1.将中文转为英文&lt;/p&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d6d5fd;strokeColor=none;arcSize=50;fontColor=#524d83;fontStyle=1;fontSize=17;" parent="lRKWrLbBrvNwT5fJQd2l-26" vertex="1">
+          <mxGeometry x="37" y="289" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-15" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#524d84;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="lRKWrLbBrvNwT5fJQd2l-26" source="PttNPXMBNqtkQihDIfYs-1" target="lRKWrLbBrvNwT5fJQd2l-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-18" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=#524d84;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="lRKWrLbBrvNwT5fJQd2l-26" source="PttNPXMBNqtkQihDIfYs-1" target="lRKWrLbBrvNwT5fJQd2l-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="329" y="469" />
+              <mxPoint x="329" y="561" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PttNPXMBNqtkQihDIfYs-1" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Chiron Sans HK Pro&amp;quot;; vertical-align: middle; color: rgb(82, 77, 132); font-size: 18px; font-weight: bold;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: middle;&quot;&gt;&lt;p&gt;2.优化Prompt&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d6d5fd;strokeColor=none;arcSize=50;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=17;fontColor=#524d83;fontStyle=1;" parent="lRKWrLbBrvNwT5fJQd2l-26" vertex="1">
+          <mxGeometry x="40.75" y="443" width="180" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-11" style="shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#524d84;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="lRKWrLbBrvNwT5fJQd2l-26" source="PttNPXMBNqtkQihDIfYs-20" target="lRKWrLbBrvNwT5fJQd2l-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PttNPXMBNqtkQihDIfYs-20" value="&lt;div style=&quot;line-height: 20%; vertical-align: top; color: rgb(82, 77, 132); font-size: 14px; font-weight: bold;&quot;&gt;&lt;p style=&quot;text-align: justify; line-height: 20%; font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Helvetica&quot;&gt;Variable变量：&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;text-align: justify; line-height: 20%; font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;aLDYF8aHoTCgzbLq1X3a&quot;&gt;提示词&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;strokeColor=#524d84;dashed=1;strokeWidth=1;spacing=0;align=center;arcSize=17;" parent="lRKWrLbBrvNwT5fJQd2l-26" vertex="1">
+          <mxGeometry x="477" y="109" width="200" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-20" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#524d84;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="lRKWrLbBrvNwT5fJQd2l-26" source="lRKWrLbBrvNwT5fJQd2l-9" target="lRKWrLbBrvNwT5fJQd2l-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-9" value="&lt;p style=&quot;color: rgb(82, 77, 132); font-family: &amp;quot;Chiron Sans HK Pro&amp;quot;; font-size: 14px; text-align: left; line-height: 2.8px;&quot;&gt;LLM语言模型：&lt;/p&gt;&lt;p style=&quot;color: rgb(82, 77, 132); font-family: &amp;quot;Chiron Sans HK Pro&amp;quot;; font-size: 14px; text-align: left; line-height: 2.8px;&quot;&gt;GPT4o&lt;/p&gt;" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;startSize=52;fillColor=none;" vertex="1" parent="lRKWrLbBrvNwT5fJQd2l-26">
+          <mxGeometry x="346" y="208" width="462" height="222" as="geometry" />
+        </mxCell>
+        <mxCell id="PttNPXMBNqtkQihDIfYs-21" value="&lt;div style=&quot;line-height: 20%; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 130%; vertical-align: middle;&quot;&gt;&lt;pre style=&quot;line-height: 130%;&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;prompt：&lt;br style=&quot;font-size: 13px;&quot;&gt;请帮我把用户输入的内容{{query}}翻译成英文，并且提取输入内容的关键词&lt;br style=&quot;font-size: 13px;&quot;&gt;例如1:&lt;br style=&quot;font-size: 13px;&quot;&gt;输入：&lt;/b&gt;&lt;b&gt;在草地上翩翩起舞的桂花乌龙茶&lt;/b&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;输出：&lt;/b&gt;&lt;b&gt;Osmanthus Oolong tea, dancing, grass, image quality, 8k, HD&lt;/b&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;例如2:&lt;br style=&quot;font-size: 13px;&quot;&gt;输入：一只飞在天上的猫&lt;br style=&quot;font-size: 13px;&quot;&gt;输出：cat,flying,sky,image quality,8kHD&lt;/b&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;html=1;fontFamily=Helvetica;fontSize=13;fontColor=#4c477a;labelBackgroundColor=default;strokeColor=none;dashed=1;strokeWidth=1;spacing=0;align=left;arcSize=0;verticalAlign=middle;fillColor=none;whiteSpace=wrap;horizontal=1;" parent="lRKWrLbBrvNwT5fJQd2l-9" vertex="1">
+          <mxGeometry x="9" y="63" width="444" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-21" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#524d84;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="lRKWrLbBrvNwT5fJQd2l-26" source="lRKWrLbBrvNwT5fJQd2l-13" target="lRKWrLbBrvNwT5fJQd2l-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-13" value="&lt;p style=&quot;color: rgb(82, 77, 132); font-family: &amp;quot;Chiron Sans HK Pro&amp;quot;; font-size: 14px; text-align: left; line-height: 2.8px;&quot;&gt;Plugin：&lt;/p&gt;&lt;p style=&quot;color: rgb(82, 77, 132); font-family: &amp;quot;Chiron Sans HK Pro&amp;quot;; font-size: 14px; text-align: left; line-height: 2.8px;&quot;&gt;PromptPerfect 提示词优化&lt;/p&gt;" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;startSize=49;" vertex="1" parent="lRKWrLbBrvNwT5fJQd2l-26">
+          <mxGeometry x="452.5" y="467" width="249" height="187" as="geometry" />
+        </mxCell>
+        <mxCell id="PttNPXMBNqtkQihDIfYs-22" value="&lt;div style=&quot;line-height: 20%; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 20%; text-align: left; vertical-align: middle;&quot;&gt;&lt;div style=&quot;line-height: 20%; vertical-align: middle;&quot;&gt;&lt;p style=&quot;line-height: 20%;&quot;&gt;&lt;font face=&quot;Chiron Sans HK Pro&quot; color=&quot;#524d84&quot;&gt;&lt;b&gt;target Model（目标模型）&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 20%;&quot;&gt;&lt;font face=&quot;Chiron Sans HK Pro&quot; color=&quot;#524d84&quot;&gt;&lt;b&gt;&amp;nbsp;- Reference：引用&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 20%;&quot;&gt;&lt;font face=&quot;Chiron Sans HK Pro&quot; color=&quot;#524d84&quot;&gt;&lt;b&gt;&amp;nbsp;- Input：Dalle&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 20%;&quot;&gt;&lt;font face=&quot;Chiron Sans HK Pro&quot; color=&quot;#524d84&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 20%;&quot;&gt;&lt;font face=&quot;Chiron Sans HK Pro&quot; color=&quot;#524d84&quot;&gt;&lt;b&gt;prompt&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 20%;&quot;&gt;&lt;font face=&quot;Chiron Sans HK Pro&quot; color=&quot;#524d84&quot;&gt;&lt;b&gt;&amp;nbsp;- LLM Output&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;strokeColor=none;dashed=1;strokeWidth=1;spacing=0;align=center;arcSize=17;verticalAlign=middle;fillColor=none;" parent="lRKWrLbBrvNwT5fJQd2l-13" vertex="1">
+          <mxGeometry x="24.5" y="58" width="200" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-24" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;strokeColor=#524d84;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="lRKWrLbBrvNwT5fJQd2l-26" source="lRKWrLbBrvNwT5fJQd2l-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="428" y="769" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="640" />
+              <mxPoint x="330" y="769" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-55" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#524d84;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="lRKWrLbBrvNwT5fJQd2l-26" source="lRKWrLbBrvNwT5fJQd2l-14" target="lRKWrLbBrvNwT5fJQd2l-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-14" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Chiron Sans HK Pro&amp;quot;; vertical-align: middle; color: rgb(82, 77, 132); font-size: 18px; font-weight: bold;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: middle;&quot;&gt;&lt;p&gt;3.文生图&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d6d5fd;strokeColor=none;arcSize=50;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=17;fontColor=#524d83;fontStyle=1;" vertex="1" parent="lRKWrLbBrvNwT5fJQd2l-26">
+          <mxGeometry x="40.75" y="614" width="180" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-16" value="&lt;p style=&quot;color: rgb(82, 77, 132); font-family: &amp;quot;Chiron Sans HK Pro&amp;quot;; font-size: 14px; text-align: left; line-height: 2.8px;&quot;&gt;Plugin：&lt;/p&gt;&lt;p style=&quot;color: rgb(82, 77, 132); font-family: &amp;quot;Chiron Sans HK Pro&amp;quot;; font-size: 14px; text-align: left; line-height: 2.8px;&quot;&gt;text2image 文生图&lt;/p&gt;" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;startSize=40;" vertex="1" parent="lRKWrLbBrvNwT5fJQd2l-26">
+          <mxGeometry x="430.5" y="701" width="293" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-17" value="&lt;div style=&quot;line-height: 20%; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 20%; text-align: left; vertical-align: middle;&quot;&gt;&lt;div style=&quot;line-height: 20%; vertical-align: middle;&quot;&gt;&lt;p style=&quot;line-height: 20%;&quot;&gt;&lt;font face=&quot;Chiron Sans HK Pro&quot; color=&quot;#524d84&quot;&gt;&lt;b&gt;Prompt&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 20%;&quot;&gt;&lt;font face=&quot;Chiron Sans HK Pro&quot; color=&quot;#524d84&quot;&gt;&lt;b&gt;&amp;nbsp;- Reference：&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(82, 77, 132); font-family: &amp;quot;Chiron Sans HK Pro&amp;quot;; font-weight: 700;&quot;&gt;PromptPerfect&amp;nbsp;&lt;/span&gt;&lt;b style=&quot;color: rgb(82, 77, 132); font-family: &amp;quot;Chiron Sans HK Pro&amp;quot;;&quot;&gt;Output&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;strokeColor=none;dashed=1;strokeWidth=1;spacing=0;align=center;arcSize=17;verticalAlign=middle;fillColor=none;" vertex="1" parent="lRKWrLbBrvNwT5fJQd2l-16">
+          <mxGeometry x="9" y="54" width="275" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-25" value="文生图工作流" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=24;labelBackgroundColor=none;startSize=50;fillColor=#4c477a;strokeColor=#4c477a;fontColor=#FFFFFF;rounded=1;arcSize=14;" vertex="1" parent="lRKWrLbBrvNwT5fJQd2l-26">
+          <mxGeometry width="844" height="867" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-54" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Chiron Sans HK Pro&amp;quot;; vertical-align: middle; color: rgb(82, 77, 132); font-size: 18px; font-weight: bold;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: middle;&quot;&gt;&lt;p&gt;4.输出&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7f4ff;strokeColor=#524d83;arcSize=14;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#333333;fontStyle=1;pointerEvents=0;gradientColor=none;dashed=1;" vertex="1" parent="lRKWrLbBrvNwT5fJQd2l-25">
+          <mxGeometry x="71.25" y="752" width="118.25" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-49" value="信息检索工作流" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=24;labelBackgroundColor=none;startSize=50;fillColor=#4c477a;strokeColor=#4c477a;fontColor=#FFFFFF;rounded=1;arcSize=14;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1077" y="-550" width="793" height="1257" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-133" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#524d84;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="lRKWrLbBrvNwT5fJQd2l-49" source="lRKWrLbBrvNwT5fJQd2l-113" target="lRKWrLbBrvNwT5fJQd2l-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-113" value="&lt;p style=&quot;color: rgb(82, 77, 132); font-family: &amp;quot;Chiron Sans HK Pro&amp;quot;; font-size: 14px; text-align: left; line-height: 2.8px;&quot;&gt;LLM语言模型：&lt;/p&gt;&lt;p style=&quot;color: rgb(82, 77, 132); font-family: &amp;quot;Chiron Sans HK Pro&amp;quot;; font-size: 14px; text-align: left; line-height: 2.8px;&quot;&gt;GPT4o&lt;/p&gt;" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;startSize=37;fillColor=none;" vertex="1" parent="lRKWrLbBrvNwT5fJQd2l-49">
+          <mxGeometry x="394" y="796" width="262" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-114" value="Input：&#xa; - 原始的query&#xa; - 检索的Output&#xa;Pompt：&#xa;1、用户输入的问题Twitter检索的信息&#xa;2、将检索后的信息进行总结和要点提炼&#xa;3、将内容翻译成中文" style="rounded=0;fontFamily=Helvetica;fontSize=13;fontColor=#4c477a;labelBackgroundColor=none;strokeColor=none;dashed=1;strokeWidth=1;spacing=0;align=left;arcSize=0;verticalAlign=middle;fillColor=none;whiteSpace=wrap;horizontal=1;fontStyle=1;" vertex="1" parent="lRKWrLbBrvNwT5fJQd2l-113">
+          <mxGeometry x="10" y="44" width="235" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-47" value="&lt;p style=&quot;color: rgb(82, 77, 132); font-family: &amp;quot;Chiron Sans HK Pro&amp;quot;; font-size: 14px; text-align: left; line-height: 2.8px;&quot;&gt;Code代码节点&lt;/p&gt;" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;startSize=29;" vertex="1" parent="lRKWrLbBrvNwT5fJQd2l-49">
+          <mxGeometry x="326.5" y="506" width="397" height="239" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-48" value="查看检索的结果，将需要提取的内容指令用AI输出代码。例如：&#xa;&#xa;输入参数&#39;twitter_search&#39;中包含&#39;searchTweet&#39;插件的结果&#xa;&#xa;1、需要从&#39;data&#39;的每一条结果中提取&#39;name&#39;、&#39;full_text&#39;、&#39;url&#39;信息，并格式化呈现现字符串，将每一条格式化后的结果拼接成一个长的字符串，输出为&#39;twitter_context&#39;&#xa;&#xa;2、其中&#39;url&#39;是具体的链接数据，请你从&#39;data&#39;中提取所有链接，并格式化成一个字符串，然后将每一条格式化后的结果拼接成一个长的字符串，输出为&#39;twitter_reference&#39;&#xa;" style="rounded=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;fontColor=#524d84;labelBackgroundColor=none;strokeColor=none;dashed=1;strokeWidth=1;spacing=0;align=left;arcSize=17;verticalAlign=top;fillColor=none;fontStyle=1" vertex="1" parent="lRKWrLbBrvNwT5fJQd2l-47">
+          <mxGeometry x="15" y="44" width="367" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-116" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#524d84;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="lRKWrLbBrvNwT5fJQd2l-49" source="lRKWrLbBrvNwT5fJQd2l-47" target="lRKWrLbBrvNwT5fJQd2l-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-46" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Chiron Sans HK Pro&amp;quot;; vertical-align: middle; color: rgb(82, 77, 132); font-size: 18px; font-weight: bold;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: middle;&quot;&gt;&lt;p&gt;3.提炼需要的内容&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d6d5fd;strokeColor=none;arcSize=50;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=17;fontColor=#524d83;fontStyle=1;" vertex="1" parent="lRKWrLbBrvNwT5fJQd2l-49">
+          <mxGeometry x="53.00500000000011" y="554" width="180" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-121" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=#524d84;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="lRKWrLbBrvNwT5fJQd2l-49" source="lRKWrLbBrvNwT5fJQd2l-46" target="lRKWrLbBrvNwT5fJQd2l-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-127" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=#524d84;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="lRKWrLbBrvNwT5fJQd2l-49" source="lRKWrLbBrvNwT5fJQd2l-50" target="lRKWrLbBrvNwT5fJQd2l-113">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="279.5" y="729" />
+              <mxPoint x="279.5" y="863" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-50" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Chiron Sans HK Pro&amp;quot;; vertical-align: middle; color: rgb(82, 77, 132); font-size: 18px; font-weight: bold;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: middle;&quot;&gt;&lt;p&gt;4.对检索的内容按prompt进行处理&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d6d5fd;strokeColor=none;arcSize=50;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=17;fontColor=#524d83;fontStyle=1;" vertex="1" parent="lRKWrLbBrvNwT5fJQd2l-49">
+          <mxGeometry x="53.01000000000022" y="698" width="181.25" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-51" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#524d84;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="lRKWrLbBrvNwT5fJQd2l-49" source="lRKWrLbBrvNwT5fJQd2l-46" target="lRKWrLbBrvNwT5fJQd2l-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-36" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Chiron Sans HK Pro&amp;quot;; vertical-align: middle; color: rgb(82, 77, 132); font-size: 18px; font-weight: bold;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: middle;&quot;&gt;&lt;p&gt;2.多个信息检索&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d6d5fd;strokeColor=none;arcSize=50;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=17;fontColor=#524d83;fontStyle=1;" vertex="1" parent="lRKWrLbBrvNwT5fJQd2l-49">
+          <mxGeometry x="53.63500000000022" y="414" width="180" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-34" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#524d84;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="lRKWrLbBrvNwT5fJQd2l-49" source="lRKWrLbBrvNwT5fJQd2l-36" target="lRKWrLbBrvNwT5fJQd2l-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-124" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=#524d84;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="lRKWrLbBrvNwT5fJQd2l-49" target="lRKWrLbBrvNwT5fJQd2l-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="238.0050000000001" y="302.9999999999998" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-33" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Chiron Sans HK Pro&amp;quot;; vertical-align: middle; font-size: 17px;&quot;&gt;&lt;p style=&quot;font-size: 17px;&quot;&gt;1.中转英,并提取关键词&lt;/p&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d6d5fd;strokeColor=none;arcSize=50;fontColor=#524d83;fontStyle=1;fontSize=17;" vertex="1" parent="lRKWrLbBrvNwT5fJQd2l-49">
+          <mxGeometry x="48.63500000000011" y="281" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-31" value="" style="edgeStyle=none;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;dashed=1;strokeColor=#524d84;align=center;verticalAlign=middle;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;endArrow=classic;endFill=1;" edge="1" parent="lRKWrLbBrvNwT5fJQd2l-49" source="lRKWrLbBrvNwT5fJQd2l-33" target="lRKWrLbBrvNwT5fJQd2l-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="143" y="358" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-134" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;strokeColor=#524d84;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="lRKWrLbBrvNwT5fJQd2l-49" source="lRKWrLbBrvNwT5fJQd2l-52" target="lRKWrLbBrvNwT5fJQd2l-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-52" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Chiron Sans HK Pro&amp;quot;; vertical-align: middle; color: rgb(82, 77, 132); font-size: 18px; font-weight: bold;&quot;&gt;&lt;div style=&quot;line-height: 1.3; vertical-align: middle;&quot;&gt;&lt;p&gt;5.输出&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7f4ff;strokeColor=#524d83;arcSize=14;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=#333333;fontStyle=1;dashed=1;pointerEvents=0;gradientColor=none;" vertex="1" parent="lRKWrLbBrvNwT5fJQd2l-49">
+          <mxGeometry x="86.20000000000027" y="864" width="114.87" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-53" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=#524d84;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="lRKWrLbBrvNwT5fJQd2l-49" source="lRKWrLbBrvNwT5fJQd2l-50" target="lRKWrLbBrvNwT5fJQd2l-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-43" value="&lt;p style=&quot;color: rgb(82, 77, 132); font-family: &amp;quot;Chiron Sans HK Pro&amp;quot;; font-size: 14px; text-align: left; line-height: 2.8px;&quot;&gt;Plugin：&lt;/p&gt;&lt;p style=&quot;color: rgb(82, 77, 132); font-family: &amp;quot;Chiron Sans HK Pro&amp;quot;; font-size: 14px; text-align: left; line-height: 2.8px;&quot;&gt;googleweb&lt;span style=&quot;background-color: initial;&quot;&gt;search&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;,searchTweet&lt;/span&gt;&lt;/p&gt;" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;startSize=49;" vertex="1" parent="lRKWrLbBrvNwT5fJQd2l-49">
+          <mxGeometry x="400.5" y="341" width="249" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-44" value="&lt;div style=&quot;line-height: 20%; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 20%; text-align: left; vertical-align: middle;&quot;&gt;&lt;div style=&quot;line-height: 20%; vertical-align: middle;&quot;&gt;&lt;p style=&quot;line-height: 20%;&quot;&gt;&lt;font face=&quot;Chiron Sans HK Pro&quot; color=&quot;#524d84&quot;&gt;&lt;b&gt;query&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 20%;&quot;&gt;&lt;font face=&quot;Chiron Sans HK Pro&quot; color=&quot;#524d84&quot;&gt;&lt;b&gt;&amp;nbsp;- Reference：&lt;/b&gt;&lt;/font&gt;&lt;b style=&quot;color: rgb(82, 77, 132); font-family: &amp;quot;Chiron Sans HK Pro&amp;quot;;&quot;&gt;LLM Output&lt;/b&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;strokeColor=none;dashed=1;strokeWidth=1;spacing=0;align=center;arcSize=17;verticalAlign=middle;fillColor=none;" vertex="1" parent="lRKWrLbBrvNwT5fJQd2l-43">
+          <mxGeometry x="24.5" y="60" width="200" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-42" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#524d84;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="lRKWrLbBrvNwT5fJQd2l-49" source="lRKWrLbBrvNwT5fJQd2l-43" target="lRKWrLbBrvNwT5fJQd2l-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-120" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;strokeColor=#524d84;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="lRKWrLbBrvNwT5fJQd2l-49" source="lRKWrLbBrvNwT5fJQd2l-36" target="lRKWrLbBrvNwT5fJQd2l-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="279" y="440" />
+              <mxPoint x="279" y="401" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-40" value="&lt;p style=&quot;color: rgb(82, 77, 132); font-family: &amp;quot;Chiron Sans HK Pro&amp;quot;; font-size: 14px; text-align: left; line-height: 2.8px;&quot;&gt;LLM语言模型：&lt;/p&gt;&lt;p style=&quot;color: rgb(82, 77, 132); font-family: &amp;quot;Chiron Sans HK Pro&amp;quot;; font-size: 14px; text-align: left; line-height: 2.8px;&quot;&gt;GPT4o&lt;/p&gt;" style="swimlane;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=none;startSize=52;fillColor=none;" vertex="1" parent="lRKWrLbBrvNwT5fJQd2l-49">
+          <mxGeometry x="310" y="164" width="430" height="136" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-41" value="&lt;div style=&quot;line-height: 20%; vertical-align: top;&quot;&gt;&lt;div style=&quot;line-height: 130%; vertical-align: middle;&quot;&gt;&lt;pre style=&quot;line-height: 130%;&quot;&gt;&lt;font style=&quot;&quot; face=&quot;Helvetica&quot;&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;prompt：&lt;br style=&quot;font-size: 13px;&quot;&gt;请把用户输入的内容{{query}}翻译成英文，并且提取输入内容的关键词&lt;br&gt;&lt;/b&gt;&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;html=1;fontFamily=Helvetica;fontSize=13;fontColor=#4c477a;labelBackgroundColor=none;strokeColor=none;dashed=1;strokeWidth=1;spacing=0;align=left;arcSize=0;verticalAlign=middle;fillColor=none;whiteSpace=wrap;horizontal=1;" vertex="1" parent="lRKWrLbBrvNwT5fJQd2l-40">
+          <mxGeometry x="9" y="68" width="414" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-39" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#524d84;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="lRKWrLbBrvNwT5fJQd2l-49" source="lRKWrLbBrvNwT5fJQd2l-40" target="lRKWrLbBrvNwT5fJQd2l-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-38" value="&lt;div style=&quot;line-height: 20%; vertical-align: top; color: rgb(82, 77, 132); font-size: 14px; font-weight: bold;&quot;&gt;&lt;p style=&quot;text-align: justify; line-height: 20%; font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Helvetica&quot;&gt;Variable变量：&lt;/font&gt;&lt;span style=&quot;font-family: aLDYF8aHoTCgzbLq1X3a;&quot;&gt;提示词&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=14;fontColor=default;labelBackgroundColor=default;strokeColor=#524d84;dashed=1;strokeWidth=1;spacing=0;align=center;arcSize=17;" vertex="1" parent="lRKWrLbBrvNwT5fJQd2l-49">
+          <mxGeometry x="439.5" y="78" width="171" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-37" style="shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#524d84;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="lRKWrLbBrvNwT5fJQd2l-49" source="lRKWrLbBrvNwT5fJQd2l-38" target="lRKWrLbBrvNwT5fJQd2l-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-30" value="&lt;div style=&quot;line-height: 1.3; font-family: &amp;quot;Chiron Sans HK Pro&amp;quot;; vertical-align: middle; color: rgb(82, 77, 132); font-size: 18px; font-weight: bold;&quot;&gt;&lt;p&gt;&lt;span style=&quot;background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;&quot;&gt;输入提示词&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7f4ff;strokeColor=#524d83;fontColor=#333333;dashed=1;" vertex="1" parent="lRKWrLbBrvNwT5fJQd2l-49">
+          <mxGeometry x="82.88500000000022" y="134" width="121.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-28" style="edgeStyle=none;curved=0;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;dashed=1;strokeColor=#524d84;endArrow=classic;endFill=1;" edge="1" parent="lRKWrLbBrvNwT5fJQd2l-49" source="lRKWrLbBrvNwT5fJQd2l-30" target="lRKWrLbBrvNwT5fJQd2l-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="143.0050000000001" y="272.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-126" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.001;entryY=0.443;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=#524d84;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;labelBackgroundColor=default;startSize=8;endArrow=classic;endFill=1;endSize=8;" edge="1" parent="lRKWrLbBrvNwT5fJQd2l-49" source="lRKWrLbBrvNwT5fJQd2l-30" target="lRKWrLbBrvNwT5fJQd2l-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="277" y="159" />
+              <mxPoint x="277" y="98" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lRKWrLbBrvNwT5fJQd2l-129" value="Output variable：输出变量&#xa;&amp;nbsp;- Return variables, generated by the bot.&#xa;&amp;nbsp; &amp;nbsp; 返回机器人生成的变量。&#xa;&amp;nbsp;- VAnswer directly using Answer Content&#xa;&amp;nbsp; &amp;nbsp; 直接使用回答内容进行回答&#xa;&amp;nbsp; &amp;nbsp;&amp;nbsp;&#xa;Answer content：回答格式&#xa;1、Google search:&#xa;{{google_llm_output}}&#xa;&quot;参考资料&quot;&#xa;{{google_reference}}&#xa;&#xa;2、Twitter search:&#xa;{{twitter_llm_output}}&#xa;&quot;参考资料&quot;&#xa;{{twitter_reference}}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f7f4ff;align=left;verticalAlign=top;spacing=3;spacingLeft=12;fontStyle=1;strokeColor=none;glass=0;shadow=1;arcSize=5;fontColor=#524d84;fontSize=13;" vertex="1" parent="lRKWrLbBrvNwT5fJQd2l-49">
+          <mxGeometry x="82.88999999999999" y="954" width="288.43" height="269" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
