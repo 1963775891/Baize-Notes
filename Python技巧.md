@@ -421,7 +421,7 @@ if __name__ == '__main__':
 
 ## 3、exe封装HtmlToPdf
 
-> 运行库和软件 `PyInstaller`、`pdfkit`、`wkhtmltopdf`
+> 安装依赖 `PyInstaller`、`pdfkit`、`wkhtmltopdf`
 
 **主脚本：**`convert_html_to_pdf_gui.py`
 
@@ -532,114 +532,43 @@ root.mainloop()
 
 ```python
 import os
-import pdfkit
-import time
-import threading
-import signal
-import sys
-import tkinter as tk
-from tkinter import messagebox
-from tkinter import ttk
+import shutil
+import PyInstaller.__main__
 
-# 动态设置 wkhtmltopdf 的路径
-if getattr(sys, 'frozen', False):
-    # 如果是打包后的可执行文件
-    wkhtmltopdf_path = os.path.join(sys._MEIPASS, 'wkhtmltopdf.exe')
-else:
-    # 如果是直接运行的脚本
-    wkhtmltopdf_path = r'C:\path\to\wkhtmltopdf\bin\wkhtmltopdf.exe'  # 替换为实际路径
+# 设置 wkhtmltopdf 的路径
+wkhtmltopdf_path = r'C:\path\to\wkhtmltopdf\bin\wkhtmltopdf.exe'  # 替换为实际路径
 
 # 确保 wkhtmltopdf 可执行文件存在
 if not os.path.exists(wkhtmltopdf_path):
     raise FileNotFoundError(f'wkhtmltopdf not found at {wkhtmltopdf_path}')
 
-# 更新 pdfkit 配置
-config = pdfkit.configuration(wkhtmltopdf=wkhtmltopdf_path)
+# 将 wkhtmltopdf 复制到目标目录
+target_dir = os.path.join(os.getcwd(), 'dist')
+wkhtmltopdf_target_path = os.path.join(target_dir, 'wkhtmltopdf.exe')
 
-# 初始化暂停标志
-pause_flag = threading.Event()
+if not os.path.exists(target_dir):
+    os.makedirs(target_dir)
 
-def convert_html_to_pdf(input_directory):
-    input_directory = os.path.abspath(input_directory)  # 获取绝对路径
-    # 设置输出目录
-    output_directory = os.path.join(input_directory, 'Outfiles')
+shutil.copy(wkhtmltopdf_path, wkhtmltopdf_target_path)
 
-    # 如果输出目录不存在，则创建
-    if not os.path.exists(output_directory):
-        os.makedirs(output_directory)
-
-    # 获取输入目录中所有HTML文件的列表
-    html_files = [f for f in os.listdir(input_directory) if f.endswith('.html')]
-
-    total_files = len(html_files)
-    for index, html_file in enumerate(html_files):
-        input_html_path = os.path.join(input_directory, html_file)
-        output_pdf_path = os.path.join(output_directory, os.path.splitext(html_file)[0] + '.pdf')
-        
-        try:
-            pdfkit.from_file(input_html_path, output_pdf_path, configuration=config)
-            print(f'[{index + 1}/{total_files}] 成功将 {html_file} 转换为 PDF.')
-        except Exception as e:
-            print(f'[{index + 1}/{total_files}] 转换 {html_file} 失败. 错误: {e}')
-        
-        # 更新进度条
-        progress_var.set((index + 1) / total_files * 100)
-        
-        # 检查暂停标志
-        while pause_flag.is_set():
-            time.sleep(0.1)
-
-def pause_conversion(signum, frame):
-    if pause_flag.is_set():
-        pause_flag.clear()
-        print('处理已继续.')
-    else:
-        pause_flag.set()
-        print('处理已暂停. 按 Ctrl+C 继续处理.')
-
-# 绑定 Ctrl+C 信号处理函数
-signal.signal(signal.SIGINT, pause_conversion)
-
-def on_submit(event=None):
-    input_directory = entry.get().strip()
-    if not input_directory:
-        messagebox.showwarning("输入错误", "请输入HTML文件的目录路径")
-        return
-
-    conversion_thread = threading.Thread(target=convert_html_to_pdf, args=(input_directory,))
-    conversion_thread.start()
-
-# 创建主窗口
-root = tk.Tk()
-root.title("HTML to PDF Converter")
-
-# 创建并放置文本框和标签
-label = tk.Label(root, text="请输入HTML文件的目录路径:")
-label.pack(pady=10)
-
-entry = tk.Entry(root, width=50)
-entry.pack(pady=5)
-entry.bind("<Return>", on_submit)
-
-hint_label = tk.Label(root, text="回车执行，Ctrl+C切换暂停和继续转换")
-hint_label.pack(pady=10)
-
-# 创建进度条
-progress_var = tk.DoubleVar()
-progress_bar = ttk.Progressbar(root, variable=progress_var, maximum=100)
-progress_bar.pack(pady=10, fill=tk.X, padx=20)
-
-# 运行主循环
-root.mainloop()
+# 使用 PyInstaller 打包
+PyInstaller.__main__.run([
+    '--name=HTMLtoPDFConverter',                  # 生成的可执行文件名
+    '--onefile',                                  # 打包成一个文件
+	'--icon=icon.ico',                            # 可选：图标文件，若无则删除此行
+    '--noconsole',                                # 不显示控制台窗口
+    '--add-data', f'{wkhtmltopdf_target_path};.',
+    'convert_html_to_pdf_gui.py'                  # 需要打包的 Python 主脚本
+])
 ```
 
 ------
 
-**4、相对路径创建快捷方式**
+## **4、相对路径创建快捷方式**
 
-> 运行库  `pywin32`  、`winshell`
+> 安装依赖  `pywin32`  、`winshell`
 
-`create_shortcut.py`
+- `create_shortcut_1.py`
 
 ```python
 import os
@@ -666,5 +595,142 @@ shortcut.save()
 print(f"快捷方式已创建: {shortcut_path}")
 ```
 
+- `create_shortcut_2.py`
+
+```python
+
+import os
+import sys
+import winshell
+from win32com.client import Dispatch
+
+def create_shortcut(target_path, shortcut_path, icon_path=None, description=""):
+    try:
+        shell = Dispatch('WScript.Shell')
+        shortcut = shell.CreateShortcut(shortcut_path)
+        shortcut.TargetPath = target_path
+        shortcut.WorkingDirectory = os.path.dirname(target_path)
+        shortcut.IconLocation = icon_path if icon_path else target_path
+        shortcut.Description = description
+        shortcut.save()
+        print(f"Shortcut created at {shortcut_path}")
+    except Exception as e:
+        print(f"Failed to create shortcut: {e}")
+
+def main():
+    # 确定目标 .exe 文件
+    exe_name = "PDFtoMarkdownApp.exe"  # 你打包生成的 .exe 文件名
+    target_path = os.path.abspath(os.path.join(os.path.dirname(__file__), 'dist', exe_name))
+    
+    # 确定快捷方式的保存位置
+    shortcut_name = "PDFtoMarkdownApp.lnk"  # 快捷方式文件名
+    shortcut_dir = winshell.desktop()  # 在桌面创建快捷方式
+    shortcut_dir = os.path.abspath(os.path.dirname(__file__))  #当前所在目录创建快捷方式
+    shortcut_path = os.path.join(shortcut_dir, shortcut_name)
+    
+    # 可选：图标文件路径（如无则使用 .exe 的图标）
+    icon_path = target_path
+    
+    # 创建快捷方式
+    create_shortcut(target_path, shortcut_path, icon_path, description="PDF to Markdown Converter")
+
+if __name__ == "__main__":
+    main()
+```
+
 ------
+
+## 5、PDF 转换为 Markdown
+
+> 安装依赖 `pdfplumber`
+
+```python
+import os
+import tkinter as tk
+from tkinter import ttk, messagebox
+import pdfplumber
+import threading
+
+class PDFtoMarkdownApp:
+    def __init__(self, master):
+        self.master = master
+        self.master.title("请输入Pdf文件的目录路径:")
+        self.master.geometry("300x150")
+
+        self.label = tk.Label(master, text="Enter PDF directory:")
+        self.label.pack(pady=10)
+
+        self.entry = tk.Entry(master, width=39)
+        self.entry.pack(pady=5)
+        self.entry.bind("<Return>", self.start_conversion)
+
+        self.hint = tk.Label(master, text="回车执行，Ctrl+C 切换暂停/继续")
+        self.hint.pack(pady=5)
+
+        self.progress = ttk.Progressbar(master, orient="horizontal", mode="determinate", length=280)
+        self.progress.pack(pady=10)
+
+        self.status = tk.Label(master, text="")
+        self.status.pack(pady=5)
+
+        self.pause_event = threading.Event()
+        self.pause_event.set()
+
+    def start_conversion(self, event):
+        pdf_dir = self.entry.get()
+        if not os.path.isdir(pdf_dir):
+            messagebox.showerror("Error", "Directory does not exist.")
+            return
+
+        self.output_dir = os.path.join(pdf_dir, "Outfiles")
+        os.makedirs(self.output_dir, exist_ok=True)
+        self.status.config(text="Processing...")
+
+        self.conversion_thread = threading.Thread(target=self.convert_pdfs, args=(pdf_dir,))
+        self.conversion_thread.start()
+
+        self.master.bind("<Control-c>", self.toggle_pause)
+
+    def toggle_pause(self, event):
+        if self.pause_event.is_set():
+            self.pause_event.clear()
+            self.status.config(text="Paused...")
+        else:
+            self.pause_event.set()
+            self.status.config(text="Resuming...")
+
+    def convert_pdfs(self, pdf_dir):
+        pdf_files = [f for f in os.listdir(pdf_dir) if f.endswith(".pdf")]
+        total_files = len(pdf_files)
+        self.progress["maximum"] = total_files
+
+        for i, pdf_file in enumerate(pdf_files, 1):
+            self.pause_event.wait()  # Check for pause
+            pdf_path = os.path.join(pdf_dir, pdf_file)
+            md_path = os.path.join(self.output_dir, f"{os.path.splitext(pdf_file)[0]}.md")
+
+            self.process_pdf(pdf_path, md_path)
+            self.progress["value"] = i
+            self.status.config(text=f"Processed {i}/{total_files} files")
+
+        self.status.config(text="Conversion complete!")
+
+    def process_pdf(self, pdf_path, md_path):
+        text = ""
+        with pdfplumber.open(pdf_path) as pdf:
+            for page in pdf.pages:
+                text += page.extract_text() + "\n"
+        
+        with open(md_path, 'w') as f:
+            f.write(text)
+
+def run_app():
+    root = tk.Tk()
+    app = PDFtoMarkdownApp(root)
+    root.mainloop()
+
+if __name__ == "__main__":
+    run_app()
+
+```
 
