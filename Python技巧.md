@@ -528,14 +528,14 @@ progress_bar.pack(pady=10, fill=tk.X, padx=20)
 root.mainloop()
 ```
 
-**打包脚本：**`build_exe.py`
+## 打包脚本：build_exe.py
 
 ```python
 import os
 import shutil
 import PyInstaller.__main__
 
-# 设置 wkhtmltopdf 的路径
+# 获取当前脚本所在目录
 wkhtmltopdf_path = r'C:\path\to\wkhtmltopdf\bin\wkhtmltopdf.exe'  # 替换为实际路径
 
 # 确保 wkhtmltopdf 可执行文件存在
@@ -562,7 +562,28 @@ PyInstaller.__main__.run([
 ])
 ```
 
+
+```python
+import PyInstaller.__main__
+import os
+
+# 获取当前脚本所在目录
+current_dir = os.path.dirname(os.path.abspath(__file__))
+
+# 设置图标文件路径（如果有的话）
+
+PyInstaller.__main__.run([
+    'pdfmd.py',
+    '--onefile',
+    '--windowed',
+    '--name=PDF批量转MD工具',
+    '--icon', 'Path/ICO.ico',  # 如果有图标文件，取消这行的注释
+    '--add-data=pdfmd.py:.',  # 添加gptpdf.py作为数据文件
+])
+```
+
 ------
+
 
 ## **4、相对路径创建快捷方式**
 
