@@ -104,15 +104,41 @@ class FileConverterApp:
                     md_text += text + "\n"
                 
                 for j, img in enumerate(page.images):
-                    img_bbox = (img['x0'], img['top'], img['x1'], img['bottom'])
-                    img_obj = page.within_bbox(img_bbox).to_image()
-                    img_path = os.path.join(img_dir, f"{os.path.splitext(os.path.basename(pdf_path))[0]}_img_{i+1}_{j+1}.png")
-                    img_obj.save(img_path)
-                    relative_img_path = os.path.relpath(img_path, os.path.dirname(md_path))
-                    md_text += f"![Image]({relative_img_path})\n"
+                    try:
+                        img_bbox = self.adjust_bbox(img, page.width, page.height)
+                        if img_bbox:
+                            img_obj = page.within_bbox(img_bbox).to_image()
+                            img_path = os.path.join(img_dir, f"{os.path.splitext(os.path.basename(pdf_path))[0]}_img_{i+1}_{j+1}.png")
+                            img_obj.save(img_path)
+                            relative_img_path = os.path.relpath(img_path, os.path.dirname(md_path))
+                            md_text += f"![Image]({relative_img_path})\n"
+                        else:
+                            print(f"警告: 图像在页面 {i+1} 完全在页面边界之外，无法处理.")
+                    except Exception as e:
+                        print(f"警告: 无法处理页面 {i+1} 上的图像. Error: {e}")
+                        continue
 
         with open(md_path, 'w', encoding='utf-8') as f:
             f.write(md_text)
+
+    def adjust_bbox(self, img, page_width, page_height):
+        x0, top, x1, bottom = img['x0'], img['top'], img['x1'], img['bottom']
+        
+        # 检查图像是否完全位于页面之外
+        if x0 > page_width or x1 < 0 or top > page_height or bottom < 0:
+            return None
+
+        # 调整边界框，使其适合页面大小
+        x0 = max(0, min(x0, page_width))
+        x1 = max(0, min(x1, page_width))
+        top = max(0, min(top, page_height))
+        bottom = max(0, min(bottom, page_height))
+
+        # 确保框架有正面区域
+        if x1 <= x0 or bottom <= top:
+            return None
+
+        return (x0, top, x1, bottom)
 
     def start_html_to_pdf(self):
         input_directory = self.entry.get().strip()

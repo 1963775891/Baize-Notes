@@ -1,0 +1,151 @@
+> **使用说明：**
+>
+> - 按 `Alt + F11` 打开VBA编辑器，在VBA编辑器中，选择 `插入 -> 模块`，创建一个新的模块。关闭并返回文档。按 `Alt + F8` 打开宏对话框，选择 `RemoveTextBoxes`，然后点击 `运行`。
+>
+>
+> - 批量导入`VB`，将所有代码整合，后缀改为`.bas`
+
+ ## 1、提取文本框内文本并按顺序插入Word
+```vb
+Sub RemoveTextBoxes()
+    Dim doc As Document
+    Dim textBox As Shape
+    Dim textBoxRange As Range
+    Dim para As Paragraph
+    Dim insertPoint As Range
+
+    ' 获取当前文档
+    Set doc = ActiveDocument
+
+    ' 循环遍历文档中的所有形状
+    For Each textBox In doc.Shapes
+        ' 检查形状是否是文本框
+        If textBox.Type = msoTextBox Then
+            ' 获取文本框中的文本范围
+            Set textBoxRange = textBox.TextFrame.TextRange
+            
+            ' 设置插入点在文本框所在段落的前面
+            Set insertPoint = textBox.Anchor.Paragraphs(1).Range
+            insertPoint.Collapse Direction:=wdCollapseStart
+            
+            ' 插入文本框中的文本，并添加换行符
+            insertPoint.FormattedText = textBoxRange.FormattedText
+            insertPoint.InsertAfter vbCrLf
+            
+            ' 删除文本框
+            textBox.Delete
+        End If
+    Next textBox
+End Sub
+```
+
+------
+
+## 2 、快速删除空白页
+
+```vb
+Sub RemoveBlankPages()
+    Dim doc As Document
+    ' 获取当前文档
+    Set doc = ActiveDocument
+
+    Dim i As Integer
+    ' 从文档末尾往前遍历每一页
+    For i = doc.Range.Information(wdActiveEndAdjustedPageNumber) To 1 Step -1
+        ' 检查该页是否为空白页
+        If Len(Trim(doc.Range(doc.GoTo(wdGoToPage, wdGoToAbsolute, i).Start, _
+            doc.GoTo(wdGoToPage, wdGoToAbsolute, i + 1).Start).Text)) = 0 Then
+            ' 删除空白页
+            doc.Range(doc.GoTo(wdGoToPage, wdGoToAbsolute, i).Start, _
+                doc.GoTo(wdGoToPage, wdGoToAbsolute, i + 1).Start).Delete
+        End If
+    Next i
+End Sub
+```
+
+------
+
+## 3、快速删除两行和两行以上的空行
+
+```vb
+Sub RemoveMultipleEmptyLines()
+    Dim doc As Document
+    ' 获取当前文档
+    Set doc = ActiveDocument
+    
+    ' 查找和替换连续的两个段落标记（即两个空行）
+    With doc.Content.Find
+        .ClearFormatting
+        .Text = "^13^13"
+        Do While .Execute(Replace:=wdReplaceAll, ReplaceWith:="^p")
+        Loop
+    End With
+End Sub
+```
+
+------
+
+## 4、选中图片高度统一设为10厘米，宽度等比
+
+```vb
+Sub ResizeSelectedImages()
+    Dim sel As Selection
+    Dim shape As InlineShape
+    
+    ' 获取当前选中的内容
+    Set sel = Selection
+    
+    ' 遍历选中的所有图片
+    For Each shape In sel.InlineShapes
+        If shape.Type = wdInlineShapePicture Then
+            ' 锁定宽高比例
+            shape.LockAspectRatio = msoTrue
+            ' 设置高度为10厘米
+            shape.Height = CentimetersToPoints(10)
+        End If
+    Next shape
+End Sub
+```
+
+------
+
+## 5、PPT图片转形状：可改透明度
+
+```vb
+Sub ConvertPictureToShape()
+    Dim slide As slide
+    Dim shp As shape
+    Dim shpRange As shapeRange
+    Dim newShp As shape
+
+    ' 获取当前选中的图片
+    If ActiveWindow.Selection.Type = ppSelectionShapes Then
+        Set shpRange = ActiveWindow.Selection.ShapeRange
+        For Each shp In shpRange
+            ' 只处理图片类型的形状
+            If shp.Type = msoPicture Then
+                ' 复制图片
+                shp.Copy
+                ' 粘贴为形状
+                Set newShp = shp.Parent.Shapes.PasteSpecial(DataType:=ppPasteShape)
+                ' 删除原来的图片
+                shp.Delete
+                ' 调整新形状的大小和位置
+                With newShp
+                    .LockAspectRatio = msoTrue
+                    .Left = shp.Left
+                    .Top = shp.Top
+                    .Height = shp.Height
+                    .Width = shp.Width
+                End With
+            End If
+        Next shp
+    Else
+        MsgBox "请选择要转换的图片", vbExclamation
+    End If
+End Sub
+
+```
+
+------
+
