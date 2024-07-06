@@ -39,6 +39,71 @@ Sub RemoveTextBoxes()
 End Sub
 ```
 
+
+```JAVA
+Sub RemoveTextBoxesAndKeepText()
+    Dim shp As Shape
+    Dim inlShp As InlineShape
+    Dim shpText As Range
+    Dim inlShpText As Range
+    Dim para As Paragraph
+
+    ' 遍历所有浮动形状
+    For Each shp In ActiveDocument.Shapes
+        ' 如果形状是文本框
+        If shp.Type = msoTextBox Then
+            ' 复制文本框内容
+            Set shpText = shp.TextFrame.TextRange.Duplicate
+            ' 插入到文本框前的段落
+            shpText.Copy
+            shp.Anchor.Parent.Range.InsertBefore shpText.Text
+            ' 删除文本框
+            shp.Delete
+        End If
+    Next shp
+    
+    ' 遍历所有内嵌形状
+    For Each inlShp In ActiveDocument.InlineShapes
+        ' 检查是否为内嵌文本框
+        If inlShp.Type = wdInlineShapeTextBox Then
+            ' 复制文本框内容
+            Set inlShpText = inlShp.Range.Duplicate
+            ' 插入到文本框前的段落
+            inlShpText.Copy
+            inlShp.Range.InsertBefore inlShpText.Text
+            ' 删除内嵌文本框
+            inlShp.Delete
+        End If
+    Next inlShp
+
+    ' 清理段落：去除空段落，合并连续的段落
+    For Each para In ActiveDocument.Paragraphs
+        If Len(Trim(para.Range.Text)) = 0 Then
+            para.Range.Delete
+        End If
+    Next para
+
+    ' 优化文本
+    Call OptimizeTextFormatting
+
+End Sub
+
+Sub OptimizeTextFormatting()
+    Dim para As Paragraph
+    
+    ' 遍历所有段落并应用格式化
+    For Each para In ActiveDocument.Paragraphs
+        ' 删除段落的前后多余空白
+        para.Range.Text = Trim(para.Range.Text)
+        ' 将段落间距调整为标准
+        para.SpaceBefore = 6
+        para.SpaceAfter = 6
+        para.Range.ParagraphFormat.Alignment = wdAlignParagraphLeft
+    Next para
+End Sub
+
+```
+
 ------
 
 ## 2 、快速删除空白页
@@ -149,3 +214,52 @@ End Sub
 
 ------
 
+## 6、清除文本框的形状格式
+
+```vb
+Sub ClearTextBoxFormatting()
+    Dim shp As Shape
+    Dim inlShp As InlineShape
+
+    ' 遍历所有浮动形状
+    For Each shp In ActiveDocument.Shapes
+        ' 如果形状有文本框
+        If shp.Type = msoTextBox Then
+            With shp
+                ' 清除文本框的形状格式
+                .Line.Visible = msoFalse        ' 隐藏边框
+                .Fill.Transparency = 1          ' 设置填充透明
+                .Shadow.Visible = msoFalse      ' 移除阴影
+                .Glow.Radius = 0                ' 移除辉光
+                .SoftEdge.Radius = 0            ' 移除软边缘
+                ' 清除 3D 格式
+                .ThreeD.Visible = False
+            End With
+        End If
+    Next shp
+    
+    ' 遍历所有内嵌形状
+    For Each inlShp In ActiveDocument.InlineShapes
+        ' 检查是否为内嵌文本框
+        If inlShp.Type = wdInlineShapeTextBox Then
+            With inlShp
+                ' 将内嵌文本框转换为 Shape 类型
+                Dim tempShape As Shape
+                Set tempShape = .ConvertToShape
+                ' 清除文本框的形状格式
+                With tempShape
+                    .Line.Visible = msoFalse    ' 隐藏边框
+                    .Fill.Transparency = 1      ' 设置填充透明
+                    .Shadow.Visible = msoFalse  ' 移除阴影
+                    .Glow.Radius = 0            ' 移除辉光
+                    .SoftEdge.Radius = 0        ' 移除软边缘
+                    ' 清除 3D 格式
+                    .ThreeD.Visible = False
+                End With
+            End With
+        End If
+    Next inlShp
+
+End Sub
+
+```
