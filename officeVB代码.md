@@ -263,3 +263,86 @@ Sub ClearTextBoxFormatting()
 End Sub
 
 ```
+
+------
+
+## 7、Word文档清理
+
+```vb
+Sub CleanupDocument()
+    Dim doc As Document
+    Dim sec As Section
+    Dim para As Paragraph
+    Dim shp As Shape
+    Dim rng As Range
+    Dim txtBox As TextFrame
+    
+    ' 关闭屏幕更新以提高性能
+    Application.ScreenUpdating = False
+    
+    Set doc = ActiveDocument
+    
+    ' 删除多余的分页符、分栏符和分节符
+    doc.Content.Select
+    Selection.Find.ClearFormatting
+    Selection.Find.Replacement.ClearFormatting
+    With Selection.Find
+        .Text = "^b^m^l^k^p^n" ' 匹配分节符、分页符、分栏符、换行符、段落标记和手动换行符
+        .Replacement.Text = "^p" ' 替换为单个段落标记
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = False
+        .MatchCase = False
+        .MatchWholeWord = False
+        .MatchWildcards = False
+        .MatchSoundsLike = False
+        .MatchAllWordForms = False
+    End With
+    Selection.Find.Execute Replace:=wdReplaceAll
+    
+    ' 清除页眉和页脚
+    For Each sec In doc.Sections
+        sec.Headers(wdHeaderFooterPrimary).Range.Delete
+        sec.Footers(wdHeaderFooterPrimary).Range.Delete
+    Next sec
+    
+    ' 提取文本框内容并转换为普通文本
+    For Each shp In doc.Shapes
+        If shp.Type = msoTextBox Then
+            Set txtBox = shp.TextFrame
+            If txtBox.HasText Then
+                doc.Paragraphs.Add doc.Paragraphs(doc.Paragraphs.Count).Range
+                doc.Paragraphs(doc.Paragraphs.Count).Range.InsertAfter txtBox.TextRange.Text
+                shp.Delete
+            End If
+        End If
+    Next shp
+    
+    ' 清除格式，设置为默认，并应用指定的字体
+    doc.Content.Select
+    With Selection.Font
+        .Name = "微软雅黑"
+        .Size = 4
+    End With
+    Selection.ClearFormatting
+    
+    ' 使用错误处理来设置样式
+    On Error Resume Next
+    Selection.Style = ActiveDocument.Styles("正文")
+    If Err.Number <> 0 Then
+        Selection.Style = ActiveDocument.Styles("Normal")
+    End If
+    On Error GoTo 0
+    
+    ' 重新应用字体设置（因为ClearFormatting可能会重置字体）
+    With Selection.Font
+        .Name = "微软雅黑"
+        .Size = 4
+    End With
+    
+    ' 重新开启屏幕更新
+    Application.ScreenUpdating = True
+    
+    MsgBox "文档清理完成！", vbInformation
+End Sub
+```

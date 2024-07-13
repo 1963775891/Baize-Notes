@@ -260,7 +260,7 @@ prompt：
 
 ### Stable Diffusion 笔记
 
-#### **1. 动漫转真人的方式**
+1. #### **动漫转真人的方式**
 
 - 文生图+controlnet_tile：
 - 文生图+controlnet_canny：
@@ -273,7 +273,7 @@ prompt：
 
 ------
 
-#### **2. 局部重绘的方式**
+2. #### **局部重绘的方式**
 
 - 图生图+controlnet_inpoint：
 - 局部重绘+controlnet_canny：
@@ -282,27 +282,26 @@ prompt：
 
 ------
 
-#### **3. 视频转动画(Deforum)**
+3. #### **视频转动画(Deforum)**
 
-  **Max frames(最大帧数)**
+- **Max frames(最大帧数)**
 
-  **Strength schedule(帧时间变化):**
-  0:(0.65) → → → 第0帧开始每一帧和上一帧相似度0.65
-  50:(0.5) → → → 第50帧开始每一帧和上一帧相似度0.65
+- **Strength schedule(帧时间变化):**
+    	0:(0.65) → → → 第0帧开始每一帧和上一帧相似度0.65
+    	50:(0.5) → → → 第50帧开始每一帧和上一帧相似度0.65
 
-  **Noise schedule(噪点时间变化):**
+- **Noise schedule(噪点时间变化):**
 $$
 0:(-0.06*(cos(3.141*t/15)**100)+0.06)	//缓入缓出
 $$
+​		15：每秒帧数
 
-  15：每秒帧数
+-  **Depth Warping & FOV(视野范围)**
+    FOV schedule(视野时间变化)
 
-  **Depth Warping & FOV(视野范围)**
-  FOV schedule(视野时间变化)
+------
 
-
-
-
+4. #### 
 
 
 
