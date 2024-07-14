@@ -51,7 +51,7 @@ controlnet还有非常多的功能用法，具体用法会在后面的文章里�
 
 这种情况下，如果能用好控制出图的三个最关键因素，能让「出图与我们想象的画面一致」概率更高
 
-**1.****提示词**
+**1.提示词**
 
 **2.Lora**
 
@@ -67,7 +67,7 @@ Lora模型的训练教程我也写了
 而我们这篇文章主要讲的是ControlNet的用法  
 把15种模型都给你演示一遍，让你知道每一种模型有什么用，应该怎么用，从而真正掌握ControlNet
 
-**ControlNet****就是你提供一张图片，然后选择一种采集方式，去生成一张新的图片**
+**ControlNet**就是你提供一张图片，然后选择一种采集方式，去生成一张新的图片**
 
 比如你提供一个图片  
 可以选择采集图片中人物的骨架，从而在新的图片中生成出一样姿势的人  
@@ -79,18 +79,14 @@ Lora模型的训练教程我也写了
 
 **详细的讲解Controlnet的具体操作步骤：**
 
-·1.基础设置
-
-·2.controlnet的使用
-
 
 现在我们需要让黑色衣服的小姐姐摆出白色衣服小姐姐的动作,得到最右边的照片
 
 ![](https://www.wehelpwin.com/Editor/ewebeditor/uploadfile/20230906100703422016.png)
 
-**1.**
+**1.基础设置**
 
-**基础设置**首先我们先正常的生成出来一张满意的照片  
+首先我们先正常的生成出来一张满意的照片  
 这里的基础设置就是：选大模型、写关键词、用Lora、参数设置等等  
 这一步的内容在Stable Diffusion的教程里面都有详细讲到，这里就不再具体去拆解了如果忘记了或者有不懂的可以回去翻SD的教程
 
@@ -194,7 +190,7 @@ controlnet是辅助我们生成想要的照片的一个工具
 
 首先我们正常设置大模型和关键词  
 然后打开controlnet，上传自己想要生成的姿势照片  
-controlnet的模型选择：**预处理器：openpose****模型：openpose**
+controlnet的模型选择：**预处理器：openpose**模型：openpose**
 
 ![](https://www.wehelpwin.com/Editor/ewebeditor/uploadfile/20230906100706936029.png)
 
@@ -221,7 +217,7 @@ controlnet的模型选择：**预处理器：openpose****模型：openpose**
 
 具体的操作跟前面是一样的  
 只是预处理器的选择不同  
-controlnet的模型选择：**预处理器：openpose\_hand****模型：openpose**
+controlnet的模型选择：**预处理器：openpose\_hand**模型：openpose**
 
 ![](https://www.wehelpwin.com/Editor/ewebeditor/uploadfile/20230906100707917034.png)
 
@@ -246,7 +242,7 @@ openpose
 
 
 这里我们又换了一个预处理器  
-controlnet的模型选择：**预处理器：openpose\_faceonly****模型：openpose**
+controlnet的模型选择：**预处理器：openpose\_faceonly**模型：openpose**
 
 ![](https://www.wehelpwin.com/Editor/ewebeditor/uploadfile/20230906100708404038.png)
 
@@ -274,7 +270,7 @@ controlnet的模型选择：**预处理器：openpose\_faceonly****模型：open
 ![](https://www.wehelpwin.com/Editor/ewebeditor/uploadfile/20230906100709232041.png)
 
 
-controlnet的模型选择：**预处理器：openpose\_full****模型：openpose**
+controlnet的模型选择：**预处理器：openpose\_full**模型：openpose**
 
 ![](https://www.wehelpwin.com/Editor/ewebeditor/uploadfile/20230906100709268042.png)
 
@@ -381,7 +377,7 @@ lineart
 
 controlnet的模型选择：
 
-**预处理器：lineart\_anime****或****lineart\_anime\_denoise****模型：lineart**
+**预处理器：lineart\_anime**或**lineart\_anime\_denoise**模型：lineart**
 
 ![](https://www.wehelpwin.com/Editor/ewebeditor/uploadfile/20230906100712913057.png)
 
@@ -412,7 +408,7 @@ lineart\_anime\_denoise
 
 controlnet的模型选择：
 
-**预处理器：lineart\_coarse****模型：lineart**
+**预处理器：lineart\_coarse**模型：lineart**
 
 ![](https://www.wehelpwin.com/Editor/ewebeditor/uploadfile/20230906100714673063.png)
 
@@ -429,7 +425,7 @@ controlnet的模型选择：
 
 controlnet的模型选择：
 
-**预处理器：lineart\_realistic****模型：lineart**
+**预处理器：lineart\_realistic**模型：lineart**
 
 因为真人照片换成二次元在五官比例上会不太匹配，这时候我们就要适当把controlnet的权重降低
 
@@ -456,7 +452,7 @@ controlnet
 
 的模型选择：
 
-**预处理器：lineart\_standard****模型：lineart**
+**预处理器：lineart\_standard**模型：lineart**
 
 ![](https://www.wehelpwin.com/Editor/ewebeditor/uploadfile/20230906100716715072.png)
 
@@ -474,7 +470,7 @@ canny
 
 controlnet的模型选择：
 
-**预处理器：canny****模型：canny**
+**预处理器：canny**模型：canny**
 
 ![](https://www.wehelpwin.com/Editor/ewebeditor/uploadfile/20230906100716805075.png)
 
@@ -495,7 +491,7 @@ softedge
 
 controlnet的模型选择：
 
-**预处理器：softedge\_pidient****模型：softedge**
+**预处理器：softedge\_pidient**模型：softedge**
 
 ![](https://www.wehelpwin.com/Editor/ewebeditor/uploadfile/20230906100717343080.png)
 
@@ -514,7 +510,7 @@ controlnet的模型选择：
 
 controlnet的模型选择：
 
-**预处理器：mlsd****模型：mlsd**
+**预处理器：mlsd**模型：mlsd**
 
 ![](https://www.wehelpwin.com/Editor/ewebeditor/uploadfile/20230906100718575085.png)
 
@@ -536,7 +532,7 @@ controlnet的模型选择：
 
 controlnet的模型选择：
 
-**预处理器：invert****模型：scribble**
+**预处理器：invert**模型：scribble**
 
 ![](https://www.wehelpwin.com/Editor/ewebeditor/uploadfile/20230906100719753089.png)
 
@@ -555,7 +551,7 @@ controlnet的模型选择：
 
 controlnet的模型选择：
 
-**预处理器：depth\_leres++****模型：depth**
+**预处理器：depth\_leres++**模型：depth**
 
 ![](https://www.wehelpwin.com/Editor/ewebeditor/uploadfile/20230906100720222092.png)
 
@@ -568,7 +564,7 @@ controlnet的模型选择：
 
 controlnet的模型选择：
 
-**预处理器：seg\_ofade20k****模型：seg**
+**预处理器：seg\_ofade20k**模型：seg**
 
 ![](https://www.wehelpwin.com/Editor/ewebeditor/uploadfile/20230906100720427095.png)
 
@@ -609,7 +605,7 @@ depth和seg除了用在建筑上，还可以用在人物照片**九、风格约�
 
 controlnet的模型选择：
 
-**预处理器：shuffle****模型：shuffle**
+**预处理器：shuffle**模型：shuffle**
 
 用shuffle可能会影响自己原图的形状，可以稍微调整一下“引导介入时机”的参数  
 设置在0.2~0.3之间就差不多  
@@ -639,7 +635,7 @@ controlnet的模型选择：
 
 controlnet的模型选择：
 
-**预处理器：reference****不用模型**
+**预处理器：reference**不用模型**
 
 ![](https://www.wehelpwin.com/Editor/ewebeditor/uploadfile/20230906100723345107.png)
 
@@ -670,7 +666,7 @@ controlnet的模型选择：
 
 controlnet的模型选择：
 
-**预处理器：normal\_bae****模型：normalbae**
+**预处理器：normal\_bae**模型：normalbae**
 
 ![](https://www.wehelpwin.com/Editor/ewebeditor/uploadfile/20230906100724921114.png)
 
@@ -694,7 +690,7 @@ t2ia
 
 controlnet的模型选择：
 
-**预处理器：t2ia\_color\_grid****模型：t2iadapter\_color**
+**预处理器：t2ia\_color\_grid**模型：t2iadapter\_color**
 
 ![](https://www.wehelpwin.com/Editor/ewebeditor/uploadfile/20230906100725583117.png)
 
@@ -713,7 +709,7 @@ controlnet的模型选择：
 
 controlnet的模型选择：
 
-**预处理器：inpaint\_global\_harmonious****模型：inpaint**
+**预处理器：inpaint\_global\_harmonious**模型：inpaint**
 
 inpaint\_global\_harmonious预处理器是整张图进行重绘  
 重绘之后整体融合比较好，但是重绘之后的图片色调会改变  
@@ -768,7 +764,7 @@ tile
 模型的玩法有很多
 
 
-**1.****恢复画质**
+**1.**恢复画质**
 
 ![](https://www.wehelpwin.com/Editor/ewebeditor/uploadfile/20230906100701725007.png)
 

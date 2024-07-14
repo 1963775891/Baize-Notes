@@ -2,22 +2,7 @@
 
 #  【Stable Diffusion】来了来了！属于SDXL的ControlNet模型它终于来了！（测评）
 
-原创  吴溪源  [ 白马与少年 ](javascript:void\(0\);)
 
-**白马与少年**
-
-微信号  StreamWXY
-
-功能介绍  Stable Diffusion、Blender等学习心得分享
-
-__ __
-
-__ _ _
-
-千呼万唤始出来！就在昨天，  WebUI
-的ControlNet1.1.4版本终于更新，这次的更新支持了SDXL1.0的模型。我怀着兴奋的心情，打开了网站开始下载模型。这次总共出了四种控制类型，分别是Canny、Depth、Sketch和Openpose。
-
-来到Hugging
 Face的网址：https://huggingface.co/lllyasviel/sd_control_collection/tree/main。可以看到这里有相当多的模型，当然，我们不需要全部都下载下来，因为它们之间有很多功能是重复的，是不同的作者做出来的。
 
 ![](https://mmbiz.qpic.cn/sz_mmbiz_png/rR335dShxibibA3ibdbFtbNCO28ib12oCibOInu8XpSpqSIK8eMnDRPIGwUPfptahFRD7iccys60glVsHxObeZaiaBh8g/640?wx_fmt=png)
@@ -125,76 +110,3 @@ diffusers_xl_canny_small  ”  ** ，  出图快，效果也还不错；depth模
 以上就是对sdxl的controlnet在webUI中表现的测评。  虽然  我的测评并没有很严谨（  客  观原因还是sdxl对机能的要求太高了  ）
 ，  但是  总体的成功率感觉还是太低了
 。而且因为sdxl模型支持多种画风，所以在我的提示词中并没有给出具体要求的情况下，controlnet的结果是千变万化的。  
-对于这次controlnet在sdxl上的表现你觉得怎么样呢？把你的感想写在下面留言区吧。  
-我会把我觉得比较好的几个放在网盘里面，没必要都用了，占地方。想要完整测试其他的模型的朋友可以去官网下载一下，  关注我的公众号【白马与少年】，发送【
-SDXL  】即可获取链接。  ** -END-  ** **  
-** ** **
-
-  
-
-我的最新课程《Stable Diffusion零基础入门宝典》已经上架CCtalk，正在预售中， ** 前100名报名立减100  ** ，想了解的朋友
-长按下方图片识别二维码，可以进入购买链接>>>
-
-![](https://mmbiz.qpic.cn/sz_mmbiz_jpg/rR335dShxibicWmbe9oYaryEicR9BouhhB701eVnt7WG0l9SzmNLOBxyicqGS4XNzUh7qbdKZZq1stDrOv1bAJYPRg/640?wx_fmt=jpeg)
-
-* * *
-
-  
-往期精选>>  
-
-  * [ 【课程】爆肝制作！Stable Diffusion零基础入门宝典  ](http://mp.weixin.qq.com/s?__biz=MzkzMzIwMDgxMQ==&mid=2247487870&idx=1&sn=7a425e50ccdfdc040b7fa285aad369c7&chksm=c25147baf526ceaca4de604a50d8b59d09920c7e4fe94223c3daa06ec337d18fc7ffb8e97e83&scene=21#wechat_redirect)
-
-  * [ 【ComfyUI】本地部署ComfyUI上手指南，我就喜欢连连看  ](http://mp.weixin.qq.com/s?__biz=MzkzMzIwMDgxMQ==&mid=2247487895&idx=1&sn=aa21eede16dfe4bde7e0e93e353f7357&chksm=c2514753f526ce451175f654a93f48b526fc6de3e3b1564b218db41f7e3f99df5a84bb887043&scene=21#wechat_redirect)   
-
-  * [ 一键切换不同画风，SDXL Styles汉化版插件 ](http://mp.weixin.qq.com/s?__biz=MzkzMzIwMDgxMQ==&mid=2247487817&idx=1&sn=cf8ccec5f2b974744b01d57cdb1e4d92&chksm=c251478df526ce9b16eb1a64dec74931ac17dd6e68ce9086102b9c33c8fd7dc6375795a0e8ac&scene=21#wechat_redirect)   
-
-  * [ 向未来而生，关于SDXL你要知道事儿 ](http://mp.weixin.qq.com/s?__biz=MzkzMzIwMDgxMQ==&mid=2247487710&idx=1&sn=7f2b024f8377aff1c1b1822d155555f5&chksm=c251461af526cf0c74568effaefc6b285384ebadcb87e655fbfb41cb2ccad52e5d5f9193a687&scene=21#wechat_redirect)
-
-  * [ Roop换脸插件，全网最简单傻瓜式安装教程 ](http://mp.weixin.qq.com/s?__biz=MzA3ODY0OTc1NQ==&mid=2247487776&idx=1&sn=836fdeb74a045f86a81c47056ef7adec&chksm=9fbed1d4a8c958c2565166dce7a521871c9a5ebfa141132a0eb3f53a65816bbc3c16b1a4e368&scene=21#wechat_redirect)   
-
-  * [ 【Lora炼丹术】从零开始，炼制你的第一个LoRA（1） ](http://mp.weixin.qq.com/s?__biz=MzA3ODY0OTc1NQ==&mid=2247487751&idx=1&sn=dbc26500f9bda94fc09e1208864bb320&chksm=9fbed1f3a8c958e5b3853430fe79f9099d6962a4fd480fd6fff9f7fae3cd0ef933adf8637ac6&scene=21#wechat_redirect)   
-
-  * [ 【PS】无需魔法！Photoshop beta 25.0一键安装， 中文提示词+神经网络滤镜 ](http://mp.weixin.qq.com/s?__biz=MzA3ODY0OTc1NQ==&mid=2247487520&idx=1&sn=7be16204847c820313d9909eee490508&chksm=9fbed0d4a8c959c2cf440e90b584aef5b55f8bec25071fe6980002ee090bfdad39cd91261b4d&scene=21#wechat_redirect)   
-
-  * [ 最强手部识别，controlnet新预处理器dw openpose ](http://mp.weixin.qq.com/s?__biz=MzA3ODY0OTc1NQ==&mid=2247487676&idx=1&sn=43988fe6f8e6172707d62feb70412540&chksm=9fbed048a8c9595e745ed69acb2b699b802ac93f6e64c3270f6f1523eb214ed3edc156a891cf&scene=21#wechat_redirect)   
-
-  * [ 超大尺寸绘制、分区控制，详解Tiled Diffusion & VAE插件功能 ](http://mp.weixin.qq.com/s?__biz=MzA3ODY0OTc1NQ==&mid=2247487605&idx=1&sn=e484f52f33a815fdcb12049742d46692&chksm=9fbed081a8c959977fac918147429f0f625eb1c2547fdf128196f97ac35c999b807ad9ddb083&scene=21#wechat_redirect)   
-
-  * [ AI造字，把你的名字写在季节里  ](http://mp.weixin.qq.com/s?__biz=MzA3ODY0OTc1NQ==&mid=2247487476&idx=1&sn=074940028b8a295b22806ffad9181386&chksm=9fbecf00a8c94616f43d0b60fd06fbd201617f27725c4d7514c34fafe66f57dc40224ecb93b6&scene=21#wechat_redirect)
-  * [ 隐藏在光里的秘密，AI造字光与影的艺术~ ](http://mp.weixin.qq.com/s?__biz=MzA3ODY0OTc1NQ==&mid=2247487455&idx=1&sn=362d5a02e23dfe19e1f3f0749ee1224c&chksm=9fbecf2ba8c9463df50a45ae0b25e35c510b01a166608205f78956a14a24cc571c66f6503a30&scene=21#wechat_redirect)
-  * [ 隐藏定位点！融合度更高的二维码生成 ](http://mp.weixin.qq.com/s?__biz=MzA3ODY0OTc1NQ==&mid=2247487390&idx=1&sn=fe28a857f50661807e449f1c04400096&chksm=9fbecf6aa8c9467cdfde4c9b37eff054f279ff230524399b11702a4442db514bcb27009d24e7&scene=21#wechat_redirect)
-  * [ 图片高清化+面部修复+一键抠图，一些你不知道的事儿 ](http://mp.weixin.qq.com/s?__biz=MzA3ODY0OTc1NQ==&mid=2247487327&idx=1&sn=aad22a60028778b97bf00262f3a67883&chksm=9fbecfaba8c946bd29853ea9c15d90c03e2ac09ee4d22c27956bbcbcab3fa6c4551b5f599d03&scene=21#wechat_redirect)
-
-  * [ 超清无损放大器StableSR ](http://mp.weixin.qq.com/s?__biz=MzA3ODY0OTc1NQ==&mid=2247486854&idx=1&sn=e52870038dafc7518219660c90b1718b&chksm=9fbecd72a8c944647bb21f5e4546589295e5696a1f62601931080ccd4d29a1ec1230f73feb64&scene=21#wechat_redirect)
-
-  * [ 如何画出商用级别的高清大图  ](http://mp.weixin.qq.com/s?__biz=MzA3ODY0OTc1NQ==&mid=2247486230&idx=1&sn=dde16ebbd5078661c21835c94db554dc&chksm=9fbecbe2a8c942f48cfe40eaea15ff963db9b4fe1c9a8aed330ee718bcf6720e491fc9237a7e&scene=21#wechat_redirect)
-
-预览时标签不可点
-
-微信扫一扫  
-关注该公众号
-
-
-
-轻触阅读原文
-
-![](http://mmbiz.qpic.cn/sz_mmbiz_png/rR335dShxibicFrWhQnGuwdp4icKgCxibWO94LTgVCdyGEa5tticq3VQ0wbSfnGkl6ficicgn1LmHvKohOIT76T3un55Q/0?wx_fmt=png)
-
-白马与少年
-
-
-
-
-
-
-
-****
-
-
-
-****
-
-
-
-  收藏
-
