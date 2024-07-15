@@ -299,7 +299,7 @@ prompt：
 
 ### 三、Stable Diffusion 笔记
 
-#### 1. **提示词写法：**
+#### 1. **提示词写法**
 
 ```markdown
 - 增加权重
@@ -332,39 +332,94 @@ Prompt1 break Prompt2
 - 转义写法
 \(prompt\) → 代指的是一种风格或概念，如\(极简主义\) ；\(canidae\)犬科；\(Fujifilm XF 16-55mm f/2.8\) 
 
-
 ```
 
+------
 
-#### 2. **局部重绘的方式**
+#### **2. 采样器和ControlNet引导**
 
-- 图生图+controlnet_inpoint：
-- 局部重绘+controlnet_canny：
+**Euler；Euler a；DPM++2M  Karras；DPM SDE ++；DPM++3M  Karras**
 
-  **文生图_重绘幅度：就是将文生图发到图生图进行重绘**
+> 若想迭代步数对生成画面影响较小，选择不带 a 的采样器；
+>
+> 同理：如果选择带 a 的采样器，ControlNet终止引导不宜设置太早，但对于早期慢点引导影响有奇效
+>
+> 
+>
+> 稳定、快速选：**Euler**，步数在25-60；质量好的选：**DPM++2M  Karras**，步数在25-40；
+>
+> 写实选：**DPM SDE ++**，步数30-40；XL大模型步数10~15；
+
+**ControlNet**
+
+1、终止引导越早，提示词作用会变大，由于早期引导，构图基本不会大变。
+
+2、当想要让AI自由发挥背景，可以设置**ControlNet**晚点介入，和设置退出介入。
+
+**提示词和ControlNet搭配：**
+
+例子：当想在沙漠画出若影若现的房子时，可以在提示词[house:0.7]：当画到70%提示词才起作用，并在控制房子外轮廓的ControlNet的介入时机设为0.7
 
 ------
 
- #### 3. **视频转动画(Deforum)**
+#### **3. ControlNet_Brightness & lllumination**
 
-- **Max frames(最大帧数)**
+> **Brightness Control(亮度)**：是修改被照明的物体亮度(**高光**)，它不需要高斯模糊，固定随机种子的情况下可以不改变原图的结构，一般不可以和其他的Controlnet模型一起使用
 
-- **Strength schedule(帧时间变化):**
-    	0:(0.65) → → → 第0帧开始每一帧和上一帧相似度0.65
-    	50:(0.5) → → → 第50帧开始每一帧和上一帧相似度0.65
 
-- **Noise schedule(噪点时间变化):**
-$$
-0:(-0.06*(cos(3.141*t/15)**100)+0.06)	//缓入缓出
-$$
-​		15：每秒帧数
 
--  **Depth Warping & FOV(视野范围)**
-    FOV schedule(视野时间变化)
+> **lllumination Control(照明)**：更倾向发光体，需要**高斯模糊**，一般不会轻易改变原图的结构，但是你可以通过线稿等模型去锁定结构，因为照明模型可以跟其他Controlnet共同使用。
 
 ------
 
-#### **4.**  
+
+#### 4. **局部重绘的方式**
+
+- **文生图+高清修复：**就是将文生图发到图生图进行重绘
+
+![](./note_img/Controlnet/20240715_121006.png)
+
+- **图生图+controlnet_inpoint**：
+  
+```markdown
+重绘幅度0.5，加lineart，重绘幅度可以升到1
+  
+- controlnet_inpoint：
+only：仅对蒙版生效(对应局部重绘的：原图)
+only+lama：仅对蒙版生效+背景延伸(对应局部的：填充)
+Global_harmonious：对全图影响
+```
+
+- **局部重绘+controlnet_lineart**：
+
+![](./note_img/Controlnet/20240715_120727.png)
+```markdown
+  - 绘制方式：
+  全图：先画全图然后裁剪，整体性融合度强，速度慢，修人脸会容易崩
+  仅蒙版：仅画蒙版区域，整体性融合度弱，提示词需要改为蒙版部分内容，速度快，建议蒙版处理方式：原版
+```
+
+------
+
+ #### 4. **视频转动画(Deforum)**
+
+```markdown
+- Max frames(最大帧数)
+
+- Strength schedule(帧时间变化):
+  0:(0.65) → → → 第0帧开始每一帧和上一帧相似度0.65
+  50:(0.5) → → → 第50帧开始每一帧和上一帧相似度0.65
+  
+- Noise schedule(噪点时间变化):
+  0:(-0.06*(cos(3.141*t/15)**100)+0.06)	//缓入缓出 15：每秒帧数
+
+-  Depth Warping & FOV(视野范围)
+   FOV schedule(视野时间变化)
+```
+
+------
+
+#### **5.**  
 
 
 
@@ -382,36 +437,46 @@ $$
 
 #### **⒉角色特征cos换装**
 
-##### **M01.图生图 + 控制**
-
+##### **M01.文生图+ 控制**
+![](./note_img/Controlnet/20240715_111915.png)
 ```markdown
 - ControlNet模型 1/3 范围
-   inpaint(局部重绘)：控制重绘区域(重绘蒙版与提示词无关，选择controlnet优先)
-
-- ControlNet模型 2/3 控形
+  inpaint(局部重绘)：控制重绘区域(重绘蒙版与提示词无关，选择controlnet优先)
+```
+![](./note_img/Controlnet/20240715_112407.png)
+```markdown
+- ControlNet模型 2/3 参考
+  reference(参考)：控制参考风格
+  lora：选定风格lora做参考
+```
+![](./note_img/Controlnet/20240715_112427.png)
+```markdown
+- ControlNet模型 3/3 控形
    softedge(软边缘)：控制重绘的边缘外形 (不要控制太死，选择偏向提示词)	
    canny(硬边缘)：控制重绘的边缘外形 (把预处理结果放在PS调整再上传)
    lineart(线稿)：没有猜测模式，所以选更偏向提示词
-   openpose(姿势)：控制重绘的姿势
-
-- ControlNet模型 3/3 参考
-   reference(参考)：控制参考风格
-   lora：选定风格lora做参考
 ```
+![](./note_img/Controlnet/20240715_112444.png)
+![](./note_img/Controlnet/20240715_112703.png)
 
-##### **M02.局部重绘 + 控制**
+##### **M02.图生图 + 控制**
 
 ```markdown
-- SD局部重绘：
-   填充：蒙版内容先模糊再画，需将提示词改为重绘的内容
-   原版：修脸时可用，无需修改提示词
+- 其他步骤与M01一致
+  重绘幅度0.5
+```
 
-- ControlNet模型 1/2 控形
-   canny(硬边缘)：控制重绘的边缘外形 (把预处理结果放在PS调整再上传)
+##### **M03.局部重绘 + 控制**
 
-- ControlNet模型 1/2 参考
-   reference(参考)：控制参考风格
-   lora：选定风格lora做参考
+```markdown
+- 其他步骤与M01一致，去掉inpaint即可
+- 蒙版处理方式：
+  填充：蒙版内容先模糊再画，需将提示词改为重绘的内容
+  原版：修脸时可用，无需修改提示词，重点：开启AD
+  
+- 绘制方式：
+  全图：先画全图然后裁剪，整体性融合度强，速度慢，修人脸会容易崩
+  仅蒙版：仅画蒙版区域，整体性融合度弱，提示词需要改为蒙版部分内容，速度快，建议蒙版处理方式：原版
 ```
 
 ------
@@ -428,46 +493,62 @@ $$
 
 #### **⒋模特换装**
 
-##### **头部处理**
+![](./note_img/Controlnet/20240715_144341.png)
 
-M01.图生图
+##### **M01. 脸和发型**
 
-```markdown
-- ControlNet模型 1/3 范围
-  inpaint(局部重绘)：控制重绘区域(选择ControlNet优先)，可以开启AD修复
+**局部重绘**
 
-- ControlNet模型 2/3 控形
-  lineart(线稿)：将参考的发型用PS处理成预处理图
-
-- ControlNet模型 3/3 参考
-  reference(参考)：控制参考风格，参考真实的人脸
-```
-
-
-M02.局部重绘
+蒙版区域内容处理：**填充，将提示词修改成头部的特征描述**
+重绘区域：**仅重绘蒙版区域**
+重绘幅度：**0.5-0.8**
 
 ```markdown
-- 蒙版处理方式：填充，将提示词修改成头部的特征描述
+- ControlNet模型 1/3 控形
+lineart(线稿)：下载预处理图，将参考的发型用PS处理成预处理图
+```
+![](./note_img/Controlnet/20240715_150226.png)
 
-- ControlNet模型 1/1 控形
-  lineart(线稿)：将参考的发型用PS处理成预处理图
-  
-- ControlNet模型 2/2 参考
-  reference(参考)：控制参考风格，参考真实的人脸
+```markdown
+- ControlNet模型 2/3 参考
+reference(参考)：控制参考风格，参考真实的人脸
+```
+![](./note_img/Controlnet/20240715_150702.png)
+
+```markdown
+- ControlNet模型 3/3 范围
+inpaint(局部重绘)：控制重绘区域(选择ControlNet优先)，可以开启AD修复
+预处理器：global harmornious(是整体更加协调)
 ```
 
-##### **手/脚部处理**
+------
+
+##### **M02. 手/脚/背景处理**
+
+**局部重绘**
+提示词加入：特征描述，**shadow,Sunlight**（阳光，阴影）
+蒙版区域内容处理：**填充**
+重绘区域：**仅重绘蒙版区域** (手脚单独处理)；**全图** (手脚一起处理)
+重绘幅度：**0.5-0.8**
 
 ```markdown
 - ControlNet模型 1/3 范围
   Inpaint(局部重绘)：配合seg插件精准做出手部蒙版
+```
 
+![](./note_img/Controlnet/20240715_152242.png)
+
+```markdown
 - ControlNet模型 2/3 控形
   Pose(姿势)：确定手脚位置
 
-  ControlNet模型 3/3 参考
+- ControlNet模型 3/3 控形
   lineart(线稿)：确定手脚轮廓和比例
 ```
+
+![](./note_img/Controlnet/20240715_153032.png)
+
+
 
 ------
 
@@ -579,9 +660,17 @@ M02.局部重绘
 
 ------
 
-#### **⒐电商打光**
+#### **⒐角色多角度统一图**
 
+**文生图 + lineart + openpose**
 
+![](./note_img/Controlnet/20240715_202945.png)
+![](./note_img/Controlnet/20240715_203039.png)
+
+```markdown
+- OpenPose和矩形的单独大小尺寸必须能被 8 整除。
+建议单个为 256×256 图像。 然后开启高清修复放大到每个为 512，也可以加上tilediffusion放大
+```
 
 ------
 
