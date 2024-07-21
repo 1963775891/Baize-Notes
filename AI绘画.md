@@ -1,3 +1,5 @@
+# WebUI
+
 ## 一、提示词技巧
 
 ### 1.1 六大提示词特征技巧
@@ -52,184 +54,203 @@
 ##### **2.1.1 基础起手式**
 
 ```
-Best Prompt：
 (masterpiece),(best details),(best quality),Sharp Focus,beautiful artwork,
 
-negative_prompt：
 ((NSFW)),lowres,bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, JPEG artifacts, signature, watermark, iceman, blurry,
+
+(杰作),(最佳细节),(最佳质量),清晰聚焦,美丽的艺术品
+
+((NSFW)),低分辨率,糟糕的解剖结构,糟糕的手,文本,错误,缺失手指,多余的手指,缺少的手指,裁剪,最差质量,低质量,正常质量,JPEG 瑕疵,签名,水印,冰人,模糊
 ```
-##### **2.1.2 二次元通用**
+##### **2.1.2 新海诚风格**
 
 ```sh
-Best Prompt：
-\(Makoto Shinkai style\),illustration(((flat))){prompt}Anime,(((bright color))),(high_contrast:1.5),(high-purity:1.5),(high brightness:1.5),flat color,outlines,
+\(Makoto Shinkai style\),illustration(((flat))),Anime,(((bright color))),(high_contrast:1.5),(high-purity:1.5),(high brightness:1.5),flat color,outlines,
 
-negative_prompt：
 ((NSFW)),photograph,deformed,glitch,noisy,realistic,stock photo,(3d model:1.3),(photo:1.3),(film:1.3)
+
+(新海诚风格),插画((平面)),动漫,((明亮色彩)),(高对比度:1.5),(高纯度:1.5),(高亮度:1.5),平面色彩,轮廓
+
+((NSFW)),照片,变形,故障,噪点,写实,库存照片,(3D 模型:1.3),(照片:1.3),(电影:1.3)
 ```
 
-##### 2.1.3 摄影
+##### **2.1.3 摄影**
 
 ```sh
-prompt：
 professional photograph,masterpiece,best quality,ultra details,{prompt}(realistic),hdr,8k,natural light,color graded portra 400 film,sharp focus,film grain,photographed on a Sony A7R IV,18mm F/1.7 cine lens,soft positive_lighting,side light,RAW,
 
-negative_prompt：
 BadDream, (UnrealisticDream:1.3),lowres, bad anatomy,bad hands,text,error,missing fingers,extra digit,fewer digits,cropped,worst quality,low quality,normal quality,  watermark,username,bad proportions,bad anatomy,logo,text,blurry,low quality,lowres,normal quality,worst quality,signature,watermark,cropped,out of focus,username,outlines,lines,cartoon,flat,illustration,drawing,painting,crayon,sketch,graphite,impressionist,noisy,blurry,deformed,ugly,3D model
+
+专业摄影,杰作,最佳质量,超细节,{提示},(写实),高动态范围,8K,自然光,彩色分级的宝丽来 400 胶片,清晰聚焦,胶片颗粒,用索尼 A7R IV 拍摄,18mm F/1.7 电影镜头,柔和的正面照明,侧光,RAW
+
+噩梦,(不现实的梦:1.3),低分辨率,糟糕的解剖结构,糟糕的手,文本,错误,缺失手指,多余的手指,缺少的手指,裁剪,最差质量,低质量,正常质量,水印,用户名,糟糕的比例,糟糕的解剖结构,标志,文本,模糊,低质量,低分辨率,正常质量,最差质量,签名,水印,裁剪,失焦,用户名,轮廓,线条,卡通,平面,插画,绘画,蜡笔,素描,石墨,印象派,噪点,模糊,变形,丑陋,3D 模型
 ```
 
 ##### 2.1.4 **动漫**
 
 ```
-prompt：
 anime artwork. anime style, key visual, vibrant, studio anime, highly detailed, intricate, elegant, highly detailed, digital painting, artstation, concept art, smooth, sharp focus, illustration, art by artgerm and greg rutkowski and alphonse mucha
 
-negative_prompt：
 photo, deformed, black and white, realism, disfigured, low contrast
+
+动漫作品,动漫风格,关键视觉,充满活力,工作室动漫,高度详细,复杂,优雅,高度详细,数字绘画,艺术站,概念艺术,平滑,清晰聚焦,插画,艺术风格源自 Artgerm、Greg Rutkowski 和 Alphonse Mucha
+
+照片,变形,黑白,写实,毁容,低对比度
 ```
 
 ##### **2.1.5 排版主义**
 
 ```sh
-prompt：
 typographic art. stylized, intricate, detailed, artistic, text-based, extremely higly detailed, style of Hajime Sorayama, trending on artstation
 
-negative_prompt：
 ugly, deformed, noisy, blurry, low contrast, realism, photorealistic
+
+排版艺术,风格化,复杂,详细,艺术,基于文本,极其高度详细, Hajime Sorayama 的风格,在艺术站流行
+
+丑陋,变形,噪点,模糊,低对比度,写实,照片写实
 ```
 
 ##### 2.1.6 线稿
 
 ```sh
-prompt：
 ashion design,minimalism,sketch,Line draft,hand drawn,smooth,monochromatic painting,outlines,{prompt},black lines,white background
 
-negative_prompt：
 color,grayscale,lowres,normal quality,worstquality,NSFW,signature,watermark,cropped,username,blurry,
+
+时尚设计,极简主义,素描,线稿,手绘,平滑,单色绘画,轮廓,{提示},黑线,白色背景
+
+颜色,灰度,低分辨率,正常质量,最差质量,(NSFW),签名,水印,裁剪,用户名,模糊
 ```
 
 ##### **2.1.7 涂鸦风**
 
 ```sh
-prompt：
 graffiti style. street art, vibrant, urban, detailed, tag, mural, extremely hyper - detailed, intricate, highly detailed attributes
 
-negative_prompt：
 ugly, deformed, noisy, blurry, low contrast, realism, photorealistic
+
+涂鸦风格,街头艺术,充满活力,城市,详细,标签,壁画,极其高度详细,复杂,高度详细的属性
+
+丑陋,变形,噪点,模糊,低对比度,写实,照片写实
 ```
 
 ##### 2.1.8 极简主义
 
 ```sh
-prompt：
 minimalist style. simple, clean, uncluttered, modern, elegant, intricate, epic lighting, cinematic composition, hyper realistic, 8 k resolution, unreal engine 5, by artgerm, tooth wu, dan mumford, beeple, wlop, rossdraws, james jean, marc simonetti, artstation，
 
-negative_prompt：
 rnate, complicated, highly detailed, cluttered, disordered, messy, noisy，
+
+极简主义风格。简单、干净、整洁、现代、优雅、复杂精细、史诗般的灯光、电影般的构图、超逼真、8K 分辨率、虚幻引擎 5，由 artgerm、tooth wu、dan mumford、beeple、wlop、rossdraws、james jean、marc simonetti、artstation 创作。
+
+rnate、复杂、高度详细、杂乱、无序、凌乱、嘈杂, 
 ```
 ##### **2.1.9 厚涂**
 
 ```sh
-prompt：
 (Oil painting art:1.3),painting traces texture,thick coating overlay,thickness,sharp focus,\(Krenz Cushart style\),
 
-negative_prompt：
 (brush:1.5),username,logo,blurry,out of focus,signature,watermark,blurry,low quality,bad anatomy,sketches,lowres,normal quality,username,out of focus,bad proportions,cropped,watermark,signature,worstquality,grayscale,monochrome,
+
+(油画艺术:1.3),绘画痕迹纹理,厚涂覆盖,厚度,清晰聚焦,(Krenz Cuart 风格)
+
+(刷子:1.5),用户名,标志,模糊,失焦,签名,水印,模糊,低质量,糟糕的解剖结构,素描,低分辨率,正常质量,用户名,失焦,糟糕的比例,裁剪,水印,签名,最差质量,灰度,单色
 ```
 
 ------
 
 #### **2.2 正面提示词**
 
-##### **2.2.1 高质壁纸**
+##### **2.2.1 高质量写实**
 
 ```sh
-prompt：
-masterpiece, best quality
+Hyper Real, Photorealistic, 16K, high detail, high resolution,(((masterpiece))),(((best quality))),((ultra-detailed))
+超真实、逼真、16K、高细节、高分辨率、(((杰作)))、((((最佳质量)))、(((超细节)))
 ```
 
 ##### **2.2.2 镜头虚化**
 
 ```sh
-prompt：
 depth of field, blurry background, blurry foreground, 
+景深，模糊的背景，模糊的前景
 ```
 
 ##### **2.2.3 画面增强**
 
 ```sh
-prompt：
 high resolution illustration, colorful, 8k wallpaper, highres
+高分辨率插画，色彩丰富，8K 壁纸，高分辨率
 ```
 
 ##### **2.2.4 光线增强**
 
 ```sh
-prompt：
 Cinematic light, ray tracing
+电影光线，光线追踪
 ```
 
-##### **2.2.5 细节增强**
+##### **2.2.5 超高细节**
 
 ```sh
-prompt：
-hyper detailed,ultra-detailed
-```
-##### **2.2.6 超高细节**
-
-```sh
-prompt：
 8k wallpaper,(best quality:1.12),(detailed:1.12),(intricate:1.12),(ultra-detailed:1.12),(highres:1.12)
+8K 壁纸，（最佳质量:1.12），（详细:1.12），（复杂:1.12），（超详细:1.12），（高分辨率:1.12） 
+杰作，最佳质量
 ```
 
 ------
 
 
-#### **2.2.7 负面提示词**
+#### **2.2.6 负面：错误身体和结构**
 
 ```sh
-((NSFW)),artist name, twisted torso, (((fusion), extra, bad, fewer, missing), fist,clenched hand)
-```
-##### **人物负面 1**
+((NSFW)),artist name, twisted torso, (((fusion), extra, bad, fewer, missing), fist,clenched hand),extra fingers,fewer fingers,(low quality, worst quality:1.4), (bad anatomy), (inaccurate limb:1.2),bad composition, inaccurate eyes, extra digit,fewer digits,(extra arms:1.2),
 
-```sh
-((NSFW)),extra fingers,fewer fingers,(low quality, worst quality:1.4), (bad anatomy), (inaccurate limb:1.2),bad composition, inaccurate eyes, extra digit,fewer digits,(extra arms:1.2),
+((NSFW)),艺术家姓名,扭曲的躯干,融合,(((额外),糟糕,较少,缺失),拳头,紧握的手),额外的手指,较少的手指,(低质量,最差质量:1.4),(糟糕的解剖),(不准确的肢体:1.2),糟糕的构图,不准确的眼睛,额外的数字,较少的数字,(额外的手臂:1.2),
 ```
-
-##### **2.2.8 人物负面 2**
+##### **2.2.8 负面：低画质、错误身体和结构**
 
 ```sh
 ((NSFW)),(EasyNegative:1.1),ng_deepnegative_v1_75t,bad-hands-5,lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry
+
+((NSFW))，(容易负面：1.1)，ng_deepnegative_v1_75t，坏手 - 5，低分辨率，不良解剖结构，不良手部，文本，错误，缺失手指，多余数字，数字较少，裁剪，最差质量，低质量，正常质量，JPEG 伪影，签名，水印，用户名，模糊 
 ```
-##### **2.2.9 人物负面 3**
+##### **2.2.9 负面：低画质、错误身体和结构、敏感部位、黑白图**
 
 ```sh
 ((NSFW)),paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin blemishes, age spot, glans, extra fingers, fewer fingers, multiple hands, multiple heads, Multiple arms, disabled body, illustration, 3d, sepia, painting, cartoons, sketch, bad anatomy, bad hands, collapsed eyeshadow, multiple eyebrows, pink hair, holes on breasts, stretched nipples, analog, analogphoto, signature, logo, facing away, looking away,(fat:1.2), glans,((watermark:2)),((white letters:1)), age spot, multiple eyebrows, fleckles, stretched nipples, nipples on buttocks, analog, analog photo, 2 faces, hat, bad composition, error hands, error fingers, dark, (thick eyebrows:1.2), 2girls, (((duplicate))), mutated hands,(((((fused fingers))))), (((((too many fingers))))),signature, watermark, username, blurry, artist name, text, chromatic aberration, flat color, flat shading, retro style,, low res, bad face, missing fingers, extra digit, fewer digits, multiple legs, malformation 
+
+((NSFW))，绘画，素描，(最差质量：2)，（低质量：2），（正常质量：2），低分辨率，正常质量，((单色))，((灰度))，皮肤瑕疵，老年斑，龟头，额外的手指，更少的手指，多只手，多个头，多只手臂，残疾身体，插图，3d，棕褐色，绘画，卡通，素描，糟糕的解剖，糟糕的手，塌陷的眼影，多根眉毛，粉红色的头发，乳房上的洞，拉伸的乳头，模拟，类比照片，签名，标志，背对着，看着别处，（脂肪：1.2），龟头，((水印：2))，((白色字母：1))，老年斑，多根眉毛，斑点，拉伸的乳头，臀部的乳头，模拟，模拟照片，2张脸，帽子，构图不好，错误的手，错误的手指，黑暗，（浓眉：1.2），2个女孩，(((重复)))，签名，水印，用户名，模糊，艺术家姓名，文本，色差，扁平颜色，扁平阴影，复古风格，低分辨率，糟糕的脸，缺少手指，额外的数字，更少的数字，多条腿，畸形 
 ```
-##### **2.2.10 人物负面 4**
+##### **2.2.10 负面：错误结构、多人、多手指和四肢、敏感部位**
 
 ```sh
-((NSFW)),EasyNegative,paintings,sketches,(worst quality:2),(low qualaity:2),(normal quality:2),((monochrome)),((grayscale)),skin spots,acnes,skin blemishes,age spot,glans,fewer fingers,((watermark:2)),((multi nipples),bad anatomy,bad hands,text,error,missing fingers,extra digit,fewer digits,cropped,jpeg artifacts,signature,username,bad feet,{Multiple people},bad anatomy,bad hands,cropped,blurry,poorly drawn hands,poorly drawn face,mutation,deformed,extra fingers,extra limbs,extra arms,extra legs,malformed limbs,fused fingers,too many fingers,long neck,cross-eyed,mutated hands,bad body,bad proportions,gross proportions,missing fingers,missing arms,missing legs,
+((NSFW)),lowres, bad anatomy, bad hand, paintings, sketches, (worst quality:2), (low quality: 2), (normal quality:2), lowres,((monochrome)),((grayscale)), skin spots, acnes, skin blemishes, age spot, glans, extra fingers, fewer fingers, ((watermark: 2)), (white letters: 1), (multi nipples), bad anatomy bad hands, text, error, missing fingers, missing arms, missing legs, extra digit, fewer digits, cropped, worst quality, jpeg artifacts, signature, watermark, username, bad feet, Multiple people, blurry, poorly drawn hands, poorly drawn face, mutation, deformed, extra limbs, extra arms, extra legs, malformed limbs, fused fingers, too many fingers, long neck, cross-eyed, mutated hands, polar lowres, bad body, bad proportions, gross proportions, wrong feet bottom render, abdominal stretch, Briefs, knickers, kecks, thong, fused fingers, bad body, bad proportion body to legs, wrong toes, extra toes, missing toes, weird toes, 2 body, 2 pussy, 2 upper, 2 lower, 2 head, 3 hand, 3 feet, extra long leg. super long leg. mirrored image, mirrored noise
+
+((NSFW))，低分辨率、糟糕的解剖结构、糟糕的手、绘画、素描、(最差质量：2)、(低质量：2)、(正常质量：2)、低分辨率、((单色)),((灰度))、皮肤斑点、粉刺、皮肤瑕疵、老年斑、龟头、多指、少指、((水印：2))、(白色字母：1)、(多乳头)、不良解剖 不良手、文本、错误、缺手指、缺胳膊、缺腿、多指、少指、裁剪、质量最差、JPEG 伪影、签名、水印、用户名、不良脚、多人、模糊、手画得差、脸画得差、突变、变形、多肢、多胳膊、多腿、畸形肢体、融合手指、手指过多、脖子过长、对眼、变异手、极地低分辨率、身体不好、比例不好、比例粗糙、脚底渲染错误、腹部拉伸、内裤、短裤、短裤、丁字裤、手指融合、身体不好、身体与腿部比例不好、脚趾错误、脚趾多余、脚趾缺失、脚趾怪异、2 个身体、2 个阴部、2 个上部、2 个下部、2 个头、3 只手、3 只脚、超长的腿。镜像、镜像噪音 
 ```
-##### **2.2.11 负面**
+##### **2.2.11 负面：低质量、简单线条、黑白、错误结构**
 
 ```sh
 ((NSFW)),bondary,thick line,lines,lineart,ng_deepnegative_v1_75t,(badhandv4:1.2),EasyNegative,(worst quality:2),easynegative,drawing,painting,crayon,sketch,graphite,impressionist,noisy,blurry,soft,deformed,ugly,(deformed iris,deformed pupils,semi-realistic,cgi,3d,render,sketch,cartoon,drawing,anime:1.4),text,close up,cropped,out of frame,worst quality,low quality jpeg artifacts,ugly,duplicate,morbid,mutilated,extra fingers,mutatedhands,poorly drawn hands,poorly drawn face,mutation,deformed,blurry,dehydrated,bad anatomy,bad proportions,extra limbs,cloned face,disfigured,gross proportions,malformed limbs,missing arms,missing legs,extra arms,extra legs,fused fingers,too many fingers,long neck,sketches,tattoo,(beard:1.3),(EasyNegative:1.3),badhandv4,(worst quality:2),(low quality:2),(normal quality:2),lowers,normal quality,facing away,looking away,text,error,extra digit,fewer digits,cropped,jpeg artifacts,signature,watermark,username,blurry,skin spots,acnes,skin blemishes,bad anatomy,fat,bad feet,cropped,poorly drawn hands,poorly drawn face,mutation,deformed,tilted head.bad anatomy.bad hands,extra fingers,fewer digits,extra limbs.extra arms,extra legs,malformed limbs.fused fingers,too many fingers,long neck,cross-eyed,mutated hands,bad body,bad proportions,gross proportions,text,error,missing fingers,missing arms,missing legs,extra digit,extra arms,extra leg,extra foot,missing fingers,(Worst quality,low quality,lowres:1.2),error,cropped jpeg artifacts,out of frame,watermark,signature,
+
+((NSFW))、边界、粗线、线条、线条艺术、ng_deepnegative_v1_75t、(badhandv4:1.2)、EasyNegative、（最差质量:2）、容易负面、绘画、油画、蜡笔、素描、石墨、印象派、嘈杂、模糊、柔软、变形、丑陋、（变形的虹膜、变形的瞳孔、半写实、计算机生成图像、3D、渲染、素描、卡通、绘画、动漫:1.4）、文本、特写、裁剪、画面外、最差质量、低质量的 JPEG 伪像、丑陋、重复、病态、残缺、额外的手指、变异的手、画得不好的手、画得不好的脸、变异、变形、模糊、脱水、不良的解剖结构、不良的比例、额外的肢体、克隆的脸、毁容、严重的比例失调、畸形的肢体、缺失的手臂、缺失的腿、额外的手臂、额外的腿、融合的手指、过多的手指、长脖子、草图、纹身、（EasyNegative:1.3）、badhandv4、(低质量:2)、（正常质量:2）、较低、正常质量、背向、看向别处、文本、错误、额外的数字、较少的数字、裁剪、JPEG 伪像、签名、水印、用户名、模糊、皮肤斑点、痤疮、皮肤瑕疵、不良的解剖结构、肥胖、不好的脚、裁剪、画得不好的手、画得不好的脸、变异、变形、倾斜的头。不良的解剖结构。不好的手、额外的手指、较少的数字、额外的肢体。额外的手臂、额外的腿、畸形的肢体。融合的手指、过多的手指、长脖子、斗鸡眼、变异的手、不好的身体、不良的比例、严重的比例失调、文本、错误、缺失的手指、缺失的手臂、缺失的腿、额外的数字、额外的手臂、额外的腿、额外的脚、缺失的手指、(最差质量、低质量、低分辨率:1.2)、错误、裁剪的 JPEG 伪像、画面外、水印、签名 
 ```
 
-##### **2.2.12 人物负面**
+##### **2.2.12 负面：tag提示词触发**
 
 ```sh
-negative_prompt：
-((NSFW)),Photo_Comparison, 1girl, breast, standing, white shirt, phone, cellphone, smartphone, holding, sex, vaginal, picture
-```
-
-##### **2.2.13 更强的负面tag**
-
-```sh
-negative_prompt：
 ((NSFW)),EasyNegative, bad-artist-anime, bad-artist, bad-hands-5, bad-image-v2-39000, bad_prompt_version2
 ```
+
+##### **2.2.13 负面：低画质，黑白**
+
+```markdown
+lowres, bad anatomy, bad hand, paintings, sketches, (worst quality:2), (low quality: 2), (normal quality:2), ((monochrome)),((grayscale)), ((watermark: 2)), (white letters: 1),text, error, cropped, worst quality, jpeg artifacts, signature, watermark, username, mirrored image, mirrored noise 
+
+低分辨率、糟糕的解剖结构、糟糕的手、绘画、素描、(最差质量：2)、(低质量：2)、(正常质量：2)、((单色)),((灰度))、((水印：2))、(白色字母：1)、文本、错误、裁剪、质量最差、JPEG 伪影、签名、水印、用户名、镜像、镜像噪音
+```
+
+
 
 ------
 
@@ -239,62 +260,66 @@ negative_prompt：
 ##### **2.3.1 美女起手式：**
 
 ```
-Best Prompt：
 masterpiece,best details,best quality,{prompt},8K,Best resolution,
 
-negative_prompt：
 (((NSFW))),lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit,fewer digits,cropped,worst quality,low quality,normal quality, watermark,username,bad proportions,bad anatomy,blurry,low quality,lowres,normal quality,worstquality,signature,watermark,cropped,out of focus,username,look back
+
+杰作，最佳细节，最佳质量，{提示}，8K，最佳分辨率
+
+(((NSFW)))，低分辨率，糟糕的解剖结构，糟糕的手，文本，错误，缺失手指，多余的手指，缺少的手指，裁剪，最差质量，低质量，正常质量，水印，用户名，糟糕的比例，糟糕的解剖结构，模糊，低质量，低分辨率，正常质量，最差质量，签名，水印，裁剪，失焦，用户名，回头看
 ```
 ##### **2.3.2 精致女孩**
 
 ```sh
-prompt：
 an extremely delicate and beautiful girl
+一个极其精致美丽的女孩
 ```
 
 ##### **2.3.3 脸部增强**
 
 ```sh
-prompt：
 1girl face ,Curly blue hair，Delicate and perfect face, beautiful face,Happy smile,side face,Lateral face,(best aesthetic, best quality, masterpiece, extremely detailed:1.2,extremely detailed CG unity 8k wallpaper)
+1个女孩的脸，蓝色卷发，精致完美的脸，美丽的脸，开心的微笑，侧脸，侧面，(最佳美学，最佳质量，杰作，极其详细:1.2，极其详细的CG统一8K壁纸)
 ```
 
 ##### **2.3.4 真人照片**
 
 ```sh
-prompt：
 (8k, RAW photo, best quality, masterpiece, ultra highres, ultra detailed:1.2), (realistic, photo-realistic:)
+(8K，RAW 照片，最佳质量，杰作，超高分辨率，超详细:1.2)，(写实，照片写实)
 ```
 
 ##### **2.3.5 隐藏手掌**
 
 ```sh
-negative_prompt：
 lower arms,hands,palms
+小臂，手，手掌
 ```
 
 ##### **2.3.6 崩坏修正**
 
 ```sh
-negative_prompt：
 easynegative, bad-hands-5
 ```
 
 ##### **2.3.7 修手**
 
 ```sh
-prompt：
 good hands,
 
-negative_prompt：
 bad-hands-5,bad hands, fewer digits, extra digit
+
+好手
+
+糟糕的手 - 5，糟糕的手，缺少的手指，多余的手指
 ```
 
 ##### **2.3.8 抽卡**
 
 ```markdown
-prompt：
 1girl, food, candy, solo, lollipop, animal ears, black hair, controller, sleeves past wrists, can, hair ornament, game controller, horns, ahoge, streaked hair, long sleeves, blue eyes, multicolored hair, stuffed toy, swirl lollipop, white hair, animal ear fluff, long hair, fang, :d, bangs, thighhighs, twintails, socks, stuffed animal, smile, holding, wooden floor, virtual youtuber, bandaid, looking at viewer, off shoulder, monster energy, knees up, blush, asymmetrical legwear, puffy long sleeves, open mouth, shirt, candy wrapper, low twintails, cat ears, feet out of frame, hairclip, energy drink, object hug, choker, mouse (computer), bandaid on face
+
+1 个女孩，食物，糖果，单独，棒棒糖，动物耳朵，黑发，控制器，袖子超过手腕，罐头，头发饰品，游戏控制器，角，呆毛，条纹头发，长袖，蓝眼睛，多彩头发，毛绒玩具，漩涡棒棒糖，白发，动物耳毛，长发，尖牙，:d，刘海，过膝袜，双马尾，袜子，毛绒动物，微笑，抱着，木地板，虚拟主播，创可贴，看着观众，露肩，怪物能量，膝盖抬起，脸红，不对称的腿部穿戴，蓬松的长袖，张嘴，衬衫，糖果包装纸，低双马尾，猫耳，脚不在画面内，发卡，能量饮料，抱着物品，项圈，鼠标(电脑)，脸上的创可贴 
 ```
 
 ------
@@ -376,7 +401,7 @@ SD Upscale可以比较容易在**低重绘幅度**放大，大概是**0.25~0.35*
 
 ------
 
-#### **4.1.2 Tiled diffusion**
+#### **4.1.2 Tiled Diffusion**
 
 ![](./note_img/Controlnet/20240716_201409.png)
 ![](./note_img/Controlnet/20240716_194821.png)
@@ -400,7 +425,24 @@ CFG (提示词引导系数) 可以**增加画面细节**，单纯放大建议**C
 
 ------
 
-#### **4.1.3 噪声反转**
+#### **4.1.3 平铺算法**
+
+**Mixture of Diffusers** (适合制作简单的大图)
+
+- 扩散过程的混合以协调生成过程的方式完成，防止生成图像中的“接缝”效应。
+- 在生成非常大的图像时，并行使用多个扩散过程也具有实际优势，因为GPU内存要求类似于生成单个图块大小的图像
+
+**MultiDiffusion** (适合重绘和增加内容细节)
+
+- 将不一致的元素融合到全局去噪步骤中，从而产生高质量的无缝图像
+- 文本到全景生成
+- 使用严格、准确的分割掩模
+- 基于区域的粗略生成
+- 粗略的场景布局指导。所有图像都描绘了合理的构图、场景效果和物体的相对大小
+
+------
+
+#### **4.1.4 噪声反转**
 
    可以看到噪声反转里面有三个比较关键的参数
 
@@ -410,7 +452,7 @@ CFG (提示词引导系数) 可以**增加画面细节**，单纯放大建议**C
 
 ------
 
-##### **4.1.3.1 反转步数**
+##### **4.1.4.1 反转步数**
 
 >    **反转步数越低画面越干净整洁，越大就有越多的细节，同时也会越凌乱**
 
@@ -420,7 +462,7 @@ CFG (提示词引导系数) 可以**增加画面细节**，单纯放大建议**C
 
 ------
 
-##### **4.1.3.2 修复程度**
+##### **4.1.4.2 修复程度**
 
 > 修复程度默认是 1，**修复越高越趋向原图内容**，越高画面越干净，它在擦除一些由于重绘幅度过高，而产生的原图没有的东西。
 
@@ -430,7 +472,7 @@ CFG (提示词引导系数) 可以**增加画面细节**，单纯放大建议**C
 
 ------
 
-##### **4.1.3.3 重铺噪声强度**
+##### **4.1.4.3 重铺噪声强度**
 
 > 如果你还是认为画面比较凌乱，可以稍微降低一下重铺噪声强度。
 >
@@ -451,7 +493,7 @@ CFG (提示词引导系数) 可以**增加画面细节**，单纯放大建议**C
 
 ------
 
-#### 4.1.4 **总结**
+#### 4.1.5 **总结**
 
 > 高CFG，高重绘幅度放大，要**开启噪声反转**；
 >
@@ -463,7 +505,7 @@ CFG (提示词引导系数) 可以**增加画面细节**，单纯放大建议**C
 
 ------
 
-#### **4.1.5 Tiled diffusion + Tile**
+#### **4.1.6 Tiled diffusion + Tile**
 
 Tiled模型的强大之处在于它能够**识别每一个分块中的内容，并且与提示词产生关联**，产生强大的细节，这么做的一个好处，即使你用 0.75 的重回幅度以及 14 的 CFG,也不会出现这种妖魔鬼怪的图片。
 
@@ -747,28 +789,28 @@ ControlNet这里的缩放模式跟图生图的缩放模式是一模一样的，�
 
 ## 七、 ControlNet预处理器和模型
 
-### 7.1 线稿相关
+### 7.1 线稿相关 ( 控制：Canny>Lineart>Softedge>Scribble )
 
 #### 7.1.1 **Lineart 线稿**
 
-Lineart是最好用的线稿类模型，有5个预处理器和2个模型：
+> Lineart控制性介于Canny与SoftEdge，是最好用的线稿类模型
 
 ![](./note_img/Controlnet/20240717_200634.png)
 
 ##### **7.1.1.1 预处理器**
 
-**通用线稿预处理器：**Lineart realistici和Lineart coarse，两者区别就是Lineart coarse比较粗糙，更像手绘的线稿，但两者对于不同类型的图像都能有不错的处理，如图3.7.3-2~3.7.3-10，因此都是通用的预处理器。
+**通用线稿预处理器：**Lineart realistici和Lineart coarse，两者区别就是Lineart coarse比较粗糙，更像手绘的线稿，但两者对于不同类型的图像都能有不错的处理，因此都是通用的预处理器。
 
 ![](./note_img/Controlnet/20240717_203506.png)
 ![](./note_img/Controlnet/20240717_204015.png)
 ![](./note_img/Controlnet/20240717_204106.png)
 
-**动漫线稿预处理器：**Lineart anime和lLineart anime denoise，Lineart anime denoise的线稿更干净，也让提示词有更多的发挥空间。这两个预处理器虽然也可以处理其他风格的参考图，如图图3.7.3-11~图3.7.3-19，但是会导致信息缺失，如图3.7.3-11~16.
+**动漫线稿预处理器：**Lineart anime和lLineart anime denoise，Lineart anime denoise的线稿更干净，也让提示词有更多的发挥空间。这两个预处理器虽然也可以处理其他风格的参考图，但是会导致信息缺失
 
 ![](./note_img/Controlnet/20240717_203538.png)
 ![](./note_img/Controlnet/20240717_203616.png)
 
-**标准处理器：**Lineart standard适合用来处理白底黑线的手绘线稿，如图3.7.3-20，处理图像能力比较一般
+**标准处理器：**Lineart standard适合用来处理白底黑线的手绘线稿，处理图像能力比较一般
 
 ![](./note_img/Controlnet/20240717_211344.png)
 ![](./note_img/Controlnet/20240717_211358.png)
@@ -824,7 +866,7 @@ Lineart是最好用的线稿类模型，有5个预处理器和2个模型：
 
 #### 7.1.2 **Scribble/sketch 涂鸦/草图**
 
-涂鸦功能是比较开放的线稿控制类型，有三个预处理器和一个模型：
+> Scribble 涂鸦功能是比较开放的线稿控制类型，控制性最弱的线条，能有更大的想象空间；
 
 - **Scribble hed和Scribble pidi：**是比较粗略的涂鸦，通过控制预处理图分辨率控制涂鸦的精细程度。
 
@@ -847,6 +889,8 @@ Lineart是最好用的线稿类模型，有5个预处理器和2个模型：
 
 #### 7.1.3 **Softedge 软边缘模型**
 
+> 相比于Cannny整体的细节把控，HED更侧重于把图形大致轮廓保存下来，整体的**融合性**在相对于Canny要**柔和**。
+
 Softedge模式有四个预处理器：SoftEdge HED、SoftEdge PIDI、SoftEdge HED safe、SoftEdge PIDI safe，没有白底黑线反色的选项。
 
 ![](./note_img/Controlnet/20240717_212621.png)
@@ -864,6 +908,8 @@ Softedge模式有四个预处理器：SoftEdge HED、SoftEdge PIDI、SoftEdge HE
 Canny模型只有一个预处理器。调整阈值可以控制线稿的细节程度：
 - 阈值越低，被识别的边缘越多，细节越多，但错误也越多
 - 一般保持默认的 **100~200** 即可
+
+> Canny 适合产品图等精确的外轮廓，来约束AI
 
 ------
 
@@ -969,13 +1015,11 @@ Tile控制类型其中一个功能是修复损坏的图像，一张压缩成64x6
 
 ##### **7.3.1.3 转换风格**
 
-第5章介绍过图生图切换风格的方法，切换风格要求重绘幅度在0.6左右才会有比较好的转化效果，但是0.6的重绘幅度要求你的提示词要足够精准，否则就会凭空出现一些其他的东西。如图x,提示词之输入1gil,出现了一个类似头盔的东西。
+**图生图 + ControlNet_Tile**，更偏向ControlNet模式，重绘幅度：**0.6** (转化效果比较好)，切换大模型和lora
 
 ![](./note_img/Controlnet/20240717_225720.png)
 
-这种情况下，我们只需要加载一个Tile,选择更偏向ControlNet模式，这种模式下可以看到就连身体上的纹路都是对的上的，但其他控制模式效果同样非常不错。
-
-如果有局部没有照顾到的，比如说头发的颜色不对，Tile暂时无法控制，可以再提示词追加头发的颜色即可。
+如果有局部没有照顾到的，比如说头发的颜色不对，Tile暂时无法控制，可以提示词追加头发的颜色即可。
 
 > 那么由此衍生出来的另一个用法，就是将一张集合各种风格元素的图像，放进Tile模型，选择偏向提示词模式，就可以转换成一个统一风格的图像。
 > ![](./note_img/Controlnet/20240717_225113.png)
@@ -983,7 +1027,7 @@ Tile控制类型其中一个功能是修复损坏的图像，一张压缩成64x6
 ##### **7.3.1.4 修改细节**
 
 Tile模型的替换内容或者修改细节的功能是Tile模型的真正强大之处。
-如图x,最左边是原图，重绘幅度调到6.0，开启Tile。
+最左边是原图，重绘幅度调到 6.0，开启Tile。
 
 可以看到经历过Tile引导的图，身上的盔甲在细节上发生了肉眼可见的改变，由之前光滑的质感变成了比较有颗粒感的质感，肩膀这里变成了比较透明的材质。
 
@@ -995,10 +1039,10 @@ Tile模型的替换内容或者修改细节的功能是Tile模型的真正强大
 
 down sample rate解释过来大概就是**参考图缩小倍数**。
 
-假设参考图分辨率为768
-down sample rate为1，那么预处理图分辨率则为768
-down sample rate为2，那么预处理图分辨率则为768的一半，也就是384
-down sample rate为8，那么预处理图分辨率则为768的1/8，也就是96
+> 假设参考图分辨率为768
+> down sample rate为1，那么预处理图分辨率则为768
+> down sample rate为2，那么预处理图分辨率则为768的一半，也就是384
+> down sample rate为8，那么预处理图分辨率则为768的1/8，也就是96
 
 ![](./note_img/Controlnet/20240718_090455.png)
 
@@ -1340,9 +1384,35 @@ Reference 是 Stability AI 公司发布的官方模型
 
 ------
 
-#### **8.2 角色特征cos换装**
+#### **8.2 超尺寸大分辨率长图**
 
-##### **M01.文生图+ 控制**
+![](./note_img/Controlnet/20240719_084147.jpg)
+
+1. PS制作一张长图画布，发到ControlNet并同步尺寸；
+2. 开启Tile Diffusion (**Mixture of diffusion**)+ Tile VAE，关闭 ControlNet，输入提示词，调整步数生成；
+
+```markdown
+bird's-eye view, trees, stones, farms, 16K, high detail, best quality, high, resolution, Masterpiece, Hyper Real, Photorealistic, ultra-detailed 8k unity wallpaper.
+鸟瞰、树木、石头、农场、16K、高细节、最佳质量、高分辨率、杰作、超真实、逼真、超精细 8K Unity 壁纸。
+```
+
+![](./note_img/Controlnet/20240719_084054.jpg)
+
+------
+
+
+
+
+
+
+
+
+
+------
+
+#### **8.3 动漫角色特征换装**
+
+##### **8.3.1 文生图+ 控制**
 ![](./note_img/Controlnet/20240715_111915.png)
 ```markdown
 - ControlNet模型 1/3 范围
@@ -1364,14 +1434,14 @@ Reference 是 Stability AI 公司发布的官方模型
 ![](./note_img/Controlnet/20240715_112444.png)
 ![](./note_img/Controlnet/20240715_112703.png)
 
-##### **M02.图生图 + 控制**
+##### **8.3.2 图生图 + 控制**
 
 ```markdown
 - 其他步骤与M01一致
   重绘幅度0.5
 ```
 
-##### **M03.局部重绘 + 控制**
+##### **8.3.3 局部重绘 + 控制**
 
 ```markdown
 - 其他步骤与M01一致，去掉inpaint即可
@@ -1386,21 +1456,68 @@ Reference 是 Stability AI 公司发布的官方模型
 
 ------
 
-#### **8.⒊动漫转真人的方式**
+#### **8.4 风格转换，动漫真人互转**
 
-##### M01.文生图+tile+canny
+##### 8.3.1 风格转换
 
-##### M02.图生图+canny：
+M01. **文生图+tile+canny**，输入提示词，选择不同的大模型
 
-  **对比差别：**
+![](./note_img/Controlnet/20240719_161523.jpg)
+
+M02. **图生图 + canny**，直接切换**大模型** + **Lora** + **低重绘幅度**
+
+![](./note_img/Controlnet/20240719_164540.jpg)
 
 ------
 
-#### **8.⒋模特换装**
+##### 8.3.2 穿越次元壁
+
+**图生图-局部重绘 + After Detailer + 动漫大模型**，重绘幅度：**0.1**
+
+![](./note_img/Controlnet/20240719_163012.jpg)
+
+> **After Detailer** 技巧 + 原理
+> 单元一：精细人物，重绘0.5，单独宽高原图*2；
+> 单元二：精细脸部；
+> 单元三：精细手部；
+>
+> ![](./note_img/Controlnet/20240719_162735.jpg)
+
+------
+
+##### 8.3.3 服装换色
+
+**图生图-局部重绘 + Deth + Lineart**，提示词修改颜色，重绘幅度：**0.75**
+
+![](./note_img/Controlnet/20240719_164644.jpg)
+
+------
+
+#### 8.5 简单修手：
+
+**M01. 图生图 - 涂鸦**
+
+![](./note_img/Controlnet/20240719_155929.jpg)
+
+------
+
+**M02. PS处理 + 图生图拟合**
+
+1. 在PS处理手部，放到**图生图-局部重绘**中进行重绘拟合
+
+![](./note_img/Controlnet/20240719_164847.jpg)
+
+2. **原图**，**仅蒙版**，重绘幅度：**0.45**，启用 **OpenPose + Deth + Softedge**；
+
+![](./note_img/Controlnet/20240719_165816.jpg)
+
+------
+
+#### **8.6 假人变真人**
 
 ![](./note_img/Controlnet/20240715_144341.png)
 
-##### **M01. 脸和发型**
+##### **8.6.1 脸和发型**
 
 **局部重绘**
 
@@ -1428,7 +1545,7 @@ inpaint(局部重绘)：控制重绘区域(选择ControlNet优先)，可以开�
 
 ------
 
-##### **M02. 手/脚/背景处理**
+##### **8.6.2 手/脚/背景处理**
 
 **局部重绘**
 提示词加入：特征描述，**shadow,Sunlight**（阳光，阴影）
@@ -1455,9 +1572,9 @@ inpaint(局部重绘)：控制重绘区域(选择ControlNet优先)，可以开�
 
 ------
 
-#### **8.⒌模特换脸**
+#### **8.7 写真换脸**
 
-##### **M01.图生图**
+##### **8.7.1 图生图**
 
 ```markdown
 - ControlNet模型 1/2 面部特征
@@ -1466,7 +1583,7 @@ inpaint(局部重绘)：控制重绘区域(选择ControlNet优先)，可以开�
 - ControlNet模型 2/2 面部五官范围
   inatant_ID：预处理器:keypoints(参考图的脸部五官)
 ```
-##### **M02.局部重绘**
+##### **8.7.2 局部重绘**
 
 ```markdown
 - ControlNet模型 3/4 控形
@@ -1479,12 +1596,16 @@ inpaint(局部重绘)：控制重绘区域(选择ControlNet优先)，可以开�
 
 ------
 
-#### **8.⒍真实照片换背景 换发型 换服装 换风格**
+#### **8.8 照片换背景 换发型 换风格 校色**
 
-##### 8.6.1 换背景
+##### 8.8.1 换背景
 
 1. **图生图-局部重绘**画出主体；
 2. 提示词必须包含**主体对象** + **更换的背景**描述；
+
+```markdown
+portrait of a young woman, white hair, flower hair accessory, smiling, closed eyes, beautiful, soft lighting, natural light, outdoors, beach, sea, sky, clouds, peaceful, serene, realistic photography, soft colors, middle shot, centered composition, HD
+```
 3. **重绘非蒙版区域**；蒙版内容处理：**原图**；重绘幅度：**1**；
 4. 开启**Controlnet-inpaint**(局部重绘)：**only+lama**；
 
@@ -1500,7 +1621,7 @@ inpaint(局部重绘)：控制重绘区域(选择ControlNet优先)，可以开�
 
 ------
 
-##### **8.6.2 解决图像扩散污染**
+##### **8.8.2 解决图像扩散污染**
 
 ```markdown
 文生图 + 启用Tile-resample(分块采样)模型，退出介入：0.5，Sampling-Rate：8；
@@ -1523,19 +1644,19 @@ inpaint(局部重绘)：控制重绘区域(选择ControlNet优先)，可以开�
 
 ------
 
-##### **8.6.3 换风格**
+##### **8.8.3 换风格**
 
 1. **文生图**输入提示词；
 2. 启用**Tile-resample(分块采样)**模型，介入：0.2，退出介入：0.4，Sampling-Rate：1；
-3. 启用**Depth(深度)**模型，介入：0，退出介入：0.1；*固定轮廓*
-4. 启用**Open Pose(姿势)**模型，介入：0，退出介入：0.1；*固定姿势*
-5. 开启**Tile Difffusion + Tile VAE** 放大倍数：1 ；*增加细节*
+3. 启用**Depth(深度)**模型，介入：0，退出介入：0.1；   *-- 固定轮廓*
+4. 启用**Open Pose(姿势)**模型，介入：0，退出介入：0.1；   *--固定姿势*
+5. 开启**Tile Difffusion + Tile VAE** 放大倍数：1 ；  *--增加细节*
 
 ![](./note_img/Controlnet/20240718_193146.jpg)
 
 ------
 
-##### **8.6.4 解决图像Lora污染**
+##### **8.8.4 解决图像Lora污染**
 
 ![](./note_img/Controlnet/20240718_193717.jpg)
 
@@ -1549,19 +1670,43 @@ inpaint(局部重绘)：控制重绘区域(选择ControlNet优先)，可以开�
 
 ------
 
-#### **8.7 超级符号**
+#### **8.9 电商海报融图**
+
+![](./note_img/Controlnet/20240719_150815.jpg)
+
+1. 将产品放进PS制作底图，上传到 **文生图 + canny**，
+
+![](./note_img/Controlnet/20240719_150852.jpg)
+
+2. 选择相对的大模型和lora进行抽卡，测试风格，再启用ControlNet，模式均衡；
+
+3. 将生成图放进PS与原产品融合；
+
+![](./note_img/Controlnet/20240719_151659.jpg)
+
+4. 将调整图放入**图生图**，局部重绘**0.45**，开启**ControlNet_canny**，开启**Tile_diffusion**，放大倍数 **1** (增噪拟合)，对结果二次处理；
+
+![](./note_img/Controlnet/20240719_152402.jpg)
+
+> **制作艺术字**：将文字图片放进 **文生图 + Scribble**，加入提示词，抽卡，并将合适的字体图像放进PS三次处理；
+>
+> <img src="./note_img/Controlnet/20240719_153315.jpg" style="zoom: 33%;" />
+>
+> 6. 截取带背景的图放进**图生图 - 局部重绘**，蒙版画出文字部分，预留点部分与背景融合，重绘区域：仅蒙版，重绘幅度：1；开启**ControlNet_lineart**(约束大体轮廓)，
+>
+> ![](./note_img/Controlnet/20240719_154132.jpg)
+> ![](./note_img/Controlnet/20240719_154711.jpg)
+> ![](./note_img/Controlnet/20240719_155143.jpg)
+
+------
+
+#### **8.10 线稿上色+转3D+三视图**
 
 
 
 ------
 
-#### **8.8 线稿上色+转3D+三视图**
-
-
-
-------
-
-#### **8.⒐角色多角度统一图**
+#### **8.11 角色多角度统一图**
 
 **文生图 + lineart + openpose**
 
@@ -1575,19 +1720,19 @@ inpaint(局部重绘)：控制重绘区域(选择ControlNet优先)，可以开�
 
 ------
 
-####  **8.10 室内渲染**
+####  **8.12 室内渲染**
 
 
 
 ------
 
-#### **8.11 AI造字**
+#### **8.13 AI造字**
 
 
 
 ------
 
-#### **8.12 AI 放大**
+#### **8.14 AI 放大**
 
 
 
@@ -1624,3 +1769,54 @@ inpaint(局部重绘)：控制重绘区域(选择ControlNet优先)，可以开�
 -  Depth Warping & FOV(视野范围)
    FOV schedule(视野时间变化)
 ```
+
+------
+
+# ComfyUI
+
+## 一、快捷键
+
+【Ctrl + Enter】：将当前图形排队以供生成
+
+【Ctrl + Shift + Enter】：将当前图作为第一个生成队列
+
+【Ctrl + S】：保存工作流
+
+【Ctrl + O】：加载工作流程
+
+【Ctrl + A】：选择所有节点
+
+【Alt + C】：折叠/取消折叠选中的节
+
+【Ctrl + M】：禁用/启用所选节点
+
+【Ctrl + B】：绕过选定的节点(就像从图中删除了节点，重新连接了导线一样)
+
+【Delete/Backspace】：删除选中的节点
+
+【Ctrl + Delete 】：删除当前图
+
+【空格】：当按住并移动光标时，移动画布
+
+【Ctrl+鼠标左键】：将单击的节点添加到选择中（点选，框选都可以）
+
+【Shift + 拖动】：对齐网格/同时移动多个选中的节点
+
+【Ctrl + C/Ctrl + V】：复制并粘贴选中的节点(不维持与未选中节点的输出的连接)
+
+【Alt + 拖动】：复制当前选择
+
+【Ctrl + C/Ctrl + Shift + V】：复制并粘贴所选节点(维持从未选中节点的输出到粘贴节点的输入之间的连接)
+
+【Ctrl + D】：加载默认工作流
+
+【Q】：切换队列的显示已隐藏
+
+【H】：切换历史显示与隐藏
+
+【R】：刷新工作流
+
+【双击鼠标左键(LMB)】：打开节点快速搜索面板（使用英文搜索）
+
+------
+

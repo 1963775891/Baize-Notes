@@ -528,7 +528,9 @@ progress_bar.pack(pady=10, fill=tk.X, padx=20)
 root.mainloop()
 ```
 
-## 打包脚本：build_exe.py
+------
+
+### 3.1 打包脚本：build_exe.py
 
 ```python
 import os
@@ -580,10 +582,16 @@ PyInstaller.__main__.run([
     '--icon', 'Path/ICO.ico',  # 如果有图标文件，取消这行的注释
     '--add-data=pdfmd.py:.',  # 添加gptpdf.py作为数据文件
 ])
+
+
+```
+
+```python
+pip install PyQt5 pyinstaller
+pyinstaller --onefile --windowed app.py
 ```
 
 ------
-
 
 ## **4、相对路径创建快捷方式**
 
@@ -755,3 +763,46 @@ if __name__ == "__main__":
 
 ```
 
+------
+
+## **6、创建虚拟环境**
+
+1. **打开命令提示符：**按`Win+R`键，输入`cmd`,然后按`Enter`键打开命令提示符。
+2. **进入到你想要创建虚拟环境的目录：**使用`cd`命令进入到你想要创建虚拟环境的文件夹。
+   例如，如果你想在`D:\MyProjects`下创建虚拟环境，你应该输入：
+
+```markdown
+bashCopy code
+cd D:\MyProjects
+```
+
+3. **创建虚拟环境：**使用`python -m venv`命令创建虚拟环境。
+   其中，`env`是虚拟环境的名字，你可以根据自己的需要命名。例如，要创建名为`myenv`的虚拟环境，你应该输入：
+
+```markdown
+bashCopy code
+python -m venv myenv
+```
+
+- 这将在当前目录下创建一个名为`myenv`的文件夹，其中包含了虚拟环境的所有文件。
+
+4. **激活虚拟环境：**创建虚拟环境后，你需要激活它。
+   在Windows.上，你应该运行：
+
+```markdown
+bashCopy code
+myenv\Scripts\activate
+```
+
+- 一旦虚拟环境被激活，命令提示符前会出现虚拟环境的名称，表明你现在正在该虚拟环境中运行。
+
+5. **使用虚拟环境：**
+- 在虚拟环境中，你可以使用`pip`安装包，运行Python程序等，所有操作都将仅限于该虚拟环境，不会影响系统中的其他Python环境。
+
+6. **退出虚拟环境：**
+- 当你完成工作，想要退出虚拟环境时，只需输入：
+
+```markdown
+  bashCopy code
+  deactivate
+```
