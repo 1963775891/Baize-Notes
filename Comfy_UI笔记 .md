@@ -1,4 +1,4 @@
-### 1. 快捷键
+## 1. 快捷键
 
 ```markdown
 【Ctrl+Enter】：将当前图形排队以供生成
@@ -28,7 +28,7 @@
 
 ------
 
-### 2. 基本设置
+## 2. 基本设置
 
 #### **2.1 插件**
 
@@ -49,6 +49,7 @@
 13. segment_anything(语义分割)：多词组写法 face|boby
 14. lmpact Pack
 15. ComfyUI_frontend(修复文本溢出)
+16. Comfyui-ergouzi-DGNJD(多功能节点)
 
 
 ```
@@ -67,7 +68,7 @@
 
 ------
 
-### 3. 遮罩
+## 3. 遮罩
 
 #### **3.1 手动遮罩：右键遮罩编辑器打开**
 
@@ -107,7 +108,7 @@ sam_editor_cpu = False //使用CPU代替GPU
 
 ------
 
-### 4. 语义分割/抠图
+## 4. 语义分割/抠图
 
 #### **4.1 segment_anything(语义分割)**
 
@@ -132,15 +133,81 @@ sam_editor_cpu = False //使用CPU代替GPU
 
 ------
 
-### 4. 工作流
-
+## 5. 工作流合集
 ```markdown
 文生图：Checkpoint → Lora  → CLIP  → ControlNet  → 采样器  → VAE解码  → 出图
                                                    ↑
 图生图：                               加载图像 → vae编码      
 ```
 
-------
+### 基础工作流
 
+#### 1-1 文生图
+[![文生图](./note_img/assets/1-1.jpg)](workflows/1_basic/1-1基础文生图.json)
 
+#### 1-2 图生图
+[![图生图](./note_img/assets/1-2.jpg)](workflows/1_basic/1-2基础图生图.json)
 
+#### 1-3 节点束输入 输出 编辑
+[![节点束输入输出编辑](./note_img/assets/1-3.jpg)](workflows/1_basic/1-3节点束输入输出编辑.json)
+
+#### 1-4 通配符与风格提示词
+[![通配符与风格提示词](./note_img/assets/1-4.jpg)](workflows/1_basic//1-4通配符与风格提示词.json)
+
+#### 1-5 ControlNet
+[![ControlNet](./note_img/assets/1-5.jpg)](workflows/1_basic/1-5ControlNet.json)
+
+#### 1-6 细节修复
+[![细节修复](./note_img/assets/1-6.jpg)](workflows/1_basic/1-6细节修复.json)
+
+#### 1-7 XY对比
+[![XY对比](./note_img/assets/1-7.jpg)](workflows/1_basic/1-7XY对比.json)
+
+#### 1-8 单项对比
+[![单项对比](./note_img/assets/1-8.jpg)](workflows/1_basic/1-8单项对比.json)
+
+#### 1-9 图像反推提示词
+[![图像反推提示词](./note_img/assets/1-9.jpg)](workflows/1_basic/1-9图像反推提示词.json)
+
+#### 1-10 背景去除
+[![背景去除](./note_img/assets/1-10.jpg)](workflows/1_basic/1-10背景去除.json)
+
+#### 1-11 重绘扩图
+[![重绘扩图](./note_img/assets/1-11.jpg)](workflows/1_basic/1-11重绘扩图.json)
+
+#### 1-12 噪声注入
+[![噪声注入](./note_img/assets/1-12.jpg)](workflows/1_basic/1-12噪声注入.json)
+
+#### 1-13 Stable Cascade
+[![Cascade](./note_img/assets/1-13.jpg)](workflows/1_basic/1-13StableCascade.json)
+
+#### 1-14 Stable Diffusion 3 API
+[![SD3API](./note_img/assets/1-14.jpg)](workflows/1_basic/1-14StableDiffusion3API.json)
+
+#### 1-15 CosXL图像编辑
+[![CosXL图像编辑](./note_img/assets/1-15.jpg)](workflows/1_basic/1-15CosXL图像编辑.json)
+
+### 进阶工作流
+#### 2-1 ipadapter
+![ipadapter](./note_img/assets/2-1.jpg)
+
+#### 2-2 instantID
+![instantID](./note_img/assets/2-2.jpg)
+
+#### 2-3 LayerDiffusion
+![LayerDiffusion](./note_img/assets/2-3.jpg)
+
+#### 2-4 局部重绘进阶
+![局部重绘进阶](./note_img/assets/2-4.jpg)
+
+#### 2-5 IC-Light
+![IC-Light](./note_img/assets/2-5.jpg)
+
+### 实用工作流
+
+#### 3-1 角色一致性
+##### 3-1-1 角色三视图与特写
+![角色三视图与特写](./note_img/assets/3-1-1.jpg)
+
+##### 3-1-2 电商工作流
+![](./note_img/assets/3-2-1.jpg)
