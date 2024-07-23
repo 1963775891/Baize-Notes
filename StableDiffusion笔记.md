@@ -1,5 +1,3 @@
-# WebUI
-
 ## 一、提示词技巧
 
 ### 1.1 六大提示词特征技巧
@@ -324,7 +322,7 @@ bad-hands-5,bad hands, fewer digits, extra digit
 
 ------
 
-## 二、提示词
+## 二、WebUI
 
 #### **2.1 提示词写法**
 
@@ -1769,54 +1767,6 @@ portrait of a young woman, white hair, flower hair accessory, smiling, closed ey
 -  Depth Warping & FOV(视野范围)
    FOV schedule(视野时间变化)
 ```
-
-------
-
-# ComfyUI
-
-## 一、快捷键
-
-【Ctrl + Enter】：将当前图形排队以供生成
-
-【Ctrl + Shift + Enter】：将当前图作为第一个生成队列
-
-【Ctrl + S】：保存工作流
-
-【Ctrl + O】：加载工作流程
-
-【Ctrl + A】：选择所有节点
-
-【Alt + C】：折叠/取消折叠选中的节
-
-【Ctrl + M】：禁用/启用所选节点
-
-【Ctrl + B】：绕过选定的节点(就像从图中删除了节点，重新连接了导线一样)
-
-【Delete/Backspace】：删除选中的节点
-
-【Ctrl + Delete 】：删除当前图
-
-【空格】：当按住并移动光标时，移动画布
-
-【Ctrl+鼠标左键】：将单击的节点添加到选择中（点选，框选都可以）
-
-【Shift + 拖动】：对齐网格/同时移动多个选中的节点
-
-【Ctrl + C/Ctrl + V】：复制并粘贴选中的节点(不维持与未选中节点的输出的连接)
-
-【Alt + 拖动】：复制当前选择
-
-【Ctrl + C/Ctrl + Shift + V】：复制并粘贴所选节点(维持从未选中节点的输出到粘贴节点的输入之间的连接)
-
-【Ctrl + D】：加载默认工作流
-
-【Q】：切换队列的显示已隐藏
-
-【H】：切换历史显示与隐藏
-
-【R】：刷新工作流
-
-【双击鼠标左键(LMB)】：打开节点快速搜索面板（使用英文搜索）
 
 ------
 

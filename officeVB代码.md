@@ -6,7 +6,7 @@
 > - 批量导入`VB`，将所有代码整合，后缀改为`.bas`
 
  ## 1、提取文本框内文本并按顺序插入Word
-```vb
+```vbscript
 Sub RemoveTextBoxes()
     Dim doc As Document
     Dim textBox As Shape
@@ -40,7 +40,7 @@ End Sub
 ```
 
 
-```JAVA
+```vbscript
 Sub RemoveTextBoxesAndKeepText()
     Dim shp As Shape
     Dim inlShp As InlineShape
@@ -152,7 +152,7 @@ End Sub
 
 ## 4、选中图片高度统一设为10厘米，宽度等比
 
-```vb
+```vbscript
 Sub ResizeSelectedImages()
     Dim sel As Selection
     Dim shape As InlineShape
@@ -176,7 +176,7 @@ End Sub
 
 ## 5、PPT图片转形状：可改透明度
 
-```vb
+```vbscript
 Sub ConvertPictureToShape()
     Dim slide As slide
     Dim shp As shape
@@ -216,7 +216,7 @@ End Sub
 
 ## 6、清除文本框的形状格式
 
-```vb
+```vbscript
 Sub ClearTextBoxFormatting()
     Dim shp As Shape
     Dim inlShp As InlineShape
@@ -268,7 +268,7 @@ End Sub
 
 ## 7、Word文档清理
 
-```vb
+```vbscript
 Sub CleanupDocument()
     Dim doc As Document
     Dim sec As Section
@@ -344,5 +344,41 @@ Sub CleanupDocument()
     Application.ScreenUpdating = True
     
     MsgBox "文档清理完成！", vbInformation
+End Sub
+```
+
+------
+
+## 8、Word每450字符添加下划线
+
+```vbscript
+Sub AddUnderlineEvery450Chars()
+    Dim doc As Document
+    Set doc = ActiveDocument
+    
+    Dim content As String
+    content = doc.Content.Text
+    
+    Dim result As String
+    Dim i As Long
+    Dim chunk As String
+    
+    For i = 1 To Len(content) Step 450
+        chunk = Mid(content, i, 450)
+        result = result & chunk & vbNewLine & String(Len(chunk), "_") & vbNewLine & vbNewLine
+    Next i
+    
+    doc.Content.Text = result
+    
+    ' 格式化下划线
+    With doc.Content.Find
+        .Text = String(1, "_")
+        .Replacement.Text = ""
+        .Forward = True
+        .Wrap = wdFindContinue
+        .Format = True
+        .Replacement.Font.Underline = wdUnderlineSingle
+        .Execute Replace:=wdReplaceAll
+    End With
 End Sub
 ```

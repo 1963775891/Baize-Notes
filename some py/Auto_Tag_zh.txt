@@ -1,0 +1,3432 @@
+Hyper Real,主题1超真实
+Photorealism,主题1摄影写实主义
+Fantastic Realism,主题1梦幻现实主义
+Classical Realism,主题1古典现实主义
+Contemporary Realism,主题1当代现实主义
+Surrealism,主题1超现实主义
+Non Fiction,主题1纪实文学
+Imagined,主题1想象中的
+Imagination,主题1想象力
+Fever Dream,主题1发烧梦
+Daydreampunk,主题1白日梦朋克
+Weirdcore,主题1堰芯
+Otherworldly,主题1另一个世界
+From Another Realm,主题1来自另一个王国
+Lucid,主题1清醒的
+Ethereality,主题1以太性
+Déjà vu,主题1似曾相识
+Abstraction,主题1抽象
+Fantasy,主题1幻想
+Dark Fantasy,主题1黑暗幻想
+Illusion,主题2幻觉
+Nonsense,主题2胡说
+Intangible,主题2无形的
+Visual Exaggeration,主题2视觉夸张
+Exaggeration,主题2夸张
+Retrowave,主题2逆行
+Vintage,主题2复古
+Cyberpunk,主题2赛博朋克
+Nanopunk,主题2纳米粒子
+Rusticcore,主题2Rusticcore公司
+Rollerwave,主题2滚动波形
+Pre Historic,主题2历史前期
+Historic,主题2有历史意义的
+Prehistoricore,主题2史前时期
+Atompunk,主题2原子朋克
+Jurassic,主题2侏罗纪
+Ice Age,主题2冰河时期
+Wild West,主题2狂野西部
+Modern,主题2现代的
+Modernismo,主题2现代主义
+Futuristic,主题3未来主义的
+Cassette Futurism,主题3卡带未来主义
+Retro Futurism,主题3复古未来主义
+Future Funk,主题3未来Funk
+Afrofuturist,主题3非洲尿路炎
+Extraterrestrial,主题3外星的
+Invasion,主题3武装入侵
+Sci fi,主题3科幻
+Magic,主题3魔术
+Psychic,主题3通灵的
+Decopunk,主题3装饰朋克
+Aetherpunk,主题3埃瑟朋克
+Dragoncore,主题3德拉贡科尔
+Mythpunk,主题3神话朋克
+Fairy Folk,主题3民间精灵
+Anime,主题3动漫
+Cartoon,主题3卡通
+Kawaii,主题3卡哇伊
+Horror Anime,主题3恐怖动漫
+Manga,主题3曼加
+Marvel Comics,主题4漫威漫画
+UwU,主题4UwU
+Vampirella,主题4吸血鬼
+Rococopunk,主题4洛可可朋克
+Rustic,主题4乡村的
+Raypunk,主题4射线朋克
+Postcyberpunk,主题4邮编：
+Antique,主题4古董
+Nostalgiacore,主题4怀旧
+Retro,主题4复古
+Exaggerated,主题4夸张的
+Visual Rhetoric,主题4视觉修辞
+Immaterial,主题4非物质的
+Impossible,主题4不可能的
+Fantasy Map,主题4梦幻地图
+Ethereal Fantasy,主题4以太幻想
+Lyrical Abstraction,主题4抒情抽象
+Abstract,主题4摘要
+Anemoiacore,主题4银杉属
+Ethereal,主题4空灵的
+Wonderland,主题5仙境
+Unworldly,主题5脱俗的
+Worldly,主题5尘世的
+Dreamcore,主题5Dreamcore公司
+Dreampunk,主题5梦幻朋克
+Dreamlike,主题5如梦如幻
+Imaginative,主题5富有想象力的
+Science Fiction,主题5科幻小说
+Unrealistic,主题5不切实际
+Surreal,主题5离奇的
+New Realism,主题5新现实主义
+Magic Realism,主题5魔幻现实主义
+Realism,主题5现实主义
+Photorealistic,主题5照片逼真
+Anatomical Drawing,风格1解剖图
+Caricature,风格1漫画
+Assembly Drawing,风格1装配图
+Cartographic,风格1制图
+Children’s Drawing,风格1儿童绘画
+Crosshatch,风格1交叉影线
+Doodle,风格1涂鸦
+Dot Art,风格1点艺术
+Drawing,风格1绘画
+Etch A Sketch Drawing,风格1蚀刻缩孔图
+Figure Drawing,风格1图
+Graphic Novel,风格1平面小说
+Hand Drawn,风格1手绘
+Hand Written,风格1手写
+Illuminated Manuscript,风格1照明手稿
+Illustrated Booklet,风格1插图小册子
+Illustration,风格1插图
+Line Art,风格1线条艺术
+Masterpiece,风格1杰作
+Pointillism,风格1点画主义
+Sketch,风格2素描
+Stipple,风格2点画
+Storybook Illustration,风格2故事书插图
+Visual Novel,风格2视觉小说
+Whimsical Illustration,风格2怪诞的插图
+Ballpoint Pen,风格2圆珠笔
+Blackboard,风格2黑板
+Calligraphy,风格2书法
+Chalk,风格2粉笔
+Charcoal Art,风格2木炭艺术
+Colored Pencil,风格2彩色铅笔
+Conductive Ink,风格2导电油墨
+Conte,风格2孔特
+Crayon,风格2蜡笔
+Dry Erase Marker,风格2干式擦除标记
+Flexographic Ink,风格2柔性版油墨
+Fountain Pen Art,风格2喷泉笔艺术
+Gel Pen,风格2凝胶笔
+Graphite,风格2石墨
+Grease Pen,风格2油笔
+Grease Pencil,风格3油笔
+India Ink,风格3印度油墨
+Iron Gall Ink,风格3铁胆油墨
+Ink,风格3墨水
+Marker Art,风格3标记艺术
+Pastel Art,风格3粉彩艺术
+Pencil Art,风格3铅笔艺术
+Viscosity Print,风格3粘度打印
+Wet Erase Marker,风格3湿式擦除标记
+Whiteboard,风格3白板
+Airbrush,风格3空气刷
+1980s Airbrush Art,风格320世纪80年代气刷艺术
+Ancient Roman Painting,风格3古罗马绘画
+Artwork,风格3艺术品
+Blacklight Paint,风格3黑光漆
+Brushwork,风格3刷子
+Caravaggio Painting,风格3卡拉瓦乔绘画
+Canvas,风格3帆布
+Casein Paint,风格3酪蛋白涂料
+Cave Art,风格3洞穴艺术
+Chinese Painting,风格4中国画
+Coffee Paint,风格4咖啡色油漆
+Color Field Painting,风格4色域绘画
+Detailed Painting,风格4细节涂装
+Easter Egg,风格4复活节彩蛋
+Dripping Paint,风格4滴水涂料
+Egg Decorating,风格4鸡蛋装饰
+Encaustic Painting,风格4蜡画
+Faux Painting,风格4人造画
+Fayum Portrait,风格4法尤姆肖像
+Glass Paint,风格4玻璃涂料
+Fine Art,风格4美术
+Gond Painting,风格4贡德绘画
+Gouache Paint,风格4水粉颜料
+Graffiti,风格4涂鸦
+Hard Edge Painting,风格4硬边涂漆
+Impasto,风格4Impasto公司
+Hydro Dipping,风格4水力浸渍
+Japanese Painting,风格4日本绘画
+Kalamkari Painting,风格4卡拉姆卡里绘画
+Madhubani Painting,风格5马杜巴尼绘画
+Matte Painting,风格5数字绘景
+Modern Art,风格5现代艺术
+Oil Paint,风格5油画
+Mural,风格5壁画
+Painting,风格5绘画
+Paintwork,风格5绘画作品
+Paper Marbling,风格5纸张大理石花纹
+Puffy Paint,风格5蓬松的油漆
+Phad Painting,风格5Phad绘画
+Rock Art,风格5摇滚艺术
+Romanesque Painting,风格5罗马式绘画
+Sandpainting,风格5沙画
+Scroll Painting,风格5卷轴绘画
+Speedpainting,风格5快速喷漆
+Splatter Paint,风格5飞溅油漆
+Spray ,风格5喷雾
+Stencil Graffiti,风格5模板涂鸦
+Still Life,风格5静物
+Street Art,风格5街头艺术
+Warli Painting,风格5瓦力绘画
+Tibetan Painting,风格5藏画
+Watercolor,风格5水彩
+Wet Paint,风格6湿漆
+Ukiyo e art,风格6浮世绘艺术
+watercolor painting,风格6水彩画
+ghibli style,风格6吉利风格
+vinyl figure,风格6乙烯基图案
+illustration by Beatrix potter,风格6贝娅特丽克丝·波特插图
+palette knife painting,风格6调色刀绘画
+pixar style,风格6像素样式
+cartoon style,风格6卡通风格
+die cut out sticker,风格6模切贴纸
+in Kyoto Animation style,风格6京都动画风格
+in the style of mike winkelmann,风格6以迈克·温克尔曼的风格
+in the style of rolf armstrong: fractal,风格6以罗尔夫·阿姆斯特朗的风格：分形
+painted in traditional French art style,风格6以法国传统艺术风格绘画
+Eiichiro Oda style,风格6小田荣一郎风格
+by alberto vargas and h.r. giger,风格6阿尔伯托·瓦尔加斯和h·r·吉格
+by Andrey Remnev,风格6安德烈·雷姆涅夫
+by Gustav Klimt,风格6古斯塔夫·克里姆特
+art by Atey Ghailan,风格6阿特·盖兰艺术
+Chinoiserie风格6中国风
+photo风格7照片
+Digital art风格7数字艺术
+IKEA style风格7宜家风
+Comic book风格7漫画书
+Baroque 风格7巴洛克
+Impressionism Art风格7印象派艺术
+Portrait Art Style风格7肖像艺术风格
+instructions风格7说明书
+newspaper风格7报纸
+Movie Poster风格7电影海报
+Surrealism风格7超现实主义
+Pixel Art Style风格7像素艺术风格
+Mural art风格7壁画艺术
+Art Nouveau风格7新艺术运动
+mosaic风格7马赛克
+magazine风格7杂志
+realism风格7写实主义
+3D rendering风格73D渲染
+Dark Atmosphere,氛围1黑暗的气氛
+Reflective Atmosphere,氛围1反光氛围
+Enchanting Atmosphere,氛围1迷人的气氛
+Mystical Atmosphere,氛围1神秘的气氛
+Whimsical Atmosphere,氛围1异想天开的气氛
+Enigmatic Atmosphere,氛围1空灵的气氛
+Tranquil Atmosphere,氛围1宁静的氛围
+Relaxing Atmosphere,氛围1放松的氛围
+Blissful Atmosphere,氛围1幸福的氛围
+Moody Atmosphere,氛围1喜怒无常的气氛
+Intense Atmosphere,氛围1紧张的气氛
+Nostalgic Atmosphere,氛围1怀旧的气氛
+Industrial Atmosphere,氛围1工业氛围
+Gothic Atmosphere,氛围1哥特氛围
+Light Atmosphere,氛围1光亮氛围
+Hazy Atmosphere,氛围1朦胧氛围
+Dreamy Atmosphere,氛围1梦幻氛围
+Playful Atmosphere,氛围1俏皮氛围
+Mysterious Atmosphere,氛围1诡秘的气氛
+Mellow Atmosphere,氛围1柔和的气氛
+Calm Atmosphere,氛围2平静的气氛
+Mystical Atmosphere,氛围2和平的氛围
+Sophisticated Atmosphere,氛围2复杂的氛围
+Zen Atmosphere,氛围2禅意氛围
+Chill Atmosphere, ,氛围2寒冷的氛围
+Melancholic Atmosphere,氛围2犹豫的氛围
+Festive Atmosphere,氛围2节日氛围
+Rustic Atmosphere,氛围2乡村的气氛
+Romantic Atmosphere,氛围2浪漫的氛围
+lens flare,灯光1透镜光斑
+backlighting,灯光1背光
+sparkle,灯光1闪烁
+bokeh,灯光1散焦
+caustics,灯光1焦散
+chiaroscuro,灯光1明暗对照
+anaglyph,灯光1浮雕
+cinematic lighting,灯光1电影照明
+ray tracing,灯光1射线追踪
+god rays,灯光1神射线
+glowing,灯光1发光的
+violet,灯光1紫罗兰
+neon,灯光1霓虹的
+indigo,灯光1靛蓝
+yellow,灯光1黄的
+blue,灯光1蓝色
+reflection,灯光1反射
+studio lighting,灯光2工作室照明
+film lighting,灯光2电影照明
+beautiful lighting,灯光2美丽的灯光
+Soft illumination,灯光2柔和照明
+dramatic lighting,灯光2戏剧性的照明
+Volumetric lighting,灯光2体积光
+mood lighting,灯光2氛围光
+rim lights,灯光2轮廓照明
+Back lighting,灯光2背光
+Split Lighting,灯光2高对比侧光
+Rembrandt Lighting,灯光245°侧光
+bioluminescence,灯光2生物发光
+Crepuscular Ray,灯光2上帝光
+rays of shimmering light,灯光2微光
+David Chipperfield,导演1大卫·奇普菲尔德
+Norman Foster,导演1诺曼·福斯特
+Antoni Gaudi,导演1安东尼·高迪
+Michael Graves,导演1格雷夫斯
+Zaha Hadid,导演1扎哈·哈迪德
+Victor Horta,导演1维克多·奥尔塔
+Toyo Ito,导演1伊藤丰雄
+Rem Koolhaas,导演1雷姆·库哈斯
+Daniel Libeskind,导演1丹尼尔·利伯斯金
+Richard Meier,导演1理查德·迈耶
+Jean Nouvel,导演1让·努维尔
+Renzo Piano,导演1伦佐·皮亚诺
+Eero Saarinen,导演1埃罗·萨里宁
+Harry Seidler,导演1哈里·塞德勒
+Paolo Soleri,导演1保罗·索莱里
+James Stirling,导演1斯特林
+Kenzo Tange,导演1丹戈贤三
+Robert Venturi,导演1罗伯特·文丘里
+Peter Zumthor,导演1卒姆托
+Frank Lloyd Wright,导演1弗兰克·劳埃德·赖特
+Tadao Ando,导演2安藤忠雄
+Alejandro Aravena,导演2亚历桑德罗·阿拉维那
+Ricardo Bofill,导演2里卡多·博菲尔
+Vincent Callebaut,导演2文森特·卡勒鲍
+Le Corbusier,导演2勒·柯布西耶
+Buckminster Fuller,导演2富勒
+Frank Gehry,导演2弗兰克·盖里
+Walter Gropius,导演2沃尔特·格罗皮乌斯
+Steven Holld,导演2史蒂文·霍尔德
+Bjarke Ingels,导演2英格尔斯
+Philip Johnson,导演2菲利普·约翰逊
+Kengo Kuma,导演2隈研吾先生
+Adolf Loos,导演2阿道夫·洛斯
+Oscar Niemeyer,导演2奥斯卡·尼迈耶
+Valerio Olgiati,导演2瓦莱里奥·奥尔贾蒂
+Richard Rogers,导演2理查德罗杰斯
+Moshe Safdie,导演2摩西·萨夫迪
+Alvaro Siza,导演2阿尔瓦罗·西扎
+Ettore Sottsass,导演2埃塔·索特萨斯
+Louis Sullivan,导演2路易斯·沙利文
+Woody Allen,建筑师1伍迪·艾伦
+Wes Anderson,建筑师1韦斯·安德森
+Dario Argento,建筑师1达里奥·阿根托
+Mario Bava,建筑师1马力欧·巴瓦
+Luc Besson,建筑师1吕克·贝松
+Bong Joon Ho,建筑师1奉俊昊
+Charlie Chaplin,建筑师1查理·卓别林
+The Coen Brothers,建筑师1科恩兄弟
+Xavier Dolan,建筑师1泽维尔·多兰
+Clint Eastwood,建筑师1克林特·伊斯特伍德
+Federico Fellini,建筑师1费德里科·费里尼
+John Ford,建筑师1约翰·福特
+Terry Gilliam,建筑师1特里·吉列姆
+Michel Gondry,建筑师1米歇尔·冈瑞
+Alfred Hitchcock,建筑师1阿尔弗雷德·希区柯克
+Alejandro Jodorowsky,建筑师1亚历桑德罗·尤杜洛斯基
+Stanley Kubrick,建筑师1寇比力克
+Spike Jonze's workThe p,建筑师1斯派克·琼斯的作品
+Akira Kurosawa,建筑师1黑泽明
+Spike Lee,建筑师1斯派克·李
+George Lucas,建筑师2乔治·卢卡斯
+Terrence Malick,建筑师2泰伦斯·马力克
+Takashi Miike,建筑师2三池隆史
+Rachel Morrison,建筑师2雷切尔·莫里森
+Christopher Nolan,建筑师2克里斯托弗·诺兰
+Ray Harryhausen,建筑师2雷·哈里豪森
+Roman Polanski,建筑师2罗曼·波兰斯基
+Guy Ritchie,建筑师2盖·里奇
+Ridley Scott,建筑师2雷德利·斯科特
+Steven Spielberg,建筑师2史蒂文·斯皮尔伯格
+Quentin Tarantino,建筑师2昆汀·塔伦蒂诺
+Santosh Sivan,建筑师2萨多 思万
+Paul Verhoeven,建筑师2保罗·范霍文
+Ed Wood,建筑师2艾德·伍德
+Karel Zeman,建筑师2卡雷尔·泽曼
+Guillermo del Toro,建筑师2吉列尔莫·德尔·托罗
+Bradford Young,建筑师2布拉福德·杨
+Denis Villeneuve,建筑师2丹尼斯·维伦纽瓦
+Johnnie To,建筑师2杜琪峰
+Jan Svankmajer,建筑师2史云梅耶
+Zack Snyder,建筑师3扎克·斯奈德
+Martin Scorsese,建筑师3马丁·斯科塞斯
+Tony Scott,建筑师3托尼·斯科特
+Park Chan Wook,建筑师3朴赞郁
+Emeric Pressburger,建筑师3普雷斯伯格
+Sergei Parajanov,建筑师3谢尔盖·帕拉杰诺夫
+F.W.Murnau,建筑师3F.W.Murnau公司
+George Miller,建筑师3乔治·米勒
+Russ Meyer,建筑师3鲁斯·梅耶
+David Lynch,建筑师3大卫·林奇
+Sergio Leone,建筑师3莱昂内
+Kim Ki Duk,建筑师3金基杜克
+Fritz Lang,建筑师3弗里茨·朗
+Wong Kar wai,建筑师3王家卫
+Takeshi Kitano,建筑师3北野武
+Peter Jackson,建筑师3彼得·杰克逊
+Jim Henson,建筑师3吉姆·亨森
+Jean Luc Godard,建筑师3高达
+Francis Ford Coppola,建筑师3弗朗西斯·福特·科波拉
+David Fincher,建筑师3大卫·芬奇
+Sergei Eisenstein,建筑师4爱森斯坦
+Carl Theodor Dreyer,建筑师4卡尔·西奥多·德莱叶
+Brian De Palma,建筑师4布莱恩·德·帕尔玛
+Jean Cocteau,建筑师4让·科克托
+John Cassavetes,建筑师4约翰·卡索维茨
+James Bidgood,建筑师4詹姆斯·比德古德
+Ingmar Bergman,建筑师4英格玛·伯格曼
+Darren Aronofsky,建筑师4达伦·阿罗诺夫斯基
+Paul Thomas Anderson,建筑师4保罗·托马斯·安德森
+Pedro Almodovar,建筑师4阿莫多瓦
+wide angle,镜头1广角
+depth of field blur,镜头1景深模糊
+depth of field,镜头1景深
+macro lens,镜头1微距透镜
+fisheye lens,镜头1鱼眼透镜
+85mm long lens,镜头185mm长透镜
+close up portrait,镜头1特写肖像
+24mm wide angle lens,镜头124mm广角镜头
+wide angle portrait,镜头1广角人像
+70mm telephoto lens,镜头170mm长焦镜头
+face close up,镜头1面部特写
+14mm wide angle lens,镜头114mm广角镜头
+panoramic landscape,镜头1全景景观
+far close up,镜头1远特写
+vignette,镜头1小插曲
+high defintion,镜头1高清晰度
+half face close up,镜头1半脸特写
+gopro view,镜头1gopro视图
+ultra wide angle,镜头1超广角
+aerial view,镜头1鸟瞰图1
+ultra wide angle,镜头2超广角
+birds eye view,镜头2鸟瞰图2
+low angle shot,镜头2低角度镜头
+reference sheet,镜头2参考资料表
+focus sharp,镜头2聚焦
+full body,镜头2全身
+Detail Shot(ECU),镜头2细节特写
+Face Shot (VCU),镜头2脸部特写
+Big Close Up(BCU),镜头2特写（头部以上）
+Close Up(CU),镜头2特写（颈部以上）
+Chest Shot(MCU),镜头2特写（胸部以上）
+Waist Shot(WS),镜头2特写（腰部以上）
+first person view,镜头2第一人称视角
+A bird's eye view,镜头2鸟瞰图
+Top view,镜头2俯视图
+Bottom view,镜头2仰视图
+cinematic shot,镜头2电影镜头
+extreme long shot,镜头2大远景
+long shot,镜头2远镜头
+Mid shot,镜头2中镜头
+extreme close up,镜头3极端特写
+medium close up,镜头3中等特写
+close up,镜头3特写
+scenery shot,镜头3风景拍摄
+satellite view,镜头3卫星视图
+DSLR,镜头3DSLR
+360 panorama,镜头3360全景
+telephoto lens,镜头3长焦镜头
+telephoto lens,镜头3长焦镜头
+super wide angle,镜头3超广角
+tilt shift,镜头3移轴摄影
+depth of field (dof),镜头3景深
+microscopic view,镜头3微观视图
+super resolution microscopy,镜头3超分辨率显微镜
+wind,魔法风
+water magic,魔法水魔法
+ink,魔法墨水
+crystals,魔法晶体
+fire,魔法火
+ice,魔法冰
+flame,魔法火焰
+lightning,魔法闪电
+web,魔法网状物
+rocks,魔法岩石
+sand,魔法沙
+particles,魔法粒子
+sparkles,魔法闪光
+blood,魔法血
+Paper Model,材质1纸张模型
+Laser Cut,材质1激光切割
+Agateware,材质1玛瑙瓦
+Arts and Crafts,材质1工艺美术
+Ancient Roman Mosaic,材质1古罗马马赛克
+Ice Carving,材质1冰雕
+Chinese Paper Art,材质1中国纸艺
+Aquatint,材质1浅绿色
+Assemblage ,材质1装配
+Banner,材质1横幅
+Azulejo,材质1阿祖列霍
+Beads and String,材质1珠子和绳子
+Beadwork,材质1珠饰
+Bejeweled,材质1镶有珠宝
+Bentwood,材质1边材
+Bone China,材质1骨瓷
+Cameo Glass,材质1喀麦隆玻璃
+Card,材质1卡片
+Carpentry,材质1木工
+Carving,材质1雕刻
+Chintzware,材质2棉布制品
+Chip Carving,材质2芯片雕刻
+Circuit,材质2环行
+Coffee Stain,材质2咖啡污渍
+Computer Chip,材质2计算机芯片
+Confetti ,材质2五彩纸屑
+Decal,材质2贴花
+Decoupage,材质2拆卸
+Diorama,材质2透视图
+Drypoint,材质2干燥点
+Egyptian Faience,材质2埃及信仰
+Enamel Pin,材质2搪瓷针
+Enameled Glass,材质2搪瓷玻璃
+Encaustic Tile,材质2蜡染瓷砖
+Engraved Gem,材质2雕刻的宝石
+Etching,材质2蚀刻
+Featherwork,材质2羽毛作品
+Figurine,材质2小雕像
+Frame,材质2框架
+Fretwork,材质2Freetwork公司
+Glass Mosaic,材质3玻璃马赛克
+Glass Blowing,材质3玻璃吹制
+Glass Etching,材质3玻璃蚀刻
+Glaze,材质3釉
+Hatmaking,材质3制帽
+Hardstone Carving,材质3硬质石雕刻
+Hedge Trimming,材质3树篱修剪
+Installation Art,材质3装置艺术
+Intarsia,材质3Intarsia公司
+Intaglio,材质3凹版印刷术
+Iris Folding,材质3虹膜折叠
+Ironwork,材质3铁制品
+Lacquer,材质3油漆
+Kirigami,材质3基里加米
+Land Art,材质3大地艺术
+Lath Art,材质3Lath艺术
+Leather Crafting,材质3皮革工艺
+Latte Art,材质3拉花
+Light Painting,材质3灯光绘画
+Linocut,材质3林诺库特
+Lithophane,材质4石斑菌属
+Lustreware,材质4Lustreware公司
+Marquetry,材质4马奎特里
+Metalcut,材质4Metalcut公司
+Micromosaic,材质4微卫星
+Mezzotint,材质4Mezzotin公司
+Minoan Mural,材质4米诺斯壁画
+Model,材质4模型
+Mosaic,材质4马赛克
+Origami,材质4折纸
+Overglaze,材质4上釉
+Ornament,材质4装饰品
+Papercutting,材质4剪纸
+Paper Mache,材质4造纸机
+Paper Colle,材质4纸夹
+Photo collage,材质4照片拼贴
+Pietra Dura,材质4彼得拉·杜拉
+Photo gravure,材质4照相凹版
+Projection Mapping,材质4投影映射
+Puppet,材质4木偶
+Pyrography,材质5高温照相术
+Relief Carving,材质5浮雕
+Salt Glaze Pottery,材质5盐釉陶器
+Resin,材质5树脂
+Scrapbooking,材质5相本美编
+Scrimshaw,材质5斯克林肖
+Sgraffito,材质5斯格拉菲托
+Sculpture,材质5雕塑
+Signage,材质5标志
+Site Specific art,材质5现场特定艺术
+Smoke Art,材质5烟雾艺术
+Stencil,材质5模板
+Stoneware,材质5石器
+Sticker Bomb,材质5贴纸炸弹
+String Art,材质5弦乐艺术
+Tableware,材质5餐具
+Tapestry,材质5壁毯
+Tattoo,材质5纹身
+Tie dye,材质5扎染
+Tin Glazed Pottery,材质5锡釉陶器
+Whittling,材质6惠特林
+Underglaze,材质6釉下
+Woodblock Print,材质6木版印刷
+Wood Carving,材质6木雕
+Woodcut,材质6木刻
+3D Printed,材质63D打印
+Bagh Print,材质6Bagh印花
+Barcode,材质6条形码
+Blueprint,材质6蓝图
+Business Card,材质6名片
+Concept Art,材质6概念艺术
+Edge To Edge Photographic Print,材质6边对边摄影打印
+IKEA Guide,材质6宜家指南
+Instruction Manual,材质6使用说明书
+Laser Printed,材质6激光打印
+Logo,材质6标志
+Monotype,材质6单体型
+Newspaper,材质6报纸
+Pop up Book,材质6弹出式书本
+Poster,材质6招贴画
+QR Code,材质7二维码
+Sticker,材质7贴纸
+Transfer Printing,材质7转移打印
+Watermark,材质7水印
+Album Art,材质7相册艺术
+Bagru Print,材质7巴格鲁印花
+Block Printing,材质7雕版印刷
+Booklet,材质7小册子
+Comic Book,材质7连环漫画杂志
+Concert Poster,材质7上的海报
+Flexography,材质7柔性版印刷术
+Inkjet Printed,材质7喷墨打印
+Kids Book,材质7儿童读物
+Lithography,材质7石版印刷术
+Magazine,材质7杂志
+Movie Poster,材质7电影海报
+Pokemon Card,材质7口袋妖怪卡
+Postage Stamp,材质7邮票
+Printed,材质7已打印
+Risograph,材质7升程记录仪
+Tarot Card,材质8塔罗牌
+Underground Comix,材质8地下漫画
+beach waves hair,发型1沙滩波浪发
+blowout hair,发型1蓬松的头发
+braided hairstyle,发型1辫子发型
+bun hair,发型1发髻
+crimped hair,发型1卷曲的头发
+drill hair,发型1钻头毛
+dutch braid,发型1荷兰编织物
+fishtail braid,发型1鱼尾辫
+fringe hair,发型1流苏
+hair flaps,发型1发片
+half up half down hairstyle,发型1半上半下发型
+layered hair,发型1分层头发
+lob hair,发型1lob毛
+long hair,发型1长发
+medium hair,发型1中等头发
+messy hair,发型1头发乱了
+ponytail,发型1马尾
+prom hairstyle,发型1舞会发型
+quiff hair,发型1蓬松的头发
+razor cut hair,发型1剃光的头发
+ringlets hair,发型2卷发
+shag hair,发型2蓬松的头发
+shaggy hair,发型2蓬松的头发
+short hair,发型2短发
+sleek hair,发型2光滑的头发
+straight hair,发型2直发
+textured hair,发型2有纹理的头发
+twin drills hair,发型2双钻头头发
+updo hairstyle,发型2高髻发型
+waterfall braid,发型2瀑布辫
+wavy hair,发型2波浪形头发
+wedge cut hair,发型2楔形头发
+clean shaven,发型2剃得干干净净的
+comb over,发型2梳齿
+drop fade,发型2渐变色
+fade,发型2褪色
+fade with beard,发型2胡须褪色
+fade with goatee,发型2山羊胡子褪色
+fade with mustache,发型2留胡子褪色
+fade with sideburns,发型2鬓角渐变
+french crop,发型3法国作物
+goatee,发型3山羊胡子
+high fade,发型3高衰减
+layer cut,发型3分层切割
+long beard,发型3大胡子
+long hair,发型3长发
+long mustache,发型3长胡子
+low fade,发型3低衰减
+medium hair,发型3中等头发
+mid fade,发型3渐变中期
+mustache,发型3胡子
+mutton chops,发型3羊排
+pompadour,发型3蓬帕杜
+quiff,发型3小曲
+razor cut,发型3剃刀式切割
+scissor cut,发型3割切
+shaggy hair,发型3蓬松的头发
+shaved head,发型3剃光头
+short back and sides,发型3短背和短边
+short beard,发型3短胡子
+short hair,发型4短发
+short mustache,发型4短胡子
+side part,发型4侧面部分
+side swept fringe,发型4侧扫条纹
+sideburns,发型4鬓角
+slick back,发型4光滑的背部
+spiky hair,发型4尖尖的头发
+straight hair,发型4直发
+taper fade,发型4渐变
+temp fade,发型4温度衰减
+textured crop,发型4纹理作物
+textured fringe,发型4纹理条纹
+thick beard,发型4浓密的胡须
+thin beard,发型4薄须
+long hair,发型4长发
+short hair,发型4短发
+bangs,发型4刘海
+blonde hair,发型4金发
+brown hair,发型4茶发
+black hair,发型4黑发
+hair between eyes,发型5眼间刘海
+twintails,发型5双马尾
+very long hair,发型5很长的头发
+blue hair,发型5蓝发/水色发
+ponytail,发型5马尾
+purple hair,发型5紫发
+pink hair,发型5粉发
+braid,发型5辫子
+ahoge,发型5呆毛
+white hair,发型5白发
+sidelocks,发型5耳前发
+red hair,发型5红发
+grey hair,发型5灰发
+multicolored hair,发型5多彩头发
+green hair,发型5绿发
+blunt bangs,发型5齐刘海
+medium hair,发型5中等长发
+silver hair,发型5银发
+hair bun,发型5团子头
+hair over one eye,发型5头发遮住了一只眼睛
+twin braids,发型6双辫子
+shiny hair,发型6有光泽的头发
+side ponytail,发型6侧马尾
+two side up,发型6小型双股辫
+streaked hair,发型6条染
+parted bangs,发型6分开的刘海
+single braid,发型6单辫
+double bun,发型6双团子头
+gradient hair,发型6渐变发色
+floating hair,发型6漂浮的头发
+swept bangs,发型6扫浏海
+low twintails,发型6低扎双尾
+one side up,发型6只扎了一边的头发
+wavy hair,发型6自然卷
+drill hair,发型6钻头卷/公主卷
+hair intakes,发型6进气口发型
+light brown hair,发型6浅褐发
+bob cut,发型6波波头
+antenna hair,发型6多根呆毛
+high ponytail,发型6披在两侧的两条辫子
+short twintails,发型7短双马尾
+spiked hair,发型7刺刺的头发
+messy hair,发型7凌乱发型
+straight hair,发型7直发
+hair flaps,发型7在摆动的头发
+hair over shoulder,发型7披肩发
+twin drills,发型7双钻头卷
+side braid,发型7侧辫
+french braid,发型7法式辫
+low ponytail,发型7低扎马尾
+low tied long hair,发型7直发
+hair rings,发型7发圈
+half updo,发型7侧发后梳
+short ponytail,发型7短马尾
+curly hair,发型7卷发
+asymmetrical hair,发型7非对称发型 发型有显著的非对称部件
+tied hair,发型7扎头发
+folded ponytail,发型7折叠马尾
+braided ponytail,发型7编织马尾辫
+tentacle hair,发型7触手头发
+crossed bangs,发型8交错刘海
+colored inner hair,发型8内侧染色
+hime cut,发型8姬发式
+asymmetrical bangs,发型8不对称刘海
+flipped hair,发型8外卷发型
+absurdly long hair,发型8超长的头发
+light blue hair,发型8浅蓝发
+hair over eyes,发型8头发遮着双眼
+hair behind ear,发型8耳后发
+crown braid,发型8冠型织辫
+wet hair,发型8湿头发
+cone hair bun,发型8锥形发髻
+bald,发型8秃头
+very short hair,发型8很短的头发
+undercut,发型8帽盔式发型
+big hair,发型8头发很多的
+front ponytail,发型8前马尾
+hair slicked back,发型8垂下的长鬈发
+huge ahoge,发型8大呆毛
+pointy hair,发型8带着尖角的发型
+hair pulled back,发型9头发后梳
+braided bun,发型9辫子髻
+long braid,发型9侧马尾
+topknot,发型9丸子头
+braided bangs,发型9辫子刘海
+heart ahoge,发型9心形呆毛
+side braids,发型9披在两侧的两条辫子
+ringlets,发型9垂下的长鬈发
+dark blue hair,发型9深蓝发
+pompadour,发型9蓬帕杜发型
+hair strand,发型9强调一缕一缕感的发型/发丝
+multi tied hair,发型9多扎头发
+single sidelock,发型9单耳前发
+quad tails,发型9四马尾
+bangs pinned back,发型9掀起的刘海
+diagonal bangs,发型9斜刘海
+mohawk,发型9莫霍克发型
+hair spread out,发型9散发
+tri tails,发型9有三股辫子
+dreadlocks,发型9脏辫
+single hair intake,发型10单侧进气口发型
+afro,发型10鸟窝头/爆炸头
+bow shaped hair,发型10弓形头发
+low twin braids,发型10低双辫
+hair in mouth,发型10嘴里有头发
+buzz cut,发型10寸头
+bowl cut,发型10锅盖头
+expressive hair,发型10富有表现力的头发
+doughnut hair bun,发型10圆环发髻
+crystal hair,发型10水晶状的头发
+hair ears,发型10耳状头发
+split ponytail,发型10尾部散开的单马尾发型
+multiple braids,发型10多股(麻花)辫
+single hair ring,发型10单发圈
+rainbow hair,发型10彩虹发
+side drill,发型10单侧钻头卷
+curtained hair,发型10窗帘/瀑布发型
+uneven twintails,发型10两股辫子大小不一
+flattop,发型10平顶
+tri braids,发型10三股辫
+widow's peak,发型11美人尖
+low braided long hair,发型11低辫长发
+quad drills,发型11多钻头卷
+mullet,发型11鲻鱼头
+pixie cut,发型11精灵头
+cornrows,发型11玉米垄发型
+nihongami,发型11日本发
+quad braids,发型11四股辫
+beehive hairdo,发型11蜂窝头
+heart hair bun,发型11心形发髻
+hair scarf,发型11头发围巾
+bald girl,发型11秃头女孩
+quiff,发型11蓬松感油头
+lone nape hair,发型11孤颈毛
+front braid,发型11前辫
+crew cut,发型11平头/板寸头
+cloud hair,发型11云絮状发型
+mizura,发型11角发
+shouten pegasus mix mori,发型11昇天ペガサスMIX盛り
+comb over,发型11遮盖头发稀少部分
+chonmage,发型12丁髷
+triple bun,发型12三发髻
+huge afro,发型12超大鸟窝头
+quin tails,发型12有五股辫子
+hair bikini,发型12头发比基尼 超长的头发遮盖了敏感部位
+side swept bangs,发型12朝一个方向的刘海
+hair one side up,发型12一侧绑发
+hair two side up,发型12双侧绑发
+side bun,发型12披在两侧的发髻
+okappa,发型12河童头
+auburn,颜色1赤褐色
+blonde,颜色1金发女郎
+brown,颜色1棕色的
+chestnut,颜色1栗树
+copper,颜色1铜
+dark blonde,颜色1深色金发
+dark brown,颜色1深棕色
+dark red,颜色1暗红色
+gray,颜色1灰色
+light blonde,颜色1浅金色
+light brown,颜色1浅棕色
+medium blonde,颜色1中等金发
+medium brown,颜色1中等棕色
+natural blonde,颜色1天生的金发
+platinum blonde,颜色1白金色
+silver,颜色1银
+ginger,颜色1姜黄
+Unreal engine,渲染器1虚幻引擎
+Rendered in octane,渲染器1以octane渲染
+Corona Render,渲染器1Corona渲染
+V Ray,渲染器1V Ray
+UE5,渲染器1UE5
+UE4,渲染器1UE4
+octane render,渲染器1octane渲染
+architectural visualisation/Architectural rendering,渲染器1建筑渲染
+Quixel Megascans Render,渲染器1真实感渲染
+best quality,正向1最佳品质
+Amazing,正向1令人震惊
+masterpiece,正向1杰作
+delicate,正向1精致
+ultra high res,正向1超高分辨率
+ultra detailed,正向1超详细
+highly detailed,正向1高度详细
+intricate detail,正向1复杂的细节
+beautiful detailed,正向1美丽的细节
+finely detailed,正向1精细的细节
+8K,正向18K
+8k resolution,正向18K分辨率
+professional lighting,正向1专业照明
+physically based rendering,正向1基于物理的渲染
+cool,正向1炫酷
+good balance,正向1平衡性好
+Camcorder Effect,正向1摄像机的效果
+symmetrical face,正向1对称的脸
+((no text)),正向1无文本
+(rim lighting),正向1边缘照明
+professional photography,正向2专业摄影
+sharp focus,正向2锐利的焦点
+(extremely detailed CG unity 8k wallpaper),正向28KUCG壁纸
+photo realistic,正向2逼真照片
+realistic model,正向2逼真的模型
+photorealistic,正向2写实1.4
+Realistic art,正向2写实艺术
+RAW photo,正向2原始照片1.4
+HDR,正向2HDR
+low quality,反向1低质量
+worst quality,反向1最差质量
+lowers,反向1降低
+lowres,反向1低分辨率
+blurry,反向1模糊
+out of focus,反向1失焦
+error,反向1错误
+easynegative,反向1易负
+signature,反向1签名
+artist name,反向1艺术家姓名
+watermark,反向1水印
+backlight:2,反向1背光
+wood,反向1木材
+wood texture,反向1木材纹理
+watermark logo,反向1水印,徽标
+bad anatomy,反向1身体结构错误
+bad proportions,反向1比例不良
+grayscale,反向1灰度
+monochrome,反向1单色
+extra ears,反向1多耳朵
+fewer fingers,反向2少手指
+extra fingers,反向2多手指
+missing fingers,反向2手指缺失
+mutated hands,反向2变异的手
+extra hands,反向2额外的手
+fused fingers,反向2融合的手
+poorly drawn hands,反向2画的不好的手
+poorly drawn face,反向2画的不好的脸
+poorly drawn eyes,反向2画的不好的眼睛
+extra legs,反向2额外的腿
+extra arms,反向2额外的手臂
+extra limbs,反向2额外的四肢
+malformed limbs,反向2畸形的四肢
+malformed hands,反向2畸形的手
+ugly face,反向2丑陋的脸
+ugly,反向2丑陋
+bad hands,反向2坏手
+bad legs,反向2坏腿
+bad knees,反向2坏膝盖
+bad neck,反向2坏脖子
+skin spot,反向3皮肤斑
+age spot,反向3老年斑
+acnes,反向3痤疮
+teeth,反向3牙齿
+cross eyed,反向3斗鸡眼
+skin blemishes,反向3皮肤瑕疵
+freckle,反向3雀斑
+mutation,反向3突变
+deformed,反向3变形
+duplicate,反向3重复
+morbid,反向3病态
+mutilated,反向3残缺
+tranny,反向3变性
+disfigured,反向3毁容
+unclear eyes,反向3眼睛不清楚
+bad body,反向3不好的身体
+missing limb,反向3肢体缺失
+extra limb,反向3额外的肢体
+floating limbs,反向3漂浮的肢体
+disconnected limbs,反向3四肢断开
+long neck,反向4长脖子
+long body,反向4长身体
+multiple shoulders,反向4多肩膀
+feet out of view,反向4脚在视线外
+head out of view,反向4头在视线外
+uncensored,反向4未经审查
+nude,反向4裸体
+nude, naked,反向4裸体
+topless,反向4裸照
+nsfw,反向4不适合上班浏览
+dress,衣服1连衣裙
+underwear,衣服1内衣
+school uniform,衣服1学校制服
+swimsuit,衣服1泳装
+bikini,衣服1比基尼
+frills,衣服1皱边
+japanese clothes,衣服1和服
+serafuku,衣服1水手服
+striped,衣服1横条花纹
+kimono,衣服1和服
+white dress,衣服1白色连衣裙
+uniform,衣服1制服
+black dress,衣服1黑连衣裙
+leotard,衣服1體操服
+see through,衣服1透明装
+torn clothes,衣服1破烂衣服
+one piece swimsuit,衣服1一体式泳衣
+bodysuit,衣服1紧身衣
+military uniform,衣服1军服
+sleeveless dress,衣服1无袖连衣裙
+blue dress,衣服2蓝连衣裙
+plaid skirt,衣服2格子呢短裙
+chinese clothes,衣服2中国服饰(极大概率是旗袍)
+obi,衣服2衣带(和服用)
+short dress,衣服2短裙
+formal,衣服2正装
+red dress,衣服2红连衣裙
+school swimsuit,衣服2学校泳衣
+lingerie,衣服2女用贴身内衣裤
+frilled dress,衣服2花边连衣裙
+polka dot,衣服2点状花纹
+suit,衣服2西装
+pink dress,衣服2粉连衣裙
+waist apron,衣服2腰围裙
+china dress,衣服2旗袍
+lace,衣服2蕾丝
+strapless dress,衣服2无肩带连衣裙
+corset,衣服2紧身褡
+micro bikini,衣服2迷你比基尼
+purple dress,衣服2紫连衣裙
+side slit,衣服3侧开叉
+highleg leotard,衣服3高开衩的连身衣
+pencil skirt,衣服3短铅笔裙
+sailor dress,衣服3水手服款裙子
+santa costume,衣服3圣诞老人服装
+gym uniform,衣服3运动服
+lolita fashion,衣服3洛丽塔风格
+green dress,衣服3绿色连衣裙
+competition swimsuit,衣服3赛用泳衣
+yukata,衣服3浴衣
+pajamas,衣服3睡衣
+wedding dress,衣服3婚纱
+backless outfit,衣服3露背装
+off shoulder dress,衣服3露肩连衣裙
+long dress,衣服3长裙
+bandeau,衣服3抹胸比基尼
+microskirt,衣服3超短裙
+collared dress,衣服3有领连衣裙
+armored dress,衣服3战甲裙
+suspender skirt,衣服3吊带裙
+sundress,衣服4太阳裙/背心裙
+pinafore dress,衣服4背心裙/无袖连衣裙
+bikini under clothes,衣服4比基尼当内衣
+brown dress,衣服4棕色连衣裙
+pleated dress,衣服4百褶连衣裙
+grey dress,衣服4灰色连衣裙
+bikini skirt,衣服4比基尼裙
+highleg bikini,衣服4高开衩的比基尼
+layered dress,衣服4分层连衣裙
+short kimono,衣服4短下摆和服
+layered skirt,衣服4分层式半身裙
+yellow dress,衣服4黄色连衣裙
+open kimono,衣服4敞开的和服
+backless dress,衣服4露背连衣裙
+slingshot swimsuit,衣服4弹弓泳衣/吊带泳衣/V字泳衣
+striped dress,衣服4条纹连衣裙
+bikini armor,衣服4比基尼盔甲
+babydoll,衣服4透明睡衣
+two tone dress,衣服4双色连衣裙
+sweater dress,衣服4毛衣连衣裙
+casual one piece swimsuit,衣服5连体泳衣
+untied bikini,衣服5解开的比基尼
+sailor senshi uniform,衣服5美少女战士制服
+latex,衣服5胶衣
+multi strapped bikini,衣服5细带款比基尼
+multicolored dress,衣服5多色连衣裙
+nightgown,衣服5睡衣
+police uniform,衣服5警服
+competition school swimsuit,衣服5竞泳死库水
+dougi,衣服5武道服
+thong bikini,衣服5丁字式比基尼
+halter dress,衣服5绕颈裙/衬衣式连衣裙/露背吊带裙
+lowleg bikini,衣服5低腰比基尼
+fur trimmed dress,衣服5毛边连衣裙
+sailor,衣服5水手服
+business suit,衣服5职场制服
+torn dress,衣服5撕破的连衣裙
+orange dress,衣服5橙色连衣裙
+bikini lift,衣服5往上剥开的比基尼
+strapless bikini,衣服5无肩带比基尼
+print dress,衣服6印花裙子
+maid bikini,衣服6女仆比基尼
+meiji schoolgirl uniform,衣服6明治年间女学生制服
+kindergarten uniform,衣服6幼儿园制服
+gothic,衣服6哥特风格
+reverse bunnysuit,衣服6逆兔女郎
+plaid dress,衣服6格子连衣裙
+sailor bikini,衣服6水手服款比基尼
+layered bikini,衣服6分层比基尼
+letterman jacket,衣服6棒球服
+vertical striped dress,衣服6垂直条纹连衣裙
+bodysuit under clothes,衣服6紧身衣裤
+ribbed dress,衣服6罗纹连衣裙
+negligee,衣服6晨衣
+eyepatch bikini,衣服6眼罩比基尼
+evening gown,衣服6晚会礼服
+bow bikini,衣服6带蝴蝶结的比基尼
+lace trimmed dress,衣服6蕾丝连衣裙
+clothes down,衣服6褪下衣物
+gown,衣服6女裙/女长服/女礼服
+impossible bodysuit,衣服7人体彩绘般的紧身衣
+harem outfit,衣服7舞娘服
+sports bikini,衣服7运动比基尼
+hanfu,衣服7汉服
+volleyball uniform,衣服7排球服
+aqua dress,衣服7水色连衣裙
+impossible dress,衣服7不切实际的连衣裙
+straitjacket,衣服7拘束服
+see through dress,衣服7透明连衣裙
+baseball uniform,衣服7棒球服
+polka dot dress,衣服7圆点花纹连衣裙
+biker clothes,衣服7自行车运动服
+pencil dress,衣服7铅笔裙
+bondage outfit,衣服7束缚服
+taut dress,衣服7绷紧的连衣裙
+santa dress,衣服7圣诞老人风格的裙子
+dirndl,衣服7酒馆服务员服装
+kimono skirt,衣服7和服裙
+cocktail dress,衣服7燕尾短裙
+athletic leotard,衣服7体操服
+living clothes,衣服8活体衣服
+bikesuit,衣服8骑行套装
+uchikake,衣服8白无垢/日式嫁衣
+ribbon trimmed dress,衣服8色带装饰的连衣裙
+shell bikini,衣服8贝壳比基尼
+loungewear,衣服8休闲服
+virgin killer outfit,衣服8处男杀手服
+skirt basket,衣服8裙子篮兜
+dress basket,衣服8dress carry
+wet dress,衣服8潮湿的衣服
+cute & girly (idolmaster),衣服8Cute & Girly (偶像大师)
+tube dress,衣服8抹胸连衣裙
+tutu,衣服8芭蕾舞裙
+vietnamese dress,衣服8越南连衣裙
+checkered dress,衣服8方格花纹连衣裙
+stile uniform,衣服8女侍从的制服
+varia suit,衣服8强化服
+front zipper swimsuit,衣服8拉链在正面的泳衣
+funeral dress,衣服8丧服
+coat dress,衣服8外套连衣裙
+pinstripe dress,衣服9细条纹连衣裙
+argyle dress,衣服9钻石图案的裙子
+high low skirt,衣服9高低裙
+latex dress,衣服9乳胶裙
+dress flip,衣服9飘起的裙子
+highleg dress,衣服9高叉长裙
+dress grab,衣服9抓住裙子
+crinoline,衣服9裙撑/裙架
+mermaid dress,衣服9鱼尾裙
+tennis dress,衣服9网球连衣裙
+denim dress,衣服9牛仔连衣裙
+hobble dress,衣服9乳胶连衣裙
+half dress,衣服9半开裙
+flag dress,衣服9国旗连衣裙
+cake dress,衣服9形似蛋糕的连衣裙
+trapeze dress,衣服9梯形连衣裙
+sepia dress,衣服9红棕色连衣裙
+santa,衣服9圣诞装
+side tie bikini,衣服9系带式比基尼
+western,衣服9西部风格
+tartan,衣服10格子花纹
+sheath dress,衣服10包臀裙
+pettiskirt,衣服10蓬蓬裙
+organza lace,衣服10透明硬纱/蕾丝花边
+bikini aside,衣服10从三点剥开的比基尼
+front tie bikini,衣服10从正面打结的比基尼
+playboy bunny leotard,衣服10兔女郎连身衣
+holding,动作1拿着
+sitting,动作1坐着
+standing,动作1站立的
+lying,动作1躺着
+spread legs,动作1张腿
+on back,动作1仰躺
+armpits,动作1举手露腋
+clothes lift,动作1掀起衣物
+arm up,动作1单抬臂
+arms up,动作1双抬臂
+head tilt,动作1歪着头
+hand on hip,动作1单手插腰
+kneeling,动作1下跪
+v,动作1胜利手势
+leaning forward,动作1身体前驱
+holding hands,动作1牵手
+arm support,动作1用手支撑住
+on side,动作1侧卧
+wariza,动作1割坐
+grabbing,动作1抓住/抓着
+arms behind back,动作2手放在身后
+clothes pull,动作2拉开衣物
+skirt lift,动作2掀起裙子
+crossed arms,动作2交叉双臂
+leg up,动作2抬起腿
+squatting,动作2蹲下
+standing on one leg,动作2单腿站立
+crossed legs,动作2二郎腿
+outstretched arms,动作2伸出双臂
+own hands together,动作2双手合十
+undressing,动作2脱衣服中
+bent over,动作2翘臀姿势
+straddling,动作2跨坐
+on stomach,动作2趴着
+outstretched arm,动作2伸出单臂
+lifted by self,动作2掀起自己的衣物
+pointing,动作2用手指着
+all fours,动作2四肢趴地
+hand on own chest,动作2把手放在自己的胸口
+clenched hand,动作2握紧的手
+arms behind head,动作3手臂放头后
+index finger raised,动作3食指抬起
+seiza,动作3正坐
+hand on own face,动作3把手放在自己脸上
+clenched hands,动作3紧握的双手
+dress lift,动作3掀起裙子
+legs up,动作3抬两只脚
+dual wielding,动作3双持
+walking,动作3走路
+legs apart,动作3两腿分开
+hand on another's head,动作3手放在对方的头上
+hands on hips,动作3双手叉腰
+running,动作3奔跑
+head rest,动作3枕着头/托着头
+paw pose,动作3爪子姿势
+hand in pocket,动作3手插在口袋里
+hand between legs,动作3手放在两腿之间
+jumping,动作3跳跃
+outstretched hand,动作3伸出手
+fighting stance,动作3战斗姿态
+waving,动作4招手
+hands in pockets,动作4双手插在兜里
+top down bottom,动作4趴着翘臀
+sitting on person,动作4坐在人身上
+adjusting hair,动作4理头发
+spread arms,动作4张开双臂
+arms at sides,动作4双手垂放
+double v,动作4双手比 V
+arched back,动作4弓身体
+yokozuwari,动作4侧身坐
+leg lift,动作4抬一只脚
+hand on own cheek,动作4把手放在自己的脸颊上
+hand on headwear,动作4手触碰帽子
+back to back,动作4背靠背
+hand on another's shoulder,动作4手放在对方的肩上
+leaning back,动作4身体往后靠
+holding flower,动作4拿着花
+arm grab,动作4抓住手臂
+adjusting eyewear,动作4扶眼镜
+salute,动作4敬礼
+hand to own mouth,动作5手朝向自己嘴
+hugging own legs,动作5抱腿
+claw pose,动作5举爪姿势
+indian style,动作5盘腿
+own hands clasped,动作5握住自己的双手
+hands on own face,动作5双手放在自己的脸上
+heart hands,动作5双手比心
+stretching,动作5伸懒腰
+hand on another's face,动作5手接触到对方的脸
+hand on own head,动作5手放在自己头上
+princess carry,动作5公主抱
+one knee,动作5单膝跪
+w,动作5手指比 W
+open hand,动作5张开的手
+thumbs up,动作5翘大拇指
+skirt pull,动作5拉开裙子
+bikini pull,动作5扯着比基尼
+hand on own knee,动作5手放在自己的膝盖上
+split,动作5分开
+folded,动作5抬腿露阴
+sheet grab,动作6抓着床单
+sitting on lap,动作6坐在大腿上
+pointing at viewer,动作6指向看图的人
+tying hair,动作6扎头发
+feeding,动作6喂食
+\m/,动作66+1 手势
+pinky out,动作6伸出小拇指
+reclining,动作6斜倒斜躺姿势
+leaning to the side,动作6向一侧倾斜身体
+yawning,动作6打哈欠
+twisted torso,动作6躯干夸张地扭曲
+standing split,动作6站立劈叉/站立高抬腿
+hand on own stomach,动作6把手放在自己的肚子上
+hand on own ass,动作6把手放在自己的臀部
+holding eyewear,动作6拿着眼镜/正在摘眼镜
+reaching,动作6伸手触及
+armpit peek,动作6微微露出腋窝
+fox shadow puppet,动作6狐狸手势
+convenient leg,动作6挡住关键部位的腿
+knees to chest,动作6膝盖顶到胸部
+shushing,动作7嘘手势
+grabbing another's hair,动作7抓着对方的头发
+holding strap,动作7手拉着吊带
+hands on own knees,动作7双手放在自己的膝盖上
+hand on another's cheek,动作7手摸着对方的脸颊
+hand on another's chin,动作7手托着对方的下巴
+pointing up,动作7向上指
+v over eye,动作7在眼边比剪刀手
+the pose,动作7趴在地上并翘起脚
+pointing at self,动作7指着自己
+arm hug,动作7挽手
+leaning,动作7倚靠/身体倾斜
+hair tucking,动作7撩头发
+steepled fingers,动作7指尖抵着指间
+middle finger,动作7比出中指
+open dress,动作7分开裙子
+finger gun,动作7手枪手势
+upright straddle,动作7对坐体位
+hair twirling,动作7手指卷着头发
+hands on another's face,动作7双手放在别人的脸上
+arms around neck,动作8双手搂着脖子
+watson cross,动作8双腿交叉站姿
+fetal position,动作8曲腿至胸
+hand in panties,动作8手伸进内裤里
+hand on another's chest,动作8手放在对方的胸前
+zombie pose,动作8僵尸姿势
+crossed ankles,动作8交叉脚踝
+lifted by another,动作8被对方掀起衣物
+arm held back,动作8手臂往后拉
+arm around neck,动作8手臂环绕脖子
+rubbing eyes,动作8揉眼睛
+convenient arm,动作8遮住关键部位的手臂
+holding arrow,动作8拉着弓
+shading eyes,动作8遮阳手势
+carrying over shoulder,动作8肩扛
+spread fingers,动作8张开手指
+bunny pose,动作8兔耳 pose
+heart hands duo,动作8两个人一起用手比心
+head back,动作8弓背高潮
+ok sign,动作8OK手势
+shared food,动作9共享食物/用嘴递食物
+holding syringe,动作9手持注射器
+mimikaki,动作9采耳
+through clothes,动作9隔着衣物爱抚
+dress tug,动作9拉下连衣裙下摆
+\||/,动作9手掌贴墙
+beckoning,动作9招手
+holding whip,动作9握着鞭子
+cuddling,动作9拥抱
+bowing,动作9鞠躬
+presenting armpit,动作9展示腋窝
+heart tail,动作9心形尾巴/心形尾尖/尾巴摆出心形
+hand on another's stomach,动作9手放在对方的肚子上
+curtsey,动作9(女子的)屈膝礼
+raised fist,动作9举起的拳头
+carrying under arm,动作9夹在腋下
+glomp,动作9热情的拥抱/扑上来抱住
+talking on phone,动作9打电话
+cupping hands,动作9用手比作杯子
+hands on feet,动作9双手放在脚上
+balancing,动作10(保持)平衡的姿势
+hat tip,动作10捏着帽檐
+hand on own shoulder,动作10手放在自己的肩上
+kimono pull,动作10剥开和服
+stroking own chin,动作10扶颏冥想
+fingering through clothes,动作10手指隔着衣物摸来摸去
+hands on ass,动作10双手放在屁股上
+legs over head,动作10双腿抬过头
+adjusting legwear,动作10整理裤袜
+head down,动作10低着头
+necktie grab,动作10抓着领带
+outstretched leg,动作10腿部伸展
+hair flip,动作10拨头发
+belly grab,动作10捏着肚子
+drying hair,动作10弄干头发
+akanbe,动作10拉下眼睑的鬼脸
+dress removed,动作10脱下裙子
+hand on own neck,动作10把手放在自己的脖子上
+hand on another's neck,动作10手放在他人的脖子上
+kimono lift,动作10掀起和服
+\n/,动作11摇滚手势
+handstand,动作11用手倒立
+bunching hair,动作11手持辫子
+adjusting panties,动作11拨内裤
+shoujo kitou chuu,动作11少女祈祷中
+prostration,动作11失意体前屈/Orz
+butterfly sitting,动作11蝴蝶坐
+crawling,动作11爬行
+fidgeting,动作11紧张手势
+tying,动作11打结(动作)
+fist bump,动作11碰拳
+flapping,动作11拍打动作
+shrugging,动作11耸肩
+toe point,动作11趾尖/脚尖
+two finger salute,动作11二指敬禮
+cowering,动作11抱头
+finger frame,动作11用手指作相框
+high five,动作11击掌庆祝
+pointing forward,动作11指向前方
+hand on another's hand,动作11手放在对方的手上
+thumbs down,动作12大拇指向下
+presenting panties,动作12展示内裤
+kissing neck,动作12亲吻脖子
+hand on own forehead,动作12手放在自己前额
+caramelldansen,动作12焦糖舞
+kuji in,动作12九字印
+faceplant,动作12脸贴地面
+saturday night fever,动作12叉腰向上指 (舞蹈)
+finger heart,动作12双指比心
+hand on ear,动作12手放在耳朵上
+v over mouth,动作12手指比 V 放在手上
+tsuki ni kawatte oshioki yo,动作12代表月亮消灭你
+crucifixion,动作12磔
+thigh straddling,动作12大腿跨骑
+neck biting,动作12咬脖子
+pointing down,动作12指向下方
+pinky swear,动作12勾指起誓
+victory pose,动作12胜利手势
+smelling flower,动作12闻花
+money gesture,动作12金钱手势
+yoga,动作13瑜伽
+fist in hand,动作13抱拳
+power fist,动作13力量手套
+slouching,动作13伛
+battoujutsu stance,动作13拔刀起手式
+middle w,动作133 手势
+convenient head,动作13挡住关键部位的头
+fig sign,动作13Fig 手势
+vulcan salute,动作13瓦肯举手礼
+figure four sitting,动作13二郎腿
+crossed fingers,动作13手指交错
+horns pose,动作13用手比作角
+shadow puppet,动作13用手模仿其他物件/皮影戏
+carry me,动作13抱着我手势
+superhero landing,动作13三点着地
+heart tail duo,动作13两人尾巴摆出心形
+inward v,动作13反向比 V
+palm fist greeting,动作13拱手礼
+lotus position,动作13结跏趺坐
+kamina pose,动作13抬高手臂向上指
+heart arms,动作14手臂摆出心的姿势
+air guitar,动作14空气吉他
+headstand,动作14用头倒立
+pigeon pose,动作14鸽子姿势
+palm fist tap,动作14拳头拍手掌/有主意了
+noogie,动作14双拳挤头
+chest stand,动作14用胸支撑身体
+shaka sign,动作14沙卡手势
+necking,动作14缩颈
+finger counting,动作14用手指比数字
+hand glasses,动作14用手比作眼镜
+wallwalking,动作14走在墙顶上
+air quotes,动作14引号手势
+heart hands trio,动作14三个人用手比心
+shocker (gesture),动作14爽歪歪 (手势)
+slit throat (gesture),动作14割喉手势
+scorpion pose,动作14蝎子姿势
+full scorpion,动作14头扑倒在地
+ohikaenasutte,动作14要求自我介绍
+orchid fingers,动作14兰花指
+arms crossed,动作15手交叉于胸前
+hands on another's breast,动作15手放在另一人的胸前
+palm,动作15以手掩面
+hand in hair,动作15手埋在头发里
+hand on another's,动作15手接触到对方的脸
+humpbacked,动作15驼背
+animal ears,耳朵1动物耳朵
+earrings,耳朵1耳环
+pointy ears,耳朵1尖耳
+cat ears,耳朵1猫耳
+rabbit ears,耳朵1兔子耳朵
+fox ears,耳朵1狐狸耳朵
+fake animal ears,耳朵1仿制的动物耳朵
+wolf ears,耳朵1狼耳朵
+horse ears,耳朵1马耳
+dog ears,耳朵1狗耳
+kemonomimi mode,耳朵1兽耳萝莉模式
+hoop earrings,耳朵1环状耳环
+mouse ears,耳朵1老鼠耳朵
+cow ears,耳朵1牛耳朵
+raccoon ears,耳朵1浣熊耳朵
+tiger ears,耳朵1虎耳
+lion ears,耳朵1狮子耳朵
+heart earrings,耳朵1心形耳环
+bear ears,耳朵1熊耳朵
+squirrel ears,耳朵1松鼠耳朵
+sheep ears,耳朵2羊耳
+crescent earrings,耳朵2月牙耳环
+cat ear headphones,耳朵2猫耳式耳机
+long pointy ears,耳朵2尖尖的长耳朵
+deer ears,耳朵2鹿耳朵
+panda ears,耳朵2熊猫耳朵
+monkey ears,耳朵2猴耳
+goat ears,耳朵2山羊耳朵
+bat ears,耳朵2蝙蝠耳朵
+crystal earrings,耳朵2水晶耳环
+pig ears,耳朵2猪耳朵
+covering ears,耳朵2遮住耳朵
+pikachu ears,耳朵2皮卡丘耳朵
+ferret ears,耳朵2鼬耳朵
+1girl,人物11 个女人
+solo,人物1单人
+1boy,人物11 个男人
+2girls,人物12 个女人
+glasses,人物1眼镜/眼镜娘
+2boys,人物12 个男人
+chibi,人物1Q 版通常将头的比例在全图中加大，以营造可爱效果。
+yuri,人物1百合
+maid,人物1女仆
+loli,人物1萝莉
+no humans,人物1无人
+siblings,人物1兄弟姐妹
+magical girl,人物1魔法少女
+demon girl,人物1魅魔
+cat girl,人物1猫娘
+sisters,人物1姐妹
+elf,人物1妖精
+fox girl,人物1狐娘
+horse girl,人物1马娘
+child,人物1儿童
+bara,人物2大叔
+yaoi,人物2搞基
+furry,人物2兽人
+crossdressing,人物2伪娘
+monster,人物2怪物
+minigirl,人物2迷你女孩
+ghost,人物2幽灵
+twins,人物2双胞胎
+dragon girl,人物2龙娘
+miko,人物2巫女
+doll,人物2人偶
+brother and sister,人物2姐弟/兄妹
+gothic lolita,人物2哥特萝莉
+shota,人物2正太
+dog girl,人物2犬娘
+angel,人物2天使
+wolf girl,人物2狼女孩
+witch,人物2女巫/魔女
+waitress,人物2女服务员
+cheerleader,人物2啦啦队
+nun,人物3修女
+nurse,人物3护士
+ninja,人物3忍者/日本武士
+mecha musume,人物3机娘
+fairy,人物3小精灵
+office lady,人物3办公室女职员
+vampire,人物3吸血鬼
+mother and daughter,人物3母女
+mermaid,人物3美人鱼
+idol,人物3偶像
+yukkuri shiteitte ne,人物3油库里馒头样人物，东方系列
+cow girl,人物3牛娘
+gyaru,人物3辣妹
+giantess,人物3女巨人
+police,人物3警察
+race queen,人物3赛车女郎
+female pervert,人物3痴女
+kitsune,人物3妖狐
+dark elf,人物3暗精灵
+oppai loli,人物3巨乳萝莉
+husband and wife,人物4夫妻
+mother and son,人物4母子
+policewoman,人物4女警
+dancer,人物4舞者
+raccoon girl,人物4浣熊娘
+kyuubi,人物4九尾|九尾狐
+kogal,人物4小辣妹
+wa maid,人物4和风女仆
+orc,人物4半兽人
+princess,人物4公主
+teenage,人物4青少年
+spider girl,人物4蜘蛛娘
+harem,人物4后宫
+butler,人物4管家
+voyakiloid,人物4弱音(歌手)
+cousins,人物4表亲
+centaur,人物4人马
+priest,人物4牧师
+goblin,人物4哥布林
+doctor,人物4医生
+angel and devil,人物5天使与恶魔
+ballerina,人物5芭蕾舞女演员
+k/da (league of legends),人物5KDA组合(英雄联盟)
+sailor senshi,人物5美少女战士
+valkyrie,人物5女武神
+wa lolita,人物5和风萝莉
+long neck,人物5长脖子
+kyuudou,人物5弓道
+chef,人物5厨师
+kirisame marisa cosplay,人物5cos成雾雨魔理沙
+imp,人物5小恶魔
+devil,人物5魔鬼（撒旦）
+female,人物5女人
+male,人物5男人
+milf,人物5熟女
+adolescent,人物5青春期的
+bunny girl,人物5兔娘/兔女郎
+goddess,人物5女神
+gym leader,人物5体操队队长
+blush,表情1脸红的
+smile,表情1微笑
+open mouth,表情1张口
+blue eyes,表情1蓝眼
+red eyes,表情1红眼
+brown eyes,表情1棕眼
+closed mouth,表情1闭嘴
+green eyes,表情1绿眼
+purple eyes,表情1紫眼
+closed eyes,表情1闭上眼睛
+yellow eyes,表情1金眼
+:d,表情1咧嘴笑
+parted lips,表情1嘴唇微张
+one eye closed,表情1一只眼睛闭着
+teeth,表情1牙
+tongue,表情1舌头
+fang,表情1虎牙
+tears,表情1眼泪
+tongue out,表情1吐舌头
+pink eyes,表情1粉红色的眼睛
+grin,表情2露齿而笑
+:o,表情2惊讶
+black eyes,表情2黑眼
+aqua eyes,表情2吐舌鬼脸
+lips,表情2嘴唇
+v shaped eyebrows,表情2眉毛皱成V形(表高傲或愤怒)
+orange eyes,表情2橙色的眼镜
+grey eyes,表情2灰眼
+symbol shaped pupils,表情2符号眼
+eyelashes,表情2睫毛
+saliva,表情2唾液
+makeup,表情2浓装
+:3,表情2猫嘴
+nose blush,表情2害羞
+facial hair,表情2胡子
+heterochromia,表情2异色瞳
+frown,表情2皱眉/蹙额
+embarrassed,表情2尴尬的
+fangs,表情2尖牙
+upper teeth,表情2露出上排牙齿
+mouth hold,表情3嘴咬住
+blush stickers,表情3表情贴纸
+expressionless,表情3无口
+heart shaped pupils,表情3爱心形瞳孔
+wavy mouth,表情3薯片嘴型
+half closed eyes,表情3眼睛半闭
+happy,表情3快乐/幸福
+trembling,表情3颤抖
+eyes visible through hair,表情3透过头发可以看到的眼睛
+;d,表情3单眼咧嘴笑
+crying,表情3哭
+light smile,表情3浅笑
+lipstick,表情3口红/唇膏
+slit pupils,表情3竖瞳孔/猫眼
+^^^,表情3惊讶的
+clenched teeth,表情3咬牙
+surprised,表情3惊讶
+drooling,表情3流口水
+covering,表情3挡住脸
+glowing eyes,表情3发光的双眼
+anger vein,表情4青筋
+angry,表情4生气的
+bright pupils,表情4明亮的瞳孔
+:p,表情4右下吐舌头
+tareme,表情4下垂的眼睛
+tsurime,表情4吊眼角
+forehead,表情4额头
+skin fang,表情4把嘴的一部分画成虎牙状
+heavy breathing,表情4喘粗气
+tearing up,表情4要哭的表情
+naughty face,表情4下流的表情
+:q,表情4右上吐舌头
+empty eyes,表情4眼睛没有亮点
+crying with eyes open,表情4睁着眼落泪
+jitome,表情4轻蔑的眼神
+light blush,表情4淡淡的腮红
+o o,表情4发呆
++ +,表情4加号型眼
+serious,表情4严肃的
+smirk,表情4傻笑/得意的笑
+@ @,表情5晕眼
+wide eyed,表情5睁开眼睛
+full face blush,表情5整张脸泛红
+glint,表情5眼中闪现强烈的情感
+pout,表情5努嘴
+multicolored eyes,表情5多色的黑眼睛
+raised eyebrows,表情5挑眉
+covering mouth,表情5挡住嘴巴
+furrowed brow,表情5下眉毛
+licking lips,表情5舔嘴唇
+wince,表情5闭一只眼
+black sclera,表情5黑色巩膜
+dot nose,表情5小圆点鼻
+eyeball,表情5盯着看
+ahegao,表情5阿嘿颜
+food on face,表情5食物在脸上
+saliva trail,表情5唾液拉丝
+no nose,表情5没有鼻子
+red lips,表情5朱唇
+smug,表情5得意脸
+eyeliner,表情6眼线
+>:),表情6嘲笑
+bags under eyes,表情6眼袋
+laughing,表情6在笑的
+star shaped pupils,表情6星形眼睛
+drunk,表情6喝醉的
+fang out,表情6露出虎牙/露出尖牙
+nosebleed,表情6鼻血
+evil smile,表情6坏笑
+scared,表情6害怕的
+glowing eye,表情6发光的眼睛(单眼)
+annoyed,表情6苦恼的
+ringed eyes,表情6眼圈
+face to face,表情6脸贴脸
+sad,表情6悲伤的
+white eyes,表情6白眼
+constricted pupils,表情6瞳孔收缩
+no pupils,表情6没有眼睛
+rolling eyes,表情6眼睛抬头
+:/,表情6斜嘴
+torogao,表情7淫荡的表情
+sleepy,表情7困乏的
+seductive smile,表情7诱人的微笑
+nervous,表情7不安的
+blank eyes,表情7白眼球
+expressions,表情7表情
+ear blush,表情7耳红
+split mouth,表情7裂开的嘴
+:|,表情7无语
+sparkling eyes,表情7星星眼
+facing another,表情7二人面对面(脸贴得很近)
+covering face,表情7挡住脸
+yandere,表情7病娇
+sanpaku,表情7三白眼
+moaning,表情7呻吟
+solid circle eyes,表情7实心圆眼睛
+turn pale,表情7脸色苍白
+glaring,表情7轻蔑/怒视
+yellow sclera,表情7黄色巩膜
+no mouth,表情7没画出嘴
+>:(,表情8愤怒
+crazy eyes,表情8疯狂的眼睛
+streaming tears,表情8流泪
+tsundere,表情8傲娇
+long tongue,表情8长舌头
+sideways mouth,表情8把嘴画在侧脸
+raised eyebrow,表情8扬起的眉毛
+gradient eyes,表情8渐变瞳色
+shy,表情8害羞的
+half closed eye,表情8半闭的眼睛(单眼)
+cheek to cheek,表情8脸贴脸
+flower shaped pupils,表情8花形瞳孔
+scowl,表情8怒视/嫌弃/不满
+heart in eye,表情8眼里冒爱心
+thinking,表情8思考
+gloom (expression),表情8消沉(表情)
+covering eyes,表情8遮住眼睛
+jealous,表情8嫉妒的
+red sclera,表情8红色巩膜
+sigh,表情8叹气
+horizontal pupils,表情9一字型瞳孔/蛙眼
+nervous smile,表情9不安地微笑
+mouth drool,表情9嘴角画着口水滴形状的缺口
+puckered lips,表情9撅起的嘴唇
+screaming,表情9尖叫/大声喊
+smelling,表情9闻
+grimace,表情9(因痛苦、厌恶等)做怪相
+cheek pinching,表情9捏脸颊
+cheek poking,表情9戳脸颊
+diamond shaped pupils,表情9钻石形瞳孔
+happy tears,表情9开心的眼泪
+doyagao,表情9得意脸
+pain,表情9疼痛
+confused,表情9疑惑
+worried,表情9担忧的
+unconscious,表情9失神
+mismatched pupils,表情9左右眼颜色不同
+crazy smile,表情9疯狂地笑
+forehead to forehead,表情9额头贴额头
+flustered,表情9慌乱的
+dot mouth,表情10小圆点嘴
+cheek bulge,表情10鼓着腮帮
+disgust,表情10恶心
+button eyes,表情10纽扣眼
+fume,表情10气得冒烟(漫画)
+blue sclera,表情10蓝色巩膜
+bored,表情10无聊的
+spit take,表情10惊讶或无语到喷了
+rectangular mouth,表情10方形嘴
+facepalm,表情10以手掩面
+crazy,表情10疯狂的
+holding breath,表情10憋气
+excited,表情10兴奋
+cephalopod eyes,表情10头足类动物的眼睛
+cheek pull,表情10扯脸颊
+x shaped pupils,表情10X 形眼睛
+upturned eyes,表情10上翘的眼睛
+green sclera,表情10绿色巩膜
+evil,表情10邪恶
+heart shaped eyes,表情10心形眼
+fingersmile,表情11用手指做出笑脸
+panicking,表情11恐慌的
+rape face,表情11一副要强奸人的表情
+hollow eyes,表情11漆黑的眼睛
+determined,表情11有决心的
+dashed eyes,表情11黑眼圈中的水平线
+flower in mouth,表情11花在嘴里
+sobbing,表情11啜泣
+mismatched sclera,表情11左右眼不同颜色的眼白
+eye reflection,表情11眼睛反射
+cross eyed,表情11斗鸡眼
+lonely,表情11孤独的
+compound eyes,表情11复合眼
+no sclera,表情11无色巩膜
+depressed,表情11压抑的/郁闷的
+bloodshot eyes,表情11布满血丝的眼睛
+forced smile,表情11强迫笑
+:c,表情11伤心
+flaming eyes,表情11燃烧的眼睛
+glasgow smile,表情11格拉斯哥微笑
+sad smile,表情12苦笑
+:<>,表情12张大嘴
+pac man eyes,表情12吃豆人形眼
+orange sclera,表情12橙色巩膜
+bruised eye,表情12瘀伤的眼睛
+despair,表情12绝望
+color drain,表情12惊讶到掉色
+frustrated,表情12沮丧
+upset,表情12气愤
+sulking,表情12闷闷不乐
+disappointed,表情12失望的
+horrified,表情12恐惧表情
+stifled laugh,表情12憋笑
+disdain,表情12蔑视
+uwu,表情12猫脸
+dilated pupils,表情12瞳孔扩张
+envy,表情12嫉妒
+\(^o^)/,表情12\(^o^)/
+>3<,表情12亲嘴
+pensive,表情12沉思的
+troll,表情13嚣张脸
+kubrick stare,表情13库布里克凝视头轻轻的微向下倾斜，眼直视镜头，直勾勾地盯着镜头。
+amphibian eyes,表情13两栖动物的眼睛
+guilt,表情13有罪的
+mako eyes,表情13魔眼
+> @,表情13>_@
+aegyo sal,表情13眼袋
+endured face,表情13忍耐的表情
+shaded,表情13阴沉脸
+smiley,表情13笑脸
+full blush,表情13整张脸泛红
+naughty,表情13下流的表情
+chin grab,表情13抬下巴
+expressionless eyes,表情13失神
+wide eyed,表情13睁大眼睛
+eyes closed,表情13闭眼
+eyebrows behind hair,表情13挡在头发下的眉毛
+eyebrows visible through hair,表情13透过头发可以看到的眉毛
+tired,表情13累
+=^=,表情13=^=
+=v=,表情14=v=
+amber eyes,表情14琥珀色眼
+tattoo,装饰1纹身
+buttons,装饰1纽扣
+bandaid,装饰1创可贴
+cuffs,装饰1手枷
+sarong,装饰1莎笼/沙滩浴巾
+shackles,装饰1宽手铐
+handcuffs,装饰1警用手铐
+cane,装饰1手杖
+chains,装饰1锁链
+gloves,装饰1手套
+long sleeves,装饰1长袖
+bow,装饰1蝴蝶结
+bare shoulders,装饰1露双肩
+collarbone,装饰1锁骨
+detached sleeves,装饰1袖肩分离装
+wings,装饰1翅膀/翼
+open clothes,装饰1敞开衣服
+elbow gloves,装饰1长袖手套
+collared shirt,装饰1翻领衬衫
+fingerless gloves,装饰1露指手套
+off shoulder,装饰2露单肩
+cape,装饰2披肩/斗篷/披风
+mole,装饰2痣
+vest,装饰2背心
+bracelet,装饰2手镯
+coat,装饰2外套
+crop top,装饰2露腹短上衣
+wrist cuffs,装饰2腕饰
+sleeves past wrists,装饰2袖子长过手腕
+dress shirt,装饰2西服衬衫
+hoodie,装饰2卫衣
+capelet,装饰2披肩
+bandages,装饰2绷带
+topless,装饰2上着较少
+blazer,装饰2西装夹克
+cardigan,装饰2开襟衫
+bat wings,装饰2蝙蝠翅膀
+tank top,装饰2无袖紧身背心
+blouse,装饰2罩衫
+casual,装饰2私服
+t shirt,装饰3T 恤
+wristband,装饰3腕带
+armband,装饰3臂章
+front tie top,装饰3从正面打结的衣物
+hooded jacket,装饰3连帽夹克
+cloak,装饰3斗篷
+armlet,装饰3臂环
+camisole,装饰3吊带背心
+sleeves past fingers,装饰3袖子长过手指
+black wings,装饰3黑色之翼
+demon wings,装饰3恶魔之翼
+high waist skirt,装饰3高腰裙
+angel wings,装饰3天使的翅膀
+robe,装饰3长袍
+bandaged arm,装饰3缠着绷带的手臂
+center opening,装饰3正中间开口的服装
+lowleg,装饰3低胸装
+labcoat,装饰3白大褂
+hat flower,装饰3花环
+criss cross halter,装饰3交叉吊带
+fairy wings,装饰4妖精的翅膀
+center frills,装饰4胸口带花边的服装
+bangle,装饰4手镯
+sailor shirt,装饰4水手服款衬衫
+wet shirt,装饰4湿衬衫
+bracer,装饰4护腕
+layered sleeves,装饰4分层的衣袖
+half gloves,装饰4很短的手套/半截手套
+badge,装饰4徽章
+hooded cloak,装饰4连帽披巾
+faulds,装饰4腹甲
+bead bracelet,装饰4珠子手链
+harness,装饰4背带
+heart cutout,装饰4衣服上有心形的开口
+gym shirt,装饰4体操服(上身)
+military jacket,装饰4军装夹克
+hooded coat,装饰4连帽外套
+detached wings,装饰4脱离本体的翅膀
+unbuttoned shirt,装饰4解开纽扣的衬衫
+butterfly wings,装饰4蝴蝶翅膀
+cat cutout,装饰5猫咪内衣
+cropped shirt,装饰5短衬衫
+cat lingerie,装饰5猫系内衣
+virgin killer sweater,装饰5处男杀手毛衣
+sleeves pushed up,装饰5袖子往上拉起
+command spell,装饰5令咒
+dragon wings,装饰5龙翼
+barcode,装饰5条形码
+collared jacket,装饰5翻领夹克
+arm belt,装饰5臂环
+suit jacket,装饰5西装外套
+open chest sweater,装饰5胸部开口的毛衣
+pant suit,装饰5女性穿着西服
+coattails,装饰5燕尾
+heart tattoo,装饰5心形纹身
+number tattoo,装饰5编号纹身
+tailcoat,装饰5燕尾服
+hooded cape,装饰5连帽斗篷
+belly chain,装饰5脐链
+bikini top removed,装饰5脱下比基尼上衣
+hooded sweater,装饰6连帽毛衣
+jersey,装饰6运动衫
+cropped vest,装饰6小款背心
+oversized shirt,装饰6过大号衬衫
+gloves removed,装饰6脱下手套
+latex gloves,装饰6乳胶手套
+duffel coat,装饰6粗呢大衣
+gathers,装饰6褶裥(衣物)
+open robe,装饰6敞开长袍
+kesa,装饰6袈裟
+hooded track jacket,装饰6连帽运动夹克
+load bearing vest,装饰6承重背心
+heartbeat,装饰6心跳/表现出心动的文字
+dudou,装饰6肚兜
+diamond (gemstone),装饰6钻石(宝石)
+clothes between breasts,装饰6衣服勒在乳沟里
+heart lock (kantai collection),装饰6舰娘锁(舰C)
+checkered shirt,装饰6格子衬衫
+whip marks,装饰6鞭痕
+muscle,装饰6肌肉
+bandaged hands,装饰7缠着绷带的手
+bikini top,装饰7比基尼上衣
+sleeves folded up,装饰7叠起来的袖子
+hair ornament,装饰7头饰
+ribbon,装饰7丝带
+jewelry,装饰7首饰
+hair ribbon,装饰7发带
+hair bow,装饰7蝴蝶结发饰
+hairband,装饰7头箍
+horns,装饰7兽角
+hairclip,装饰7发夹
+hair flower,装饰7发花
+hood,装饰7兜帽
+maid headdress,装饰7女仆头饰
+mole under eye,装饰7眼角有痣
+bell,装饰7铃铛
+mask,装饰7面具/眼罩/口罩
+witch hat,装饰7女巫帽
+headphones,装饰7耳机
+beret,装饰7贝雷帽
+halo,装饰8头顶光环
+eyepatch,装饰8单眼罩
+sunglasses,装饰8太阳镜
+hood down,装饰8放下的兜帽
+crown,装饰8皇冠
+tiara,装饰8三重冕
+black hairband,装饰8黑色发带
+x hair ornament,装饰8x发饰
+hair bobbles,装饰8头绳
+goggles,装饰8护目镜
+demon horns,装饰8恶魔的角
+peaked cap,装饰8类似警帽的帽子
+tokin hat,装饰8东金帽子
+mole under mouth,装饰8嘴角有痣/美人痣
+eyewear on head,装饰8眼镜别在头上
+hair scrunchie,装饰8发箍
+santa hat,装饰8圣诞帽
+hood up,装饰8戴起来的兜帽
+dragon horns,装饰8龙角
+goggles on head,装饰8头上别着护目镜
+bespectacled,装饰9戴眼镜的
+hairpin,装饰9发卡
+white hairband,装饰9白色发带
+star hair ornament,装饰9星星发饰
+animal hood,装饰9兽耳头罩
+hair bell,装饰9头发上系着铃铛
+forehead mark,装饰9额前有图案
+nurse cap,装饰9护士帽
+hair tie,装饰9发带
+sailor hat,装饰9水手帽
+scar across eye,装饰9眼睛上的疤痕
+mouth mask,装饰9口罩
+blindfold,装饰9眼罩
+frog hair ornament,装饰9青蛙发饰
+heart hair ornament,装饰9心形发饰
+red hairband,装饰9红色发带
+butterfly hair ornament,装饰9蝴蝶发饰
+food themed hair ornament,装饰9食物发饰
+snake hair ornament,装饰9蛇发饰
+mask on head,装饰9掀到头上的面具
+lolita hairband,装饰10洛丽塔发带
+crescent hair ornament,装饰10月牙发饰
+feather hair ornament,装饰10羽毛头饰
+facepaint,装饰10面纹
+antlers,装饰10鹿角
+head wreath,装饰10头上戴着花冠
+blue hairband,装饰10蓝色发带
+fox mask,装饰10狐狸面具
+scar on cheek,装饰10脸颊上的疤痕
+covered eyes,装饰10蒙住的眼
+anchor hair ornament,装饰10锚发饰
+leaf hair ornament,装饰10叶发饰
+forehead jewel,装饰10额前有宝石
+rimless eyewear,装饰10无框眼镜
+mini top hat,装饰10迷你礼帽
+bead necklace,装饰10珠子项链
+skull hair ornament,装饰10骷髅头饰
+forehead protector,装饰10护额
+yellow hairband,装饰10黄色发带
+pink hairband,装饰10粉色发带
+elbow pads,装饰11护肘
+fedora,装饰11软呢帽
+bow hairband,装饰11蝴蝶结发带
+surgical mask,装饰11医用口罩
+cat hair ornament,装饰11猫头饰
+mask removed,装饰11摘下的面具
+musical note hair ornament,装饰11音符发饰
+carrot hair ornament,装饰11胡萝卜发饰
+purple hairband,装饰11紫色发带
+wizard hat,装饰11法师帽
+hair beads,装饰11发珠
+bandage over one eye,装饰11缠着绷带的单眼
+hairpods,装饰11头发上成对的像无线蓝牙的发饰
+heart shaped eyewear,装饰11心形眼镜
+multiple hair bows,装饰11多个蝴蝶结
+bat hair ornament,装饰11蝙蝠发饰
+bone hair ornament,装饰11骨发饰
+gas mask,装饰11防毒面具
+goggles on headwear,装饰11帽子上别着护目镜
+orange hairband,装饰11橙色发带
+kanzashi,装饰12簪子
+snowflake hair ornament,装饰12雪花发饰
+over rim eyewear,装饰12下半无框眼镜
+whistle around neck,装饰12脖子上挂着口哨
+clover hair ornament,装饰12三叶草发饰
+winged helmet,装饰12带翅膀的头盔
+mask pull,装饰12拉着口罩
+fish hair ornament,装饰12鱼形发饰
+mouth veil,装饰12面纱
+coke bottle glasses,装饰12厚如玻璃瓶底的圆眼镜
+jeweled branch of hourai,装饰12蓬莱玉枝
+anchor choker,装饰12锚形项圈
+tengu mask,装饰12天狗面具
+behind the head headphones,装饰12从后脑戴上的耳机
+flower on head,装饰12头上有花
+kamina shades,装饰12卡米纳墨镜
+head mounted display,装饰12戴着头戴显示设备
+bandage on,装饰12贴有绷带的脸
+bunny hair ornament,装饰12兔子头饰
+skirt,装饰12裙子
+navel,装饰13肚脐
+panties,装饰13内裤
+tail,装饰13尾巴
+thighs,装饰13大腿
+pleated skirt,装饰13百褶裙
+shorts,装饰13短裤
+barefoot,装饰13赤脚
+midriff,装饰13腹部
+belt,装饰13腰带
+miniskirt,装饰13迷你裙
+white panties,装饰13白色内裤
+apron,装饰13围裙
+zettai ryouiki,装饰13绝对领域
+short shorts,装饰13热裤
+bare legs,装饰13光腿
+toes,装饰13脚趾
+fox tail,装饰13狐狸尾巴
+bottomless,装饰13下着较少
+thick thighs,装饰13粗腿
+pantyshot,装饰13内裤走光
+thigh gap,装饰14股沟
+panty pull,装饰14内裤拉下来
+bike shorts,装饰14自行车短裤
+pink panties,装饰14粉红内裤
+striped panties,装饰14条纹内裤
+hakama,装饰14袴/腿衣
+side tie panties,装饰14系带式内裤
+demon tail,装饰14恶魔尾巴
+bow panties,装饰14带蝴蝶结的内裤
+hakama skirt,装饰14袴裙
+horse tail,装饰14马尾
+panties under pantyhose,装饰14穿在裤袜里的内裤
+thong,装饰14丁字裤
+denim shorts,装饰14牛仔短裤
+buruma,装饰14女式灯笼裤
+dog tail,装饰14狗尾巴
+jeans,装饰14牛仔裤
+panties aside,装饰14内裤挪到一边
+bloomers,装饰14灯笼裤
+panties around one leg,装饰14一只脚上挂着内裤
+anklet,装饰15脚镯
+dragon tail,装饰15龙尾
+highleg panties,装饰15高开衩的内裤
+kneepits,装饰15膝盖内侧
+covering crotch,装饰15遮着裆部
+lace trimmed panties,装饰15蕾丝边内裤
+greaves,装饰15胫甲
+bandaged leg,装饰15绑着绷带的腿
+cutoffs,装饰15热裤
+fundoshi,装饰15日式丁字裤
+lowleg panties,装饰15低腰式内裤
+bandaid on leg,装饰15腿上的绷带
+wet panties,装饰15湿内裤
+panty & stocking with garterbelt,装饰15吊袜带内裤和长袜
+jumpsuit,装饰15(尤指女式)连衫裤
+leotard under clothes,装饰15内层穿着连衣裤
+maebari,装饰15阴贴
+bound legs,装饰15绑腿
+leg tattoo,装饰15腿部纹身
+checkered skirt,装饰15格子裙
+skirt suit,装饰16正装短裙
+trefoil,装饰16露出三角裤
+butt plug,装饰16插入式尾巴
+swimsuit aside,装饰16把泳衣的裆部挪到一边
+capri pants,装饰16七分裤
+gym shorts,装饰16体操短裤
+leotard aside,装饰16把连衣裤裆部剥到一边
+cat ear panties,装饰16猫耳造型内裤
+g string,装饰16超细款丁字裤
+skirt around one leg,装饰16一条腿上挂着短裙
+crotchless panties,装饰16开档内裤
+mechanical legs,装饰16机械腿
+denim skirt,装饰16牛仔裙
+ankle lace up,装饰16腿部系带
+chaps,装饰16皮套裤
+leg belt,装饰16腿带
+leotard pull,装饰16剥开连衣裤
+crotch plate,装饰16裆部有特别覆盖物
+micro panties,装饰16布料很少的内裤
+buruma pull,装饰16褪下一部分的内裤
+back print panties,装饰17背面印花的内裤
+diaper,装饰17尿布
+thighhighs over pantyhose,装饰17连裤袜加长筒袜
+lowleg pants,装饰17低腰裤子
+strawberry panties,装饰17草莓内裤
+black garter belt,装饰17黑色吊袜带
+clothes between thighs,装饰17衣物挂到大腿之间
+neck garter,装饰17吊袜带
+front print panties,装饰17正面有图案的内裤
+bear panties,装饰17熊印花内裤
+panties over pantyhose,装饰17连裤袜上的内裤
+pantyhose under swimsuit,装饰17泳衣下连裤袜
+black garter straps,装饰17黑色吊袜带
+white garter straps,装饰17白色吊袜带
+ankle garter,装饰17脚踝吊袜带
+socks over thighhighs,装饰17长筒袜加短袜
+hips,装饰17臀部
+foot,装饰17脚
+girdling,装饰17束腰
+legwear,装饰17裹腿
+leg garter,装饰17腿部花边环
+bikini bottom,装饰17比基尼泳裤
+classroom,室内1教室
+bedroom,室内1卧室
+bathroom,室内1浴室场景
+bathtub,室内1浴缸
+kitchen,室内1厨房
+library,室内1图书馆
+stage,室内1舞台
+locker room,室内1更衣室
+office,室内1办公室
+gym storeroom,室内1体育器材库房
+gym,室内1健身房
+messy room,室内1杂乱的房间
+infirmary,室内1医务室
+fitting room,室内1试衣间
+dungeon,室内1地牢
+closet,室内1壁橱
+toilet stall,室内1厕所隔间
+changing room,室内1更衣室
+laboratory,室内1实验室
+prison cell,室内1牢房
+living room,室内2客厅
+hotel room,室内2旅馆房间
+otaku room,室内2御宅房
+courtroom,室内2法庭
+storage room,室内2储存室
+dressing room,室内2更衣室
+cubicle,室内2隔间
+cafeteria,室内2自助餐厅
+conservatory,室内2温室
+workshop,室内2创意工坊
+clubroom,室内2社团活动室
+dining room,室内2家里的餐厅
+armory,室内2军械库
+staff room,室内2职员休息室
+shower,室内2淋浴
+city,室外1城市
+road,室外1路
+field,室外1田野
+bridge,室外1桥
+poolside,室外1泳池边
+street,室外1街道
+path,室外1小径
+town,室外1城镇
+railroad tracks,室外1铁轨
+alley,室外1胡同/小巷
+graveyard,室外1墓地
+garden,室外1花园
+crosswalk,室外1人行横道
+ferris wheel,室外1摩天轮
+fountain,室外1喷泉
+pier,室外1码头
+sidewalk,室外1人行道
+dock,室外1码头
+village,室外1村庄
+railroad crossing,室外1铁路道口
+rice paddy,室外2稻田
+carousel,室外2旋转木马
+rural,室外2田园
+market stall,室外2市场摊位
+amusement park,室外2游乐园
+tunnel,室外2隧道
+running track,室外2运行轨道
+wheat field,室外2麦田
+canal,室外2运河
+harbor,室外2港口
+market,室外2市场
+stone walkway,室外2石制人行道
+well,室外2出色地
+phone booth,室外2电话亭
+roller coaster,室外2过山车
+dirt road,室外2泥路
+highway,室外2高速公路
+runway,室外2跑道
+wooden bridge,室外2木桥
+floating city,室外2浮动城堡
+soccer field,室外3足球场
+waterpark,室外3水上乐园
+trench,室外3战壕
+shipyard,室外3船厂
+zoo,室外3动物园
+aqueduct,室外3渡槽
+rope bridge,室外3绳桥
+dam,室外3大坝
+jetty,室外3码头/栈桥
+airfield,室外3飞机场
+drydock,室外3旱坞
+paper lantern,室外3灯笼
+water,室外3水
+ocean,室外3大海
+beach,室外3海滩
+nature,室外3大自然
+forest,室外3森林/树
+mountain,室外3山
+river,室外3河流
+flower field,室外3花田
+waterfall,室外4瀑布
+lake,室外4湖
+shore,室外4海边
+bamboo forest,室外4竹林
+hill,室外4山丘
+desert,室外4沙漠
+cliff,室外4悬崖
+cave,室外4洞穴
+pond,室外4池塘
+stream,室外4溪流
+park,室外4公园
+island,室外4岛
+floating island,室外4浮岛
+jungle,室外4丛林
+volcano,室外4火山
+meadow,室外4草甸
+playground,室外4游乐场
+canyon,室外4峡谷
+wetland,室外4湿地
+savannah,室外4稀树草原
+parking lot,室外5停车场
+ocean bottom,室外5海底
+wasteland,室外5荒地
+plain,室外5平原
+oasis,室外5绿洲
+glacier,室外5冰川
+geyser,室外5喷泉
+onsen,建筑1温泉
+pool,建筑1水池
+ruins,建筑1废墟
+house,建筑1房子
+castle,建筑1城堡
+skyscraper,建筑1摩天大楼
+tower,建筑1塔
+school,建筑1学校竞赛泳衣
+shop,建筑1商店
+shrine,建筑1神社
+rooftop,建筑1屋顶
+restaurant,建筑1餐厅
+church,建筑1教堂
+train station,建筑1火车站
+cafe,建筑1咖啡厅
+stadium,建筑1体育场
+clock tower,建筑1钟楼
+bus stop,建筑1公交车站
+aquarium,建筑1水族馆
+convenience store,建筑1便利店
+lighthouse,建筑2灯塔
+windmill,建筑2风车
+pagoda,建筑2宝塔
+hospital,建筑2医院
+apartment,建筑2公寓
+temple,建筑2寺庙
+prison,建筑2监狱
+casino,建筑2赌场
+hangar,建筑2机库
+arcade,建筑2室内购物中心
+movie theater,建筑2电影院
+greenhouse,建筑2温室
+bakery,建筑2面包店
+factory,建筑2工厂
+supermarket,建筑2超市
+airport,建筑2飞机场
+gazebo,建筑2凉亭
+tavern,建筑2酒馆
+treehouse,建筑2树屋
+industrial,建筑2重工业
+barn,建筑3谷仓
+garage,建筑3车库
+warehouse,建筑3仓库
+hut,建筑3小屋
+nightclub,建筑3夜店
+arena,建筑3竞技场
+theater,建筑3剧院
+megastructure,建筑3巨型结构
+floating castle,建筑3浮动城堡
+bookstore,建筑3书店
+mall,建筑3购物中心
+convention,建筑3售卖现场
+construction site,建筑3施工现场
+flower shop,建筑3花店
+museum,建筑3博物馆
+gas station,建筑3加油站
+bell tower,建筑3钟楼
+hotel,建筑3酒店
+izakaya,建筑3居酒屋
+skating rink,建筑3滑冰场
+shack,建筑4小屋
+space elevator,建筑4轨道电梯
+planetarium,建筑4天文馆
+bowling alley,建筑4保龄球馆
+military base,建筑4军事基地
+observatory,建筑4天文台
+stilt house,建筑4高跷屋
+art gallery,建筑4美术馆
+weapon shop,建筑4武器商店
+bunker,建筑4掩体/地堡
+control tower,建筑4控制塔
+cooling tower,建筑4冷却塔
+minaret,建筑4宣礼塔
+pharmacy,建筑4药店
+nuclear powerplant,建筑4核电厂
+refinery,建筑4精炼厂
+mosque,建筑4清真寺
+powerplant,建筑4发电厂
+salon,建筑4沙龙
+guard tower,建筑4守卫塔
+amphitheater,建筑5音乐剧院
+bar,建筑5酒吧
+building,建筑5建筑
+cityscape,建筑5城市风景
+neon lights,建筑5霓虹灯
+skyscrapers,建筑5摩天大楼
+fences,建筑5栏杆
+flower,花1花
+petals,花1花瓣
+rose,花1玫瑰/蔷薇
+floral print,花1花朵图案(印花)
+plant,花1植物
+cherry blossoms,花1樱花
+red rose,花1红玫瑰
+bouquet,花1花束
+sunflower,花1向日葵
+potted plant,花1盆栽
+hibiscus,花1扶桑花
+blue rose,花1蓝玫瑰
+white rose,花1白玫瑰
+pink rose,花1粉红玫瑰
+hydrangea,花1紫阳花
+rose petals,花1玫瑰花瓣
+clover,花1三叶草
+spider lily,花1彼岸花
+purple rose,花1紫玫瑰
+lily pad,花1睡莲
+yellow rose,花2黄玫瑰
+lotus,花2莲花
+plum blossoms,花2梅花
+flower (symbol),花2花(符号)
+black rose,花2黑玫瑰
+wreath,花2花环
+daisy,花2雏菊
+wisteria,花2紫藤
+lily of the valley,花2铃兰
+camellia,花2山茶花
+tulip,花2郁金香
+petals on liquid,花2水面上漂着花瓣
+morning glory,花2牵牛花
+dandelion,花2蒲公英
+flower bracelet,花2花手镯
+chrysanthemum,花2菊属
+orange rose,花2橙玫瑰
+qingxin flower,花2清心 (原神)
+green rose,花2绿色玫瑰
+hanafuda,花2花札
+plumeria,花3缅栀花
+flower on liquid,花3水上的花
+carnation,花3康乃馨
+flower bed,花3花床
+strawberry blossoms,花3草莓花
+grey rose,花3灰色玫瑰
+glaze lily,花3琉璃百合 (原神)
+water lily flower,花3睡莲科
+gardening,花3园艺
+pansy,花3三色紫罗兰/三色堇
+orchid,花3兰科/兰花/胡姬花
+daffodil,花3水仙
+poinsettia,花3一品红/圣诞红/圣诞花
+bellflower,花3风铃草
+lunar tear,花3月之泪 (尼尔)
+silent princess,花3静谧公主 (塞尔达)
+on flower,花3在花上
+brown rose,花3棕色玫瑰
+fire flower,花3烈焰花 (原神)
+rapeseed blossoms,花3欧洲油菜花
+flower trim,花4花饰
+calla lily,花4马蹄莲
+red carnation,花4红色康乃馨
+chinese bellflower,花4桔梗
+gerbera,花4大丁草属
+osmanthus,花4木樨属/木犀属/桂花属/桂花树属
+marigold,花4万寿菊属
+dahlia,花4大丽花
+baby's breath,花4石头花
+multicolored rose,花4多色玫瑰
+magnolia,花4荷花玉兰/洋玉兰/广玉兰
+epiphyllum,花4昙花
+lilac,花4丁香属
+bird of paradise flower,花4鹤望兰
+anthurium,花4花烛
+trumpet creeper,花4厚萼凌霄
+hollyhock,花4蜀葵属
+hyacinth,花4风信子
+gracidea,花4葛拉西蒂亚花 (宝可梦)
+peach blossom,花4桃花
+orange blossoms,花5橙花
+sweet flower,花5甜甜花 (原神)
+chamomile,花5西洋甘菊
+ice flower,花5冰雾花 (原神)
+mimosa (flower),花5含羞草
+fuchsia,花5倒挂金钟
+tiger lily,花5卷丹
+thistle,花5蓟属
+cornflower,花5矢车菊
+gladiolus,花5唐菖蒲属
+petunia (flower),花5碧冬茄属
+ranunculus,花5毛茛属
+geranium,花5天竺葵属
+gold osmanthus,花5金木犀
+dianthus,花5石竹
+passion flower,花5西番莲属
+pomegranate flower,花5石榴花
+bougainvillea,花5九重葛
+coughing flowers,花5咳出花
+foxglove,花5毛地黄
+gentiana (flower),花6龙胆属
+edelweiss,花6高山火绒草
+snowdrop,花6雪花莲属
+spathiphyllum,花6白鹤芋属
+zinnia,花6百日菊属
+cosmos,花6秋英/大波斯菊/秋樱
+oncidium,花6文心兰属
+rhododendron,花6杜鹃花属/映山红/满山红/山石榴
+gloriosa (flower),花6嘉兰
+oleander,花6夹竹桃
+alstroemeria (flower),花6百合水仙
+amaryllis (flower),花6孤挺花
+cymbidium,花6蕙兰属
+eustoma,花6洋桔梗
+forsythia,花6连翘
+heliconia,花6蝎尾蕉
+kerria japonica,花6棣棠花/山吹
+rudbeckia,花6金光菊
+columbine,花6耬斗菜
+cockscomb (flower),花6青葙
+black lotus,花7黑莲花
+angel's trumpet,花7木曼陀罗
+four o'clock (flower),花7紫茉莉
+nigella,花7黑种草
+portulaca,花7马齿苋
+buttercup,花7花毛茛
+begonia,花7秋海棠
+blueberry blossoms,花7蓝莓花
+forget me not,花7勿忘草
+genista (flower),花7染料木属
+grass lily,花7伞花虎眼万年青
+dusty miller,花7银叶菊
+freesia,花7小苍兰
+kalanchoe,花7长寿花/家乐花/矮生伽蓝菜/圣诞伽蓝菜/寿星花/布洛斯费尔德高凉菜
+potato flower,花7土豆花
+wolfsbane,花7乌头属
+black eyed susan,花7黑心金光菊
+clivia,花7君子兰
+crocus,花7番紅花
+dipsacaceae,花7川续断科
+great burnet,花8地榆
+lisianthus (flower),花8洋桔梗属
+paulownia,花8毛泡桐
+snapdragon,花8金鱼草
+wax flower,花8风蜡花属
+dimorphotheca,花8异果菊
+hawthorn (plant),花8山楂
+hellebore,花8铁筷子/嚏根草
+lantana (flower),花8马缨丹属
+marsh marigold,花8驴蹄草/驴蹄菜/沼泽金盏花/立金花
+gourd blossom,花8葫芦花 (辐射76)
+pentas (flower),花8五星花属/繁星花属
+periwinkle,花8蔓长春花属
+pieris japonica,花8马醉木
+potentilla,花8委陵菜属
+flowers meadows,花8花田
+anemone,花8银莲花
+azalea,花8杜鹃花
+bleeding heart,花8荷包牡丹
+chinese lantern (plant),花8灯笼草
+clematis,花9铁线莲
+flax,花9亚麻
+jasmine,花9素馨属/素英属/茉莉花
+iris,花9鸢尾属
+larkspur,花9翠雀属
+lavender,花9薰衣草
+lily,花9百合属
+moonflower,花9月光花/嫦娥奔月/天茄儿/天茄子/夜颜/夕颜
+nemophila,花9粉蝶花属/喜林草属/幌菊属
+peony,花9芍药属
+perennial,花9多年生植物
+poppy,花9罂粟
+rafflesia,花9大花草属
+red ginger,花9红姜花
+reimu,花9灵梦花
+violet,花9堇菜属
+silk flower,花9霓裳花 (原神)
+sky,天空1天空
+day,天空1白天
+cloud,天空1云
+night,天空1夜晚
+moon,天空1月亮
+night sky,天空1夜空
+full moon,天空1满月
+starry sky,天空1星空
+rain,天空1下雨
+sunset,天空1落日
+sun,天空1太阳
+shooting star,天空1流星
+moonlight,天空1月光
+dusk,天空1黄昏
+sunburst background,天空1旭日纹背景
+skyline,天空1天际线
+blue moon,天空1蓝月
+rainy days,天空1雨天
+beautiful detailed sky,天空1漂亮的天空
+in spring,天空1春
+in summer,天空2夏
+in autumn,天空2秋
+in winter,天空2冬
+stars,天空2星星
+cloudy,天空2多云
+in the rain,天空2雨中
+simple background,背景1简单背景/无背景
+white background,背景1白色背景
+outdoors,背景1户外
+indoors,背景1室内
+gradient background,背景1渐变的背景
+transparent background,背景1透明背景
+christmas,背景1圣诞节
+halloween,背景1万圣节
+science fiction,背景1科幻
+valentine,背景1情人节
+magic circle,背景1魔法阵
+landscape,背景1风景
+pentagram,背景1五角星
+feather,背景1场景飘羽毛
+beautiful detailed water,背景1漂亮的水
+feet out of frame,构图1脚部脱框
+border,构图1边框
+letterboxed,构图1宽银幕格式
+out of frame,构图1脱框
+outside border,构图1一部分画到了背景框外面
+zoom layer,构图1人物立绘缩放(剪影)图层
+head out of frame,构图1头部脱框
+tachi e,构图1立绘样式
+reference sheet,构图1设定图
+afterimage,构图1残像
+cropped,构图1遭到裁剪
+framed,构图1画框
+lineup,构图1一排人
+viewfinder,构图1相机取景框
+collage,构图1拼贴画
+pillarboxed,构图1柱状画布背景
+symmetry,构图1左右对称
+column lineup,构图1小图拼接
+chart,构图1图表
+projected inset,构图1类似海报或杂志的插图效果
+rotational symmetry,构图2对称旋转/《少女革命》女同转圈圈
+glitch,构图2画面噪点
+partially underwater shot,构图2部分水下拍摄
+rounded corners,构图2背景或画框是圆角
+stats,构图2属性栏/状态表
+negative space,构图2大量留白
+isometric,构图2等轴图
+diagram,构图2图表
+bust chart,构图2胸围图
+relationship graph,构图2关系表
+omake,构图2附图
+trim marks,构图2裁剪标记
+fading border,构图2褪色边框
+polar opposites,构图2两极对称
+character chart,构图2人设图
+fake scrollbar,构图2假的滚动条
+mosaic art,构图2马赛克艺术
+photomosaic,构图2马赛克拼图
+move chart,构图2动作演示图
+seating chart,构图2座次表
+social media composition,构图3社交媒体整合
+sketch,画风1草图
+cosplay,画风1角色扮演
+traditional media,画风1手绘
+dakimakura (medium),画风1抱枕
+realistic,画风1现实的/真实的
+retro artstyle,画风1赛璐璐/复古艺术
+style parody,画风1画风模仿
+painting (medium),画风1传统绘图工具
+marker (medium),画风1马克笔风格
+graphite (medium),画风1铅笔画/炭笔画
+watercolor (medium),画风1水彩
+unfinished,画风1未完成的
+flat color,画风1平涂风格
+colored pencil (medium),画风1彩色铅笔画
+surreal,画风1怪诞的/超现实主义
+abstract,画风1抽象
+millipen (medium),画风1毫厘笔
+faux traditional media,画风1仿手绘
+fourth wall,画风1虚实穿插/现实感/次元壁
+cyberpunk,画风1赛博朋克
+fine art parody,画风2对某美术品的模仿/模仿名画
+nib pen (medium),画风2蘸水笔画风
+variations,画风2(变装、变化、变色、成长)对比图
+faux figurine,画风2仿手办风格
+acrylic paint (medium),画风2亚克力画风
+art nouveau,画风2新艺术
+color trace,画风2原画
+photorealistic,画风2很像照片的画
+expression chart,画风2角色的多表情展示
+watercolor pencil (medium),画风2彩铅
+calligraphy brush (medium),画风2书法毛笔
+ink (medium),画风2墨水
+ballpoint pen (medium),画风2圆珠笔
+nihonga,画风2日本画
+pastel (medium),画风2像粉笔蜡笔作画的
+mousepad (medium),画风2手绘板
+oil painting (medium),画风2油画风格
+ligne claire,画风2白描
+pen (medium),画风2钢笔
+ukiyo e,画风2浮世绘
+color ink (medium),画风3彩色墨水
+minimalism,画风3极简主义
+brush (medium),画风3刷子
+lego (medium),画风3乐高
+impressionism,画风3印象派
+crayon (medium),画风3蜡笔
+airbrush (medium),画风3喷枪
+coupy pencil (medium),画风3Coupy 铅笔
+art deco,画风3装饰艺术
+gouache (medium),画风3水粉
+charcoal (medium),画风3炭笔
+sumi e,画风3墨绘
+canvas (medium),画风3画布
+calligraphy pen (medium),画风3书法笔
+print (medium),画风3印刷品
+cursor (medium),画风3光标
+clay (medium),画风3黏土
+amigurumi (medium),画风3钩织玩偶/毛线娃娃
+swapnote (medium),画风3交换笔记
+graffiti (medium),画风3涂鸦
+whiteboard (medium),画风4白板
+book cover (medium),画风4书本封面
+flame painter,画风4Flame Painter (工具)
+fudepen (medium),画风4墨笔/毛钢笔
+leaf (medium),画风4树叶
+theatre (medium),画风4剧场
+brushpen (medium),画风4毛笔
+chalk (medium),画风4粉笔
+google sketchup (medium),画风4Google Sketchup
+washi tape (medium),画风4和纸胶带
+disc (medium),画风4碟片
+g pen medium,画风4G 笔
+illustrator (medium),画风4Illustrator
+porcelain (medium),画风4瓷器
+tempera (medium),画风4蛋彩画
+alphonse mucha,画风4阿尔丰斯·慕夏
+pastel color,画风4粉彩
+monochrome,色彩1单色画
+greyscale,色彩1纯黑白色/黑白照片化/灰度
+gradient,色彩1渐变色
+spot color,色彩1黑白画中的少量颜色
+blue theme,色彩1蓝色
+limited palette,色彩1色块风格
+colorized,色彩1上色
+pink theme,色彩1粉色主题
+partially colored,色彩1部分上色
+purple theme,色彩1紫色
+red theme,色彩1红色/红色主题
+rainbow,色彩1彩虹
+sepia,色彩1深棕色/乌贼墨色
+green theme,色彩1绿色主题
+yellow theme,色彩1黄色主题
+muted color,色彩1哑光
+colorful,色彩1五彩斑斓的
+brown theme,色彩1棕色主题
+anime coloring,色彩1动画上色
+white theme,色彩1白色主题
+orange theme,色彩2橙色
+high contrast,色彩2高对比度
+rainbow order,色彩2彩虹色序排列
+pale color,色彩2苍白的颜色
+color connection,色彩2色彩关联
+aqua theme,色彩2水蓝色
+black theme,色彩2黑色主题
+greyscale with colored background,色彩2黑白角色与有色背景
+pastel colors,色彩2柔和色彩
+grey theme,色彩2灰色
+cel shading,色彩2卡通渲染
+inverted colors,色彩2色彩反转
+neon palette,色彩2霓虹色彩
+ff gradient,色彩2最终幻想式渐变
+colored with greyscale background,色彩2有色角色与黑白背景
+cowboy shot,视角1七分身镜头
+from behind,视角1背影
+from side,视角1角色的侧面
+dutch angle,视角1德式倾斜镜头
+multiple views,视角1多视图
+pov,视角1主观视角
+from above,视角1俯视镜头
+from below,视角1仰视镜头
+close up,视角1特写镜头
+upside down,视角1倒挂的
+blurry foreground,视角1前景模糊
+wide shot,视角1广角镜头
+perspective,视角1透视画法
+between fingers,视角1(突出)指间
+hatching (texture),视角1线影法(纹理)
+fisheye,视角1鱼眼镜头
+breast conscious,视角1对胸部在意
+sideways,视角1横向显示的
+vanishing point,视角1远景透视画法
+from outside,视角2室外看向室内(的镜头)
+cut in,视角2插入画面
+rotated,视角2经过旋转的
+panorama,视角2全景
+atmospheric perspective,视角2大气距离感
+first person view,视角2第一人称视角
+three sided view,视角2三视图
+alternate costume,艺术破格1角色换装
+alternate hairstyle,艺术破格1与原设不同发型变化
+aged down,艺术破格1年龄减少
+genderswap,艺术破格1性转
+adapted costume,艺术破格1原设服装改编
+no headwear,艺术破格1去掉了(原设有的)头饰
+genderswap (mtf),艺术破格1女体化
+personification,艺术破格1拟人化
+alternate breast size,艺术破格1贫乳化/爆乳化
+aged up,艺术破格1年龄增加
+hair down,艺术破格1披下来的头发
+contemporary,艺术破格1现代改编
+enmaided,艺术破格1女仆装
+alternate color,艺术破格1异色
+alternate hair length,艺术破格1与原设不同头发长度变化
+character doll,艺术破格1角色公仔
+alternate eye color,艺术破格1与原设不同瞳色
+hair up,艺术破格1盘起来的头发
+alternate hair color,艺术破格1与原设不同发色变化
+dark persona,艺术破格1黑化
+genderswap (ftm),艺术破格2男体化
+animalization,艺术破格2动物化
+costume switch,艺术破格2服饰互换
+fusion,艺术破格2融合/合体
+humanization,艺术破格2拟人化
+alternate universe,艺术破格2异世界
+alternate headwear,艺术破格2与原设不同头饰变化
+no eyewear,艺术破格2去掉了(原设有的)眼镜
+if they mated,艺术破格2假如这两个角色有孩子了
+no wings,艺术破格2去掉了(原设有的)翅膀
+monsterification,艺术破格2魔物化
+role reversal,艺术破格2角色转换
+age progression,艺术破格2年龄段展现
+alternate skin color,艺术破格2与原设不同肤色变化
+mechanization,艺术破格2机械化
+alternate weapon,艺术破格2与原设不同武器变化
+furrification,艺术破格2多毛化
+player 2,艺术破格22P玩家角色风格颜色替换
+no tail,艺术破格2无尾化
+objectification,艺术破格2物品化
+unusually open eyes,艺术破格3(与原设不同)睁眼
+alternate wings,艺术破格3与原设不同翅膀
+personality switch,艺术破格3人格替换
+no mask,艺术破格3去掉了(原设有的)面具
+age comparison,艺术破格3年龄对比
+out of character,艺术破格3不符角色原本性格
+headwear switch,艺术破格3头饰互换
+palette swap,艺术破格3色调互换
+zombification,艺术破格3僵尸化
+light persona,艺术破格3美化
+foodification,艺术破格3食物化
+alternate element,艺术破格3与原设不同元素
+no animal ears,艺术破格3去掉了(原设有的)兽耳
+no horn,艺术破格3无角化
+vehicalization,艺术破格3载具化
+slimification,艺术破格3史莱姆化
+costume combination,艺术破格3服装组合
+no fire,艺术破格3无火化
+blurry,滤镜1模糊的
+sparkle,滤镜1闪耀效果
+depth of field,滤镜1背景虚化
+别名：,滤镜1focus blur
+motion lines,滤镜1体现运动的线
+foreshortening,滤镜1正前缩距透视法
+lens flare,滤镜1镜头光晕
+别名：,滤镜1lensflare
+backlighting,滤镜1逆光
+jpeg artifacts,滤镜1JPEG 压缩失真
+emphasis lines,滤镜1集中线
+motion blur,滤镜1动态模糊
+silhouette,滤镜1剪影
+chromatic aberration,滤镜1色差
+halftone,滤镜1一种漫画中常见的网点状的组色组图画法
+speed lines,滤镜1速度线
+bokeh,滤镜1背景散焦
+film grain,滤镜1胶片颗粒感/老电影滤镜
+drop shadow,滤镜1立绘阴影
+diffraction spikes,滤镜1衍射十字星
+bloom,滤镜2盛开
+caustics,滤镜2焦散
+别名：,滤镜2caustic lighting
+multiple monochrome,滤镜2多个单色结构拼接成的
+dithering,滤镜2抖动
+blending,滤镜2混合
+vignetting,滤镜2晕影
+scanlines,滤镜2扫描线
+overexposure,滤镜2过曝
+lens flare abuse,滤镜2镜头光晕滥用
+optical illusion,滤镜2视错觉
+chiaroscuro,滤镜2明暗对比
+stereogram,滤镜2立体画
+image fill,滤镜2图像填充
+anaglyph,滤镜2互补色
+cinematic lighting,滤镜2电影光效
+glowing light,滤镜2荧光
+god rays,滤镜2自上而下的光
+ray tracing,滤镜2光线追踪
+reflection light,滤镜2反射光
+chromatic aberration abuse,滤镜3色差滥用
+burger,食物1汉堡包
+sushi,食物1寿司
+pizza,食物1披萨
+baozi,食物1包子
+sandwich,食物1三明治
+bento,食物1便当
+curry,食物1咖喱
+omelet,食物1煎蛋卷
+french fries,食物1炸薯条
+makizushi,食物1寿司巻
+takoyaki,食物1章鱼烧
+curry rice,食物1咖喱饭
+soup,食物1汤
+tempura,食物1天妇罗
+hot dog,食物1热狗
+holding pizza,食物1拿着披萨
+dumpling,食物1饺子
+pizza slice,食物1切下的一块比萨
+salad,食物1沙拉
+shrimp tempura,食物1虾天妇罗
+crumbs,食物2面包屑
+pizza box,食物2披萨盒
+tofu,食物2豆腐
+party,食物2派对
+aburaage,食物2油炸豆腐
+oden,食物2关东煮
+jiaozi,食物2饺子
+narutomaki,食物2鸣门卷
+nigirizushi,食物2手握寿司
+zouni soup,食物2日式烩年糕
+nabe,食物2火锅
+corn dog,食物2玉米热狗
+miso soup,食物2味噌
+croquette,食物2炸丸
+canned food,食物2罐头食品
+breakfast,食物2早餐
+salt,食物2盐
+mapo tofu,食物2麻婆豆腐
+birthday party,食物2生日聚会
+tea party,食物2茶会
+okonomiyaki,食物3什锦煎饼
+flour,食物3面粉
+taco,食物3炸玉米饼
+dinner,食物3晚餐
+meal,食物3一顿饭
+pizza delivery,食物3披萨递送
+gunkanmaki,食物3军舰卷
+takuan,食物3腌萝卜片
+inarizushi,食物3稻荷寿司
+feast,食物3盛宴
+dim sum,食物3点心
+okosama lunch,食物3okosama 儿童餐
+conveyor belt sushi,食物3回转寿司
+tamagokake gohan,食物3生蛋盖饭
+sushi geta,食物3寿司板
+sukiyaki,食物3寿喜烧
+lunch,食物3午饭
+zongzi,食物3粽子
+fondue,食物3芝士火锅
+cooking oil,食物3食用油
+fish and chips,食物4炸鱼薯条
+french toast,食物4法式吐司
+unadon (food),食物4鳗丼
+ribs (food),食物4排骨
+tang yuan,食物4汤圆
+megamac,食物4超级汉堡
+shumai,食物4烧卖
+stinky tofu,食物4臭豆腐
+twice cooked pork,食物4回锅肉
+katsu,食物4日式炸鸡排
+katsudon,食物4日式猪排饭
+konnyaku,食物4蒟蒻
+milk,食物4牛奶
+cream,食物4奶油
+cheese,食物4芝士
+milk bottle,食物4奶瓶
+milk carton,食物4盒装牛奶
+whipped cream,食物4打发的奶油
+butter,食物4黄油
+baby bottle,食物4婴儿奶瓶
+milkshake,食物5奶昔
+yogurt,食物5酸奶
+yakult,食物5养乐多
+milk churn,食物5牛奶周转桶
+strawberry milk,食物5草莓牛奶
+swiss cheese,食物5瑞士奶酪
+condensed milk,食物5炼乳
+chocolate milk,食物5巧克力牛奶
+smoked cheese,食物5烟熏奶酪
+kefir,食物5开菲尔
+milk mustache,食物5牛奶小胡子
+eggnog,食物5蛋酒
+strawberry,食物5草莓
+apple,食物5苹果
+peach,食物5桃
+watermelon,食物5西瓜
+cherry,食物5樱桃
+grapes,食物5葡萄
+mandarin orange,食物5橘子
+banana,食物5香蕉
+lemon,食物6柠檬
+lemon slice,食物6柠檬片
+blueberry,食物6蓝莓
+orange slice,食物6一片橙子
+berry,食物6浆果
+red apple,食物6红苹果
+melon,食物6瓜
+pineapple,食物6菠萝
+raspberry,食物6树莓
+fruit cup,食物6水果杯
+banana peel,食物6香蕉皮
+chocolate banana,食物6巧克力香蕉
+persimmon,食物6柿子
+golden apple,食物6金苹果
+pear,食物6梨
+lime slice,食物6青柠片
+banana boat,食物6充气香蕉船
+kiwi slice,食物6猕猴桃切片
+pomegranate,食物6石榴
+yuzu (fruit),食物6柚子（水果）
+fruit bowl,食物7果盘
+apple bunny,食物7苹果兔（苹果瓣一侧的果皮削去，像兔耳）
+banana slice,食物7香蕉片
+green apple,食物7青苹果
+on banana,食物7在巨型香蕉上
+olive,食物7橄榄
+bitten apple,食物7咬苹果
+mango,食物7芒果
+apple core,食物7苹果核
+umeboshi,食物7梅干
+grapefruit,食物7西柚
+cantaloupe,食物7哈密瓜
+plum,食物7李子
+lychee,食物7荔枝
+avocado,食物7牛油果/鳄梨
+apple peel,食物7长串苹果皮
+fig,食物7无花果
+orangette,食物7巧克力橙片
+grape stomping,食物7脚踩葡萄汁
+dragon fruit,食物7火龙果
+banana popsicle,食物8香蕉冰棒
+papaya,食物8番木瓜
+muskmelon,食物8甜瓜
+starfruit,食物8杨桃
+gel banana,食物8绿色果冻香蕉（命运石之门）
+cacao fruit,食物8可可果
+currant,食物8小葡萄干
+akebia fruit,食物8阿科比
+mangosteen,食物8山竹
+nashi pear,食物8黄金梨
+gooseberry,食物8猕猴桃
+rambutan,食物8红毛丹
+blackberry,食物8黑莓
+kiwi,食物8猕猴桃
+lime,食物8青柠
+honeydew,食物8蜜瓜
+orange,食物8橙子
+candy,食物8糖果
+cake,食物8蛋糕
+popsicle,食物8冰棒/棒冰
+lollipop,食物9棒棒糖
+chocolate,食物9巧克力
+ice cream,食物9冰激凌
+pocky,食物9百奇饼干
+wagashi,食物9日式点心
+doughnut,食物9甜甜圈
+cookie,食物9曲奇饼
+dango,食物9团子
+heart,食物9
+ice cream cone,食物9蛋卷冰淇淋
+macaron,食物9马卡龙
+cake slice,食物9分层蛋糕
+candy apple,食物9糖苹果
+chewing gum,食物9口香糖
+parfait,食物9芭菲
+mochi,食物9麻糬
+cupcake,食物9纸杯蛋糕
+candy cane,食物9糖果手杖
+pudding,食物9布丁
+pastry,食物9糕点
+shaved ice,食物10刨冰
+swirl lollipop,食物10漩涡棒棒糖
+potato chips,食物10土豆片
+taiyaki,食物10鲷鱼烧
+birthday cake,食物10生日蛋糕
+crepe,食物10绉
+strawberry shortcake,食物10草莓奶油海绵蛋糕
+chocolate bar,食物10巧克力棒
+checkerboard cookie,食物10棋盘花纹的饼干
+cotton candy,食物10棉花糖
+pie,食物10馅饼
+watermelon bar,食物10西瓜冰棍
+sundae,食物10圣代
+popcorn,食物10爆米花
+youkan,食物10羊羹
+icing,食物10糖霜
+marshmallow,食物10棉花糖
+soft serve,食物10软冰淇淋
+chocolate cake,食物10巧克力蛋糕
+ice cream float,食物10飘浮冰淇淋
+popsicle stick,食物11冰棒棍
+wafer stick,食物11晶圆卷
+sprinkles,食物11小块彩色糖果
+swiss roll,食物11瑞士卷
+muffin,食物11松饼
+tupet,食物11小喇叭
+cream puff,食物11泡芙
+double scoop,食物11双勺
+gingerbread man,食物11姜饼人（一种曲奇饼）
+chocolate cornet,食物11巧克力夹心
+chocolate chip cookie,食物11巧克力片饼干
+pastry box,食物11糕点盒
+jelly bean,食物11糖果豆
+konpeitou,食物11金平糖
+chikuwa,食物11竹轮（食物）
+sakura mochi,食物11樱花麻糬
+cheesecake,食物11乳酪蛋糕
+gelatin,食物11凝胶
+french cruller,食物11螺旋脊状甜甜圈
+apple pie,食物11苹果派
+pretzel,食物12椒盐卷饼
+mont blanc (food),食物12白山蛋糕
+wafer,食物12冰淇淋脆片
+shaped lollipop,食物12棒棒糖形状
+strawberry parfait,食物12草莓冻糕
+thumbprint cookie,食物12指纹特征数据
+doritos,食物12多力多滋
+umaibou,食物12美味棒
+chupa chups,食物12珍宝珠
+triple scoop,食物12三球冰淇淋
+waffle cone,食物12华夫饼蛋筒
+white chocolate,食物12白巧克力
+pringles,食物12品客
+oreo,食物12奥利奥
+dorayaki,食物12铜锣烧
+anpan,食物12红豆包
+batter,食物12面糊
+fruit tart,食物12水果馅饼
+kashiwa mochi (food),食物12柏饼
+sandwich cookie,食物12夹心饼干
+mooncake,食物13月饼
+kinoko no yama,食物13明治巧克力蘑菇饼干
+chocolate doughnut,食物13巧克力甜甜圈
+churro,食物13油条
+layer cake,食物13千层蛋糕
+dough,食物13面团
+too many scoops,食物13过多的冰激凌甜筒
+bugles,食物13号角
+tanghulu,食物13糖葫芦
+baumkuchen,食物13年轮蛋糕
+christmas cake,食物13圣诞蛋糕
+apollo chocolate,食物13阿波罗巧克力
+old fashioned doughnut,食物13酥皮甜甜圈
+eclair (food),食物13闪电泡芙
+wedding cake,食物13婚礼蛋糕
+anmitsu (dessert),食物13豆沙水果涼粉
+cinnamon roll,食物13肉桂卷
+ichigo daifuku,食物13草莓大福
+gingerbread house,食物13姜饼屋
+nerunerunerune,食物13nerunerunerune（糖果）
+caramel,食物14焦糖
+single scoop,食物14单球冰淇淋
+chocolate fountain,食物14巧克力喷泉
+strawberry tart,食物14草莓挞
+kitkat,食物14奇巧
+gumball,食物14口香糖球
+tiramisu,食物14提拉米苏
+yule log,食物14圣诞节原木
+gingerbread cookie,食物14姜饼饼干
+m&m's,食物14M&M's
+toppo,食物14托普
+custard,食物14卡仕达酱
+ice cream sandwich,食物14冰淇淋三明治
+cigarette candy,食物14香烟糖果
+mille feuille,食物14千层酥
+momiji manjuu,食物14红叶馒头
+quadruple scoop,食物14四个球的冰淇淋蛋筒
+madeleine,食物14玛德琳蛋糕
+noppo bread,食物14noppo 面包
+black forest cake,食物14黑森林蛋糕
+pinata,食物15皮纳塔
+pound cake,食物15磅蛋糕
+stollen,食物15史多伦
+banana split,食物15香蕉冰激凌
+chitose ame,食物15千岁饴
+imagawayaki,食物15今川烧
+slushie,食物15冰沙
+pudding a la mode,食物15法式布丁
+country ma'am,食物15COUNTRY MA'AM
+rare cheesecake,食物15生乳酪蛋糕
+blueberry tart,食物15蓝莓馅饼
+charlotte cake,食物15夏洛特蛋糕
+marble chocolate,食物15大理石巧克力
+red velvet cake,食物15红丝绒蛋糕
+songpyeon,食物15松饼
+coolish,食物15Coolish
+warabimochi,食物15蕨饼
+opera cake,食物15歌剧院蛋糕
+sakura french,食物15樱花甜甜圈
+namagashi,食物15生菓子
+strawberry swiss roll,食物16草莓瑞士卷
+mitsumame,食物16蜜豆
+hot cross bun,食物16十字包
+fondant au chocolat,食物16熔岩巧克力蛋糕
+chocolate framboise,食物16巧克力红桑子莓
+chocolate marquise,食物16女爵巧克力
+bavarois,食物16巴伐利亚奶油
+suama (food),食物16蘇阿馬
+brownie,食物16巧克力布朗尼
+creme egg,食物16鸡蛋奶油
+tootsweets,食物16甜甜圈
+takenoko no sato,食物16明治巧克力竹笋饼干
+tart,食物16果馅饼
+uirou,食物16外郎饼
+chips,食物16薯片
+fish,食物16鱼
+egg,食物16蛋
+crab,食物16螃蟹
+chicken,食物16鸡
+fried egg,食物16煎鸡蛋
+shrimp,食物17虾类
+boned meat,食物17圆柱形带骨肉
+sausage,食物17香肠
+steak,食物17牛排
+egg laying,食物17产卵
+fish bone,食物17鱼骨
+bacon,食物17培根
+fried chicken,食物17炸鸡
+kebab,食物17烤肉串
+eggshell,食物17蛋壳
+chicken leg,食物17鸡腿
+tako san wiener,食物17章鱼状的香肠
+kamaboko,食物17鱼糕
+lobster,食物17龙虾
+egg yolk,食物17蛋黄
+hamburger steak,食物17汉堡牛排
+sashimi,食物17生鱼片
+yakitori,食物17烤鸡肉串
+meatball,食物17肉丸
+gyuudon,食物17牛丼
+hardboiled egg,食物18水煮蛋
+roe,食物18鱼子
+ham,食物18火腿
+chicken nuggets,食物18鸡块
+broken egg,食物18破碎的蛋
+eggshell hat,食物18蛋壳帽子
+pork,食物18猪肉
+turkey,食物18火鸡
+turkey leg,食物18火鸡腿
+scrambled egg,食物18炒鸡蛋
+caviar,食物18鱼子酱
+century egg (food),食物18皮蛋
+katsuo no tataki,食物18炙烤鲣鱼片
+kani,食物18蟹状的香肠
+ikura,食物18红鱼子酱
+jack o lantern,食物18南瓜灯
+carrot,食物18胡萝卜
+pumpkin,食物18南瓜
+mushroom,食物18蘑菇
+spring onion,食物18大葱
+tomato,食物19番茄
+sweet potato,食物19红薯
+cucumber,食物19黄瓜
+eggplant,食物19茄子
+potato,食物19土豆
+lettuce,食物19生菜
+beans,食物19豆子
+corn,食物19玉米
+seaweed,食物19海藻
+coconut,食物19椰子
+onion,食物19洋葱
+radish,食物19萝卜
+cabbage,食物19卷心菜
+chili pepper,食物19辣椒
+broccoli,食物19西兰花
+daikon,食物19萝卜
+yakiimo,食物19烤白薯
+pepper,食物19胡椒
+mint,食物19薄荷
+chestnut,食物19板栗
+cherry tomato,食物20圣女果（小西红柿
+bell pepper,食物20灯笼椒
+nattou,食物20纳豆
+turnip,食物20芜菁
+peanut,食物20花生
+garlic,食物20大蒜
+pickle,食物20泡菜
+habanero pepper,食物20哈瓦那辣椒
+bitter melon,食物20苦瓜
+squash,食物20南瓜属
+asparagus,食物20芦笋
+red bean paste,食物20红豆馅
+onion rings,食物20洋葱圈
+almond,食物20扁桃
+parsley,食物20欧芹
+green pepper,食物20青椒
+cauliflower,食物20菜花
+bok choy,食物20白菜
+red pepper,食物20红椒
+jalapeno pepper,食物20墨西哥辣椒
+kimchi,食物21韩国泡菜
+warabi,食物21蕨
+yellow pepper,食物21黄椒
+hijiki,食物21羊栖菜
+nori,食物21海苔
+ketchup,食物21番茄酱
+honey,食物21蜂蜜
+sugar cube,食物21方糖
+syrup,食物21果酱
+soy sauce,食物21酱油
+jam,食物21果酱
+sauce,食物21酱汁
+mayonnaise,食物21蛋黄酱
+salt shaker,食物21撒盐瓶子
+chocolate syrup,食物21巧克力酱
+mustard,食物21芥末
+pepper shaker,食物21胡椒
+wasabi,食物21芥末
+hot sauce,食物21辣酱
+sugar (food),食物21粉状糖（食物）
+strawberry syrup,食物22草莓酱
+peanut butter,食物22花生酱
+marmalade,食物22果酱/橘子酱
+furikake,食物22拌饭素
+bread,食物22面包
+rice,食物22米饭
+onigiri,食物22饭团
+noodles,食物22面条
+pancake,食物22煎饼
+ramen,食物22拉面
+toast,食物22吐司
+omurice,食物22蛋包饭
+baguette,食物22法棍
+cup ramen,食物22杯面
+pasta,食物22意大利面
+rice on face,食物22脸上有米饭
+japari bun,食物22加帕里面包（兽娘动物园）
+melon bread,食物22菠萝包
+spaghetti,食物22意大利面
+pancake stack,食物22煎饼堆
+senbei,食物23仙贝
+croissant,食物23羊角面包
+udon,食物23乌冬面
+fried rice,食物23炒饭
+waffle,食物23华夫饼干
+yakisoba,食物23炒面
+cracker,食物23饼干
+soba,食物23荞麦
+scone,食物23烤饼
+bread bun,食物23面包包子
+bread eating race,食物23吃面包比赛（咬住面包跑到终点）
+cereal,食物23谷物早餐
+kitsune udon,食物23狐狸乌冬面
+yakisobapan,食物23炒面面包
+biscuit (bread),食物23饼干（面包）
+spaghetti and meatballs,食物23肉丸意大利面
+soumen,食物23素麺（面条 食物）
+jirou (ramen),食物23堆高的豚骨拉面
+rice porridge,食物23稀饭
+lasagne,食物23千层面
+bread crust,食物24面包皮
+nanakusa no sekku,食物24喝七草粥的日子
+black spaghetti,食物24黑色意大利面
+empanada,食物24恩巴纳达
+risotto,食物24烩饭
+italian (niigata),食物24意大利面（新潟）
+arare,食物24粗米饼
+alcohol,食物24酒精
+tea,食物24茶
+beer,食物24啤酒
+sake,食物24日本酒
+coffee,食物24咖啡
+wine,食物24葡萄酒
+soda can,食物24汽水罐
+bubble tea,食物24珍珠奶茶
+ramune,食物24ramune 波子汽水
+coca cola,食物24可口可乐
+tropical drink,食物24热带特色的饮料
+champagne,食物24香槟酒
+soda,食物24苏打
+cocktail,食物25鸡尾酒
+starbucks,食物25星巴克
+green tea,食物25绿茶
+juice,食物25果汁
+whiskey,食物25威士忌酒
+canned coffee,食物25罐装咖啡
+vodka,食物25伏特加
+orange juice,食物25橙汁
+pepsi,食物25百事可乐
+liquor,食物25酒
+coffee beans,食物25咖啡豆
+dr pepper,食物25Dr Pepper
+black tea,食物25红茶
+cocktail umbrella,食物25鸡尾酒伞
+blue hawaii,食物25蓝色夏威夷（鸡尾酒）
+melon soda,食物25绿色苏打水
+lemonade,食物25柠檬汽水
+latte art,食物25咖啡拉花
+iced tea,食物25冰茶
+fanta,食物25芬达
+martini,食物26马提尼酒
+mountain dew,食物26激浪（饮料）
+calpis,食物26Calpis
+milk tea,食物26奶茶
+tequila,食物26龙舌兰酒
+georgia max coffee,食物26Georgia MAX Coffee
+pepsi ice cucumber,食物26黄瓜味百事可乐
+margarita,食物26玛格丽塔
+root beer,食物26根汁啤酒
+guinness (beer),食物26健力士黑啤酒(啤酒)
+7up,食物267up
+barley tea,食物26燕麦茶
+rose hip tea,食物26茉莉花茶
+cafe au lait,食物26咖啡加牛奶
+earl grey tea,食物26伯爵茶
+darjeeling tea,食物26达吉岭茶
+herbal tea,食物26草药茶
+non alcoholic beer,食物26非酒精啤酒
+caesar (drink),食物26凯撒鸡尾酒
+dandelion coffee,食物26蒲公英咖啡
+spear mint tea,食物27薄荷茶
+amazake,食物27甘酒
+sword,物品1刀
+gun,物品1枪
+umbrella,物品1伞
+chair,物品1椅子
+backpack,物品1背包
+microphone,物品1麦克风
+handgun,物品1手枪
+teacup,物品1茶杯
+cigarette,物品1香烟
+ofuda,物品1札符
+chopsticks,物品1筷子
+camera,物品1相机
+wand,物品1魔杖
+gohei,物品1御币
+guitar,物品1吉他
+scythe,物品1镰刀
+dagger,物品1匕首/短剑
+yin yang,物品1阴阳
+whip,物品1鞭
+riding crop,物品1马鞭
+piano,物品2钢琴
+crease,物品2起皱
+weapons,物品2武器
+arrow,物品2箭
+lantern/lamp,物品2灯笼
