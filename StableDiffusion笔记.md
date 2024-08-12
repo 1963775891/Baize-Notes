@@ -157,7 +157,7 @@ rnate、复杂、高度详细、杂乱、无序、凌乱、嘈杂,
 
 ------
 
-#### **2.2 正面提示词**
+### **2.2 正面提示词**
 
 ##### **2.2.1 高质量写实**
 
@@ -198,35 +198,35 @@ Cinematic light, ray tracing
 ------
 
 
-#### **2.2.6 负面：错误身体和结构**
+### **2.3 负面：错误身体和结构**
 
 ```sh
 ((NSFW)),artist name, twisted torso, (((fusion), extra, bad, fewer, missing), fist,clenched hand),extra fingers,fewer fingers,(low quality, worst quality:1.4), (bad anatomy), (inaccurate limb:1.2),bad composition, inaccurate eyes, extra digit,fewer digits,(extra arms:1.2),
 
 ((NSFW)),艺术家姓名,扭曲的躯干,融合,(((额外),糟糕,较少,缺失),拳头,紧握的手),额外的手指,较少的手指,(低质量,最差质量:1.4),(糟糕的解剖),(不准确的肢体:1.2),糟糕的构图,不准确的眼睛,额外的数字,较少的数字,(额外的手臂:1.2),
 ```
-##### **2.2.8 负面：低画质、错误身体和结构**
+##### **2.3.1 负面：低画质、错误身体和结构**
 
 ```sh
 ((NSFW)),(EasyNegative:1.1),ng_deepnegative_v1_75t,bad-hands-5,lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry
 
 ((NSFW))，(容易负面：1.1)，ng_deepnegative_v1_75t，坏手 - 5，低分辨率，不良解剖结构，不良手部，文本，错误，缺失手指，多余数字，数字较少，裁剪，最差质量，低质量，正常质量，JPEG 伪影，签名，水印，用户名，模糊 
 ```
-##### **2.2.9 负面：低画质、错误身体和结构、敏感部位、黑白图**
+##### **2.3.2 负面：低画质、错误身体和结构、敏感部位、黑白图**
 
 ```sh
 ((NSFW)),paintings, sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin blemishes, age spot, glans, extra fingers, fewer fingers, multiple hands, multiple heads, Multiple arms, disabled body, illustration, 3d, sepia, painting, cartoons, sketch, bad anatomy, bad hands, collapsed eyeshadow, multiple eyebrows, pink hair, holes on breasts, stretched nipples, analog, analogphoto, signature, logo, facing away, looking away,(fat:1.2), glans,((watermark:2)),((white letters:1)), age spot, multiple eyebrows, fleckles, stretched nipples, nipples on buttocks, analog, analog photo, 2 faces, hat, bad composition, error hands, error fingers, dark, (thick eyebrows:1.2), 2girls, (((duplicate))), mutated hands,(((((fused fingers))))), (((((too many fingers))))),signature, watermark, username, blurry, artist name, text, chromatic aberration, flat color, flat shading, retro style,, low res, bad face, missing fingers, extra digit, fewer digits, multiple legs, malformation 
 
 ((NSFW))，绘画，素描，(最差质量：2)，（低质量：2），（正常质量：2），低分辨率，正常质量，((单色))，((灰度))，皮肤瑕疵，老年斑，龟头，额外的手指，更少的手指，多只手，多个头，多只手臂，残疾身体，插图，3d，棕褐色，绘画，卡通，素描，糟糕的解剖，糟糕的手，塌陷的眼影，多根眉毛，粉红色的头发，乳房上的洞，拉伸的乳头，模拟，类比照片，签名，标志，背对着，看着别处，（脂肪：1.2），龟头，((水印：2))，((白色字母：1))，老年斑，多根眉毛，斑点，拉伸的乳头，臀部的乳头，模拟，模拟照片，2张脸，帽子，构图不好，错误的手，错误的手指，黑暗，（浓眉：1.2），2个女孩，(((重复)))，签名，水印，用户名，模糊，艺术家姓名，文本，色差，扁平颜色，扁平阴影，复古风格，低分辨率，糟糕的脸，缺少手指，额外的数字，更少的数字，多条腿，畸形 
 ```
-##### **2.2.10 负面：错误结构、多人、多手指和四肢、敏感部位**
+##### **2.3.3 负面：错误结构、多人、多手指和四肢、敏感部位**
 
 ```sh
 ((NSFW)),lowres, bad anatomy, bad hand, paintings, sketches, (worst quality:2), (low quality: 2), (normal quality:2), lowres,((monochrome)),((grayscale)), skin spots, acnes, skin blemishes, age spot, glans, extra fingers, fewer fingers, ((watermark: 2)), (white letters: 1), (multi nipples), bad anatomy bad hands, text, error, missing fingers, missing arms, missing legs, extra digit, fewer digits, cropped, worst quality, jpeg artifacts, signature, watermark, username, bad feet, Multiple people, blurry, poorly drawn hands, poorly drawn face, mutation, deformed, extra limbs, extra arms, extra legs, malformed limbs, fused fingers, too many fingers, long neck, cross-eyed, mutated hands, polar lowres, bad body, bad proportions, gross proportions, wrong feet bottom render, abdominal stretch, Briefs, knickers, kecks, thong, fused fingers, bad body, bad proportion body to legs, wrong toes, extra toes, missing toes, weird toes, 2 body, 2 pussy, 2 upper, 2 lower, 2 head, 3 hand, 3 feet, extra long leg. super long leg. mirrored image, mirrored noise
 
 ((NSFW))，低分辨率、糟糕的解剖结构、糟糕的手、绘画、素描、(最差质量：2)、(低质量：2)、(正常质量：2)、低分辨率、((单色)),((灰度))、皮肤斑点、粉刺、皮肤瑕疵、老年斑、龟头、多指、少指、((水印：2))、(白色字母：1)、(多乳头)、不良解剖 不良手、文本、错误、缺手指、缺胳膊、缺腿、多指、少指、裁剪、质量最差、JPEG 伪影、签名、水印、用户名、不良脚、多人、模糊、手画得差、脸画得差、突变、变形、多肢、多胳膊、多腿、畸形肢体、融合手指、手指过多、脖子过长、对眼、变异手、极地低分辨率、身体不好、比例不好、比例粗糙、脚底渲染错误、腹部拉伸、内裤、短裤、短裤、丁字裤、手指融合、身体不好、身体与腿部比例不好、脚趾错误、脚趾多余、脚趾缺失、脚趾怪异、2 个身体、2 个阴部、2 个上部、2 个下部、2 个头、3 只手、3 只脚、超长的腿。镜像、镜像噪音 
 ```
-##### **2.2.11 负面：低质量、简单线条、黑白、错误结构**
+##### **2.3.4 负面：低质量、简单线条、黑白、错误结构**
 
 ```sh
 ((NSFW)),bondary,thick line,lines,lineart,ng_deepnegative_v1_75t,(badhandv4:1.2),EasyNegative,(worst quality:2),easynegative,drawing,painting,crayon,sketch,graphite,impressionist,noisy,blurry,soft,deformed,ugly,(deformed iris,deformed pupils,semi-realistic,cgi,3d,render,sketch,cartoon,drawing,anime:1.4),text,close up,cropped,out of frame,worst quality,low quality jpeg artifacts,ugly,duplicate,morbid,mutilated,extra fingers,mutatedhands,poorly drawn hands,poorly drawn face,mutation,deformed,blurry,dehydrated,bad anatomy,bad proportions,extra limbs,cloned face,disfigured,gross proportions,malformed limbs,missing arms,missing legs,extra arms,extra legs,fused fingers,too many fingers,long neck,sketches,tattoo,(beard:1.3),(EasyNegative:1.3),badhandv4,(worst quality:2),(low quality:2),(normal quality:2),lowers,normal quality,facing away,looking away,text,error,extra digit,fewer digits,cropped,jpeg artifacts,signature,watermark,username,blurry,skin spots,acnes,skin blemishes,bad anatomy,fat,bad feet,cropped,poorly drawn hands,poorly drawn face,mutation,deformed,tilted head.bad anatomy.bad hands,extra fingers,fewer digits,extra limbs.extra arms,extra legs,malformed limbs.fused fingers,too many fingers,long neck,cross-eyed,mutated hands,bad body,bad proportions,gross proportions,text,error,missing fingers,missing arms,missing legs,extra digit,extra arms,extra leg,extra foot,missing fingers,(Worst quality,low quality,lowres:1.2),error,cropped jpeg artifacts,out of frame,watermark,signature,
@@ -234,13 +234,13 @@ Cinematic light, ray tracing
 ((NSFW))、边界、粗线、线条、线条艺术、ng_deepnegative_v1_75t、(badhandv4:1.2)、EasyNegative、（最差质量:2）、容易负面、绘画、油画、蜡笔、素描、石墨、印象派、嘈杂、模糊、柔软、变形、丑陋、（变形的虹膜、变形的瞳孔、半写实、计算机生成图像、3D、渲染、素描、卡通、绘画、动漫:1.4）、文本、特写、裁剪、画面外、最差质量、低质量的 JPEG 伪像、丑陋、重复、病态、残缺、额外的手指、变异的手、画得不好的手、画得不好的脸、变异、变形、模糊、脱水、不良的解剖结构、不良的比例、额外的肢体、克隆的脸、毁容、严重的比例失调、畸形的肢体、缺失的手臂、缺失的腿、额外的手臂、额外的腿、融合的手指、过多的手指、长脖子、草图、纹身、（EasyNegative:1.3）、badhandv4、(低质量:2)、（正常质量:2）、较低、正常质量、背向、看向别处、文本、错误、额外的数字、较少的数字、裁剪、JPEG 伪像、签名、水印、用户名、模糊、皮肤斑点、痤疮、皮肤瑕疵、不良的解剖结构、肥胖、不好的脚、裁剪、画得不好的手、画得不好的脸、变异、变形、倾斜的头。不良的解剖结构。不好的手、额外的手指、较少的数字、额外的肢体。额外的手臂、额外的腿、畸形的肢体。融合的手指、过多的手指、长脖子、斗鸡眼、变异的手、不好的身体、不良的比例、严重的比例失调、文本、错误、缺失的手指、缺失的手臂、缺失的腿、额外的数字、额外的手臂、额外的腿、额外的脚、缺失的手指、(最差质量、低质量、低分辨率:1.2)、错误、裁剪的 JPEG 伪像、画面外、水印、签名 
 ```
 
-##### **2.2.12 负面：tag提示词触发**
+##### **2.3.5 负面：tag提示词触发**
 
 ```sh
 ((NSFW)),EasyNegative, bad-artist-anime, bad-artist, bad-hands-5, bad-image-v2-39000, bad_prompt_version2
 ```
 
-##### **2.2.13 负面：低画质，黑白**
+##### **2.3.6 负面：低画质，黑白**
 
 ```markdown
 lowres, bad anatomy, bad hand, paintings, sketches, (worst quality:2), (low quality: 2), (normal quality:2), ((monochrome)),((grayscale)), ((watermark: 2)), (white letters: 1),text, error, cropped, worst quality, jpeg artifacts, signature, watermark, username, mirrored image, mirrored noise 
@@ -248,14 +248,12 @@ lowres, bad anatomy, bad hand, paintings, sketches, (worst quality:2), (low qual
 低分辨率、糟糕的解剖结构、糟糕的手、绘画、素描、(最差质量：2)、(低质量：2)、(正常质量：2)、((单色)),((灰度))、((水印：2))、(白色字母：1)、文本、错误、裁剪、质量最差、JPEG 伪影、签名、水印、用户名、镜像、镜像噪音
 ```
 
-
-
 ------
 
 
-#### **2.3 人物提示词**
+### **2.4 人物提示词**
 
-##### **2.3.1 美女起手式：**
+##### **2.4.1 美女起手式：**
 
 ```
 masterpiece,best details,best quality,{prompt},8K,Best resolution,
@@ -266,41 +264,41 @@ masterpiece,best details,best quality,{prompt},8K,Best resolution,
 
 (((NSFW)))，低分辨率，糟糕的解剖结构，糟糕的手，文本，错误，缺失手指，多余的手指，缺少的手指，裁剪，最差质量，低质量，正常质量，水印，用户名，糟糕的比例，糟糕的解剖结构，模糊，低质量，低分辨率，正常质量，最差质量，签名，水印，裁剪，失焦，用户名，回头看
 ```
-##### **2.3.2 精致女孩**
+##### **2.4.2 精致女孩**
 
 ```sh
 an extremely delicate and beautiful girl
 一个极其精致美丽的女孩
 ```
 
-##### **2.3.3 脸部增强**
+##### **2.4.3 脸部增强**
 
 ```sh
 1girl face ,Curly blue hair，Delicate and perfect face, beautiful face,Happy smile,side face,Lateral face,(best aesthetic, best quality, masterpiece, extremely detailed:1.2,extremely detailed CG unity 8k wallpaper)
 1个女孩的脸，蓝色卷发，精致完美的脸，美丽的脸，开心的微笑，侧脸，侧面，(最佳美学，最佳质量，杰作，极其详细:1.2，极其详细的CG统一8K壁纸)
 ```
 
-##### **2.3.4 真人照片**
+##### **2.4.4 真人照片**
 
 ```sh
 (8k, RAW photo, best quality, masterpiece, ultra highres, ultra detailed:1.2), (realistic, photo-realistic:)
 (8K，RAW 照片，最佳质量，杰作，超高分辨率，超详细:1.2)，(写实，照片写实)
 ```
 
-##### **2.3.5 隐藏手掌**
+##### **2.4.5 隐藏手掌**
 
 ```sh
 lower arms,hands,palms
 小臂，手，手掌
 ```
 
-##### **2.3.6 崩坏修正**
+##### **2.4.6 崩坏修正**
 
 ```sh
 easynegative, bad-hands-5
 ```
 
-##### **2.3.7 修手**
+##### **2.4.7 修手**
 
 ```sh
 good hands,
@@ -312,13 +310,45 @@ bad-hands-5,bad hands, fewer digits, extra digit
 糟糕的手 - 5，糟糕的手，缺少的手指，多余的手指
 ```
 
-##### **2.3.8 抽卡**
+##### **2.4.8 抽卡**
 
 ```markdown
 1girl, food, candy, solo, lollipop, animal ears, black hair, controller, sleeves past wrists, can, hair ornament, game controller, horns, ahoge, streaked hair, long sleeves, blue eyes, multicolored hair, stuffed toy, swirl lollipop, white hair, animal ear fluff, long hair, fang, :d, bangs, thighhighs, twintails, socks, stuffed animal, smile, holding, wooden floor, virtual youtuber, bandaid, looking at viewer, off shoulder, monster energy, knees up, blush, asymmetrical legwear, puffy long sleeves, open mouth, shirt, candy wrapper, low twintails, cat ears, feet out of frame, hairclip, energy drink, object hug, choker, mouse (computer), bandaid on face
 
 1 个女孩，食物，糖果，单独，棒棒糖，动物耳朵，黑发，控制器，袖子超过手腕，罐头，头发饰品，游戏控制器，角，呆毛，条纹头发，长袖，蓝眼睛，多彩头发，毛绒玩具，漩涡棒棒糖，白发，动物耳毛，长发，尖牙，:d，刘海，过膝袜，双马尾，袜子，毛绒动物，微笑，抱着，木地板，虚拟主播，创可贴，看着观众，露肩，怪物能量，膝盖抬起，脸红，不对称的腿部穿戴，蓬松的长袖，张嘴，衬衫，糖果包装纸，低双马尾，猫耳，脚不在画面内，发卡，能量饮料，抱着物品，项圈，鼠标(电脑)，脸上的创可贴 
 ```
+
+------
+
+### 2.5 摄影类提示词
+
+```markdown
+- prompt:(风格和调性)
+movie still,highly detailed,fine detail,intricate,
+1990s (style),(high angle shot:1.2),Occlusion shooting,by Wong Kar-wai,
+电影静止，高度详细，精细的细节，复杂，
+1990年代（风格），高角度拍摄，遮挡拍摄，王家卫拍摄风格
+
+- prompt:(环境和拍摄参数)
+Chiaroscuro,Rambrandt Lighting,
+(from above:1.2),100mm lens,F1.2,(Long Shot:1.2)
+高对比，伦勃朗照明（典型的三点照明法），俯拍，100mm镜头，F1.2（光圈），长焦拍摄
+```
+
+```markdown
+- prompt:(拍摄镜头)
+Standard Lens(标准镜头),Wide-Angle Lens(广角镜头),Ultra-Wide Angle Lens(超广角镜头),Telephoto Lens(长焦镜头),Super Telephoto Lens(超长焦镜头),Fisheye Lens(鱼眼镜头),Macro Lens(微距镜头),Tilt-Shift Lens(移轴镜头),Prime Lens(定焦镜头),Zoom Lens(变焦镜头)
+```
+
+```markdown
+- prompt:(拍摄灯光)
+Rembrandt Lighting(伦勃朗光),Butterfly Lighting(蝴蝶光),Loop Lighting(环形光),Short Lighting(短光),Broad Lighting(宽光),Side Lighting(侧面光),Top Lighting(顶光),Bottom,Lighting(底光),Two-Light Setup(双光源),Three-Point Lighting(三点照明)
+
+Key Light(主光),Fill Light(补光),Backlight(背光),Rim Light(轮廓光),Background Light(背景光),Flash(闪光)
+```
+
+
+
 
 ------
 
@@ -1135,7 +1165,7 @@ IP-Adapter 可以用于复制参考图像的风格、构图或人物特征，也
 
 ![](./note_img/Controlnet/20240717_234525.png)
 
-**SD6.5 的 IP-Adapter**
+**SD 1.5 的 IP-Adapter**
 
 ```markdown
 6. ip-adapter_SD15：
@@ -1163,7 +1193,7 @@ IP-Adapter 可以用于复制参考图像的风格、构图或人物特征，也
   与 ip-adapter_SDxl.bin 相同，它大致遵循参考图像的内容，能够捕捉到图像整体的宏观特征。
 
 3. ip-adapter-plus_SDxl_vit-h.bin：
-  SD6.5 使用来自 OpenCLIP-ViT-H-14 的图像块嵌入作为条件
+  SD 1.5 使用来自 OpenCLIP-ViT-H-14 的图像块嵌入作为条件
   比 ip-adapter_xl 和 ip-adapter_SDxl_vit-h 更接近参考图像。
 
 4. ip-adapter-plus-face_SDxl_vit-h.bin：
@@ -1204,7 +1234,7 @@ IP-Adapter 可以用于复制参考图像的风格、构图或人物特征，也
 
 所谓合作关系就是文字提示和图像提示匹配，对抗关系就是文字提示和图像提示不匹配。
 
-SD6.5 的适配器分成三种，
+SD 1.5 的适配器分成三种，
 
 第一种：**sd 6.5、Plus、Light**，都是 OpenClip VīT H14 图形编码器全图图像嵌入，区别就在于
 
@@ -1228,14 +1258,14 @@ SD6.5 的适配器分成三种，
 
 ![](./note_img/Controlnet/20240718_092228.png)
 
-> 总结下来就是：**对于图像提示的强度：plus  > SD6.5  > light**，
+> 总结下来就是：**对于图像提示的强度：plus  > SD 1.5  > light**，
 >
-> **plus** 适合偏向参考图的需求，**light** 适合偏向提示词的需求，而 **SD6.5** 适合在偏向参考图的基础上，做一些细小的变化。
+> **plus** 适合偏向参考图的需求，**light** 适合偏向提示词的需求，而 **SD 1.5** 适合在偏向参考图的基础上，做一些细小的变化。
 > ![](./note_img/Controlnet/20240718_092018.png)
 
 ------
 
-**第二种：SD6.5 plus face，SD6.5 full face**，模型的权重经过微调，以使用裁剪后的脸部作为参考，因此生成的**人物脸部会更像参考图**。从效果上来说 PLUS FACE 和 full face 可以说是难分伯仲，但是都不算特别好。所以在 FACE ID 面世之后，这两个模型变得非常鸡肋。
+**第二种：SD 1.5 plus face，SD 1.5 full face**，模型的权重经过微调，以使用裁剪后的脸部作为参考，因此生成的**人物脸部会更像参考图**。从效果上来说 PLUS FACE 和 full face 可以说是难分伯仲，但是都不算特别好。所以在 FACE ID 面世之后，这两个模型变得非常鸡肋。
 
 ![]()
 

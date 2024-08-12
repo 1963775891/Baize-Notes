@@ -1,0 +1,28 @@
+solo
+angel
+demon
+devil
+diva
+elf
+fairy
+fallen angel
+fighter
+ghost
+goblin
+goddess
+human {animal|bear|cat|dog|fox|gorilla|horse|panda|rabbit|rat} ear
+maid
+mecha
+mecha musume
+muse
+nun
+nurse
+police
+priestess
+princess
+soldier
+succubus
+thief
+undine
+vampire
+witch

@@ -22,6 +22,7 @@
 【H】：切换历史显示与隐藏
 【R】：刷新工作流
 【双击鼠标左键(LMB)】：打开节点快速搜索面板
+【连接点直接点击：中键】：生成转接点
 ```
 
 ![](./note_img/Controlnet/20240722_143212.jpg)
@@ -35,8 +36,8 @@
 ```markdown
 安装路径 .\custom_nodes
 1. ComfyUI_IPAdapter_plus(风格参考)
-2. ComfyUI-Manager
-3. ComfyUI-Custom-Scripts(自定义节点)
+2. ComfyUI-Manager(管理器)
+3. ComfyUI-Custom-Scripts(提示词自动补全)
 4. rgthree-comfy(快捷节点)
 5. ComfyUI-IC-Light(打光)
 6. comfyui-workspace-manager(管理器)
@@ -49,22 +50,244 @@
 13. segment_anything(语义分割)：多词组写法 face|boby
 14. lmpact Pack
 15. ComfyUI_frontend(修复文本溢出)
-16. Comfyui-ergouzi-DGNJD(多功能节点)
+16. Comfyui-ergouzi-DGNJD(二狗多功能节点)
+17. ComfyUI-N-Sidebar(侧边栏调出节点)
+18. ComfyUI-BrushNet(局部重绘)
+19. cg-use-everywhere(全局节点)
+20. was-node-suite-comfyui(合成，调色)
+21. ComfyUI-ResAdapter(协调尺寸对出图的权重)
+22. ComfyUI_essentials(基本节点补充)
+
+```
+
+------
+
+#### **2.2 输出文件夹命名**
+
+> **%date:yyyy-MM-dd%/%date:MMddhhmm%_%随机种.seed%**
+>
+> `%date:yyyy-MM-dd%`	//日期:年-月-日
+> `%date:hhmm%`		//时间:小时-分-秒
+> `%KSampler.seed%`		//采样器:种子
+>
+> 可以自定义修改`标题`名加上`.节点变量`,**节点变量必须是英文原称**
+>
+> ![](./note_img/Controlnet/20240728_162749.jpg)
+
+------
+
+#### **2.3 同步WebUI**
+
+1. WebUI随机种子改成GPU；
+2. CLIP提示词节点选择: 高级 < **(BNK)**，权重差值方式：**A1111；**
+3. SD里的A1111和Comfy的对比：Comfy可以更少的步数出到更精细的图；
+
+![](./note_img/Controlnet/20240724_154704.jpg)
+
+------
+
+#### **2.4 CLIP-ViT 模型**
+
+```markdown
+1.  CLIP-ViT-H-fp16.safetensors
+显存需求: 较低，因为使用了 FP16（半精度浮点数），通常会比 FP32 版本占用更少的显存。
+应用场景: 适合在显存较小的环境中运行，同时可以在一定程度上保留模型性能。
+
+2. CLIP-ViT-bigG-14-laion2B-39B-b160k.safetensors
+显存需求: 高，非常适合需要高精度和大数据处理的场景，但显存占用也会相应增加。
+应用场景: 用于需要更高精度的任务，适合在显存充足的硬件环境下运行。
+
+3. CLIP-ViT-H-14-laion2B-s32B-b79K.safetensors
+显存需求: 较高，虽然没有 bigG 模型那么大，但由于数据规模和模型复杂度，仍然需要较多的显存。
+应用场景: 适合高性能需求的任务，适合在显存资源丰富的环境中使用。
+```
+
+> **低显存推荐**：CLIP-ViT-H-fp16.safetensors
+
+------
+
+#### **2.5 SAM-ViT 模型对比及低显存推荐**
+
+```markdown
+ 1. sam_vit_b_01ec64.pth
+显存需求: 中等。属于基础版本的 ViT 模型，在显存占用和性能之间有较好的平衡。
+应用场景: 适合在资源有限的环境中使用，同时能提供相对较好的性能。
+
+ 2. sam_vit_h_4b8939.pth
+显存需求: 高。ViT-H 模型具有更大的网络结构和更多的参数，因此显存需求也较高。
+应用场景: 用于需要高精度的任务，适合在显存充足的硬件环境下运行。
+
+ 3. sam_vit_l_0b3195.pth
+显存需求: 较高。比 ViT-B 更大的模型架构，在性能上有所提升，但需要更多的显存资源。
+应用场景: 适合在显存资源相对丰富的环境中使用，提供更好的精度和性能。
+
+ 4. sam_hq_vit_l.pth
+显存需求: 较高。与标准的 ViT-L 相比，HQ 版本可能在数据处理或精度上有所优化，显存需求略高。
+应用场景: 用于需要更高质量的图像处理任务，适合在显存资源较为充足的情况下使用。
+
+ 5. sam_hq_vit_h.pth
+显存需求: 高。大规模的 HQ ViT-H 模型，显存占用最高，适合在顶级硬件环境下使用。
+应用场景: 适合最复杂的图像处理任务，需要大量显存。
+
+ 6. sam_hq_vit_b.pth
+显存需求: 中等。虽然是 HQ 版本，但基于 ViT-B 架构，显存需求相对较低。
+应用场景: 适合在显存有限的环境中使用，同时提供更好的图像处理质量。
+```
+
+>  **低显存推荐**：**sam_vit_b_01ec64.pth** 和 **sam_hq_vit_b.pth** 也适合显存较少的情况下使用，能够在性能和显存之间取得较好的平衡。
+
+------
+
+#### **2.6 groundingdino 模型**
+
+```markdown
+1. groundingdino_swint_ogc.pth
+性能: Swin-T 版本的模型通常比 Swin-B 版本的模型更轻量化，适合显存较少的设备。
+应用场景: 适合资源有限的环境，适用于需要快速推理的任务，但在处理复杂任务时，性能可能不及 Swin-B 模型。
+
+2. groundingdino_swinb_cogcoor.pth
+性能: Swin-B 版本通常拥有更强的表现力和更高的精度，但代价是需要更多的显存和计算资源。
+应用场景: 适合在显存和计算资源充足的环境下运行，适用于需要更高精度和复杂任务的应用。
+```
+
+> **低显存推荐**：**groundingdino_swint_ogc.pth**
+
+------
+
+#### **2.7 IP-Adapter 模型对比及低显存推荐**
+
+```markdown
+1. ip-adapter_sdxl_vit-h.safetensors
+显存需求: 高。ViT-H 是较大模型架构，显存需求较高。
+应用场景: 适合需要高精度的图像生成任务，适合在显存资源丰富的环境中使用。
+
+2. ip-adapter_sdxl.safetensors
+显存需求: 中等。相比 ViT-H 版本，这个模型的显存占用较少。
+应用场景: 适合一般的图像生成任务，在显存和性能之间取得平衡。
+
+3. ip-adapter-plus_sdxl_vit-h.safetensors
+显存需求: 高。ViT-H 加上 Plus 版本优化，显存需求进一步增加。
+应用场景: 用于需要最高精度和复杂处理任务的场景，适合在顶级硬件环境下使用。
+
+4. ip-adapter-plus_sd15.safetensors
+显存需求: 中等偏高。比基础版的 SD 1.5 模型要求更多显存。
+应用场景: 用于需要较高精度的任务，同时显存要求适中。
+
+5. ip-adapter_sd15.safetensors
+显存需求: 中等。显存占用相对较小，适合较广泛的应用场景。
+应用场景: 适合一般图像生成任务，在性能和显存占用之间取得较好的平衡。
+
+6. ip-adapter-plus-face_sdxl_vit-h.safetensors
+显存需求: 高。脸部识别优化需要更多显存，尤其是在 ViT-H 架构下。
+应用场景: 适合高精度的脸部识别任务，在显存资源充足的硬件环境下使用。
+```
+
+> 低显存推荐：ip-adapter_sd15.safetensors
+
+------
+
+#### **2.8 Hyper 模型对比及低显存推荐**
+
+##### SD 1.5 系列
+
+```markdown
+1. Hyper-SD15-12steps-CFG-lora.safetensors
+显存需求: 高。由于采用了 12 个步骤和 CFG（Classifier-Free Guidance），显存占用较大。
+应用场景: 适合需要高精度和复杂生成任务的场景。
+
+2. Hyper-SD15-1step-lora.safetensors
+显存需求: 低。只有 1 个步骤，显存占用最低。
+应用场景: 适合资源受限的环境，快速生成任务。
+
+3. Hyper-SD15-2steps-lora.safetensors
+显存需求: 较低。比 1 步骤版本稍高，但仍保持较低显存占用。
+应用场景: 适合需要稍高精度，但显存仍有限的场景。
+
+4. Hyper-SD15-4steps-lora.safetensors
+显存需求: 中等。步骤增加带来更好的生成效果，但显存需求也增加。
+应用场景: 适合平衡显存和生成质量的任务。
+
+5. Hyper-SD15-8steps-CFG-lora.safetensors
+显存需求: 较高。增加了步骤和 CFG，显存占用相应提高。
+应用场景: 适合需要高质量生成的任务，但显存需求较大。
+
+6. Hyper-SD15-8steps-lora.safetensors
+显存需求: 较高。比 CFG 版本显存稍低，但仍然较高。
+应用场景: 适合需要更高生成质量但显存稍有限制的环境。
+```
+
+> 低显存推荐：Hyper-SD15-1step-lora.safetensors 
+
+##### SDXL 系列
+
+```markdown
+1. Hyper-SDXL-12steps-CFG-lora.safetensors
+显存需求: 高。最高精度的配置，显存需求最大。
+应用场景: 适合顶级硬件环境和高质量生成任务。
+
+2. Hyper-SDXL-1step-Unet-Comfyui.fp16.safetensors
+显存需求: 低。使用 FP16 进一步减少显存占用。
+应用场景: 适合显存极为有限的环境，特别是在需要兼容性或低精度的场景下。
+
+3. Hyper-SDXL-1step-Unet.safetensors
+显存需求: 低。仅使用 1 个步骤，显存占用较小。
+应用场景: 适合快速推理和生成的场景。
+
+4. Hyper-SDXL-1step-lora.safetensors
+显存需求: 低。LoRA 结合 1 步骤，显存占用低。
+应用场景: 适合显存有限的环境，能够快速生成。
+
+5. Hyper-SDXL-2steps-lora.safetensors
+显存需求: 较低。比 1 步骤版本稍高，但仍适合资源受限的环境。
+应用场景: 适合平衡生成质量和显存需求的场景。
+
+6. Hyper-SDXL-4steps-lora.safetensors
+显存需求: 中等。比 2 步骤版本需求稍高，生成质量也有所提升。
+应用场景: 适合需要稍高精度的任务，但显存仍有限制。
+
+7. Hyper-SDXL-8steps-CFG-lora.safetensors
+显存需求: 高。更高的步骤数和 CFG 带来了更高的显存占用。
+应用场景: 适合显存资源充足的环境，提供高质量生成。
+
+8. Hyper-SDXL-8steps-lora.safetensors
+显存需求: 较高。步骤数高，显存需求增加。
+应用场景: 适合对生成质量有较高要求的任务。
+```
+
+> **低显存推荐**：**Hyper-SDXL-1step-Unet-Comfyui.fp16**适合需要 FP16 低精度的场景。
+>
+> **Hyper-SDXL-1step-lora** 也是一个较低显存的选择，适合需要平衡性能和显存的任务。
+
+------
+
+**2.8 IP-Adapter-FaceID 模型对比及低显存推荐**
+
+```markdown
+1. ip-adapter-faceid-portrait_sdxl_unnorm.bin
+显存需求: 中等。未归一化版本可能需要更多的计算资源，但显存占用中等。
+应用场景: 适合脸部识别肖像任务，特别是在处理非标准化数据时。
+
+2. ip-adapter-faceid-portrait_sdxl.bin
+显存需求: 中等。标准 SDXL 架构，显存需求较为平衡。
+应用场景: 适合一般的脸部识别任务，在显存和性能之间取得平衡。
+
+3. ip-adapter-faceid-portrait-v11_sd15.bin
+显存需求: 中等偏低。基于 SD 1.5 的优化版本，显存需求较小。
+应用场景: 适合低显存环境下的脸部识别任务。
+
+4. ip-adapter-faceid-plusv2_sdxl.bin
+显存需求: 中等偏高。Plus V2 优化带来了更好的性能，但显存需求增加。
+应用场景: 适合在显存资源较充足的环境下，执行高精度的脸部识别任务。
+
+5. ip-adapter-faceid-plusv2_sd15.bin
+显存需求: 中等。相比 SDXL 版本，显存占用较少。
+应用场景: 适合一般的脸部识别任务，在显存资源有限的环境中使用。
+
 
 
 ```
 
-
-
-------
-
-#### **2.2 同步WebUI**
-
-> 1. WebUI随机种子改成GPU
->
-> 2. CLIP提示词节点选择高级**(BNK)**，权重差值方式：**A111**
->
-> <img src="./note_img/Controlnet/20240721_133744.jpg" style="zoom: 67%;" />
+> **低显存推荐：ip-adapter-faceid-portrait-v11_sd15.bin** 
 
 ------
 
@@ -126,7 +349,7 @@ sam_editor_cpu = False //使用CPU代替GPU
 
 ------
 
-#### **4.3 BiRefNet：自动抠图**	[Github](https://github.com/zhengpeng7/birefnet?tab=readme-ov-file)
+#### **4.3 BiRefNet：自动抠图**
 
 ![](./note_img/Controlnet/20240723_173229.jpg)
 ![](./note_img/Controlnet/GJNZYkuX0AAfT5T.jpg)
@@ -135,353 +358,164 @@ sam_editor_cpu = False //使用CPU代替GPU
 
 ## 5. 局部重绘
 
-####  5.1 两种基础重绘使用
+> 内补编码：会改变原图色调 (潜空间噪声)
+>
+> 噪波遮罩：原图
+>
+> Lama+噪波遮罩：原图+模糊
 
-在lanten -> inpaint下有如下两个原生节点可以帮我们重绘
+![](./note_img/Controlnet/20240807_125209.jpg)
+![](./note_img/Controlnet/20240807_130419.jpg)
+![](./note_img/Controlnet/20240807_132654.jpg)
+![](./note_img/Controlnet/20240807_142858.jpg)
+![](./note_img/Controlnet/20240807_144623.jpg)
 
-> 指定原图重绘区域只需要在[load](https://so.csdn.net/so/search?q=load&spm=1001.2101.3001.7020) image上右键选择“open in mask editor”
 
-##### 5.1.1 [VAE](https://so.csdn.net/so/search?q=VAE&spm=1001.2101.3001.7020) Encode (for inpainting)
+> Inpaint + 重绘
+>
 
-![](https://img-blog.csdnimg.cn/direct/711ea47f8df249daab14d3cbf2160ba3.png)
+![](./note_img/Controlnet/20240807_143447.jpg)
+![](./note_img/Controlnet/20240807_144000.jpg)
+![](./note_img/Controlnet/20240807_144313.jpg)
 
-输入：pixels(图片)，vae(解码)，mask(遮罩)，grow\_mask\_by（遮罩延申）
-![](https://img-blog.csdnimg.cn/direct/1f462f6a75e84155acfb2efdf9f662ce.png)
+#### **5.1 局部重绘**（仅遮罩重绘）
 
-##### 5.1.2 Set Latent Noise Mask
+> 适合局部**重绘幅度小**，要丰富重绘提示词的，创造力会更强；
+>
+> 适合扩图，**速度最快**；
+>
+> 适合重绘幅度 0.55 ，过高要加入 **ControlNet_Inpaint**；
 
-![](https://img-blog.csdnimg.cn/direct/10afb6a76b9e475891404f07b18a732d.png)
+![](./note_img/Controlnet/20240802_115053.jpg)
 
-输入：samples(潜空间)，mask(遮罩)
-![](https://img-blog.csdnimg.cn/direct/b0040a23645c483c810fdc5051cf5d8d.png)
+> - `设置Latent噪波遮罩`再发送采样器，变化会更参考原图；
+> - 这两种局部重绘方式的区别
+> ![](./note_img/Controlnet/20240802_130600.jpg)
+> ![](./note_img/Controlnet/20240801_120808.jpg)
+> ![](./note_img/Controlnet/20240801_120930.jpg)
 
+##### **补充知识点：无痕移除物体**
 
-**在采样器设置，正向和反向提示词都完全不变的情况下**，可以看到两种重绘都较好的完成图片下半部分的修改。
+> `设置Latent噪波遮罩`：重绘受原图影响肯定不行；
+>
+> `VAE内补编码器`：边缘和原图很难融合；
+>
+> 添加 `lama内补`节点：可以通过附近区域推断来填补蒙版区域，**类似 PS 的智能识别填充**；
+>
+> ![](./note_img/Controlnet/20240802_154159.jpg)
 
-#### 5.2 两种方式的区别
 
-可以看到这两种重绘方式在唯一的区别就在于中间这部分的使用
-![](https://img-blog.csdnimg.cn/direct/8008a9bfbe0745b1832e5cf99d509d7b.png)
+------
 
-那让我们将这两部分的输出拉出来看看：
+#### **5.2 局部重绘 + ControlNet_Inpaint（仅遮罩重绘）**
 
-![](https://img-blog.csdnimg.cn/direct/a770b109f3b84b7081d4a03c9a8b8704.png)
+> 适合局部重绘幅度大。
+>
+> 适合扩图，**速度中等，效果最好**；
+>
+> `0` 表示黑色 (`#000000`)；`16777215` 表示白色 (`#FFFFFF`)
 
-可以看到对于**VAE Encode (for inpainting)**给采样器的是去除掉蒙版区域的剩余图片，  
-而**Set Latent Noise Mask** 给采样器的是完整的图片，但是他将蒙版的位置告诉了采样器。![](https://img-blog.csdnimg.cn/direct/b9357a4d0d5a42ed9038a68a3c6ca09a.png)
+![](./note_img/Controlnet/20240802_115046.jpg)
 
-接触过WebUI的同学是不是感觉有点熟悉？
+------
 
-![](https://img-blog.csdnimg.cn/img_convert/5bee11d8a42bc6e113ce4588982e2dad.webp?x-oss-process=image/format,png)
+#### **5.3 图生图+ ControlNet_Inpaint**（稍微影响原图）
 
-实际上这就是webUI的Orginal和latent noise 模式。  
-那么基于此我们就可以知道他们的的正确用法：  
-**Set Latent Noise Mask：由于有原图作为底图，所以降噪强度越低，画面越接近原图，利用这一点，他适合我们降低降噪强度在原图基础上略微调整。** 
+> 适合重绘幅度小，调节全图画面。
+>
+> 因为重绘原图，**速度最慢**，不适合人物面部修复。
+>
+> 不适合扩图
 
-![](https://img-blog.csdnimg.cn/direct/09b1f2db687645948b3e3d870ba78c9b.png)
+![](./note_img/Controlnet/20240802_115039.jpg)
 
-**VAE Encode (for inpainting) ：由于蒙版区域全是基于提示词生成的新噪声，他更适合我们对原图进行彻底的修改，而且在使用中降噪强度不能过低，否则就会全是噪声。**
- ![](https://img-blog.csdnimg.cn/direct/7094d3ae503443df9d0e75b56bc5e930.png)
+------
 
-#### 5.3 基础转绘更多技巧
+#### **5.4 面部修复**
 
-##### **5.3.1 使用imageCompositeMasked根据蒙版融合图片**
+![](./note_img/Controlnet/20240728_145424.jpg)
 
-![](https://img-blog.csdnimg.cn/direct/2661b8767bc242f78965c5343a117fb9.png)
+------
 
-输入：destination(目标图片) ，source(源图片【蒙版区域替换图片】)，mask蒙版区域，xy(源图片相对目标图片位置)，resize\_source(拉伸源图片以适应目标图片)  
-前面我们已经知道了  
-**Set Latent Noise Mask 是有原图作为基底的，同理，我们可以把其他的图片作为基底来生产我们想要的图像：**   
-例如，我们想将旁边的这个小兔子换成一瓶花，我们可以任意找一个素材，在把蒙版拼接，配合合适的降噪程度，我们可以得到类似的花的替代：
+## 6. IpAdapter
 
-![](https://img-blog.csdnimg.cn/direct/4e8a6d99e1874b3d8a228b9497d8f423.png)
+#### 6.1 加载参考图
 
-##### **5.3.2** 使用imageBlur来在原图基础上做强化修改
-
-![](https://img-blog.csdnimg.cn/direct/95f5373cdf91499f969be48477c02991.png)
-
-输入：blur\_radius(模糊半径)，sigma(模糊密度)  
-有时候我们觉得原图还可以但细节需要加强。或者有一些细节不想要，但大体还是可以的。我们可以使用此节点将原图模糊再融合到一起。这样模糊的部分会小幅度的重绘，并且由于是在原图模糊基础上，重绘后会和其他部分的边界融合的很好（对于原图是大面积色块是效果尤其好）。  
-比如我想将左边的柜子重绘，但是保留原来柜子的主体造型，且不要影响窗帘和柜子的边界：
-
-![](https://img-blog.csdnimg.cn/direct/0611500c6f82440988e080f43035800d.png)
-
-* * *
-
-#### **5.4 图片元素无痕清除，[水印](https://so.csdn.net/so/search?q=%E6%B0%B4%E5%8D%B0&spm=1001.2101.3001.7020)去除**
-
-![](https://img-blog.csdnimg.cn/direct/dd7caf994790454dac40090792f61ee7.png)
-
-这张图中间的小黑猫生成时候畸形了，现在如果想将这只黑猫去除，上篇文章说的comfyUI自带的两个图生图节点都不能很好的做到。
-
-**Set Latent Noise Mask：重绘受原图影响肯定不行**
-
-**VAE** **Encode (for inpainting) ：边缘和原图很难融合**
-
-这时我们可以通过**lama**技术，它可以依据附近区域推断来填补蒙版区域,再使用低幅度的重绘来使图片更自然：
-
-![](https://img-blog.csdnimg.cn/direct/34a03ec443e442a1a5a765fb6eebb709.png)
-
-可以看到，经过lama初次处理过的区域效果已经很好，但会导致蒙版区域发灰，再低幅度的重绘后，就可以达到理想的状态：
-
-![](https://img-blog.csdnimg.cn/direct/e253b08bbbfe47e888c96ec5a650c9c5.png)
-
-我使用的lama插件是：**comfyui-mixlab-nodes**
-
-节点是：**LamaInpainting**
-
-注意初次使用需要下载模型，会比较久。
-
-![](https://img-blog.csdnimg.cn/direct/0f9562b40e304cb79ed4c78e8d020fad.png)
-
-#### 5.5 完全不破坏原图的基础上再增加细节
-
-在生成人物时，是不是常有人物好像磨皮美颜过，感觉有点假？
-
-这是因为在生成图片时，达到指定的步骤后多余的噪声会被抛弃，一些细节就会丢失，自然就像开了磨皮美颜。
-
-那么一个生成好的图片还能在**完全忠实于原图**的基础上再增加细节吗？
-
-![](https://img-blog.csdnimg.cn/direct/975abcf6590a46f392bcb9686496b2bd.png)
-
-回顾上篇文章我们知道：
-
-**Set Latent Noise Mask，**就是在原图基础上加上少量噪声来完成重绘，注意这些噪声是新的，随机的，虽然增加了细节，但是也实际上改变了原图的面貌，新的噪声产生的细节也很那说是好的还是坏的。
-
-**如果我们添加的噪声是原图本来的噪声呢？**
-
-![](https://img-blog.csdnimg.cn/direct/4ce1269b741b486097410ea8fc624434.png)
-
-使用Noise插件下的 Unsampler 节点就可以“时空逆转”将图片还原成噪声状态：
-
-![](https://img-blog.csdnimg.cn/direct/c1c8e8afe1144c648fd1fab2f1e511e7.png)
-
-此节点的输入输出基本上是和普通的正向采样器是一致的，但有以下注意点和技巧：
-
-1.  模型，提示词，步数等如果能找到原来效果更好
-
-2.  cfg设置为1，能更好的还原原本的噪声
-
-3.  end\_at\_step 结束的步数不要太低，原本的步数一半一般比较合适
-
-4.  可以使用Noisy Latent Image 和 Inject Noise 加入一些额外噪声![](https://img-blog.csdnimg.cn/direct/c4f750620c9c4a68ac16a7547fbfa283.png)
-
-5.  在后面重采样时，一定要将采样器的添加噪声选项关闭，CFG可以设置的高一些，步数开始和结束按照UUnsampler的设置来。
-
-![](https://img-blog.csdnimg.cn/direct/a9ee9c226dfb4ca6bae9dbaa1dead755.png)
-
-工作流全貌：
-
-![](https://img-blog.csdnimg.cn/direct/e0218b18373b46bd9a9d072d63fc6627.png)
-
-#### 5.6 更快更好，超大图片的局部修复
-
-comfyUI自带的两个重绘节点**Set Latent Noise Mask，****VAE** **Encode (for inpainting)** 有一个很大的缺点就是
-
-他们都会对全图进行重绘。无论蒙版多小，重绘时间和资源占用是根据整个图片的大小来重绘的。导致对高分辨率图片细节重绘时又慢又容易爆显存。
-
-那么换个思路，我们可以将高分辨率图片的蒙版周围区域剪切一部分，比如剪切一个512\*512的区域来重绘，这样既快，而且图片和周围的区域融合的也比较自然。
-
-比如这张图，鸟明显是有问题的，但是分辨率2k，直接重绘不太现实，毕竟不是所有人都有4090：
-
-![](https://img-blog.csdnimg.cn/direct/45ac28bb1c214cb59e633ee6a21e06e3.png)
-
-如果我们自己想搭一套剪切重绘流程，显然是非常复杂的，但使用这个插件节点：
-
-![](https://img-blog.csdnimg.cn/direct/7a4b3e6f193545a3b34d18da661dbdc2.png)
-
-他就可以帮我们做到基于蒙版截切区域去重绘。
-
-我们使用的是Impact Pack 插件（这插件功能很多也很强大，后面会出个专栏介绍他的所有功能，有兴趣可以持续关注）
-
-![](https://img-blog.csdnimg.cn/direct/0be0c99a431c411280bae5c9a4391cbc.png)
-
-节点：MaskDetailer(pipe)
-
-![](https://img-blog.csdnimg.cn/direct/74190fb036504d698e64b47815421722.png)
-
-**输入讲解：** 
-
-*   `guide_size`：蒙版方形框选后如果小于`guide_size`就会被处理器放大再处理，小于则直接跳过
-
-*   `guide_size_for`：mask bbox 基于蒙版的矩形，crop region 在蒙版位于边界时会扩大裁剪区域
-
-*   `max_size`：将截取的长边限制为小于`max_size`。
-
-*   `feather`：将恢复的细节合成到原始图像上时，图像融合的渐变强度
-
-*   `crop_factor`: 此参数确定要基于蒙版的裁剪区域扩大比例。
-
-*   `drop_size`: 如果蒙版小于此大小的部分都将被丢弃。
-
-*   `inpaint_model`：使用修复模型时，需要启用此选项以确保在降噪值低于 1.0 时正确修复。
-
-*   `noise_mask_feather`：羽化蒙版。
-
-*   `refiner_ratio`：使用 SDXL 时，此设置确定要应用的精炼步骤在总步骤中的比例，不是SDXL可以忽略。
-
-*   `cycle`：此设置确定采样的迭代次数（一般来说低降噪多次循环效果会更好）。
-
-全流程：
-
-![](https://img-blog.csdnimg.cn/direct/4634b33fb7e245f2b68e67c2da8a3a38.png)
-
-* * *
-
-IpAdapter已经是基于stable diffusion的现象级应用模型，它可以将指定图的特征传递到生成图上。很多人对他的使用还只是停留在‘垫图’这一简单的应用，本文就来给大家讲解他的更多细节和使用技巧。
-
-6. IpAdapter
---
-
-使用controlnet:
-
-![](https://img-blog.csdnimg.cn/direct/4c8e34216bf741ce87e12519c0dd4d72.jpeg)
-
-使用蒙版：
-
-![](https://img-blog.csdnimg.cn/direct/2cce58b2f6a44d07af41b7802ba46773.jpeg)
-
-### 6.1 注意点和节点细节
-
-#### **6.1.1 iPAdapter的特征图像在导入时总是截取中间部分！**
-
-**iPAdapter**编码器会将图像的大小调整为**224×224**，并将其裁剪到中心！
+> - IPAdapter特征图在导入时，编码器会将图像的大小调整为 **224×224**，并将其**裁剪到中心**。
+>
+> - 镜头和特征提取总是聚焦在中间，可以通过  **CLIP视觉图像处理**  节点去控制镜头位置。
 
 ![](https://img-blog.csdnimg.cn/direct/4734230e4f5a40b0981b0b6b8a13787b.png)
+![](./note_img/Controlnet/20240801_162936.jpg)
 
-如上图所示，镜头和特征提取总是聚焦在中间位置，这种时候可以通过此【prepare image for clip [vision](https://so.csdn.net/so/search?q=vision&spm=1001.2101.3001.7020)】这个节点去控制镜头位置。
+------
 
-![](https://img-blog.csdnimg.cn/direct/cac810f55cdd414c82c4809a87f945b6.png)
+#### **6.2 条件缩放图形尺寸**
 
-此节点三个输入分别是截图算法，截取位置，和图像锐化处理（锐化处理对出图的线条细节会有提升）
+> 添加 **Easy Use** 的 **比较** 节点和 **Impact Pack** 的 **切换** 节点
 
+![](./note_img/Controlnet/20240801_165646.jpg)
 
-![](https://img-blog.csdnimg.cn/direct/9f97025ee083411cab9482b2e4f9a15f.png)
+------
 
-效果如图
+#### **6.3  权重类型**
 
-#### **6.1.1 Apply IpAdapter（应用节点设置）**
+![](./note_img/Controlnet/20240801_161846.jpg)
+![](./note_img/Controlnet/20240801_170831_看图王.jpg)
 
-**noise（噪声）最好设置成0以上，至少0.0.1**
+> 1. **IPAdapter** 加载模型 (预制参数)：**Plus > light > sd 1.5** （ 参考图 > 提示词，plus注重参考，sd1.5注重提示词 ）
+>
+> 2. **权重类型** 和 **权重数值** 都会影响出图效果，如果希望出图具有提示词特征，可适当调整权重为0.6-0.8；
+>
 
-虽然过多的噪声会导致图像有更多额外的细节出现，但是如果一点噪声都不给，会导致图像非常“干”如下图所示。
+------
 
-![](https://img-blog.csdnimg.cn/direct/2a9755831d144e5cb83037fc95e9c093.png)
+#### **6.4 解决过拟合**
 
-![](https://img-blog.csdnimg.cn/direct/b19df2f1e53c485e8e6c7c709c7edaf6.png)
+![](./note_img/Controlnet/20240801_172010.jpg)
 
-0噪声效果
+> 1. 增加 **条件** < **模型** < **缩放CFG** 节点
 
-![](https://img-blog.csdnimg.cn/direct/87d64237df61402291432900092852eb.png)
+<img src="./note_img/Controlnet/20240801_171700.jpg" style="zoom: 80%;" />
 
-![](https://img-blog.csdnimg.cn/direct/a3f59033d2b54a25a94073446ff8e512.png)
+ > 2.  **降噪：**把噪点图连接 **负面图像**，把参考图连接 `IPAdapter噪波` 节点，再连接到负面图像上；
 
-0.0.1噪声效果
+![](./note_img/Controlnet/20240803_183406.jpg)
 
-#### **6.1.2 三种（weight）权重的效果差别**
 
-**据官网说法和我自己测试：** 
 
-*   original: 效果较为均衡，在值大于1或者小于1时效果都还可以
+------
 
-*   linear: 在值大于一时效果较强
+#### **6.5 合并嵌入组**
 
-*   channel penalty: 测试类型（我实验效果相对在各方面都最好）图像会偏锐利一些。
+```markdown
+当有多张参考图时，合并方式会影响画面的元素结果；
 
-送上官网对比图：
+- concat(联结)：//常用
+元素并列联结，过滤相同的元素；
 
-![](https://img-blog.csdnimg.cn/direct/5e9edade20044096b6b6d9f965d9a932.jpeg)
+- Add(相加)：
+全部元素相加，若参考元素过于相似，会出现过拟合；
 
-#### 6.1.3 影响时间控制
+- subtract(相减)：
+上面元素减少下面元素；
 
-在“应用IPAdapter”节点中，可以设置起点和终点。IPAdapter将仅在该生成时间段内应用模型。用这个来控制特征图片的强度比noise好多了。
+- average(平均)；//常用
 
-效果直接上官网图：
+- norm average(规格化平均)
+```
 
-![](https://img-blog.csdnimg.cn/direct/110485c019154ee8861a7363aad92166.jpeg)
+![](./note_img/Controlnet/20240803_181759.jpg)
 
-* * *
+------
 
-Ip-Adapter使用技巧第二弹！基础的IP-Adapter垫图使用和技巧在上一篇中已经介绍给大家：
 
-**传送门：[（上、基础使用和细节）](https://blog.csdn.net/qazzsq2420/article/details/136578832 "（上、基础使用和细节）")**
 
-本文就来给大家讲解他的更多注意点和进阶技巧。
 
-### 6.2 如何解决IP-Adapter生成图片发黑发暗
 
-如下图，根据提示图生成的图片就像被火烤过或者像被笔临摹了几百次，已经糊成一团。整个图片发黑发暗。![](https://img-blog.csdnimg.cn/direct/52a2b906553c4756bca4c1dcbb7603d8.png)
 
-由于IP-Adapter是一种小型超[网络模型](https://so.csdn.net/so/search?q=%E7%BD%91%E7%BB%9C%E6%A8%A1%E5%9E%8B&spm=1001.2101.3001.7020)，它根据输入图像和中间输出生成嵌入(embeddings)，并将这些嵌入作为指令动态地影响大型扩散模型的生成过程。这就导致了过高的CFG，也就是提示关联会导致图像渲染过度，FaceID也有同样的问题。这时我们可以简单的选择降低CFG，正常降低到4/5即可大大改善状况。但是这么做同时会导致其他提示词也会一起弱化，并且所有用到IP-Adapter模型的地方都要调整。
 
-如图，笑容变得很弱：![](https://img-blog.csdnimg.cn/direct/1aabcae746944a05a8f76669f0e75c98.png)
-
-所以更好的方案是使用如下节点：
-
-![](https://img-blog.csdnimg.cn/direct/64fc3b0ec3fd475f9003865d1fb87b5d.png)
-
-节点很简单，进model出model，将他放到IP-Adapter流程的末尾即可。可以理解为这是一个“退火”节点，可以将模型过高的“温度”降下来，正常设置为0.7就会有效果。同时也不会影响其他如提示词或者controlnet的提示由于调低CFG受到影响。
-
-效果如图，笑容明显灿烂了一些![](https://img-blog.csdnimg.cn/direct/8d6e7fafc20d4e088983adb75cbc9032.png)
-
-### 6.3 如何使用非正方形的提示图
-
-在上一篇基础使用中我们介绍了IP-Adapter在识别提示图片时是一个244\*244的正方形区域。在遇到非正方形图片时可以通过预处理器处理图片（详见上篇文章）。
-
-但是，如果我就是这么一身“反骨铮铮”，我就想要长条的图片做提示图片，或者我就想生成长条形的图片怎么办呢？
-
-比如下图这个比例为1：2的图片，如果我们使用普通的应用处理器处理，不但图片被截掉，而且还被拉伸了：![](https://img-blog.csdnimg.cn/direct/272967fca6874797bf89c4d352691fec.png)
-
-这时我们可以使用新的处理器：
-
-![](https://img-blog.csdnimg.cn/direct/70aa2c6b92b349edaa79def187baa63e.png)
-
-从名字大概就可以窥得这个节点的原理，如果图片不是正方形，那么把划分成一块块的正方形再解析。
-
-可以看到这个节点比正常的节点多了两个参数一个是**短边的正方体划分数量`short_side_tiles`**，一个是每个正方体部分的识别权重**`tile_weight`**。
-
-![](https://img-blog.csdnimg.cn/direct/b212206d194d4da6b6819969d5162fa3.png)
-
-看看这个图是不是好理解了呢
-
-**`tile_weight`**大家可以根据图片情况适当修改，大多时候0.6是个比较合适的值，如果使用的模型是SDXL那么可以适当将**`tile_weight`**调低到0.5。重点在于**`short_side_tiles`**的使用
-
-还是这个美女，让我们使用新节点试试效果：
-
-![](https://img-blog.csdnimg.cn/direct/b40bce3b689b47b794a876602aa91341.png)
-
-可以看到整个图片的特征都被捕捉到了
-
-如果我们调大重点在于short\_side\_tiles的值，其他不变的情况下，让我们看看图片会有怎样的变化：
-
-![](https://img-blog.csdnimg.cn/direct/815137bdaf134bc3b57a57f3d16b86e9.png)
-
-可以看到，**随着size的增长，图片的特征细节捕捉的更到位，和原图的差别越来越小。回想一下上文的方格图，当特征图像被划分的越细，特征自然捕捉的更具体，同样的执行时间也会更长**。
-
-### **6.4 来个总结：** 
-
-1. **当特征图片或者想要生成的图片是非正方形时，使用此节点可以完整捕捉特征。** 
-
-2. **当short\_side\_tiles越大，特征捕捉越详细，生成的图片越相似度越好，但是时间也会翻倍延长。这意味着即使原图是正方形，也可以使用此节点提高IP-Adapter的识别精度！**
-
-3. 图片即是lora?
-
-在我们使用IP-Adapter时候，使用方式看起来很像是lora,因为他们都是基于模型去修正迁移图片的风格特征。
-
-实际上插件作者也为我们提供了类似的固定图片特征模型的方法，生成的是embeds模型，如下图所示
-
-![](https://img-blog.csdnimg.cn/direct/1ba65f23fc7f4222b473ba6c5459e312.png)
-
-三张图片的风格固化下来的模型直接导入就可以批量生产相同风格的图片了：
-
-![](https://img-blog.csdnimg.cn/direct/be68b2f70629488cbd84d09be670a3e1.png)
-
-有人可能觉得直接保留着三张图片每次去生成不是更直观吗？直接保留确实可以，但是这也意味着每次加载你都要去重新识别加载所有的图片，占用资源且消耗时间。尤其使用上一节的节点在**`short_side_tiles`**很大时，消耗的时间更是成倍增加。
-
-### 6.5 **注意点：** 
-
-1. 虽然看起来很像，某些时候也能起到轻量的lora模型的作用。但是在使用IP-Adapter时，并不是给的图片越多越好，而是给的图片越精准越好。lora可能需要一定量的同类型的图片，训练后风格才越精准。但是对于IP-Adapter 你可以认为一张图片就是一段提示词，同类型的图片一张足够，更多图片并不会带来显著效果提升！
-2. 生成的embeds模型在output文件夹下，把他放到input文件夹下就可以在加载器中找到他啦。
+------
 
 #### 6.5.1 使用遮罩对IP-Adapter的作用范围进行精确控制
 
@@ -513,7 +547,7 @@ Ip-Adapter使用技巧第二弹！基础的IP-Adapter垫图使用和技巧在上
 
 ------
 
-### 6.6 IPAdapter 新版本
+**6.6 IPAdapter 新版本**
 
 #### 6.6.1 核心应用节点调整（**IPAdapter Apply**）
 
@@ -563,7 +597,7 @@ Ip-Adapter使用技巧第二弹！基础的IP-Adapter垫图使用和技巧在上
 
 ------
 
-### 6.6.3 合并模型加载节点（IPAdapter Unified Loader）
+#### 6.6.3 合并模型加载节点（IPAdapter Unified Loader）
 
 新版本提供了统一的模型加载节点，也就是说我们以前需要IPAdapter模型加载器，clip\_version模型加载器，现在直接二合一了。（Face ID相关模型加载要安装insightface）
 
@@ -601,7 +635,7 @@ Ip-Adapter使用技巧第二弹！基础的IP-Adapter垫图使用和技巧在上
 - 已弃用 ip-adapter\_sd15\_light.safetensors，v1.0 轻型影响模型
 ```
 
-### 6.6.4 IPadapter应用高级节点（**IPAdapter Advanced）**
+#### 6.6.4 IPadapter应用高级节点（**IPAdapter Advanced）**
 
 ![](https://img-blog.csdnimg.cn/direct/fde818c1ee864bb5a2203c2a7bb3bb6a.png)
 
@@ -625,7 +659,7 @@ Ip-Adapter使用技巧第二弹！基础的IP-Adapter垫图使用和技巧在上
 
 *   **embeds\_scaling**，IPAdapter 模型应用于 K,V 的方式。该参数对模型对文本提示的反应影响不大。`K+mean(V) w/ C penalty`在高权重 (>1.0) 下提供良好的质量，而不会烧坏图像。
 
-### 6.6.5 图片编码节点（**IPAdapter Encoder）**
+#### 6.6.5 图片编码节点（**IPAdapter Encoder）**
 
 ![](https://img-blog.csdnimg.cn/direct/b1a8c851c1074bf89264ebd4e3475d45.png)
 
@@ -641,7 +675,217 @@ Ip-Adapter使用技巧第二弹！基础的IP-Adapter垫图使用和技巧在上
 
 ------
 
-## 5. 工作流合集
+## 7. ControlNet工作流
+
+![](./note_img/Controlnet/20240725_160022.jpg)
+
+------
+
+## 8. 采样器进阶
+
+#### **8.1 基础采样器**
+
+![](./note_img/Controlnet/20240731_170508.jpg)
+
+> 降噪 1 完全重绘，降噪 0 原图。
+>
+> **原理：噪声退出的时间，0 即不添加噪声，1 即最后一步退出噪声；**
+
+------
+
+#### **8.2 高级采样器**
+
+![](./note_img/Controlnet/20240731_170446.jpg)
+
+> - 开启噪声，开始步数指原图介入的时间，介入时间越早，重绘越大，介入时间越晚，重绘越小；
+>
+> - 默认按总步数添加噪声，当结束步数小于步数时，若开启返回噪波，则可将噪点融合图传递到下层采样器，并按总步数迭代。
+> - 知识点：降噪 0.4  →→→→  **开始步数 = 总步数 * (1-0.4)**  
+>   // 即如果总步数 30 ，开始步数 18，可以出到一样的效果；
+>
+> ![](./note_img/Controlnet/20240731_180338.jpg)
+>
+> - **高级采样器会比基本采样器出图速度更快！！！**
+>
+> 例如：总步数30；
+> 第一个采样器，开始步数10，结束步数20，开启噪声，开启返回噪声；
+> 第二个采样器，开始步数21，结束步数30，关闭噪声，关闭返回噪声；
+>
+> **这样第二步会优化上一张的图片进行细节优化，变化会小，更可控。**
+
+------
+
+#### **8.3 提高效率技巧**
+
+![](./note_img/Controlnet/20240810_095237.jpg)
+
+------
+
+
+
+## 7. 放大
+
+#### 7.1 Tile分块放大
+
+![](./note_img/Controlnet/20240725_154224.jpg)
+![](./note_img/Controlnet/20240809_161953.jpg)
+
+
+
+> VAE分块解码 --- 分块采样 --- K采样器 --- VAE分块编码
+>
+> - 数学表达式 `.height`获取latent的高度；`.width` 获取latent的宽度；
+
+------
+
+#### 7.2 潜空间 ：Latent直接放大+采样
+
+![](./note_img/Controlnet/20240725_192158.jpg)
+![](./note_img/Controlnet/20240725_193913.jpg)
+
+> 直接放大图片尺寸，相当于SD里的`图生图`直接放大尺寸，缺点是画面**与原图会有差异**，可以调整采样的降噪重绘调整；
+
+------
+
+#### 7.3 像素空间：放大模型 (需解码，耗时长)
+
+![](./note_img/Controlnet/20240725_195303.jpg)
+
+> nearest-exact(邻近-精确)；bilinear(双线性插值)；area(区域)；bicubic(双三次插值)；bislerp(双球面线性插值)
+
+### 常用放大模型对比
+
+| 模型名称                       | 放大倍数 | 特点                               | 适用场景  |
+| ------------------------------ | -------- | ---------------------------------- | --------- |
+| 4x-UltraSharp.pth              | 4x       | 可能提供更清晰的图像               | 通用      |
+| 4x_NMKD-Siax_200k.pth          | 4x       | 增强纹理清晰优化                   | 通用/人像 |
+| RealESRGAN_x4plus anime_6B.pth | 4x       | 针对动漫优化，可能提供更真实的图像 | 动漫      |
+> **放大模型**为 **4** 倍模型，nearest-exact(邻近-精确) 按百分比放大，**50 为放大两倍**，100 为放大 4 倍；
+
+
+------
+
+## 8. 节点
+
+#### 8.1 comfy节点
+
+![](./note_img/Controlnet/20240725_142039.jpg)
+![](./note_img/Controlnet/20240725_142040.jpg)
+
+------
+#### 8.2 Easy Use插件
+
+![](./note_img/Controlnet/20240725_151513.jpg)
+![](./note_img/Controlnet/20240725_152100.jpg)
+
+------
+#### 8.3 RGthree插件
+
+![](./note_img/Controlnet/20240725_152227.jpg)
+
+------
+#### 8.4 二狗插件
+
+![](./note_img/Controlnet/20240725_152742.jpg)
+
+------
+
+## 9.  XY图表
+
+#### **9.1.1 脚本 --- XY输入**
+
+![](./note_img/Controlnet/20240726_162507.jpg)
+
+------
+
+#### **9.1.2 图像输出**
+
+> **Plot：网格图表；Images：单张图片**
+
+![](./note_img/Controlnet/20240726_163342.jpg)
+
+------
+
+#### **9.1.3 多重Lora对比**
+
+
+> 多重Lora测试叠加的lora权重对比时，要加一个Lora堆放置固定的Lora
+
+![](./note_img/Controlnet/20240726_170722.jpg)
+
+------
+
+#### **9.1.4 文本切换**
+
+> **CR节点**(Comfyroll Studio) --- 实用工具 --- 逻辑 --- **文本切换(CR-4)**
+
+![](./note_img/Controlnet/20240726_163002.jpg)
+
+------
+
+#### **9.1.5 替换提示词对比**
+
+![](./note_img/Controlnet/20240726_171710.jpg)
+
+------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------
+
+## 6. 工作流合集
 
 ```markdown
 文生图：Checkpoint → Lora  → CLIP  → ControlNet  → 采样器  → VAE解码  → 出图
@@ -687,36 +931,3 @@ Ip-Adapter使用技巧第二弹！基础的IP-Adapter垫图使用和技巧在上
 #### 1-12 噪声注入
 [![噪声注入](./note_img/assets/1-12.jpg)](workflows/1_basic/1-12噪声注入.json)
 
-#### 1-13 Stable Cascade
-[![Cascade](./note_img/assets/1-13.jpg)](workflows/1_basic/1-13StableCascade.json)
-
-#### 1-14 Stable Diffusion 3 API
-[![SD3API](./note_img/assets/1-14.jpg)](workflows/1_basic/1-14StableDiffusion3API.json)
-
-#### 1-15 CosXL图像编辑
-[![CosXL图像编辑](./note_img/assets/1-15.jpg)](workflows/1_basic/1-15CosXL图像编辑.json)
-
-### 进阶工作流
-#### 2-1 ipadapter
-![ipadapter](./note_img/assets/2-1.jpg)
-
-#### 2-2 instantID
-![instantID](./note_img/assets/2-2.jpg)
-
-#### 2-3 LayerDiffusion
-![LayerDiffusion](./note_img/assets/2-3.jpg)
-
-#### 2-4 局部重绘进阶
-![局部重绘进阶](./note_img/assets/2-4.jpg)
-
-#### 2-5 IC-Light
-![IC-Light](./note_img/assets/2-5.jpg)
-
-### 实用工作流
-
-#### 3-1 角色一致性
-##### 3-1-1 角色三视图与特写
-![角色三视图与特写](./note_img/assets/3-1-1.jpg)
-
-##### 3-1-2 电商工作流
-![](./note_img/assets/3-2-1.jpg)

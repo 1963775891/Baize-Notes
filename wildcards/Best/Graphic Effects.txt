@@ -1,0 +1,41 @@
+blurry
+sparkle
+depth of field
+别名：
+motion lines
+foreshortening
+lens flare
+别名：
+backlighting
+jpeg artifacts
+emphasis lines
+motion blur
+silhouette
+chromatic aberration
+halftone
+speed lines
+bokeh
+film grain
+drop shadow
+diffraction spikes
+bloom
+caustics
+别名：
+multiple monochrome
+dithering
+blending
+vignetting
+scanlines
+overexposure
+lens flare abuse
+optical illusion
+chiaroscuro
+stereogram
+image fill
+anaglyph
+cinematic lighting
+glowing light
+god rays
+ray tracing
+reflection light
+chromatic aberration abuse

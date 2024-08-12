@@ -1,0 +1,25 @@
+Happy,  wide smile with raised cheeks and crow's feet around the eyes.
+Sad, downturned mouth, drooping eyelids, and furrowed brow.
+Angry, tightened jaw, squinted eyes, and raised eyebrows.
+Surprised, Wide-open eyes, a raised brow, and an open mouth.
+Fearful, Wide-open eyes, a furrowed brow, and a slightly open mouth.
+Disgusted, A wrinkled nose, raised upper lip, and a slightly open mouth.
+Confused, Wide-open eyes, a slightly furrowed brow, and a slightly open mouth.
+Bored, A slack jaw, drooping eyelids, and a slightly uninterested gaze.
+Sleepy, Drooping eyelids, half-closed eyes, and a slightly dazed expression.
+Neutral, A relaxed facial expression with a slightly open mouth.
+Skeptical, Raised eyebrows and a slightly pursed mouth.
+Annoyed, Mouth turned down slightly, eyes narrowed, and a tense jaw.
+Pensive, Eyes focused inward, brow furrowed, and lips pursed.
+Relieved, Mouth turned up slightly, eyes wide open, and a relaxed jaw.
+Guilty, Downcast eyes, slumped shoulders, and a slightly ashamed expression.
+Stoic, Expressionless face with a neutral mouth and a neutral gaze.
+Dopey, Wide-eyed, slack-jawed, and with a goofy expression.
+Confident, Eyes that meet the viewer directly, a slight smile, and a relaxed posture.
+Curious, Chin tilted up slightly, eyes wide open, and a slight smile.
+Flirty, A playful smile, arched eyebrows, and a slightly tilted head.
+Seductive, A sultry gaze, a slightly parted lips, and a hint of a smile.
+Naughty, A mischievous grin, a wink, and a playful attitude.
+Teasing, A playful smirk, a raised eyebrow, and a hint of dominance.
+Sensual, A deep, intense gaze, a slow, deliberate smile, and a relaxed posture.
+Passionate, A heated look, a flushed face, and a quickened breath.

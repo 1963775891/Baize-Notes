@@ -1,0 +1,124 @@
+abstract
+abstract background
+amber
+amethyst
+ancient
+aqua
+aquamarine
+art deco
+art nouveau
+asian-inspired
+baroque
+beachy
+beautiful
+black
+blue
+bohemian
+brilliant coloring
+brown
+casual
+chic
+chinese
+chromatic
+classic
+classical
+collage
+colorful
+contemporary
+cool
+coral
+crepuscular rays
+crimson
+cute
+cyberpunk
+dark
+detailed
+dieselpunk
+double exposure
+earthy
+eclectic
+edgy
+elegant
+exotic
+fantasy
+fractal art
+french provincial
+future
+futuristic
+glamorous
+gold
+golden
+gorgeous
+gothic
+green
+grey
+hazel
+high-tech
+industrial
+Jacob's ladder
+jade
+japanese
+jet
+jeweled
+kaleidoscope
+kaleidoscopic
+mandala
+maximalism
+mediaeval
+mediterranean
+melancholia
+mid-century modern
+modern
+moonlight
+multicolored
+natural
+new
+old
+orange
+organic
+pale
+peach
+photography
+pink
+platinum
+polychromatic
+pop
+pretty
+prismatic
+purple
+ranch-style
+red
+rembrandt-light
+retro
+richly colored
+romantic
+ruby
+rustic
+sapphire
+scandinavian
+sci-fi
+sense of depth
+sexy
+silver
+simple
+sleek
+southwestern
+sporty
+stained glass
+starlight
+steampunk
+stylish
+sunlight
+traditional
+transitional
+tropical
+turquoise
+urban
+victorian
+vintage
+vivid
+watercolor painting
+whimsical
+white
+yellow
+zentangle

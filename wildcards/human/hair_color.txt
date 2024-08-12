@@ -1,0 +1,7 @@
+{aqua|blue|green|orange|peach|pink|purple}
+{auburn|black|blue black|brunette|burgundy|butterscotch|caramel|chestnut|dark|jet|mahogany|maroon}
+{blond|golden|honey}
+{red|redhead}
+{brown|light brown}
+{gray|grey|platinum|silver|white}
+{colored inner|gradient|multicolored|split-color|streaked}

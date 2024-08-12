@@ -1,0 +1,9 @@
+tattoo
+buttons
+bandaid
+cuffs
+sarong
+shackles
+handcuffs
+cane
+chains

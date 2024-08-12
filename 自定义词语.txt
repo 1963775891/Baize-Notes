@@ -1,0 +1,1466 @@
+Contempt,表情1 不屑
+Arrogant,表情1 傲慢
+Sigh,表情1 感慨
+Scared,表情1 惊吓
+Nauseous,表情1 恶心
+Dizzy,表情1 眩晕
+Sweating,表情1 流汗
+Sighing,表情1 叹气
+Getting Angry,表情1 发火
+Shivering,表情1 发抖
+Cute,表情1 可爱
+Silly Smile,表情1 傻笑
+Victory,表情1 胜利
+Failure,表情1 失败
+Provocative,表情1 挑衅
+Sympathy,表情1 同情
+Calling,表情1 呼叫
+Longing,表情1 渴望
+Heartbroken,表情1 心碎
+Injured,表情1 受伤
+Neutral,表情2 中立
+Excited,表情2 兴奋
+Relaxed,表情2 放松
+Thankful,表情2 感谢
+Praise,表情2 赞扬
+Annoyed,表情2 烦恼
+Anticipation,表情2 期待
+Determined,表情2 坚定
+Afraid,表情2 害怕
+Disdain,表情2 鄙视
+Smile,表情2 微笑
+Surprise,表情2 惊讶
+Sad,表情2 伤心
+Happy,表情2 开心
+Angry,表情2 生气
+Shy,表情2 害羞
+Embarrassed,表情2 尴尬
+Nervous,表情2 紧张
+Relieved,表情2 宽慰
+Confused,表情2 困惑
+Helpless,表情3 无奈
+Proud,表情3 得意
+Doubtful,表情3 疑惑
+Wronged,表情3 委屈
+Bored,表情3 无聊
+Comforted,表情3 安慰
+Mocking,表情3 嘲笑
+Side-eye,表情3 侧目
+Blank,表情3 呆滞
+Blink,表情3 眨眼
+Laugh,表情3 大笑
+Cry,表情3 哭泣
+Thinking,表情3 思考
+Displeased,表情3 不悦
+Calm,表情3 冷静
+Playful,表情3 调皮
+Shocked,表情3 震惊
+Scream,表情3 尖叫
+Frustrated,表情3 抓狂
+Crying with a smile,表情3 微笑着流泪
+Laughing blankly,表情4 呆滞着笑
+Satisfied,表情4 满意
+Worried,表情4 担忧
+Jealous,表情4 嫉妒
+Tulip,花1 郁金香
+Lotus,花1 莲花
+Sunflower,花1 向日葵
+Bluebell,花1 铃兰
+Violet,花1 蓝紫罗兰
+Purple Rose,花1 紫玫瑰
+Lily,花1 百合
+Daisy,花1 雏菊
+Snowdrop,花1 雪花莲
+African Daisy,花1 非洲菊
+Marigold,花1 金盏花
+Magnolia,花1 玉兰
+Morning Glory,花1 牵牛花
+Dahlia,花1 大丽花
+Camellia,花1 山茶花
+Dianthus,花1 石竹
+Petunia,花1 花烟草
+Nasturtium,花1 马蹄莲
+Ginger Flower,花1 姜花
+Snapdragon,花1 花菱草
+Creeping Jenny,花2 紫荆
+Cherry Blossom,花2 樱花
+Forget-Me-Not,花2 勿忘我
+Bud,花2 花蕾
+Rose Tea,花2 玫瑰茶
+Pepper,花2 花椒
+Baby's Breath,花2 雪绒花
+Night-Blooming Jasmine,花2 夜来香
+Celosia,花2 鸡冠花
+Lilac,花2 丁香
+Iris,花2 唐菖蒲
+Peanut,花2 花生
+Granite,花2 花岗岩
+Cauliflower,花2 卷心菜花
+Bee Balm,花2 蜜蜂花
+Face,花2 花脸
+Torch Lily,花2 火炬花
+Wildflower,花2 野花
+Axis,花2 花轴
+Blossom,花2 花卉
+Pot,花3 花盆
+Border,花3 花边
+Shiso,花3 紫苏花
+Petal,花3 花瓣
+Peach Blossom,花3 桃花
+Peanut Oil,花3 花生油
+Flower Name,花3 花名
+African Violet,花3 南非郁金香
+Flowering Plant,花3 开花植物
+Gentian,花3 龙胆花
+Flower Tea,花3 花茶
+Golden Flower Tea,花3 金花茶
+Balloon Flower,花3 白花蛇舌草
+Squash Blossom,花3 丝瓜花
+Soybean,花3 花豆
+Parrot Flower,花3 鹦鹉花
+All Flowers Bloom Together,花3 百花齐放
+Chipmunk,花3 花栗鼠
+Combretum,花3 鸡冠菜
+Carnation,花3 花瓶
+Feathers,花4 花翎
+Tambourine,花4 花鼓
+Peony,花4 洋牡丹
+Flower,花4 花儿
+Pistil,花4 花蕊
+Chrysanthemum,花4 菊花
+Blooming,花4 花盛
+Flower Demon,花4 花妖
+Sichuan Pepper Tree,花4 花椒树
+Hawthorn,花4 花楸
+Inflorescence,花4 花序
+Flower Xu,花4 花璇
+Baiflo,花4 百花洲
+Rose,花4 月季花
+Flower Garden,花4 百花园
+Bird of Paradise Flower,花4 天堂鸟花
+Lily of the Valley,花4 野百合
+Frog Flower,花4 青蛙花
+Bird's Nest Fern,花4 鸟巢花
+Brassicaceae,花4 十字花科
+Alpine Plant,花5 高山植物
+Language of Flowers,花5 花的语言
+Fuchsia,花5 垂丝海棠
+Oolong Tea Flower,花5 乌龙茶花
+Honeysuckle,花5 金银花
+Chrysanthemum Tea,花5 翠花茶
+Tea Flower,花5 茶花
+Classic Red Black andWhite,配色1 经典红黑白色系
+Whopper,配色1 巨无霸色系
+Coral Orange,配色1 珊瑚橙色系
+Autumn Brown,配色1 秋日棕色系
+Violet Purple,配色1 紫罗兰紫色系
+LemonYellow,配色1 柠檬黄色系
+Crystal Blue,配色1 水晶蓝色系
+FashionableGray,配色1 时尚灰色系
+Candy,配色1 糖果色系
+Coral,配色1 珊瑚色系
+Lavender,配色1 紫罗兰色系
+Emerald,配色1 绿野仙踪色系
+RoseGold,配色1 玫瑰金色系
+Sky Blue,配色1 浅蓝色系
+Burgundy,配色1 酒紅色系
+SunsetGradient,配色1 日暮色系
+Turquoise,配色1 土耳其蓝色系
+MintGreen,配色1 薄荷绿色系
+Maple Red,配色1 枫叶红色系
+Macarons,配色1 马卡龙色
+MutedTones,配色2 莫兰迪色系
+Titanium,配色2 钛金属色系
+Fresh Fruits,配色2 鲜果色系
+Gold and silver tones,配色2 金银色调
+Black background centered,配色2 黑色背景为中心
+Multi color matching,配色2 多色彩搭配
+Low purity tone,配色2 低纯度色调
+High purity tone,配色2 高纯度色调
+tints,配色2 淡色调
+contrast ratio,配色2 对比度
+POP art,配色2 波普艺术
+Snow Mountain Blue Series,配色2 雪山蓝色系
+Laser candy paper color,配色2 镭射糖果纸色
+Memphis color scheme,配色2 孟菲斯色系
+Mondrian color scheme,配色2 蒙德里安色系
+Dunhuang color system,配色2 敦煌色系
+Matisse color scheme,配色2 马蒂斯色系
+Klein Blue,配色2 克莱因蓝
+Hermes Orange,配色2 爱马仕橙
+tiffany blue,配色2 蒂芙尼蓝
+Chinese Red,配色3 中国红
+Peacock Green,配色3 孔雀绿
+Tixiang Red,配色3 提香红
+Turquoise color,配色3 只此青绿
+Malta Blue,配色3 马耳他蓝
+Mars Green,配色3 马尔斯绿
+chrome toxtures,材质1 铬合金的质感
+futuristic polished surfaces,材质1 未来主义抛光面
+fluorescent neon colours,材质1 荧光色的霓虹灯
+metallic textures and rigidity,材质1 金属般的质感和刚性感
+cold metallic textured robotic arms,材质1 冰冷金属纹理的机械臂
+high-tech gas-absorbing materials,材质1 高科技气体吸附材料
+micro and nano materials,材质1 微纳米材料
+artificial leather,材质1 人造皮革
+transparent textures of translucent glass,材质1 通透玻璃透明质感
+cotton material,材质1 棉花材质
+cold metallic textures,材质1 冰冷金属感
+composite materials Glossy surfaces,材质1 复合材料光泽感
+heat-resistant ceramic materials,材质1 抗热陶瓷材料
+futuristic plastic cases,材质1 未来主义塑料外壳
+textured metal alloys,材质1 金属合金纹理感
+protective cases for high-tech devices,材质1 高科技设备的保护套
+transparent polymers,材质1 透明高分子材料
+futuristic textiles,材质1 未来主义纺织品
+metallic textured robotic arms,材质1 金属纹理的机械臂
+silver metallic surfaces,材质1 银色金属表面
+non-slip textures for charging devices,材质2 充电设备防滑质感
+Metallictexture,材质2 金属质感
+Pearl luster textur,材质2 珠光质感
+Leather texture,材质2 皮革质感
+Crystal texture,材质2 水晶质感
+Mattetexture,材质2 亚光质感
+Silk texture,材质2 绸缎质感
+Waterwavetex,材质2 水波纹质感
+Bambootexture,材质2 竹子质感
+Porcelain,材质2 瓷器
+Enamel,材质2 珐琅
+Metallic paint te,材质2 金属漆质感
+Carved texture,材质2 雕刻质感
+Velvet,材质2 天鹅绒
+Sandy texture,材质2 沙质
+Antiaue bronze te:,材质2 古铜质感
+Paint texture,材质2 油漆质感
+Clay texture,材质2 粘土质感
+Decaved,材质2 腐朽衰败的
+Cotton,材质2 棉花
+Stonetexture,材质3 石质
+Glass texture,材质3 玻璃质感
+Cottontexture,材质3 棉质
+Plastictexture,材质3 塑料质感
+pearl texture,材质3 珍珠质感
+Fluffy texture,材质3 毛绒质感
+Graphitetexture,材质3 石墨质感
+Tissue paper,材质3 薄纸巾
+Celadon,材质3 青瓷
+Fur texture,材质3 皮毛质感
+Lace,材质3 蕾丝
+Sandstone,材质3 砂岩
+Ceramic texture,材质3 陶瓷质感
+Brick texture,材质3 砖石质感
+Gauzetexture,材质3 纱绸质感
+Mycelium,材质3 菌丝
+Skeletal,材质3 骨骼状
+Glass,材质3 玻璃
+Linen,材质3 亚麻布
+CG style,风格1 CG风格
+Immersive design,风格1 沉浸式设计
+jojo's bizarre adventure,风格1 Jojo的奇妙冒险
+Light-electric Style,风格1 光电风格
+Mechanical Style,风格1 机械风格
+psychadelic art style,风格1 迷幻艺术风格
+paper sculptures,风格1 纸雕塑风格
+Ukiyo-e style,风格1 浮世绘风格
+oil painting style,风格1 油画风格
+Makoto Shinkai's style,风格1 新海诚风格
+Ancient Chinese style,风格1 中国古风风格
+Emiliano Ponzi style,风格1 埃米利亚诺·庞齐
+minimalist style,风格1 极简风格
+retro vintage comic style,风格1 复古老漫画风格
+children's picture book,风格1 儿童绘本
+Blind box style,风格1 盲盒风格
+Pixar's style,风格1 皮克斯风格
+Miyazaki Hayao style,风格1 宫崎骏风格
+Makoto Shinkai,风格1 新海诚
+Watercolor children's illustration,风格1 水彩儿童插画
+Disney-style,风格2 迪士尼风
+doodle,风格2 涂鸦
+Lolita,风格2 洛丽塔风格
+Anime,风格2 日本动画片
+Japanese comics/manga,风格2 日本漫画风格
+Japanese Ukiyo-e,风格2 浮世绘
+Ink Wash Painting Style,风格2 水墨风格
+Tradition Chinese Ink Painting,风格2 中国传统水墨画
+Hollywood-style,风格2 电影风格
+Cinematography style,风格2 电影摄影风格
+Miniature movie style,风格2 微缩模型电影风格
+Modern-style,风格2 现代风格
+Minimalism,风格2 极简主义
+character concept art,风格2 角色概念艺术
+Game scene graph,风格2 游戏场景图
+painting,风格2 油画
+Modern Minimalist,风格2 现代简约风格
+Surrealism,风格2 超现实主义
+concept art,风格2 概念艺术
+Steampunk,风格2 蒸汽朋克
+retro dark vintage,风格3 复古黑暗
+Vintage,风格3 古着
+Cyberpunk-style,风格3 赛博朋克风格
+futuristic,风格3 未来主义
+Victorian,风格3 维多利亚时代
+Neoclassical,风格3 新古典主义
+Country style,风格3 乡村风格
+90s video game,风格3 90年代电视游戏
+Pokémon,风格3 宝可梦
+League of legends,风格3 英雄联盟
+AFK Arena,风格3 剑与远征
+Detroit: Become Human,风格3 底特律:变人
+botw,风格3 旷野之息
+8、16、24 bit,风格3 8、16、24像素风
+Animal Crossing,风格3 动物森友会
+Assassin's Creed,风格3 刺客信条
+Blade and Soul,风格3 剑灵
+Cyberpunk 2077,风格3 赛博朋克2077
+Genshin Impact,风格3 原神
+Game of Thrones,风格3 权力的游戏
+Minecraft,风格4 我的世界
+Overwatch,风格4 守望先锋
+Sailor Moon,风格4 美少女战士
+Carving Art,风格4 雕刻艺术风格
+Flat design,风格4 扁平化设计
+Skeuomorphism,风格4 拟物化设计
+Handwriting style,风格4 手写风格
+Gothic-style,风格4 哥特式
+full details,风格4 哥特式黑暗
+Rococo,风格4 洛可可
+Science fiction,风格4 科幻
+Mystictantasy,风格4 神秘幻想
+Pearl Milk Tea stvle,风格4 珍珠奶茶风格
+Claude Monet,风格4 克芳德莫奈
+ink illustration,风格4 水墨插画
+Traditional culture,风格4 传统文化
+posterotjapanese design,风格4 日本海报风格
+SoejimaShigenori,风格4 副岛成记
+GhibliStudio,风格4 吉卜力风格
+manga,风格4 漫画
+Magic realism,风格5 魔幻现实
+ACGN,风格5 二次元
+Impressionism,风格5 印象派
+children'sillustration,风格5 儿童插画
+Hand-drawn stvle,风格5 手四格
+Pixelart,风格5 像素风
+CGSociety,风格5 梦工厂动画风格
+Pixar,风格5 皮克斯
+flm photography,风格5 剪辑
+Leonardo Da Vinci,风格5 达芬奇
+Magic Realism Style,风格5 魔幻现实主义风格
+realistic,风格5 真实的
+hyperrealism,风格5 超写实主义
+pointilism,风格5 点彩派
+quiltedart,风格5 绗缝艺术
+colorink on paper,风格5 紙本彩色墨水
+Yamada Akihiro,风格5 山田章博
+jojo'sbizarre adventure,风格5 Jolo的奇妙冒险
+Japanese-style,风格5 日本风格
+stock illustration style,风格5 童话故事书插图风格
+Abstract Art,风格6 抽象表现主义
+Cubism,风格6 立体派
+Cartoon,风格6 卡通
+Fairytalestyle,风格6 童话风格
+Voynich manuscript,风格6 伏尼契手稿
+Pulp Noir,风格6 黑白电影时期
+Baroque,风格6 巴洛克时期
+frenchart,风格6 法国艺术
+VincentVanGogh,风格6 梵高
+Game-style,风格6 游戏风格
+3D,风格6 3D风格
+Warframe,风格6 星际战甲
+cinematic,风格6 电影般的
+Great Wall of China,地标1 中国长城
+Eiffel Tower, France,地标1 法国埃菲尔铁塔
+Statue of Liberty, USA,地标1 美国自由女神像
+Pyramids of Egypt,地标1 埃及金字塔
+Christ the Redeemer, Brazil,地标1 巴西基督像
+Red Square, Russia,地标1 俄罗斯红场
+Leaning Tower of Pisa, Italy,地标1 意大利斜塔
+Chichen Itza, Mexico,地标1 墨西哥尤卡坦半岛奇琴伊察古城
+Mount Fuji, Japan,地标1 日本富士山
+N Seoul Tower, South Korea,地标1 韩国首尔塔
+Big Ben, United Kingdom,地标1 英国大本钟
+Sagrada Familia, Spain,地标1 西班牙巴塞罗那圣家堂
+The White House, USA,地标1 美国白宫
+Luxor Temple, Egypt,地标1 埃及卢克索神庙
+Forbidden City, China,地标1 中国故宫
+Christ the Redeemer, Rio de Janeiro, Brazil,地标1 巴西里约热内卢基督山
+Golden Temple, India,地标1 印度金色寺
+Louvre Museum, France,地标1 法国卢浮宫
+Acropolis of Athens, Greece,地标1 希腊雅典卫城
+Moscow Kremlin, Russia,地标1 俄罗斯克里姆林宫
+Panama Canal, Panama,地标2 巴拿马运河
+Machu Picchu, Peru,地标2 秘鲁马丘比丘
+Roman Colosseum, Italy,地标2 意大利罗马斗兽场
+Karnak Temple, Egypt,地标2 埃及卡纳克神庙
+Empire State Building, USA,地标2 美国帝国大厦
+Tower Bridge, London, UK,地标2 英国伦敦塔桥
+Alhambra, Spain,地标2 西班牙阿尔罕布拉宫
+India Gate, India,地标2 印度印度门
+Matterhorn, Switzerland,地标2 瑞士马特洪峰
+Ubud Palace, Bali, Indonesia,地标2 印尼巴厘岛乌布皇宫
+Mexico City Metropolitan Cathedral, Mexico,地标2 墨西哥墨西哥城主教座堂
+Great Barrier Reef, Australia,地标2 澳大利亚大堡礁
+Tokyo Tower, Japan,地标2 日本东京塔
+Abu Simbel Temples, Egypt,地标2 埃及阿布辛贝神庙
+Santorini, Greece,地标2 希腊圣托里尼岛
+Grand Palace, Bangkok, Thailand,地标2 泰国曼谷大皇宫
+Las Vegas Strip, USA,地标2 美国拉斯维加斯赌城
+Florence Cathedral, Italy,地标2 意大利佛罗伦萨大教堂
+Kinderdijk Windmills, Netherlands,地标2 荷兰风车村
+Hagia Sophia, Istanbul, Turkey,地标2 土耳其圣索菲亚大教堂
+Iguazu Falls, Brazil/Argentina,地标3 巴西伊瓜苏大瀑布
+Black Church, Brasov, Romania,地标3 罗马尼亚布拉索夫黑教堂
+Palace of Versailles, France,地标3 法国凡尔赛宫
+Temple of Heaven, Beijing, China,地标3 中国天坛
+Sydney Opera House, Australia,地标3 澳大利亚墨尔本大剧院
+Palaces of India,地标3 印度宫殿
+Kapellbrücke, Lucerne, Switzerland,地标3 瑞士卢塞恩卡佩尔桥
+Mount Vesuvius, Italy,地标3 希腊梅地特拉尼火山
+Isabela Island, Galapagos, Ecuador,地标3 埃及伊莎贝拉岛
+Hollywood Walk of Fame, Los Angeles, USA,地标3 美国洛杉矶好莱坞星光大道
+Stonehenge, UK,地标3 英国巨石阵
+St. Petersburg, Russia,地标3 俄罗斯圣彼得堡彼得堡大教堂
+Eiffel Tower, Paris, France,地标3 法国巴黎艾菲尔铁塔
+Milan Cathedral, Italy,地标3 意大利米兰大教堂
+Golden Temple, Amritsar, India,地标3 印度金寺
+Sydney Tower, Australia,地标3 澳大利亚悉尼塔
+Statue of Liberty, New York, USA,地标3 美国纽约自由女神像
+Bibliotheca Alexandrina, Alexandria, Egypt,地标3 埃及亚历山大图书馆
+Palace of the Parliament, Bucharest, Romania,地标3 罗马尼亚布加勒斯特人民宫
+City of Arts and Sciences, Valencia, Spain,地标3 西班牙巴伦西亚艺术与科学城
+Potala Palace, Lhasa, China,地标4 中国布达拉宫
+Taj Mahal, India,地标4 泰国泰姬陵
+Cave of the Crystals, Mexico,地标4 墨西哥图伯灵水晶洞
+Paro Taktsang, Bhutan,地标4 巴西帕努
+Tokyo Imperial Palace, Japan,地标4 日本日光东照宫
+Burj Khalifa, Dubai, UAE,地标4 阿联酋迪拜哈利法塔
+Louvre Museum, Paris, France,地标4 法国巴黎卢浮宫
+Karabar Palace, India,地标4 印度卡拉伯尔宫
+Mount Fitz Roy, Patagonia, Argentina/Chile,地标4 意大利维特魔山
+Sydney Harbour Bridge, Australia,地标4 澳大利亚悉尼海港大桥
+Lighthouse of Alexandria, Egypt,地标4 埃及亚历山大港灯塔
+Times Square, New York, USA,地标4 美国纽约时代广场
+Windsor Castle, UK,地标4 英国温莎城堡
+Cathedral of the Annunciation, Moscow, Russia,地标4 俄罗斯克里姆林宫大教堂
+Arc de Triomphe, Paris, France,地标4 法国巴黎凯旋门
+Colosseum, Rome, Italy,地标4 意大利斗兽场
+Notre-Dame Cathedral, Paris, France,地标4 法国巴黎圣母院
+State Hermitage Museum, St. Petersburg, Russia,地标4 俄罗斯圣彼得堡冬宫
+National Museum of Anthropology, Mexico City, Mexico,地标4 墨西哥墨西哥城博物馆
+Niagara Falls, Canada/USA,地标4 加拿大尼亚加拉瀑布
+Roman Baths, Bath, UK,地标5 英国巴斯罗马浴场
+Seville Cathedral, Spain,地标5 西班牙塞维利亚大教堂
+Liberty Island, USA,地标5 美国自由岛
+Florence Basilica of Santa Croce, Italy,地标5 意大利佛罗伦萨圣十字大教堂
+Amber Fort, India,地标5 印度琥珀堡
+Chi Wen,山海经1 螭吻
+White Tiger,山海经1 白虎
+Xuan Wu,山海经1 玄武
+Kirin,山海经1 麒麟
+Vermilion Bird,山海经1 朱雀
+Phoenix,山海经1 凤凰
+Nine-Tailed Fox,山海经1 九尾狐
+Azure Dragon,山海经1 青龙
+Unicorn,山海经1 独角兽
+Golden Lion,山海经1 金狮
+Taotie,山海经1 饕餮
+Suan Ni,山海经1 狻猊
+Dragon Tortoise,山海经1 龙龟
+Cyclops,山海经1 独眼兽
+Plum Mountain,山海经1 梅山
+Bi Xi,山海经1 赑屃
+Meng Huo,山海经1 孟获
+Jin Jing,山海经1 金睛兽
+Yu the Great,山海经1 大禹
+Thunder God,山海经1 雷公
+Fire Lion,山海经2 火狻
+Big-Headed Monster,山海经2 大头怪
+Giant Moth,山海经2 巨蝥
+Thunderclap,山海经2 霹雳
+Sea Demon,山海经2 海魔
+River God,山海经2 江神
+River Lord,山海经2 河伯
+Eastern Emperor,山海经2 东皇
+Queen Mother of the West,山海经2 西王母
+Southern Land,山海经2 南国
+Northern Land,山海经2 北地
+Ghost General,山海经2 鬼将
+Peach Blossom Spirit,山海经2 桃花精
+Macaque,山海经2 猕猴
+Vermilion Reptile,山海经2 朱厌
+Sea Nymph,山海经2 海妖
+Water Monster,山海经2 水怪
+Mist Spirit,山海经2 岚灵
+Tear Stone,山海经2 泪石
+White-Headed Man,山海经2 白头翁
+Five-Legged Beast,山海经3 五足兽
+Wind God,山海经3 风伯
+Sky General,山海经3 天将
+Thunderbolt,山海经3 雷霆
+Lightning Mother,山海经3 电母
+Firebird,山海经3 火鸟
+Fish Monster,山海经3 鱼怪
+Horse-Like Beast,山海经3 走马狻
+Sea Dragon,山海经3 蛟龙
+Giant Bird,山海经3 巨鸟
+Mountain Spirit,山海经3 岳灵
+Rain Master,山海经3 雨师
+Purple Fiend,山海经3 紫煞
+Mountain Tortoise,山海经3 山甲兽
+Big-Horned Monster,山海经3 大角怪
+White Wolf,山海经3 白狼
+Copper Deer,山海经3 铜獐
+Purple Tapir,山海经3 紫貘
+Crab Monster,山海经3 螃蟹怪
+Thousand-Legged Insect,山海经3 千足虫
+Nine Infants,山海经4 九婴
+Man-Eating Monster,山海经4 噬人怪
+Iron-Plated Lizard,山海经4 铁甲蜥蜴
+Golden-Eyed Monster,山海经4 金睛怪
+Yellow Dragon,山海经4 黄龙
+Black Camel,山海经4 黑骆驼
+Spider Monster,山海经4 蜘蛛怪
+Scorpion Monster,山海经4 蝎子怪
+Serpent Demon,山海经4 蛇妖
+Mountain Horse,山海经4 山马
+Ghost Crab Monster,山海经4 鬼蟹怪
+White-Mouthed Monster,山海经4 白嘴怪
+Yaksha,山海经4 夜叉
+Ox-Headed Monster,山海经4 牛头怪
+Dog-Faced Monster,山海经4 狗面怪
+Fusion Beast,山海经4 融合兽
+Fire Rhinoceros,山海经4 火犀兽
+Camel Monster,山海经4 骆驼怪
+Serpent-Necked Monster,山海经4 蛇颈怪
+Carp Monster,山海经4 鲤鱼怪
+Green Snake Monster,山海经5 青蛇怪
+Three-Legged Bird,山海经5 三足鸟
+Mountain Nymph,山海经5 山灵
+galaxy,场景1 银河
+nebula,场景1 星云
+overgrown nature,场景1 杂草丛生的
+Futuristicmetropolis,场景1 未来都市
+Magical castle,场景1 魔法城堡
+Industrial citvscape,场景1 工业城市
+Floatingcity,场景1 浮空城市
+Futuristiclaboratory,场景1 末来实验室
+Robot factory,场景1 机器人工厂
+Mystic mountain,场景1 神秘山脉
+Cyberpunk city,场景1 赛博朋克城市
+Haunted forest,场景1 鬼屋森林
+Surreal landscape,场景1 超现实主义风景
+Steampunk citvscape,场景1 蒸汽朋克城市
+Maqical forest,场景1 魔洪森林
+desertedcitybuildings,场景1 废弃城市建筑群
+streetscenery,场景1 街景
+universe,场景1 宇宙
+in the morning fog,场景1 在晨雾中
+cyberpunkstreet,场景1 赛博朋克街道
+ancientruins,场景2 古代遗迹
+steampowered,场景2 月球殖民地
+machinery,场景2 蒸汽动力机械
+abandonedspaceship,场景2 废弃宇宙飞船
+Alien planet,场景2 外星球
+Steampunk Factory,场景2 蒸汽朋克工厂
+MushroomForest,场景2 蘑菇森林
+Magical Kingdom,场景2 魔法王国
+Dark Forest,场景2 黑暗森林
+Lostruins,场景2 迷失废墟
+Tropical paradise,场景2 热带天堂
+Post-apocalvptic wasteland,场景2 后世界荒野
+StarryNight,场景2 星空夜景
+Dicital Universe,场景2 数字宇宙
+Spaceship,场景2 宇宙飞船
+Mystical Forest,场景2 神秘森林
+Crvstal palace,场景2 水晶宫殿
+Sunken Shipwreck,场景2 沉船遗迹
+postapocalvptic,场景2 后启示录、末日后
+Mythical world,场景2 神活世界
+Magical Forest,场景3 魔幻森林
+VolcanicEruption,场景3 火山喷发
+GiantMachines,场景3 巨大机器
+StarWars,场景3 星球大战
+Enchanted Forest,场景3 魔法森林
+mad max,场景3 疯狂麦斯沙地风格
+Underwaterworld,场景3 水下世界
+Enchanted garden,场景3 廉法花园
+Dreamyclouds,场景3 梦幻云彩
+Red planet,场景3 火星
+Time travel citvscape,场景3 时光穿越城市
+Cyber jungle,场景3 赛博朋克丛林
+Dvstopianfuture,场景3 反乌托邦末来
+Extraterrestrial landscape,场景3 外星地貌
+Medieval castle,场景3 中世纪城堡
+Crystal cave,场景3 水晶洞穴
+Apocalvoticcitv,场景3 世界末日城市
+Fantasy village,场景3 奇幻村庄
+nearfuturecity,场景3 近未来都市
+Alchemy Laboratory,场景3 嫁金室
+rain,场景4 两天
+fullofsunlight,场景4 充满阳光
+Mystic temple,场景4 神秘寺店
+Desert oasis,场景4 沙漠绿洲
+whimsically,场景4 异想天开
+tantasy,场景4 幻想
+Mysterious Tomb,场景4 神秘古墓
+Futuristic park,场景4 未来公园
+Giant Architecture,场景4 巨大建筑
+Rainy City,场景4 雨天城市
+Fairy Tale Castle,场景4 童话城堡
+Post-Apocalvptic world,场景4 后启示录世界
+Dystopian Landscape,场景4 反乌托邦景观
+Lunarlandscape,场景4 月球景观
+Ice kingdom,场景4 冰雪王国
+AuroraBorealis,场景4 极光北极
+CyberpunkAlley,场景4 暴走机甲小巷
+GothicCathedral,场景4 哥特式大教堂
+Surreal Dreamland,场景4 超现实梦境
+Skyisland,场景4 天空岛屿
+DesolateDesert,场景5 荒漠孤烟
+Cactus Desert,场景5 仙人堂冰漠
+Castleinthesky,场景5 天空之城
+OuterSpace,场景5 外太空
+Ancient Temple,场景5 古代神庙
+Romantic Town,场景5 浪漫小镇
+doomsdayruins,场景5 末日废墟
+MarsExploration,场景5 火星探险
+Technological City,场景5 科技城市
+Neoncity,场景5 霓虹城市
+Underworld,场景5 冥界
+Toplight,照明1 顶光
+Rimlight,照明1 轮廓光
+Morning light,照明1 晨光
+Sunlight,照明1 太阳光
+Golden hour light,照明1 黄金时段光
+bright,照明1 明亮的
+Dreamy haze,照明1 梦幻雾气
+Mistyfoggy,照明1 雾气朦胧
+BBrutal,照明1 残酷的
+dramatic contrast,照明1 强烈对比的
+unreal engine 5 UE5,照明1 效果
+Cinematic light,照明1 电影光
+Volumetric light,照明1 立体光
+Studiolight,照明1 影棚光
+Reflection effect,照明1 反射
+Shadow effect,照明1 阴影效果
+Natural light,照明1 自然光
+Raking light,照明1 侧光
+Edgelight,照明1 边缘光
+Hard light,照明1 硬光
+Rembrandt Lighting,照明2 伦勃朗照明
+Split Lighting,照明2 分体照明
+front lighting,照明2 前灯
+Vibrant color,照明2 鲜艳色彩
+clean background trending,照明2 干净的背景趋势
+Serene calm,照明2 安静恬淡
+rimlights,照明2 边缘灯
+globalilluminations,照明2 全局照明
+soft lights,照明2 柔光
+Romantic canclelight,照明2 浪漫烛光
+Electric fash,照明2 电光闪烁
+clnematic lighting,照明2 电影灯光
+Rembrandt light,照明2 伦勃朗光
+mappinglight,照明2 映射光
+atmospheric lighting,照明2 气氛照明
+volumetriclighting,照明2 体积照明
+moodlighting,照明2 情绪照明
+soft light,照明2 柔软的光线
+Etherealmist,照明2 仙气缭统
+Warm glow,照明2 温暖光辉
+Moody atmosphere,照明3 忧郁氛围
+Soft moonlight,照明3 柔和月光
+rays of shimmering light,照明3 微光
+CrepuscularRax,照明3 黄昏射线
+outerspaceview,照明3 外太空观
+Intense baclksiohnt,照明3 經逆光
+Shimmering light,照明3 闪光灯光
+bisexual lighting,照明3 双性照明
+Soft illuminaotion,照明3 柔和的照明
+Projection effect,照明3 投影
+fuorescent lighting,照明3 荧光灯
+beautiful lighting,照明3 好看的灯光
+yrayvray,照明3 渲染效果
+Dramatic lighting,照明3 戏剧灯光
+Cold light,照明3 冷光
+Warmlight,照明3 暖光
+hard lighting,照明3 强光
+dramalight,照明3 戏剧光
+Shade,照明3 色光
+Cyberpunk light,照明3 赛博朋克光
+Stark shadows,照明4 明暗分明
+Moody darkness,照明4 黑暗氛围
+Harsh contrast,照明4 高对比度
+Back lighting,照明4 背光照明
+Bright highlights,照明4 明亮高光
+winkling stars,照明4 闪耀星空
+SSoft candlelight,照明4 柔和烛光
+red,颜色1 红
+purple,颜色1 紫
+green,颜色1 绿
+yellow,颜色1 黄
+white,颜色1 白
+black ,颜色1 黑
+brown ,颜色1 棕
+blue,颜色1 蓝
+gray,颜色1 灰
+orange,颜色1 橙
+blackbackground centered,颜色1 黑色背景居中
+whiteandgreentones,颜色1 白色和绿色调
+red and black tones,颜色1 红色和黑色调
+yellowandblack tones,颜色1 黄色和黑色调
+Goldandsilvertones,颜色1 金金色和银色调
+neonshades,颜色1 霓虹色调
+Bright Orange,颜色1 亮丽橙色系
+loryWhite,颜色1 象牙白色系
+Natural Green,颜色1 自然绿色系
+Luxurious Gold,颜色1 奢华金色系
+Steady Blue,颜色2 稳重蓝色系
+DenimBlue,颜色2 丹宁蓝色系
+Black and White,颜色2 黑白灰色系
+Minimalist Black and White,颜色2 极简黑白色系
+WarmBrown,颜色2 温暖棕色系
+Soft Pink,颜色2 柔和粉色系
+shine,颜色2 发光
+holy light,颜色2 圣光
+starflash,颜色2 星闪
+reflections,颜色2 反射透明彩虹色
+Rule of Thirds,构图1 三分法
+Symmetry,构图1 对称
+Leading Lines,构图1 引导线
+Isolation,构图1 孤立
+Contrast,构图1 对比
+centerthecomposition,构图1 中心构图
+Horizontal composition,构图1 横向构图
+Symmetrical composition,构图1 对称构图
+Rule of Thirds composition,构图1 三分法构图
+Diagonal composition,构图1 对角线构图
+Dynamicsymmetrycomposition,构图1 动态对称构图
+Converginglinescomposition,构图1 汇聚线条构图
+Vanishing point composition,构图1 消失点构图
+Point of view composition,构图1 视角构图
+Repetition composition,构图1 重复构图
+Contrast composition,构图1 对比构图
+lsolation composition,构图1 孤立构图
+split complementarycomposition,构图1 分割互补构图
+Mise-en-scene composition,构图1 布景构图
+Wide view,构图1 宽景
+Front view,构图2 正面
+Macroshot,构图2 微距
+Portrait,构图2 肖像
+Profile,构图2 侧面
+GoldenRatio,构图2 黄金分割
+Asymmetry,构图2 不对称
+Framing,构图2 构框
+Depth,构图2 深度
+Texture,构图2 纹理
+S-shapedcomposition,构图2 S形构图
+Symmetricalbody,构图2 对称身体
+volumetric light/Volume Method,构图2 体积光
+Asymmetrical composition,构图2 非对称构图
+Golden Ratio composition,构图2 黄金分割构图
+Framing composition,构图2 画框构图
+juxtaposition composition,构图2 并列构图
+Saturated composition,构图2 饱和构图
+Nonlinear composition,构图2 非线性构图
+Cut out composition,构图2 剪影构图
+Focal point composition,构图2 焦点构图
+Overlapping composition,构图3 重叠构图
+Collage composition,构图3 拼贴构图
+Negativespace composition,构图3 负空问构图
+Bird view,构图3 鸟瞰
+Headshot,构图3 头部特写
+Anexpansive view of,构图3 景观
+Flat,细节1 平整的
+sleek,细节1 线条流畅的
+Soft,细节1 柔和的
+Graceful,细节1 线条优美的
+Organic,细节1 有机的
+Subtle,细节1 细微的
+Thin,细节1 细长的
+Gentle,细节1 线条流畅且柔和的
+Sinuous,细节1 线条弯曲但流畅的
+well-detinec,细节1 线条优美且清晰的
+Lavered,细节1 有层次感的
+Bold,细节1 线条明显而突出的
+Carved,细节1 具有雕刻感的
+Smooth,细节1 光滑的
+Elegant,细节1 线条优美且流畅的
+Curvaceous,细节1 曲线优美的
+Irregullar,细节1 不规则的
+Sharp,细节1 锋利的
+Dynamic,细节1 充满动感的
+Precise,细节1 精密的
+Streamlined,细节2 流线型的
+Curved,细节2 弯曲的
+Varied,细节2 多样化的
+Polished,细节2 光洁的
+Slender,细节2 纤细的
+Intricate,细节2 线条细致的
+Delicately curved,细节2 曲线细腻的
+Exquisite,细节2 线条优美且精细的
+Textured,细节2 有纹理的
+Organic pattern,细节2 纹路自然的
+Embossed,细节2 具有浮雕感的
+epic detail,细节2 超细节
+clear,细节2 清晰的
+Fine,细节2 精细的
+Soothing,细节2 线条柔和且平滑的
+Rough,细节2 粗糙的
+Bulky,细节2 粗大的
+Angullar,细节2 多棱角的
+Uniform,细节2 统一的
+Free camera,镜头1 自由视角
+Top-down perspective,镜头1 俯视视角
+Close-up view,镜头1 短距离视角
+Arbitrary view,镜头1 随意视角
+Endoscopic view,镜头1 内视镜视角
+Fisheyelens,镜头1 鱼眼视角
+Reverseangle,镜头1 反转视角
+Medium Close-Up(Mcu),镜头1 中中特写
+Medium Long Shot(MLS),镜头1 中暴
+OvertheShoulderShot,镜头1 过肩景
+Tight Shot,镜头1 近距离景
+Bokeh,镜头1 风景照
+Background,镜头1 前景
+Chest Shot(MCU,镜头1 胸部以上
+Extra Long Shot(ELS),镜头1 人在远方
+bust portrait,镜头1 半身像
+Front.Side.Rear View,镜头1 前视、侧视、后视图
+Extreme Closeup View,镜头1 极端特写视图
+Panoramic view,镜头1 全景视角
+Eye-level,镜头1 常规视角
+Dutch,镜头2 交错视角
+Fixed camera,镜头2 固定视角
+Side-scrolling perspective,镜头2 侧面视角
+Long-shotview,镜头2 远距离视角
+Followcamera,镜头2 跟随视角
+Over the shoulder,镜头2 肩膀视角
+Macrolens,镜头2 微距视角
+Medium Shot(Ms),镜头2 中景
+Long Shot(LS),镜头2 远景
+Loose Shot(2S),镜头2 松散景
+(GS)Scenery Shot,镜头2 群景
+Full Length Shot(FLS),镜头2 背景
+KneeShot(ks),镜头2 膝盖以上
+Big Close-Up(BCu),镜头2 头部以上
+TopView,镜头2 顶视園
+Tilt-Shift,镜头2 倾斜移位
+Product View,镜头2 产品视图
+Look Up,镜头2 仰视
+Isometric View,镜头2 等等距视图
+Backlightstyle,镜头2 逆光摄影风格
+Overhead,镜头3 俯拍视角
+Bird&apos;s-eye,镜头3 鸟瞰视角
+Dvnamic,镜头3 运动视角
+Perspective,镜头3 透视视角
+Simulated camera,镜头3 模拟摄影机
+depth of field blur,镜头3 景深模糊
+fisheye lens,镜头3 鱼眼透镜
+85mm long lens,镜头3 85mm长透镜
+close up portrait,镜头3 特写肖像
+24mm wide angle lens,镜头3 24mm广角镜头
+wide angle portrait,镜头3 广角人像
+70mm telephoto lens,镜头3 70mm长焦镜头
+face close up,镜头3 面部特写
+14mm wide angle lens,镜头3 14mm广角镜头
+panoramic landscape,镜头3 全景景观
+far close up,镜头3 远特写
+vignette,镜头3 小插曲
+high defintion,镜头3 高清晰度
+half face close up,镜头3 半脸特写
+aerial view,镜头3 鸟瞰图1
+birds eye view,镜头4 鸟瞰图2
+low angle shot,镜头4 低角度镜头
+reference sheet,镜头4 参考资料表
+focus sharp,镜头4 聚焦
+full body,镜头4 全身
+Detail Shot(ECU),镜头4 细节特写
+Face Shot (VCU),镜头4 脸部特写
+Big Close Up(BCU),镜头4 特写（头部以上）
+Close Up(CU),镜头4 特写（颈部以上）
+Chest Shot(MCU),镜头4 特写（胸部以上）
+Waist Shot(WS),镜头4 特写（腰部以上）
+first person view,镜头4 第一人称视角
+A bird's eye view,镜头4 鸟瞰图
+Top view,镜头4 俯视图
+Bottom view,镜头4 仰视图
+cinematic shot,镜头4 电影镜头
+extreme long shot,镜头4 大远景
+long shot,镜头4 远镜头
+Mid shot,镜头4 中镜头
+extreme close up,镜头4 极端特写
+medium close up,镜头5 中等特写
+close up,镜头5 特写
+scenery shot,镜头5 风景拍摄
+satellite view,镜头5 卫星视图
+360 panorama,镜头5 360全景
+telephoto lens,镜头5 长焦镜头
+super wide angle,镜头5 超广角
+tilt shift,镜头5 移轴摄影
+depth of field (dof),镜头5 景深
+microscopic view,镜头5 微观视图
+super resolution microscopy,镜头5 超分辨率显微镜
+African Elephant,动物1 非洲象
+Lion,动物1 狮子
+Giant Panda,动物1 大熊猫
+Giraffe,动物1 长颈鹿
+Tiger,动物1 老虎
+Chimpanzee,动物1 黑猩猩
+Brown Bear,动物1 棕熊
+Rhinoceros,动物1 犀牛
+Crocodile,动物1 鳄鱼
+Orangutan,动物1 猩猩
+Zebra,动物1 斑马
+Gorilla,动物1 大猩猩
+Polar Bear,动物1 北极熊
+Elephant,动物1 大象
+American Black Bear,动物1 北美黑熊
+Cheetah,动物1 猎豹
+Kangaroo,动物1 袋鼠
+Ostrich,动物1 辣妹鸵鸟
+Hippopotamus,动物1 河马
+River Otter,动物1 斑点水獭
+Mountain Lion,动物2 美洲狮
+Arctic Fox,动物2 北极狐
+Leopard,动物2 豹子
+Squirrel,动物2 松鼠
+Eagle,动物2 老鹰
+Mountain Lizard,动物2 山岭巨蜥
+Gray Wolf,动物2 北美狼
+Ptarmigan,动物2 麻鸡
+Leopard cat,动物2 虎斑猫
+Black Eagle,动物2 黑鹰
+Raccoon,动物2 普通浣熊
+Mollusk,动物2 腹足类
+Aves,动物2 像鸟类
+Stunning Chimpanzee,动物2 辣妹猩猩
+Beluga Whale,动物2 白鲸
+Impatient Aardwolf,动物2 急性子鬣狗
+Northern White-Cheeked Gibbon,动物2 长鼻浣熊
+Lizard,动物2 蜥蜴
+Owl,动物2 猫头鹰
+Otter,动物2 水獭
+Yellowfin Tuna,动物3 黄鳍金枪鱼
+Uric Acid Crocodile,动物3 尿酸鳄
+Chinese Water Deer,动物3 红麂
+Long-tailed monkey,动物3 长尾猴
+Penguin,动物3 企鹅
+Grizzly bear,动物3 灰熊
+Triangle whale,动物3 三角鲸
+Arctic dog,动物3 北极狗
+Bald eagle,动物3 秃鹰
+Needle mole,动物3 针鼹鼠
+Complex blue-green wing butterfly,动物3 错综壮碧绿翅膀蝴蝶
+Screen drum woodpecker,动物3 屏风鼓啄木鸟
+Drake,动物3 公鸭
+Mountain Yak,动物3 山地牦牛
+Red Anteater,动物3 红色食蚁兽
+Arctic sable,动物3 北极貂
+Reindeer,动物3 梅花鹿
+Breeding cattle,动物3 饲育牛
+Sea lion,动物3 海狮
+Gray ant,动物3 灰蚂蚁
+Bighorn Sheep,动物4 大角羊
+Spotted Wild Boar,动物4 斑点野猪
+Turtle,动物4 乌龟
+Deer,动物4 鹿
+Bat,动物4 蝙蝠
+American Bison,动物4 美洲野牛
+Black bear,动物4 黑熊
+Sandworm,动物4 沙蚕
+Nightmare spider,动物4 梦魇蛛
+Crocodile hatchling,动物4 鳄鱼幼崽
+Racoon dog,动物4 犀浣熊
+Panda,动物4 熊猫
+Spotted frog,动物4 斑点青蛙
+Dragon,动物4 龙
+Siberian Lynx,动物4 猞猁
+Leopard Shark,动物4 豹纹鲨
+Flatfish,动物4 比目鱼
+Beaver,动物4 海狸
+Marsupial,动物4 负鼠
+V-shaped neuromodulator fish,动物4 V字神经鱼
+Jaguar,动物5 花豹
+Arctic rabbit,动物5 北极兔
+Mountain antelope,动物5 山地斑羚
+Sloth,动物5 树懒
+Knolling,特效1 平铺效果
+a collection of,特效1 集合效果
+floorplan,特效1 3D平面图
+carving/relief/sculpture,特效1 雕刻效果
+isometric,特效1 等距视角
+ant,特效1 拟人效果
+Benin art/mosaic style,特效1 马赛克拼贴
+quilling paper art,特效1 卷纸艺术效果
+depth of field,特效1 背景虚化
+cinematic lighting,特效1 电影光效
+motion blur,特效1 动态模糊
+chromatic aberration,特效1 色差
+sparkle,特效1 闪耀效果
+Jpeg artifacts,特效1 压缩失真
+blurry,特效1 模糊的
+glowing light,特效1 荧光
+god rays,特效1 神圣感顶光
+ray tracing,特效1 光线追踪
+reflection light,特效1 反射光
+dithering,特效1 抖动
+hologram,特效2 科幻全息图
+x-ray,特效2 X光透视
+ascii art,特效2 ASCII码
+Fujicolor,特效2 富士色彩
+image fill,特效2 图像填充
+motion lines,特效2 体现运动的线
+optical illusion,特效2 视错觉
+multiple monochrome,特效2 多重单色
+anaglyph,特效2 互补色
+stereogram,特效2 立体画
+scanlines,特效2 扫描线
+vignetting,特效2 晕影
+speed lines,特效2 速度线
+silhouette,特效2 剪影
+chiaroscuro,特效2 明暗对比
+chromatic aberration abuse,特效2 色差滥用
+drop shadow,特效2 立绘阴影
+film grain,特效2 胶片颗粒感/老电影滤镜
+halftone,特效2 半调风格
+backlighting,特效2 逆光
+blending,特效3 混合
+bloom,特效3 盛开
+cutaway/a crpss section view,特效3 剖面图/截面图
+bioluminescent,特效3 生物发光
+made of chrome,特效3 镀铬
+splash,特效3 飞溅
+Off-shoulder dress ,裙子1 露肩连衣裙
+Spaghetti strap dress,裙子1 细肩带裙
+Patchwork dress ,裙子1 拼接连衣裙
+High-waist dress ,裙子1 高腰裙
+Ruffle hem dress,裙子1 荷叶边裙
+Lace panel dress,裙子1 拼接蕾丝裙
+Trendy dress ,裙子1 流行连衣裙
+Fitted dress ,裙子1 修身连衣裙
+Loose dress ,裙子1 宽松连衣裙
+Lace dress ,裙子1 蕾丝连衣裙
+Vintage dress ,裙子1 复古裙
+Ruffle sleeve dress,裙子1 荷叶袖连衣裙
+Tie waist dress,裙子1 绑带裙
+Puff sleeve dress,裙子1 泡泡袖裙
+Ruffle edge dress,裙子1 荷叶边连衣裙
+Belted dress ,裙子1 收腰连衣裙
+Chiffon dress ,裙子1 雪纺连衣裙
+Ribbed dress ,裙子1 罗纹裙
+Color-block dress ,裙子1 拼色连衣裙
+Mini dress ,裙子1 迷你连衣裙
+Radiant Star dress,裙子2 璀璨星辰裙
+Fairy Dance dress,裙子2 精灵之舞裙
+Dreamy Fluffy dress,裙子2 梦幻蓬松裙
+Shimmering Fringe dress,裙子2 闪耀流苏裙
+Dazzling Rainbow dress,裙子2 绚丽彩虹裙
+Iridescent skirt ,裙子2 霞光裙
+Moonlight dress ,裙子2 月光裙
+Glass skirt ,裙子2 琉璃裙
+Snowflake dress ,裙子2 瑞雪裙
+Mermaid dress ,裙子2 水精灵裙
+Butterfly fairy dress,裙子2 蝴蝶仙裙
+Floral dress ,裙子2 花卉连衣裙
+Blossom skirt ,裙子2 绽放裙
+Fine rain dress,裙子2 细雨连衣裙
+Dazzling dress ,裙子2 璀璨连衣裙
+Starry Sparkle dress,裙子2 星光闪耀裙
+Enchanted Dream dress,裙子2 仙境梦幻裙
+Diamond Princess dress,裙子2 钻石公主裙
+Neon Night dress,裙子2 霄虹夜晚裙
+Crystal Court dress,裙子2 水晶宫廷裙
+Fairy dress ,裙子3 仙女裙
+Puffy skirt ,裙子3 蓬蓬裙
+Princess dress ,裙子3 公主裙
+Lace princess dress,裙子3 蕾丝公主裙
+Elf dress ,裙子3 精灵裙
+Enchanted dress ,裙子3 仙境连衣裙
+Crystal dress ,裙子3 水晶裙
+Neon skirt ,裙子3 霓虹裙
+Flower dress ,裙子3 花裙
+Graceful skirt ,裙子3 翩翩裙
+Crane dress ,裙子3 仙鹤裙
+Starry skirt ,裙子3 星辰裙
+Feathered dress ,裙子3 绒羽裙
+Cloud skirt ,裙子3 云朵裙
+Radiant dress ,裙子3 光芒裙
+Shimmering skirt ,裙子3 流光裙
+Embroidered dress ,裙子3 绣花连衣裙
+Pearl dress ,裙子3 珍珠裙
+Silk dress ,裙子3 丝绸裙
+Gemstone skirt ,裙子3 宝石裙
+Inky black gown,裙子4 墨黑长裙
+Enchanting maxi skirt,裙子4 魔法长裙
+Strappy gothic dress,裙子4 吊带哥特裙
+Black lace skirt,裙子4 黑色蕾丝裙
+Dark dress ,裙子4 暗黑连衣裙
+Nightshade dress ,裙子4 夜魅连衣裙
+Inky flared skirt,裙子4 墨色蓬松裙
+Ebon gown ,裙子4 幽冥裙
+Dance of Death,裙子4 死亡之舞裙
+Dark fairy dress,裙子4 黑暗仙裙
+Phantom maxi skirt,裙子4 魅影长裙
+Gothic lace skirt,裙子4 暗黑花边裙
+Skeleton dress ,裙子4 镂连衣裙
+Dark princess dress,裙子4 暗黑公主裙
+Shadow lace skirt,裙子4 阴影蕾丝裙
+Ghostly gown ,裙子4 幽灵长裙
+Gothic-style lace skirt,裙子4 哥特风蕾丝裙
+Blood-hued dress ,裙子4 血色连衣裙
+Dark countess dress,裙子4 暗黑公爵裙
+Graveyard gown ,裙子4 墓地长裙
+Sparkling Gemstone dress,裙子5 闪耀宝石裙
+Moonlit Crystal dress,裙子5 月光水晶裙
+Stardust Fluffy dress,裙子5 星尘绒羽裙
+Pearl Fringe dress,裙子5 珍珠流苏裙
+Night Splendor dress,裙子5 夜幕璀璨裙
+Blue Enchantment dress,裙子5 蓝色仙境裙
+Glimmering Starlight dress,裙子5 闪亮星芒裙
+Gemstone Lace dress,裙子5 宝石蕾丝裙
+Radiant Floral dress,裙子5 流光花裙
+Galactic Dream dress,裙子5 星河梦幻裙
+Hypnotic Magic dress,裙子5 迷幻魔法裙
+Enchanted Neon dress,裙子5 仙境霓虹裙
+Sparkling Meteor dress,裙子5 闪耀流星裙
+Pearl Crystal dress,裙子5 珍珠水晶裙
+Illusion Star dress,裙子5 幻彩星辰裙
+Glorious Night Sky,裙子5 璨烂夜空裙
+Dreamy Sheer dress,裙子5 梦幻薄纱裙
+Gleaming Neon dress,裙子5 闪光霓虹裙
+Phantom Feather dress,裙子5 幻影羽毛裙
+Starry Fairy dress,裙子5 星空仙女裙
+Magical Fireworks dress,裙子6 魔法烟花裙
+Mini skirt ,裙子6 短裙
+Midi skirt ,裙子6 中裙
+Maxi skirt ,裙子6 长裙
+Skirt  ,裙子6 半身裙
+Sheer skirt ,裙子6 半透明裙
+Pencil skirt ,裙子6 铅笔裙
+Slit skirt ,裙子6 开叉裙
+Tassel skirt ,裙子6 流苏裙
+Bubble skirt ,裙子6 花苞裙
+Accordion pleat skirt,裙子6 褶皱裙
+Denim skirt ,裙子6 牛仔裙
+Mermaid skirt ,裙子6 鱼尾裙
+Cutout dress ,裙子6 镂空裙
+Wide-leg pants skirt,裙子6 阔腿裙
+Tulle skirt ,裙子6 网纱裙
+Straight skirt ,裙子6 直筒裙
+Symmetrical skirt ,裙子6 对称裙
+Bodycon dress ,裙子6 修身裙
+Micro skirt ,裙子6 超短裙
+Leg-baring skirt ,裙子6 露腿裙
+Party dress ,裙子7 派对裙
+Lace trim dress,裙子7 花边连衣裙
+Belted skirt ,裙子7 腰带裙
+Sheer dress ,裙子7 半透明连衣裙
+Vintage pencil skirt,裙子7 复古半身裙
+Bodycon skirt ,裙子7 包臀裙
+Patchwork skirt ,裙子7 拼接半身裙
+Train skirt ,裙子7 带尾裙
+Ethnic dress ,裙子7 民族风连衣裙
+High-slit skirt ,裙子7 高衩裙
+Polka dot dress,裙子7 波点裙
+Loose lace dress,裙子7 宽松蕾丝裙
+Wedding dress ,裙子7 婚纱裙
+Layered skirt ,裙子7 层叠裙
+Bow-tie dress ,裙子7 带领结连衣裙
+Shiny dress ,裙子7 闪亮连衣裙
+Fitted pencil skirt,裙子7 修身半身裙
+Jumpsuit dress ,裙子7 连体裙
+classroom,室内1 教室
+bedroom,室内1 卧室
+bathroom,室内1 浴室场景
+bathtub,室内1 浴缸
+kitchen,室内1 厨房
+library,室内1 图书馆
+stage,室内1 舞台
+locker room,室内1 更衣室
+office,室内1 办公室
+gym storeroom,室内1 体育器材库房
+gym,室内1 健身房
+messy room,室内1 杂乱的房间
+infirmary,室内1 医务室
+fitting room,室内1 试衣间
+dungeon,室内1 地牢
+closet,室内1 壁橱
+toilet stall,室内1 厕所隔间
+laboratory,室内1 实验室
+prison cell,室内1 牢房
+living room,室内1 客厅
+hotel room,室内2 旅馆房间
+otaku room,室内2 御宅房
+courtroom,室内2 法庭
+storage room,室内2 储存室
+cubicle,室内2 隔间
+cafeteria,室内2 自助餐厅
+conservatory,室内2 温室
+workshop,室内2 创意工坊
+clubroom,室内2 社团活动室
+dining room,室内2 家里的餐厅
+armory,室内2 军械库
+staff room,室内2 职员休息室
+shower,室内2 淋浴
+city,户外1 城市
+road,户外1 路
+field,户外1 田野
+bridge,户外1 桥
+poolside,户外1 泳池边
+street,户外1 街道
+path,户外1 小径
+town,户外1 城镇
+railroad tracks,户外1 铁轨
+alley,户外1 胡同/小巷
+graveyard,户外1 墓地
+garden,户外1 花园
+crosswalk,户外1 人行横道
+ferris wheel,户外1 摩天轮
+fountain,户外1 喷泉
+pier,户外1 码头
+sidewalk,户外1 人行道
+village,户外1 村庄
+railroad crossing,户外1 铁路道口
+rice paddy,户外1 稻田
+carousel,户外2 旋转木马
+rural,户外2 田园
+market stall,户外2 市场摊位
+amusement park,户外2 游乐园
+tunnel,户外2 隧道
+running track,户外2 运行轨道
+wheat field,户外2 麦田
+canal,户外2 运河
+harbor,户外2 港口
+market,户外2 市场
+stone walkway,户外2 石制人行道
+well,户外2 出色地
+phone booth,户外2 电话亭
+roller coaster,户外2 过山车
+dirt road,户外2 泥路
+highway,户外2 高速公路
+runway,户外2 跑道
+wooden bridge,户外2 木桥
+floating city,户外2 浮动城堡
+soccer field,户外2 足球场
+waterpark,户外3 水上乐园
+trench,户外3 战壕
+shipyard,户外3 船厂
+zoo,户外3 动物园
+aqueduct,户外3 渡槽
+rope bridge,户外3 绳桥
+dam,户外3 大坝
+jetty,户外3 码头/栈桥
+airfield,户外3 飞机场
+drydock,户外3 旱坞
+paper lantern,户外3 灯笼
+water,户外3 水
+ocean,户外3 大海
+beach,户外3 海滩
+nature,户外3 大自然
+forest,户外3 森林/树
+mountain,户外3 山
+river,户外3 河流
+flower field,户外3 花田
+waterfall,户外3 瀑布
+lake,户外4 湖
+shore,户外4 海边
+bamboo forest,户外4 竹林
+hill,户外4 山丘
+desert,户外4 沙漠
+cliff,户外4 悬崖
+cave,户外4 洞穴
+pond,户外4 池塘
+stream,户外4 溪流
+park,户外4 公园
+island,户外4 岛
+floating island,户外4 浮岛
+jungle,户外4 丛林
+volcano,户外4 火山
+meadow,户外4 草甸
+playground,户外4 游乐场
+canyon,户外4 峡谷
+wetland,户外4 湿地
+savannah,户外4 稀树草原
+parking lot,户外4 停车场
+ocean bottom,户外5 海底
+wasteland,户外5 荒地
+plain,户外5 平原
+oasis,户外5 绿洲
+glacier,户外5 冰川
+onsen,建筑1 温泉
+pool,建筑1 水池
+ruins,建筑1 废墟
+house,建筑1 房子
+castle,建筑1 城堡
+skyscraper,建筑1 摩天大楼
+tower,建筑1 塔
+school,建筑1 学校竞赛泳衣
+shop,建筑1 商店
+shrine,建筑1 神社
+rooftop,建筑1 屋顶
+restaurant,建筑1 餐厅
+church,建筑1 教堂
+train station,建筑1 火车站
+cafe,建筑1 咖啡厅
+stadium,建筑1 体育场
+clock tower,建筑1 钟楼
+bus stop,建筑1 公交车站
+aquarium,建筑1 水族馆
+convenience store,建筑1 便利店
+lighthouse,建筑2 灯塔
+windmill,建筑2 风车
+pagoda,建筑2 宝塔
+hospital,建筑2 医院
+apartment,建筑2 公寓
+temple,建筑2 寺庙
+prison,建筑2 监狱
+casino,建筑2 赌场
+hangar,建筑2 机库
+arcade,建筑2 室内购物中心
+movie theater,建筑2 电影院
+bakery,建筑2 面包店
+factory,建筑2 工厂
+supermarket,建筑2 超市
+gazebo,建筑2 凉亭
+tavern,建筑2 酒馆
+treehouse,建筑2 树屋
+industrial,建筑2 重工业
+barn,建筑2 谷仓
+garage,建筑2 车库
+warehouse,建筑3 仓库
+hut,建筑3 小屋
+nightclub,建筑3 夜店
+arena,建筑3 竞技场
+theater,建筑3 剧院
+megastructure,建筑3 巨型结构
+bookstore,建筑3 书店
+mall,建筑3 购物中心
+convention,建筑3 售卖现场
+construction site,建筑3 施工现场
+flower shop,建筑3 花店
+museum,建筑3 博物馆
+gas station,建筑3 加油站
+hotel,建筑3 酒店
+izakaya,建筑3 居酒屋
+skating rink,建筑3 滑冰场
+space elevator,建筑3 轨道电梯
+planetarium,建筑3 天文馆
+bowling alley,建筑3 保龄球馆
+military base,建筑3 军事基地
+observatory,建筑4 天文台
+stilt house,建筑4 高跷屋
+art gallery,建筑4 美术馆
+weapon shop,建筑4 武器商店
+bunker,建筑4 掩体/地堡
+control tower,建筑4 控制塔
+cooling tower,建筑4 冷却塔
+minaret,建筑4 宣礼塔
+pharmacy,建筑4 药店
+nuclear powerplant,建筑4 核电厂
+refinery,建筑4 精炼厂
+mosque,建筑4 清真寺
+powerplant,建筑4 发电厂
+salon,建筑4 沙龙
+guard tower,建筑4 守卫塔
+amphitheater,建筑4 音乐剧院
+bar,建筑4 酒吧
+building,建筑4 建筑
+cityscape,建筑4 城市风景
+neon lights,建筑4 霓虹灯
+fences,建筑5 栏杆
+best quality,正向1 最佳品质
+Amazing,正向1 令人震惊
+masterpiece,正向1 杰作
+delicate,正向1 精致
+ultra high res,正向1 超高分辨率
+ultra detailed,正向1 超详细
+highly detailed,正向1 高度详细
+intricate detail,正向1 复杂的细节
+beautiful detailed,正向1 美丽的细节
+finely detailed,正向1 精细的细节
+8k resolution,正向1 8K分辨率
+professional lighting,正向1 专业照明
+physically based rendering,正向1 基于物理的渲染
+cool,正向1 炫酷
+good balance,正向1 平衡性好
+Camcorder Effect,正向1 摄像机的效果
+symmetrical face,正向1 对称的脸
+((no text)),正向1 无文本
+(rim lighting),正向1 边缘照明
+professional photography,正向1 专业摄影
+sharp focus,正向2 锐利的焦点
+(extremely detailed CG unity 8k wallpaper),正向2 8KUCG壁纸
+photo realistic,正向2 逼真照片
+realistic model,正向2 逼真的模型
+photorealistic,正向2 写实1.4
+Realistic art,正向2 写实艺术
+RAW photo,正向2 原始照片1.4
+low quality,反向1 低质量
+worst quality,反向1 最差质量
+lowers,反向1 降低
+lowres,反向1 低分辨率
+out of focus,反向1 失焦
+error,反向1 错误
+easynegative,反向1 易负
+signature,反向1 签名
+artist name,反向1 艺术家姓名
+watermark,反向1 水印
+backlight:2,反向1 背光
+wood,反向1 木材
+wood texture,反向1 木材纹理
+bad anatomy,反向1 身体结构错误
+bad proportions,反向1 比例不良
+grayscale,反向1 灰度
+monochrome,反向1 单色
+extra ears,反向1 多耳朵
+fewer fingers,反向1 少手指
+extra fingers,反向1 多手指
+missing fingers,反向2 手指缺失
+mutated hands,反向2 变异的手
+extra hands,反向2 额外的手
+fused fingers,反向2 融合的手
+poorly drawn hands,反向2 画的不好的手
+poorly drawn face,反向2 画的不好的脸
+poorly drawn eyes,反向2 画的不好的眼睛
+extra legs,反向2 额外的腿
+extra arms,反向2 额外的手臂
+extra limbs,反向2 额外的四肢
+malformed limbs,反向2 畸形的四肢
+malformed hands,反向2 畸形的手
+ugly face,反向2 丑陋的脸
+ugly,反向2 丑陋
+bad hands,反向2 坏手
+bad legs,反向2 坏腿
+bad knees,反向2 坏膝盖
+bad neck,反向2 坏脖子
+skin spot,反向2 皮肤斑
+age spot,反向2 老年斑
+acnes,反向3 痤疮
+teeth,反向3 牙齿
+cross eyed,反向3 斗鸡眼
+skin blemishes,反向3 皮肤瑕疵
+freckle,反向3 雀斑
+mutation,反向3 突变
+deformed,反向3 变形
+duplicate,反向3 重复
+morbid,反向3 病态
+mutilated,反向3 残缺
+tranny,反向3 变性
+disfigured,反向3 毁容
+unclear eyes,反向3 眼睛不清楚
+bad body,反向3 不好的身体
+missing limb,反向3 肢体缺失
+extra limb,反向3 额外的肢体
+floating limbs,反向3 漂浮的肢体
+disconnected limbs,反向3 四肢断开
+long neck,反向3 长脖子
+long body,反向3 长身体
+multiple shoulders,反向4 多肩膀
+feet out of view,反向4 脚在视线外
+head out of view,反向4 头在视线外
+uncensored,反向4 未经审查
+nude,反向4 裸体
+topless,反向4 裸照
+nsfw,反向4 不适合上班浏览
+Unreal engine,渲染器 虚幻引擎
+Rendered in octane,渲染器 OCtane渲染
+Corona Render,渲染器 Corona渲染

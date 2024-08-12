@@ -1,0 +1,35 @@
+monochrome
+greyscale
+gradient
+spot color
+blue theme
+limited palette
+colorized
+pink theme
+partially colored
+purple theme
+red theme
+rainbow
+sepia
+green theme
+yellow theme
+muted color
+colorful
+brown theme
+anime coloring
+white theme
+orange theme
+high contrast
+rainbow order
+pale color
+color connection
+aqua theme
+black theme
+greyscale with colored background
+pastel colors
+grey theme
+cel shading
+inverted colors
+neon palette
+ff gradient
+colored with greyscale background

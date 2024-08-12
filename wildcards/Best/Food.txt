@@ -1,0 +1,512 @@
+burger
+sushi
+pizza
+baozi
+sandwich
+bento
+curry
+omelet
+french fries
+makizushi
+takoyaki
+curry rice
+soup
+tempura
+hot dog
+holding pizza
+jiaozi
+pizza slice
+salad
+shrimp tempura
+crumbs
+pizza box
+tofu
+party
+aburaage
+oden
+narutomaki
+nigirizushi
+zouni soup
+nabe
+corn dog
+miso soup
+croquette
+canned food
+breakfast
+salt
+mapo tofu
+birthday party
+tea party
+okonomiyaki
+flour
+taco
+dinner
+meal
+pizza delivery
+gunkanmaki
+takuan
+inarizushi
+feast
+dim sum
+okosama lunch
+conveyor belt sushi
+tamagokake gohan
+sushi geta
+sukiyaki
+lunch
+zongzi
+fondue
+cooking oil
+fish and chips
+french toast
+unadon (food)
+ribs (food)
+tang yuan
+megamac
+shumai
+stinky tofu
+twice cooked pork
+katsu
+katsudon
+konnyaku
+milk
+cream
+cheese
+milk bottle
+milk carton
+whipped cream
+butter
+baby bottle
+milkshake
+yogurt
+yakult
+milk churn
+strawberry milk
+swiss cheese
+condensed milk
+chocolate milk
+smoked cheese
+kefir
+milk mustache
+eggnog
+strawberry
+apple
+peach
+watermelon
+cherry
+grapes
+mandarin orange
+banana
+lemon
+lemon slice
+blueberry
+orange slice
+berry
+red apple
+melon
+pineapple
+raspberry
+fruit cup
+banana peel
+chocolate banana
+persimmon
+golden apple
+pear
+lime slice
+banana boat
+kiwi slice
+pomegranate
+yuzu (fruit)
+fruit bowl
+apple bunny
+banana slice
+green apple
+on banana
+olive
+bitten apple
+mango
+apple core
+umeboshi
+grapefruit
+cantaloupe
+plum
+lychee
+avocado
+apple peel
+fig
+orangette
+grape stomping
+dragon fruit
+banana popsicle
+papaya
+muskmelon
+starfruit
+gel banana
+cacao fruit
+currant
+akebia fruit
+mangosteen
+nashi pear
+kiwi
+rambutan
+blackberry
+lime
+honeydew
+orange
+candy
+cake
+popsicle
+lollipop
+chocolate
+ice cream
+pocky
+wagashi
+tootsweets
+cookie
+dango
+heart-shaped chocolate
+ice cream cone
+macaron
+cake slice
+candy apple
+chewing gum
+parfait
+mochi
+cupcake
+candy cane
+pudding
+pastry
+shaved ice
+swirl lollipop
+potato chips
+taiyaki
+birthday cake
+crepe
+strawberry shortcake
+chocolate bar
+checkerboard cookie
+marshmallow
+pie
+watermelon bar
+sundae
+popcorn
+youkan
+icing
+soft serve
+chocolate cake
+ice cream float
+popsicle stick
+wafer stick
+sprinkles
+swiss roll
+songpyeon
+tupet
+cream puff
+double scoop
+gingerbread man
+chocolate cornet
+chocolate chip cookie
+pastry box
+jelly bean
+konpeitou
+chikuwa
+sakura mochi
+cheesecake
+gelatin
+french cruller
+apple pie
+pretzel
+mont blanc (food)
+wafer
+shaped lollipop
+strawberry parfait
+thumbprint cookie
+doritos
+umaibou
+chupa chups
+triple scoop
+waffle cone
+white chocolate
+pringles
+oreo
+dorayaki
+anpan
+batter
+fruit tart
+kashiwa mochi (food)
+sandwich cookie
+mooncake
+kinoko no yama
+chocolate doughnut
+churro
+layer cake
+dough
+too many scoops
+bugles
+tanghulu
+baumkuchen
+christmas cake
+apollo chocolate
+old-fashioned doughnut
+eclair (food)
+wedding cake
+anmitsu (dessert)
+cinnamon roll
+ichigo daifuku
+gingerbread house
+nerunerunerune
+caramel
+single scoop
+chocolate fountain
+strawberry tart
+kitkat
+gumball
+tiramisu
+yule log
+gingerbread cookie
+m&m's
+toppo
+custard
+ice cream sandwich
+cigarette candy
+mille-feuille
+momiji manjuu
+quadruple scoop
+madeleine
+noppo bread
+black forest cake
+pinata
+pound cake
+stollen
+banana split
+chitose ame
+imagawayaki
+slushie
+pudding a la mode
+country ma'am
+rare cheesecake
+blueberry tart
+charlotte cake
+marble chocolate
+red velvet cake
+coolish
+warabimochi
+opera cake
+sakura french
+namagashi
+strawberry swiss roll
+mitsumame
+hot cross bun
+fondant au chocolat
+chocolate framboise
+chocolate marquise
+bavarois
+suama (food)
+brownie
+creme egg
+takenoko no sato
+tart
+uirou
+chips
+fish
+egg
+crab
+chicken
+fried egg
+shrimp
+boned meat
+sausage
+steak
+egg laying
+fish bone
+bacon
+fried chicken
+kebab
+eggshell
+chicken leg
+tako-san wiener
+kamaboko
+lobster
+egg yolk
+hamburger steak
+sashimi
+yakitori
+meatball
+gyuudon
+hardboiled egg
+roe
+ham
+chicken nuggets
+broken egg
+eggshell hat
+pork
+turkey
+turkey leg
+scrambled egg
+caviar
+century egg (food)
+katsuo no tataki
+kani-san wiener
+ikura
+jack-o'-lantern
+carrot
+pumpkin
+mushroom
+spring onion
+tomato
+sweet potato
+cucumber
+eggplant
+potato
+lettuce
+beans
+corn
+seaweed
+coconut
+onion
+daikon
+cabbage
+chili pepper
+broccoli
+yakiimo
+pepper shaker
+mint
+chestnut
+cherry tomato
+bell pepper
+nattou
+turnip
+peanut
+garlic
+pickle
+habanero pepper
+bitter melon
+squash
+asparagus
+red bean paste
+onion rings
+almond
+parsley
+green pepper
+cauliflower
+bok choy
+red pepper
+jalapeno pepper
+kimchi
+warabi
+yellow pepper
+hijiki
+nori
+ketchup
+honey
+sugar cube
+jam
+soy sauce
+sauce
+mayonnaise
+salt shaker
+chocolate syrup
+wasabi
+hot sauce
+sugar (food)
+strawberry syrup
+peanut butter
+marmalade
+furikake
+bread
+rice
+onigiri
+noodles
+pancake
+ramen
+toast
+omurice
+baguette
+cup ramen
+spaghetti
+rice on face
+japari bun
+melon bread
+pancake stack
+senbei
+croissant
+udon
+fried rice
+waffle
+yakisoba
+cracker
+soba
+scone
+bread bun
+bread eating race
+cereal
+kitsune udon
+yakisobapan
+biscuit (bread)
+spaghetti and meatballs
+soumen
+jirou (ramen)
+rice porridge
+lasagne
+bread crust
+nanakusa-no-sekku
+black spaghetti
+empanada
+risotto
+italian (niigata)
+arare
+alcohol
+tea
+beer
+sake
+coffee
+wine
+soda can
+bubble tea
+ramune
+coca-cola
+tropical drink
+champagne
+soda
+cocktail
+starbucks
+green tea
+juice
+whiskey
+canned coffee
+vodka
+orange juice
+pepsi
+liquor
+coffee beans
+dr pepper
+black tea
+cocktail umbrella
+blue hawaii
+melon soda
+lemonade
+latte art
+iced tea
+fanta
+martini
+mountain dew
+calpis
+milk tea
+tequila
+georgia max coffee
+pepsi ice cucumber
+margarita
+root beer
+guinness (beer)
+7up
+barley tea
+rose hip tea
+cafe au lait
+earl grey tea
+darjeeling tea
+herbal tea
+non-alcoholic beer
+caesar (drink)
+dandelion coffee
+spear mint tea
+amazake

@@ -85,3 +85,15 @@ AE脚本和表达式开发
 通过为提供的图像描述填充详细且有创意的描述，激发 Midjourney 生成独特有趣的图像。这也适用于 Stable Diffusion。
 
 > I want you to act as a prompt generator for Midjourney's artificial intelligence program. Your job is to provide detailed and creative descriptions that will inspire unique and interesting images from the AI. Keep in mind that the AI is capable of understanding a wide range of language and can interpret abstract concepts, so feel free to be as imaginative and descriptive as possible. For example, you could describe a scene from a futuristic city, or a surreal landscape filled with strange creatures. The more detailed and imaginative your description, the more interesting the resulting image will be. Respond in English. Here is your first prompt: [画面描述]
+
+------
+
+## 11、图片描述提示词
+
+> Describe the image in extreme detail Include "atmosphere,mood & tone and lighting".write the description as if this is a background for a product advertisement.
+>
+> 非常详细地描述图像，包括“氛围、情绪和色调”。把描述写得好像这是产品广告的背景一样。
+
+> Describe the product in the image.Write the description as if you are a product photographer.
+>
+> 在图片中描述产品。把描述写得像个产品摄影师一样。

@@ -1,0 +1,7 @@
+full body
+Detail Shot(ECU)
+Face Shot (VCU)
+Big Close-Up(BCU)
+Close-Up(CU)
+Chest Shot(MCU)
+Waist Shot(WS)

@@ -1,0 +1,1 @@
+comic {prompt} . graphic illustration, comic art, graphic novel art, vibrant, highly detailed

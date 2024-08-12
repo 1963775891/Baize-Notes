@@ -1,0 +1,1 @@
+__vf/hair_color__ hair, __vf/hair_length__ hair, __vf/hair_quality__ hair, __vf/hair_style__ hair, __vf/hair_bangs__

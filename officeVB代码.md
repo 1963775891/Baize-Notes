@@ -382,3 +382,78 @@ Sub AddUnderlineEvery450Chars()
     End With
 End Sub
 ```
+
+------
+
+## 9、Word宏:删除所有中文字符
+
+```VBScript
+Sub DeleteChineseCharacters()
+    Dim rng As Range
+    Dim i As Long
+    
+    ' 设置范围为整个文档
+    Set rng = ActiveDocument.Content
+    
+    ' 循环遍历每个字符
+    For i = rng.Characters.Count To 1 Step -1
+        ' 检查字符是否是中文
+        If AscW(rng.Characters(i)) >= 19968 And AscW(rng.Characters(i)) <= 40959 Then
+            rng.Characters(i).Delete
+        End If
+    Next i
+    
+    MsgBox "所有中文字符已被删除。", vbInformation
+End Sub
+```
+
+------
+
+## 10、Word宏:将空格替换为下划线
+
+```vbscript
+Sub ReplaceSpacesWithUnderscores()
+    Dim rng As Range
+    Dim para As Paragraph
+    Dim txtOld As String
+    Dim txtNew As String
+    
+    ' 禁用屏幕更新以提高性能
+    Application.ScreenUpdating = False
+    
+    ' 遍历文档中的每个段落
+    For Each para In ActiveDocument.Paragraphs
+        Set rng = para.Range
+        txtOld = rng.Text
+        
+        ' 使用正则表达式替换连续的单词之间的空格为下划线
+        txtNew = ReplaceWordsWithUnderscores(txtOld)
+        
+        ' 如果文本有变化，则更新段落
+        If txtOld <> txtNew Then
+            rng.Text = txtNew
+        End If
+    Next para
+    
+    ' 重新启用屏幕更新
+    Application.ScreenUpdating = True
+    
+    MsgBox "所有单词之间的空格已被替换为下划线。", vbInformation
+End Sub
+
+Function ReplaceWordsWithUnderscores(ByVal text As String) As String
+    Dim regex As Object
+    Set regex = CreateObject("VBScript.RegExp")
+    
+    With regex
+        .Global = True
+        .MultiLine = True
+        .Pattern = "(\w+)(\s+)(\w+)"
+    End With
+    
+    ReplaceWordsWithUnderscores = regex.Replace(text, "$1_$3")
+End Function
+```
+
+------
+

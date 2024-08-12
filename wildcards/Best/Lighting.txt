@@ -1,0 +1,17 @@
+lens flare
+backlighting
+sparkle
+bokeh
+caustics
+chiaroscuro
+anaglyph
+cinematic lighting
+ray tracing
+god rays
+glowing
+violet
+neon
+indigo
+yellow
+blue
+reflection

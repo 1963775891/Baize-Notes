@@ -1,0 +1,4 @@
+daytime
+evening
+midnight
+nighttime

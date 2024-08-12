@@ -1,0 +1,25 @@
+sword
+gun
+umbrella
+chair
+backpack
+microphone
+handgun
+teacup
+cigarette
+ofuda
+chopsticks
+camera
+wand
+gohei
+guitar
+scythe
+dagger
+yin yang
+whip
+riding crop
+piano
+crease
+weapons
+arrow
+lantern/lamp

@@ -1,0 +1,50 @@
+amber
+amethyst
+aqua
+aquamarine
+black
+blind
+blue
+blue-gray
+brown
+cat
+closed
+coral
+dark blue
+dark brown
+dark green
+dark pink
+dark purple
+dark red
+demon
+diamond
+gold
+gray
+green
+green-hazel
+grey
+hazel
+heart
+heterochromia
+ice blue
+jade
+light blue
+light brown
+light green
+light pink
+light purple
+light red
+magenta
+orange
+peach
+pink
+purple
+red
+retro
+ruby
+Sapphire
+silver
+sparkling
+turquoise
+white
+yellow

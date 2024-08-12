@@ -1,0 +1,1 @@
+{0-2$$ and $$__vf/clothing_description__|__vf/clothing_color__} {__vf/clothing_overall__|__vf/clothing_top__ and __vf/clothing_bottom__} {0-2$$ $$2::__vf/clothing_accessories__|__vf/shoes__}

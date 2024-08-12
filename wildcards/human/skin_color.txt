@@ -1,0 +1,18 @@
+alabaster
+bikini tan
+black
+brown
+caramel
+chocolate
+cream
+dark
+espresso
+fair
+ivory
+light
+mahogany
+pale
+shiny
+tan
+taupe
+white

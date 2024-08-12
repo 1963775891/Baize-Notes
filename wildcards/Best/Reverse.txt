@@ -1,0 +1,69 @@
+(low quality:2)
+(worst quality:2)
+lowers
+lowres
+blurry
+out of focus
+error
+easynegative
+(signature:1.2)
+(artist name:1.2)
+(watermark:1.2)
+((backlight:2))
+wood
+wood texture
+(watermark, logo)
+bad anatomy
+(bad proportions:1.331)
+((grayscale))
+((monochrome))
+extra ears
+fewer fingers
+extra fingers
+missing fingers
+mutated hands
+(extra hands)
+(fused fingers:1.61051)
+(poorly drawn hands:1.331)
+poorly drawn face
+poorly drawn eyes
+(extra legs:1.331)
+extra arms
+extra limbs
+malformed limbs
+malformed hands
+ugly face
+(ugly:1.331)
+bad hands
+bad legs
+bad knees
+bad neck
+skin spot
+age spot
+acnes
+teeth
+cross-eyed
+skin blemishes
+((freckle))
+mutation
+deformed
+(duplicate:1.331)
+(morbid:1.21)
+(mutilated:1.21)
+(tranny:1.331)
+(disfigured:1.331)
+(unclear eyes:1.331)
+bad body
+missing limb
+extra limb
+floating limbs
+disconnected limbs
+long neck
+long body
+multiple shoulders
+feet out of view
+head out of view
+uncensored
+((((nude, naked,))))
+topless
+nsfw

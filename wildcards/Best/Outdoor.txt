@@ -1,0 +1,85 @@
+city
+road
+field
+bridge
+poolside
+street
+path
+town
+railroad tracks
+alley
+graveyard
+garden
+crosswalk
+ferris wheel
+geyser
+dock
+sidewalk
+village
+railroad crossing
+rice paddy
+carousel
+rural
+market stall
+amusement park
+tunnel
+running track
+wheat field
+canal
+harbor
+market
+stone walkway
+well
+phone booth
+roller coaster
+dirt road
+highway
+runway
+wooden bridge
+floating city
+soccer field
+waterpark
+trench
+shipyard
+zoo
+aqueduct
+rope bridge
+dam
+jetty
+airfield
+drydock
+paper lantern
+water
+ocean
+beach
+nature
+forest
+mountain
+river
+flower field
+waterfall
+lake
+shore
+bamboo forest
+hill
+desert
+cliff
+cave
+pond
+stream
+park
+island
+floating island
+jungle
+volcano
+meadow
+playground
+canyon
+wetland
+savannah
+parking lot
+ocean bottom
+wasteland
+plain
+oasis
+glacier
