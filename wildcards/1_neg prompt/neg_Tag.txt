@@ -1,0 +1,1 @@
+embedding:negative_hand-neg, embedding:easynegative,embedding:bad_prompt_version2-neg, embedding:ng_deepnegative_v1_75t,

@@ -1,1 +1,0 @@
-pixel-art {prompt} . low-res, blocky, pixel art style, 8-bit graphics

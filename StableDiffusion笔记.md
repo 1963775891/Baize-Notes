@@ -373,10 +373,10 @@ Key Light(主光),Fill Light(补光),Backlight(背光),Rim Light(轮廓光),Back
 Prompt1_Prompt2:milk_tea(奶茶)
 
 - 融合
-Prompt1 and Prompt2: dog and man(狗拟人)
+Prompt1 and Prompt2: dog AND man(狗拟人)
 
 - 隔离
-Prompt1 break Prompt2 	
+Prompt1 BREAK Prompt2 	
 	例如：1girl,Silver hair break Black blouses break Gray pants,
 	Silver hair(银色头发)，Black blouses(黑色衬衫)，Gray pants(灰色裤子)颜色对应部分隔离，增强颜色准确性
 

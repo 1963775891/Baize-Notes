@@ -1,1 +1,0 @@
-text,word,cropped,low quality,normal quality,username,watermark,signature,blurry,soft,soft line,curved line,sketch,ugly,logo,pixelated,lowres
