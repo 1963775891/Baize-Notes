@@ -1,5 +1,3 @@
-
-
 ## 一、Checkpoint
 
 #### **1. 奇幻骇客_白棱XL**
@@ -323,12 +321,12 @@ Lushan, (Masterpiece, High Quality, Superior Quality, Beauty and Aesthetics): 1.
 反向
 text, 
 ```
-#### **18. **
+#### **18. **ColoringBookXL_着色书
 
-![]()
+![](./note_img/Reference/20240902_073254.jpg)
 
 ```markdown
-
+触发词：ColoringBookAF
 ```
 #### **19. **
 
@@ -969,7 +967,7 @@ extra fingers,fewer fingers,lowres,bad anatomy,bad hands,text,error,missing fing
 
 Model：全网首发｜儿童插画绘本, 儿童插画绘本Minimalism, 小清新治愈画风插画
 ```
-#### **35.**
+#### **35.**国风山海
 
 ![](./note_img/Reference/20240901_192527.jpg)
 
@@ -983,12 +981,17 @@ Blur, low quality, noise, text, disordered book,nsfw
 Euler a
 ```
 
-#### **36.**
+#### **36.**24节气夏至
 
-![]()
+![](./note_img/Reference/20240902_074526.jpg)
 
 ```markdown
+正向
+(white transparent material:1.2),The scene features undulating peaks and rolling hills,mountain,winding paths leading to secluded places,bamboo,with green willows,tall pines,fishing villages,huts,thatched cottages,water mills and long bridges,lakes,flower,outdoors,sky,day,cloud,water,tree,blue sky,no humans,white flower,nature,scenery,reflection,rock,mountain,field,river,lake,beautiful scenery,
+反向
+nsfw,ng_deepnegative_v1_75t,badhandv4,(worst quality:2),(low quality:2),(normal quality:2),lowres,watermark,monochrome,,nsfw
 
+Model：儿童插画绘本Minimalism, Lib独家 l 扁平禅意插画, 【梦幻】3D电商草地
 ```
 #### **37.**
 
@@ -1054,3 +1057,569 @@ Euler a
 
 ```
 
+## 三、SDXL风格图
+
+#### **1.电影默认**
+![](./note_img/Reference/20240902_095845.jpg)
+#### **2.SAI 3D 模型**
+![](./note_img/Reference/20240902_095851.jpg)
+#### **3.赛模拟膜**
+![](./note_img/Reference/20240902_095857.jpg)
+#### **4.彩动漫**
+![](./note_img/Reference/20240902_095905.jpg)
+#### **5.SAI 电影**
+![](./note_img/Reference/20240902_095946.jpg)
+#### **6.SAI 漫画书**
+![](./note_img/Reference/20240902_095953.jpg)
+#### **7.Sai-Craft 粘土**
+![](./note_img/Reference/20240902_100000.jpg)
+#### **8.SAI 数字艺术**
+![](./note_img/Reference/20240902_100030.jpg)
+#### **9.SAI 增强**
+![](./note_img/Reference/20240902_100035.jpg)
+#### **10.SAI-Fantasy 艺术**
+![](./note_img/Reference/20240902_100040.jpg)
+#### **11.SAI-等距**
+![](./note_img/Reference/20240902_100047.jpg)
+#### **12.SAI-线**
+![](./note_img/Reference/20240902_100056.jpg)
+#### **13.SAI-低边形**
+![](./note_img/Reference/20240902_100101.jpg)
+#### **14.SAI-霓虹朋克**
+![](./note_img/Reference/20240902_100108.jpg)
+#### **15.SAI-彩纸**
+![](./note_img/Reference/20240902_100113.jpg)
+#### **16.SAI-摄影**
+![](./note_img/Reference/20240902_100118.jpg)
+#### **17.SAI-像素艺术**
+![](./note_img/Reference/20240902_100123.jpg)
+#### **18.SAI-纹理**
+![](./note_img/Reference/20240902_100128.jpg)
+#### **19.广告**
+![](./note_img/Reference/20240902_100134.jpg)
+
+**配合电影主题即会生成电影海报一样的图片。**
+
+![](./note_img/Reference/20240902_100141.jpg)
+#### **20.广告-汽车**
+![](./note_img/Reference/20240902_100146.jpg)
+
+**配合汽车品牌及颜色会生成该款汽车相关的图片。**
+
+![](./note_img/Reference/20240902_100152.jpg)
+#### **21.广告-企业**
+![](./note_img/Reference/20240902_100158.jpg)
+
+**配合主题生成相关的企业品牌广告/商标。**
+
+![](./note_img/Reference/20240902_100203.jpg)
+
+#### **22.广告-时尚社论**
+![](./note_img/Reference/20240902_100210.jpg)
+
+**加入人物及地点即可生成时装杂志般的图片。**
+
+![](./note_img/Reference/20240902_100217.jpg)
+#### **23.广告-美食摄影**
+![](./note_img/Reference/20240902_100221.jpg)
+
+**以食物为主题即可生成相关图片。**
+
+![](./note_img/Reference/20240902_100227.jpg)
+#### **24.广告-奢侈品**
+![](./note_img/Reference/20240902_100233.jpg)
+
+**以物件为主题轻易生成金光奢华风格的图片。**
+
+![](./note_img/Reference/20240902_100240.jpg)
+#### **25.广告-房地产**
+![](./note_img/Reference/20240902_100245.jpg)
+
+**以建筑或地点为主题可以生成地产广告般的图片。**
+
+![](./note_img/Reference/20240902_100250.jpg)
+#### **26.广告零售**
+![](./note_img/Reference/20240902_100255.jpg)
+
+**以商品为主题即可生成不同包装设计的商品。**
+
+![](./note_img/Reference/20240902_100300.jpg)
+#### **27.艺术风格-抽象**
+![](./note_img/Reference/20240902_100305.jpg)
+#### **28.艺术风格-抽象表现主义**
+![](./note_img/Reference/20240902_100309.jpg)
+#### **29.Artstyle-装饰艺术**
+![](./note_img/Reference/20240902_100317.jpg)
+#### **30.艺术风格-新艺术运动**
+![](./note_img/Reference/20240902_100322.jpg)
+#### **31.艺术风格建构主义**
+![](./note_img/Reference/20240902_100327.jpg)
+#### **32.艺术风格表现主义**
+![](./note_img/Reference/20240902_100331.jpg)
+#### **33.ArtStyle-涂鸦**
+![](./note_img/Reference/20240902_100336.jpg)
+#### **34.艺术风格-超现实主义**
+![](./note_img/Reference/20240902_100341.jpg)
+#### **35.艺术风格-印象派**
+![](./note_img/Reference/20240902_100346.jpg)
+#### **36.艺术风格-点彩画**
+![](./note_img/Reference/20240902_100350.jpg)
+#### **37.艺术风格-波普艺术**
+![](./note_img/Reference/20240902_100356.jpg)
+#### **38.艺术风格-迷幻**
+![](./note_img/Reference/20240902_100400.jpg)
+#### **39.艺术风格-文艺复兴**
+![](./note_img/Reference/20240902_100405.jpg)
+#### **40.艺术风格-蒸汽朋克**
+![](./note_img/Reference/20240902_100411.jpg)
+#### **41.艺术风格-超现实主义**
+![](./note_img/Reference/20240902_100415.jpg)
+#### **42.艺术风格-排版**
+![](./note_img/Reference/20240902_100419.jpg)
+#### **43.艺术风格-水彩**
+![](./note_img/Reference/20240902_100424.jpg)
+#### **44. 未来生物-科幻半机械化**
+![](./note_img/Reference/20240902_100429.jpg)
+#### **45.未来主义生物-赛博朋克**
+![](./note_img/Reference/20240902_100434.jpg)
+#### **46.未来主义-控制论**
+![](./note_img/Reference/20240902_100439.jpg)
+#### **47.未来主义-机器人**
+![](./note_img/Reference/20240902_100444.jpg)
+#### **48.未来主义-赛博朋克城市景观**
+![](./note_img/Reference/20240902_100449.jpg)
+#### **49. 未来主义-未来派**
+![](./note_img/Reference/20240902_100453.jpg)
+#### **50.未来主义-复古赛博朋克**
+![](./note_img/Reference/20240902_100457.jpg)
+#### **51.未来主义-复古未来主义**
+![](./note_img/Reference/20240902_100503.jpg)
+#### **52.未来主义-科幻小说**
+![](./note_img/Reference/20240902_100506.jpg)
+#### **53.未来主义-蒸汽波**
+![](./note_img/Reference/20240902_100510.jpg)
+#### **54.游戏-泡泡**
+![](./note_img/Reference/20240902_100515.jpg)
+#### **55.游戏赛-博朋克游戏**
+![](./note_img/Reference/20240902_100519.jpg)
+#### **56.游戏-格斗游戏**
+![](./note_img/Reference/20240902_100525.jpg)
+#### **57.游戏-GTA**
+![](./note_img/Reference/20240902_100529.jpg)
+#### **58.游戏-马里奥**
+![](./note_img/Reference/20240902_100533.jpg)
+#### **60.游戏-我的世界**
+![](./note_img/Reference/20240902_100538.jpg)
+#### **61.游戏-口袋妖怪**
+![](./note_img/Reference/20240902_100542.jpg)
+
+## 四、提示词
+
+#### **0. 通用型**
+
+##### **起手式**
+
+```markdown
+((masterpiece,best-quality,16K,HDR,extremely-detailed)), Colorful, sharp focus, cinematic lighting, soft shadows, rich contrast, aesthetically_pleasing, art-quality, 
+((大師級作品,最佳画质,16K,高清,极致细节))，色彩缤纷，锐利聚焦，电影感光照，柔和阴影，光影层次丰富，美观，艺术品级
+
+(worst quality,normal quality, low quality:1.4), blurry, pixelated, overexposed,  washed out colors, dull colors, harsh shadows, poor lighting, over-saturated, desaturated, noise, grainy, artifacting, unnatural colors, flat lighting, distorted perspective, poorly balanced composition, low contrast, muddy textures, over-sharpened, jagged edges, cluttered, poorly lit, excessive glare, chromatic aberration,cropped,out of frame,jpeg artifacts,ugly,watermark,text,Signature,logo, banner, extra digits, username, error,duplicate, horror,mutation, disgusting,
+（最差质量，正常质量，低质量：1.4），模糊，像素化，过曝，欠曝，颜色暗淡，阴影生硬，光照差，过度饱和，去饱和，噪点，颗粒感，压缩失真，颜色不自然，平淡光照，透视变形，构图不平衡，低对比度，纹理模糊，过度锐化，锯齿边缘，杂乱，光照不足，眩光过多，色差,裁剪，框架外，jpeg 伪影，丑陋，水印，文本，签名，徽标，横幅，额外数字，用户名、错误、重复、恐怖、突变、恶心、
+
+```
+
+##### **1.真实/摄影**
+
+```markdown
+((masterpiece,best-quality)),(Photorealistic, 16K, HDR, cinematic lighting:1.2), volumetric_lighting, octane render, unreal engine, ray_tracing, tilt-shift\(composition\), depth-of-field, sharp_focus, fine_details, radiant_light, detailed_environment, realistic_materials,  cinematic\(style\), hyperrealistic,
+大師級作品,最佳画质,真实感、16K、HDR、全局照明、电影級的光照、辛烷渲染、虚幻引擎、光线跟踪、移轴、景深、锐焦、精细细节、辐射光、详细环境、逼真材质、电影风格、超写实
+
+场景: 
+studio_lighting, golden_hour, blue_hour, night_photography, macro_photography
+工作室灯光、黄金时段、蓝色时段、夜间摄影、微距摄影
+
+材质: 
+glass, metal, fabric, skin, water
+玻璃、金属、织物、皮肤、水
+
+镜头:
+wide angle, telephoto, fisheye
+广角、长焦、鱼眼
+
+氛围:
+dramatic, moody, serene, nostalgic
+戏剧性的，喜怒无常的，宁静的，怀旧的
+
+艺术风格:
+realism, hyperrealism, cinematography
+现实主义，超现实主义，电影摄影
+```
+
+##### **2.动漫**
+
+```markdown
+((masterpiece,best-quality,8K, HDR)),Anime, manga, cel_shading, vibrant_colors, expressive, dynamic pose, cartoon, illustration, concept art, anime background, anime_lighting, anime_aesthetic,smooth lines, triadic_color scheme, beautiful_lighting, radiant_light, detailed_environment,
+大師級作品,最佳画质,8K,高清,动漫，漫画，赛璐璐阴影，鲜艳的色彩，表现力，动态姿势，卡通，插图，概念艺术，动漫背景，动漫灯光，动漫美学，流畅的线条，三元配色方案，美丽的灯光，辐射光，详细的环境
+
+风格: 
+chibi, mecha, shoujo, shounen, magical_girl
+chibi、机甲、少女、少年、魔法少女
+
+元素:
+kawaii, cute, adorable, cool, edgy
+卡哇伊、可爱、可爱、酷、前卫
+
+场景:
+school, city, fantasy_world, futuristic
+学校、城市、幻想世界、未来
+
+情绪:
+happy, sad, angry, determined
+快乐、悲伤、愤怒、坚定
+```
+
+##### 3.2.5D
+
+```markdown
+((masterpiece,best-quality,8K, HDR)),2.5D\(style\), intricate, elegant, colorful, surrealism, tilt shift, coherent, beautifully lit, volumetric lighting, dynamic, fine details, digital painting, semi-realistic, anime-inspired, soft lighting, mixed_media, painterly, atmospheric perspective, pastel colors,
+大師級作品,最佳画质,8K,高清,2.5D风格，错综复杂，优雅，色彩缤纷，超现实主义，倾斜移位，连贯，美丽的灯光，体积照明，动态，精细细节，数字绘画，半写实，动漫风格，柔和的灯光，混合媒体，绘画，大气透视，柔和的色彩
+
+风格
+ukiyo-e, art_nouveau, stained_glass
+浮世绘，新艺术，彩色玻璃
+
+材质
+paper, canvas, watercolor
+纸，帆布，水彩
+
+背景
+blurred_background, vignette,atmospheric_background
+模糊的背景，晕影,大气的背景
+
+情绪
+dreamy, nostalgic, ethereal
+梦幻，怀旧，空灵
+```
+##### 4.海报
+
+```markdown
+((masterpiece,8K, HDR)),(High-quality commercial poster:1.2), photorealistic elements, global illumination, dynamic, vivid, surrealism, clean composition, modern, graphic design, bold colors, typography, advertisement, product photography, high contrast, flat design, geometric_shapes, retro, futuristic\(style\), cyberpunk\(style\),
+大師級作品,8K,高清,高品质商业海报，逼真元素，全局照明，动态，生动，超现实主义，构图干净，现代，平面设计，大胆色彩，排版，广告，产品摄影，高对比度，平面设计，几何形状，复古，未来主义，赛博朋克
+
+风格:
+brutalism, constructivism, deconstructivism
+野蛮主义，建构主义，解构主义
+
+元素:
+grid, pattern, texture, logo
+网格、图案、纹理、徽标
+
+色彩: 
+complementary_colors, analogous_colors
+互补色，类似色
+```
+##### 5.矢量插画
+
+```markdown
+((masterpiece,best-quality,8K, HDR)),(Vector illustration:1.2), smooth lines, vibrant colors, coherent, airbrush, intricate, clean_design\(style\), simplified shapes, vector art, graphic_design, flat_design, bold_colors, minimalist, art deco, retro, futuristic\(style\),
+大師級作品,最佳画质,8K,高清,矢量插图，线条流畅，色彩鲜艳，连贯，喷枪，复杂，干净的设计，简化的形状，矢量艺术，平面设计，平面设计，大胆的色彩，简约，装饰艺术，复古，未来主义
+
+
+风格: 
+isotype, pictogram, infographic
+同种型、象形图、信息图
+
+主题:
+nature, animals, food, travel
+自然、动物、美食、旅行
+
+元素:
+icon, symbol, logo
+图标、符号、徽标
+
+色彩:
+monochromatic, limited palette
+单色，有限的调色板
+```
+
+##### **6.抽卡**
+
+```markdown
+Historical illustration, rich in detail, vibrant colors, Renaissance style, intricate patterns, historical figures, historical events, classical art,
+历史插图，细节丰富，色彩鲜艳，文艺复兴风格，复杂图案，历史人物，历史事件，古典艺术。
+
+Minimalist art, clean lines, simple shapes, geometric patterns, monochromatic palette, modern design, contemporary art, abstract minimalism,
+极简主义艺术，简洁线条，简单形状，几何图案，单色调，现代设计，当代艺术，抽象极简主义。
+
+Hyper-realistic art, photorealistic quality, intricate details, lifelike textures, realistic lighting, realistic materials, realistic environments,
+超现实主义艺术，照片般逼真，细节精细，栩栩如生的纹理，真实的照明，真实的材料，真实的场景。
+
+Iconic album cover, vintage style, pop art, rock and roll, album artwork, retro design, psychedelic art, album cover design,
+标志性的专辑封面，复古风格，流行艺术，摇滚乐，专辑封面艺术，复古设计，迷幻艺术，专辑封面设计。
+
+Surreal landscape, dreamlike atmosphere, distorted reality, unexpected elements, bizarre scenery, fantastical landscapes, surreal art,
+超现实主义风景，梦幻般的气氛，扭曲的现实，意想不到的元素，奇异的场景，奇幻的风景，超现实主义艺术。
+
+Cyberpunk city, neon lights, futuristic architecture, urban sprawl, technological advancements, gritty atmosphere, cyberpunk aesthetic,
+赛博朋克城市，霓虹灯，未来主义建筑，城市蔓延，技术进步，粗犷的气氛，赛博朋克美学。
+
+Fantasy world, magical creatures, enchanted forests, mythical lands, epic landscapes, fantasy art, fantasy adventure,
+奇幻世界，魔法生物，魔法森林，神话之地，史诗般的风景，奇幻艺术，奇幻冒险。
+
+Steampunk inventions, Victorian-era technology, gears and cogs, brass and copper, steam-powered machines, steampunk aesthetic,
+蒸汽朋克发明，维多利亚时代的技术，齿轮和齿轮，黄铜和铜，蒸汽驱动的机器，蒸汽朋克美学。
+
+Abstract art, non-representational art, expressive brushstrokes, bold colors, abstract shapes, abstract patterns, abstract expressionism,
+抽象艺术，非具象艺术，富有表现力的笔触，大胆的色彩，抽象的形状，抽象的图案，抽象表现主义。
+
+Photorealistic portrait, realistic facial features, detailed expressions, natural lighting, lifelike skin textures, portrait photography,
+照片般逼真的肖像，逼真的面部特征，细致的表情，自然光照，栩栩如生的皮肤纹理，肖像摄影。
+
+Concept art, imaginative ideas, visual storytelling, futuristic designs, character design, environment design, concept artwork,
+概念艺术，富有想象力的想法，视觉故事，未来主义设计，角色设计，环境设计，概念艺术作品。
+
+Futuristic architecture, modern design, advanced technology, sleek lines, innovative structures, futuristic cityscape,
+未来主义建筑，现代设计，先进技术，简洁线条，创新结构，未来城市。
+
+Space exploration, astronauts, spacecraft, planets, galaxies, cosmic landscapes, space travel, sci-fi art,
+太空探索，宇航员，宇宙飞船，行星，星系，宇宙景观，太空旅行，科幻艺术。
+
+Underwater scenes, marine life, coral reefs, ocean depths, underwater exploration, aquatic environments, underwater photography,
+水下场景，海洋生物，珊瑚礁，海底深处，水下探索，水生环境，水下摄影。
+
+Gothic horror, dark and gloomy atmosphere, haunted castles, spooky creatures, macabre themes, horror art, gothic architecture,
+哥特式恐怖，黑暗而阴郁的气氛，闹鬼的城堡，可怕的生物，可怕的主题，恐怖艺术，哥特式建筑。
+
+Mythical creatures, dragons, unicorns, griffins, centaurs, mythological beasts, fantasy creatures, mythical mythology,
+神话生物，龙，独角兽，狮鹫，半人马，神话野兽，奇幻生物，神话神话。
+
+Renaissance revival, Renaissance art, historical figures, religious themes, classical architecture, Renaissance architecture, Renaissance period,
+文艺复兴复兴，文艺复兴艺术，历史人物，宗教主题，古典建筑，文艺复兴建筑，文艺复兴时期。
+
+Post-apocalyptic visions, ruined cities, desolate landscapes, survival themes, dystopian future, post-apocalyptic art, wasteland,
+后世界末日愿景、废墟城市、荒凉景观、生存主题、反乌托邦未来、后世界末日艺术、荒地、
+
+Dream sequences, surreal imagery, subconscious mind, dreamlike atmosphere, abstract concepts, dream interpretation, dream world,
+梦境序列，超现实主义图像，潜意识，梦幻般的气氛，抽象概念，梦境解释，梦境世界。
+
+Vintage poster, retro design, vibrant colors, bold typography, vintage aesthetic, poster art, vintage advertising,
+复古海报，复古设计，鲜艳的色彩，大胆的排版，复古美学，海报艺术，复古广告。
+
+Wildlife photography, animals in their natural habitat, close-up shots, wildlife conservation, nature photography, animal portraits,
+野生动物摄影，动物在自然栖息地，特写镜头，野生动物保护，自然摄影，动物肖像。
+
+Urban street art, graffiti, murals, street art culture, urban landscapes, street art artists, colorful street art,
+城市街头艺术，涂鸦，壁画，街头艺术文化，城市景观，街头艺术艺术家，色彩缤纷的街头艺术。
+
+Magical realism, realistic elements with magical elements, surrealism, dreamlike atmosphere, fantastical elements, magical realism art,
+魔幻现实主义，现实元素与魔法元素，超现实主义，梦幻般的气氛，奇幻元素，魔幻现实主义艺术。
+
+Dystopian societies, futuristic dystopia, post-apocalyptic world, dystopian art, dystopian future, dark and gritty atmosphere,
+反乌托邦社会，未来主义反乌托邦，后启示录世界，反乌托邦艺术，反乌托邦未来，黑暗而粗犷的气氛。
+
+Futuristic vehicles, flying cars, space ships, futuristic transportation, futuristic technology, sci-fi vehicles,
+未来主义车辆，飞行汽车，宇宙飞船，未来主义交通，未来主义技术，科幻车辆。
+
+Celestial bodies, planets, stars, galaxies, nebulae, cosmic landscapes, space exploration, astronomical photography,
+天体，行星，恒星，星系，星云，宇宙景观，太空探索，天文摄影。
+
+Ancient civilizations, historical ruins, ancient artifacts, ancient cultures, ancient history, archaeological sites,
+古代文明，历史遗迹，古代文物，古代文化，古代历史，考古遗址。
+
+Neon noir, dark and gritty atmosphere, neon lights, urban landscapes, crime noir, film noir style, noir aesthetic,
+霓虹黑，黑暗而粗犷的气氛，霓虹灯，城市景观，犯罪黑，电影黑风格，黑美学。
+
+Botanical gardens, plants, flowers, botanical illustrations, nature photography, botanical art, garden photography,
+植物园，植物，花朵，植物插图，自然摄影，植物艺术，花园摄影。
+
+Art Nouveau, decorative arts, flowing lines, organic shapes, ornate designs, Art Nouveau style, Art Nouveau architecture,
+新艺术运动，装饰艺术，流畅的线条，有机形状，华丽的设计，新艺术风格，新艺术建筑。
+
+High fashion, fashion photography, fashion models, designer clothes, haute couture, fashion trends, fashion industry,
+高级时装，时装摄影，时装模特，设计师服装，高级定制，时尚趋势，时尚行业。
+
+Geometric patterns, abstract patterns, shapes and forms, geometric art, pattern design, geometric designs, abstract geometry,
+几何图案，抽象图案，形状和形式，几何艺术，图案设计，几何设计，抽象几何。
+
+Culinary delights, food photography, delicious food, food art, food styling, gourmet food, culinary inspiration,
+烹饪美食、食品摄影、美味佳肴、食品艺术、食品造型、美食、烹饪灵感、
+
+Fairy tales, magical creatures, enchanted forests, fairytale illustrations, children's book illustrations, fairytale characters,
+童话故事，魔法生物，魔法森林，童话插图，儿童图书插图，童话人物。
+
+Warped perspectives, distorted reality, surrealism, optical illusions, perspective tricks, mind-bending art,
+扭曲的视角，扭曲的现实，超现实主义，光学幻觉，透视技巧，令人难以置信的艺术。
+
+Digital glitch, glitch art, pixelated images, digital artifacts, abstract glitch, glitch aesthetic, digital distortion,
+数字故障、故障艺术、像素化图像、数字伪影、抽象故障、故障美学、数字失真、
+
+Steampunk gadgets, Victorian-era technology, gears and cogs, brass and copper, steampunk aesthetic, steampunk inventions,
+蒸汽朋克小玩意、维多利亚时代的技术、齿轮和齿轮、黄铜和铜、蒸汽朋克美学、蒸汽朋克发明、
+
+Psychedelic experiences, psychedelic art, trippy visuals, colorful ,patterns, mind-altering experiences, psychedelic culture,
+迷幻体验，迷幻艺术，迷幻视觉，彩色图案，改变思维的体验，迷幻文化。
+
+Arctic wilderness, polar landscapes, arctic animals, icebergs, snow-covered mountains, arctic photography, arctic exploration,
+北极荒野，极地景观，北极动物，冰山，雪覆盖的山脉，北极摄影，北极探险。
+
+Epic desert landscape, towering sand dunes, oasis, ancient ruins, abandoned city, cinematic lighting, concept art,Barren desert, sandstorm, lone traveler, camel, nomad camp, mystical aura, digital painting,
+史诗般的沙漠景观，高耸的沙丘，绿洲，古代遗迹，废弃城市，电影照明，概念艺术,贫瘠的沙漠，沙尘暴，孤独的旅行者，骆驼，游牧营地，神秘的光环，数字绘画
+
+Medieval castle, towering stone walls, drawbridge, moat, knights, battlements, 
+中世纪城堡，高耸的石墙，吊桥，护城河，骑士，城垛，奇幻艺术
+
+Samurai warrior, katana, armor, feudal Japan, cherry blossoms, battle scene, cinematic lighting,Bushido, honor, loyalty, Japanese garden, pagoda, traditional art,
+武士战士，武士刀，盔甲，日本战国时代，樱花，战斗场景，电影照明,武士道，荣誉，忠诚，日本花园，宝塔，传统艺术
+
+Victorian era, steampunk, ornate, lace, tea party, ballroom, vintage aesthetic,Gothic romance, gas lamps, carriage, opulent, high society, digital painting,
+维多利亚时代，蒸汽朋克，华丽，蕾丝，茶会，舞厅，复古美学,哥特式浪漫，煤气灯，马车，奢华，上流社会，数字绘画
+
+Cyberpunk, biomechanical, neon lights, futuristic city, android, cyborg, concept ar,Transhumanism, artificial intelligence, augmented reality, digital art,
+赛博朋克，生物机械，霓虹灯，未来城市，机器人，半人半机械人，概念艺术,超人主义，人工智能，增强现实，数字艺术
+
+Tribal art, totem pole, mask, ritual, jungle, ancient civilization, concept art,Shaman, spiritual, mystical, nature, primitive, digital painting,
+部落艺术，图腾柱，面具，仪式，丛林，古代文明，概念艺术,萨满，精神上的，神秘的，自然的，原始的，数字绘画
+
+Arctic, snow, icebergs, polar bear, expedition, explorer, cinematic lighting,Frozen landscape, wilderness, survival, aurora borealis, concept art,
+北极，雪，冰山，北极熊，探险，探险家，电影照明,冰冻景观，荒野，生存，北极光，概念艺术
+
+Deep sea, ocean, creature, abyss, submarine, underwater city, concept art,Kraken, leviathan, underwater world, mysterious, dark, digital painting,
+深海，海洋，生物，深渊，潜艇，水下城市，概念艺术,克拉肯，利维坦，水下世界，神秘的，黑暗的，数字绘画
+
+Ancient ruins, temple, civilization, jungle, exploration, artifact, concept art,Lost city, forgotten, mysterious, historical, archaeological, digital painting,
+古代遗迹，寺庙，文明，丛林，探索，文物，概念艺术,失落的城市，被遗忘的，神秘的，历史的，考古的，数字绘画
+```
+
+#### **1. 质量**
+
+```markdown
+masterpiece：大師級作品
+best quality：最佳画质
+high resolution：高分辨率
+8K 比 4K：8K分辨率
+HDR：高清
+```
+
+
+
+#### **2. 光源**
+
+```markdown
+cinematic lighting：電影級的光影
+bloom：令原本的光源更亮了，看頭頂及肩膊有變亮的效果
+soft lighting：比較柔和的光源，面部有光，背部也有一點
+hard lighting：直接打在人物上的光，見到面部輪廓會比較突出
+backlight：就是背光，樣子明顯變暗了，肩膊及頭髮有背後來的光源
+god rays：另一種背光，由較高的位置射燈式射下來，見到頭頂部份特別亮
+volumetic lighting：就像柔光版的背光，整體較暗，有點生化危機的感覺
+sun light：比較自然的陽光，連背景的樹都會見到陽光照射
+studio light：左右都有光源打在面上，立體感很強，就像廣告照
+bioluminescent light：本體在發光，就像螢火蟲一樣的夜光
+```
+
+![](./note_img/Reference/xyz_grid-0004-2995626718.jpg)
+
+补：权重的影响
+![](./note_img/Reference/xyz_grid-0006-2995626718.jpg)
+
+#### **3.  影子**
+
+```markdown
+detailed shadows（详细的阴影）：就是加多点精细的影子，鼻子及衣服也有些光影出现
+intricate shadow（错综复杂的影子）：因为是树林所以就加点错综复杂的树影，看起来更真实
+raytracing（光线追踪）：见到下巴位置有些衣服反射的光线
+```
+
+#### **4. 细节**
+
+
+
+#### **5. 镜头距离**
+
+```markdown
+extreme close-up：超近镜
+close-up：近镜
+medium close-up：中近镜
+medium shot：中景镜
+long shot：远镜
+establishing shot：场景镜
+point-of-view：主观视角
+cowboy shot：西部牛仔常用的镜头，见到上半身以及大腿（为了见到拔枪）
+medium full shot：中风全景镜
+full shot：全景镜
+upper body ：上半身
+full body：全身
+```
+
+> 由近至远可用的镜头- `extreme close-up` > `close-up` > `medium close-up` > `upper body` > `medium shot` > `medium full shot` > `full body` 
+
+
+![](./note_img/Reference/xyz_grid-0022-3012384022.jpg)
+
+#### **6. 镜头角度**
+
+![](./note_img/Reference/eye-level-shots.jpg)
+```markdown
+front view 正面
+bilaterally symmetrical 左右对称
+side view 侧面
+back view 后面
+from above 从上拍摄
+from below 从下拍摄
+from behind 后拍
+wide angle view 广角镜
+fisheyes view 鱼眼镜
+macro view 微距
+```
+
+![](./note_img/Reference/xyz_grid-0010-2844233693.jpg)
+
+```markdown
+overhead shot 俯视
+top down 由上向下
+bird's eye view 鸟瞰
+high angle 高角度
+slightly above 微高角度
+straight on 水平拍摄
+hero view 英雄视角
+low view 低视角
+worm's eye view 仰视
+selfie 自拍
+```
+![](./note_img/Reference/xyz_grid-0019-781522150.jpg)
+![](./note_img/Reference/xyz_grid-0002-4007072380.jpg)
+![](./note_img/Reference/xyz_grid-0003-4007072380.jpg)
+![](./note_img/Reference/xyz_grid-0005-4007072380.jpg)
+![](./note_img/Reference/xyz_grid-0006-4007072380.jpg)
+![](./note_img/Reference/xyz_grid-0007-4007072380.jpg)
+![](./note_img/Reference/xyz_grid-0014-3188108701.jpg)
+![](./note_img/Reference/xyz_grid-0022-1840952380.jpg)
+![](./note_img/Reference/xyz_grid-0001-1796993685.jpg)
+![](./note_img/Reference/xyz_grid-0000-1600472547.jpg)
+![](./note_img/Reference/xyz_grid-0000-688529466.jpg)
+
+#### **7. 艺术风格**
+
+```markdown
+Rule of Thirds,Fantasy,Digital Painting,Illustration,Anthropomorphic,Storybook Illustration,Picturesque,Digital Art,Etch A Sketch,Animation,Clip Art,Stock Art,Street Art,Kawaii,Line Art,Digital lllustration,Fantasy Realism,Chibi,Anime,Cartoon,Pixel Art
+三分法; 幻想; 数字绘画; 插图; 拟人化; 故事书插图; 画风; 数码艺术; 蚀刻素描; 动画; 剪贴艺术; 库存艺术; 街头艺术; 可爱; 线条艺术; 数码插画; 奇幻现实主义; Chibi; 动画; 卡通; 像素艺术
+```
+
+![](./note_img/Reference/20240902_131003.jpg)
+
+#### **8. 显示分辨率**
+```markdown
+Glare,Lens Flare,Vignette,Film Grain,Stop Motion, Megapixels,20 Megapixels,10 Megapixels,2 Megapixels,Megapixel,16k,2k,4k,8k,X-Ray,CRT,Cinemascope,E-Ink,ASTSILE,Hologram,VHS,Movie Screen,Projector,Plasma TV
+强光,镜头光晕,小插图,胶片颗粒,定格动画,22兆像素,20兆像素,10兆像素,2百万像素,百万像素,16k,2k,4k,8k,X射线,显像管,宽银幕电影,电子墨水,全息图,录像带,电影屏幕,投影仪,等离子电视
+```
+![](./note_img/Reference/20240902_131704.jpg)
+
+#### **8. 设计说明**
+```markdown
+Sprite Sheet,High Quality,Composition,Ultra-detailed,Ornate,Cozy,Insanely Detailed,Hyperdetailed,Intricate Detail,Flat,Minimalist,High Definition,Intricate,Logo,Detailed Design,Complex Design,Basic Design,
+精灵表,高质量,作品,超详细,华丽,舒适,极其详细,超详细,错综复杂的细节,平坦的,极简主义者,高清,错综复杂,图标,标识,详细设计,复杂的设计,基本设计,
+```
+![](./note_img/Reference/20240902_132347.jpg)
+
+10.
+![]()

@@ -457,3 +457,109 @@ End Function
 
 ------
 
+## 11、将单元格16进制颜色码转化为填充
+
+```vbscript
+Sub HexToFillColor()
+    Dim rng As Range
+    Dim cell As Range
+    Dim hexColor As String
+    Dim red As Long
+    Dim green As Long
+    Dim blue As Long
+    
+    ' 选择要处理的范围
+    On Error Resume Next
+    Set rng = Application.Selection
+    On Error GoTo 0
+    
+    ' 遍历选定范围内的每个单元格
+    For Each cell In rng
+        hexColor = cell.Value
+        
+        ' 去掉可能存在的#符号
+        If Left(hexColor, 1) = "#" Then hexColor = Mid(hexColor, 2)
+        
+        ' 确保是一个有效的6位16进制数
+        If Len(hexColor) = 6 Then
+            ' 分别提取红、绿、蓝分量
+            red = CLng("&H" & Mid(hexColor, 1, 2))
+            green = CLng("&H" & Mid(hexColor, 3, 2))
+            blue = CLng("&H" & Mid(hexColor, 5, 2))
+            
+            ' 将单元格填充色设置为提取的RGB颜色
+            cell.Interior.Color = RGB(red, green, blue)
+        End If
+    Next cell
+End Sub
+Sub HexToFillColor()
+    Dim rng As Range
+    Dim cell As Range
+    Dim hexColor As String
+    Dim red As Long
+    Dim green As Long
+    Dim blue As Long
+    
+    ' 选择要处理的范围
+    On Error Resume Next
+    Set rng = Application.Selection
+    On Error GoTo 0
+    
+    ' 遍历选定范围内的每个单元格
+    For Each cell In rng
+        hexColor = cell.Value
+        
+        ' 去掉可能存在的#符号
+        If Left(hexColor, 1) = "#" Then hexColor = Mid(hexColor, 2)
+        
+        ' 确保是一个有效的6位16进制数
+        If Len(hexColor) = 6 Then
+            ' 分别提取红、绿、蓝分量
+            red = CLng("&H" & Mid(hexColor, 1, 2))
+            green = CLng("&H" & Mid(hexColor, 3, 2))
+            blue = CLng("&H" & Mid(hexColor, 5, 2))
+            
+            ' 将单元格填充色设置为提取的RGB颜色
+            cell.Interior.Color = RGB(red, green, blue)
+        End If
+    Next cell
+End Sub
+Sub HexToFillColor()
+    Dim rng As Range
+    Dim cell As Range
+    Dim hexColor As String
+    Dim red As Long
+    Dim green As Long
+    Dim blue As Long
+    
+    ' 选择要处理的范围
+    On Error Resume Next
+    Set rng = Application.Selection
+    On Error GoTo 0
+    
+    ' 遍历选定范围内的每个单元格
+    For Each cell In rng
+        hexColor = cell.Value
+        
+        ' 去掉可能存在的#符号
+        If Left(hexColor, 1) = "#" Then hexColor = Mid(hexColor, 2)
+        
+        ' 确保是一个有效的6位16进制数
+        If Len(hexColor) = 6 Then
+            ' 分别提取红、绿、蓝分量
+            red = CLng("&H" & Mid(hexColor, 1, 2))
+            green = CLng("&H" & Mid(hexColor, 3, 2))
+            blue = CLng("&H" & Mid(hexColor, 5, 2))
+            
+            ' 将单元格填充色设置为提取的RGB颜色
+            cell.Interior.Color = RGB(red, green, blue)
+        End If
+    Next cell
+End Sub
+
+```
+
+
+
+
+

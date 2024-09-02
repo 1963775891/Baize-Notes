@@ -1,0 +1,1 @@
+((masterpiece,best-quality)),(Photorealistic, 16K, HDR, cinematic lighting:1.2), volumetric_lighting, octane render, unreal engine, ray_tracing, tilt-shift\(composition\), depth-of-field, sharp_focus, fine_details, radiant_light, detailed_environment, realistic_materials,  cinematic\(style\), hyperrealistic,

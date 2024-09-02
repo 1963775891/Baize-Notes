@@ -1,9 +1,0 @@
-rose
-orchid
-iris
-carnation
-lily
-daisy
-chrysanthemum
-daffodil
-dahlia

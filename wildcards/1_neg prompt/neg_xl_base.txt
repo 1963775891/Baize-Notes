@@ -1,0 +1,1 @@
+text watermark signature,low-quality,moiré pattern, downsampling, aliasing, blurry blur, glossy, jpeg artifacts, compression artifacts,poorly drawn,low-resolution bad ,error,pattern,beginner, grainy, glitch (More on poor quality image errors)
