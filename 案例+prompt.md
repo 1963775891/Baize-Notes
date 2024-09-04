@@ -233,7 +233,7 @@ jianbai E-commerce,jianbai summer beach,3D cartoon, colorful beach scene with lo
 简白电子商务，简白夏季海滩，3D卡通，沙滩上躺椅和游泳圈的彩色海滩场景，皮克斯风格，可爱俏皮的人物设计，侧视图，背景是蓝天白云，岩石水中的棕榈树、色彩缤纷的沙滩玩具、高分辨率和高细节的明亮调色板。
 ```
 
-#### **10. 电商模型-直出电器化妆品类海报场景kv-静物摄影**
+#### **10. 电商模型-直出化妆品类海报场景kv**
 
 ![](./note_img/Reference/20240901_184238.jpg)
 
@@ -328,26 +328,38 @@ text,
 ```markdown
 触发词：ColoringBookAF
 ```
-#### **19. **
+#### **19. 文彩风流_ColorfulText·炫彩LOGO排字设计_v1.0 **
 
-![]()
+![](./note_img/Reference/20240903_230115.jpg)
 
 ```markdown
+权重0.8~1.5，触发词“logo”,可视情况加入“text”、“chinese text”、“english text”等。
+如果你想生成logo，请额外加入“white backgrownd,simple background”并适当提高权重以控制背景为白背景。
+如果你想生成banner设计，则无需额外加入“white backgrownd,simple background”（除非你还是想要白背景）。
+如果需要华丽的效果，可以尝试加入“glowing text”以及一些其他描述特效的关键词。
 
+
+masterpiece,best quality,highres,ultra-detailed,<lora:Colorful_Text_Logo_Banner_XL-000016:1.5>,logo,dark fantasy,no humans,english text" Your LOGO Here",((white background)),((simple background)),gorgeous,gold,gem,, masterpiece,best quality,highres,ultra-detailed,
+Negative prompt: lowres,bad anatomy,text,error,missing fingers,extra digit,fewer digits,cropped,worst quality,low quality,normal quality,jpeg artifacts,signature,watermark,username,blurry,, lowres,bad anatomy,bad hands,text,error,missing fingers,extra digit,fewer digits,cropped,worst quality,low quality,normal quality,jpeg artifacts,signature,watermark,username,blurry,negativeXL_D,
+Steps: 20, Size: 1280x512, Seed: 1500140027, Sampler: Euler a, CFG scale: 7
 ```
-#### **20. **
+#### **20. **东方美学_国风卷轴
 
-![]()
+![](./note_img/Reference/20240903_230731.jpg)
 
 ```markdown
-
+大模型推荐：revAnimated_v122.
+DMP2M++karras，CFG 7，高清修复0.4以下,R-ESRGAN_4x+Anime6B，推荐分辨率720*960，
 ```
-#### **21. **
+#### **21. **国风插画-山川绘影
 
-![]()
+![](./note_img/Reference/20240903_232033.jpg)
 
 ```markdown
+大模型搭配推荐：revAnimated_v12;LoRA权重：0.4-1 不设限
 
+提示词推荐
+Masterpiece, best quality, traditional Chinese landscape painting, Gongbi painting, green, gold, East Asian architecture, mountains, water, trees, moon, birds, blue sky, white clouds, river, no people, Chinese painting brushe, flat illustration, artistic composition, blank space, many details, ultra high definition,32k
 ```
 #### **22. **
 
@@ -993,33 +1005,39 @@ nsfw,ng_deepnegative_v1_75t,badhandv4,(worst quality:2),(low quality:2),(normal 
 
 Model：儿童插画绘本Minimalism, Lib独家 l 扁平禅意插画, 【梦幻】3D电商草地
 ```
-#### **37.**
+#### **37.**大暑-节气
 
-![]()
+![](./note_img/Reference/20240903_232747.jpg)
 
 ```markdown
-
+正向
+blue-green color scheme,(white background,Simple background,top view,bird's-eye view:1.3),(Floating clouds:1.7),picture scroll,The scene where friends came to visit,the mountains in the distance were undulating,the green trees in the valley were vigorous,several pavilions were located here,and one person was standing outside the door waiting to knock,at the foot of the mountain,the water was gurgling and several people were busy. This picture of the rock and chapped,with many moss spots,is full of spirit and elegant.,guohuashanshui,
+反向
+(worst quality:2),(low quality:2),(normal quality:2),lowres,watermark,EasyNegative,bad-artist,bad-artist-anime,nsfw,ng_deepnegative_v1_75t,(badhandv4:1.2),EasyNegative,(worst quality:2),lowres,bad anatomy,bad hands,text,error,extra digit,fewer digits,cropped,worst quality,low quality,normal quality,jpeg artifacts,signature,watermark,username,blurry BadDream UnrealisticDream,nsfw,
 ```
-#### **38.**
+#### **38.**运营黏土小元素
 
-![]()
+![](./note_img/Reference/20240903_233528.jpg)
 
 ```markdown
-
+A 3D icon for aircraft,Q-version,made of clay material,rendered in 3D,smooth and glossy,3D clay world,bright color,simple back- ground,--s 180--niji 6​
+一个飞机的3D图标，Q版，粘土材料制成，3D渲染，光滑光滑，3D粘土世界，色彩鲜艳，背景简单，-s 180-niji 6
 ```
-#### **39.**
+#### **39.**发现春天
 
-![]()
+![](./note_img/Reference/20240903_234825.jpg)
 
 ```markdown
-
+metro on the tracks, surrounded by flowers,on top green grass, in the style of cute cartoonish designs, dreamlike visuals, soft sculptures, webcam, bright colors, bold shapes, coastal landscapes, capturing moments
 ```
-#### **40.**
+#### **40.**运营风格
 
-![]()
+![](./note_img/Reference/Quicker_20240903_235213.png)
 
 ```markdown
+(3D cartoon \(style\)), highly saturated colors, tropical beach setting, palm trees, playful oversized objects, vibrant fruits, smooth and soft textures, warm daylight, sunny atmosphere, plastic sheen, cheerful and whimsical, bright and even lighting, wide-angle lens, slightly low camera perspective, (cinematic composition), smooth shading, vibrant color palette, [anime chibi style influences], [fantasy\(environment\)], [toy-like CGI rendering], [kawaii_culture_aesthetic]
 
+（3D卡通风格），高度饱和的色彩，热带海滩设置，棕榈树，好玩的超大物体，充满活力的水果，光滑柔软的纹理，温暖的日光，阳光明媚的气氛，塑料光泽，欢快而异想天开，明亮而均匀的灯光，广角透镜，略低的相机视角，（电影构图），平滑的阴影，充满活力的调色板，[动漫赤壁风格的影响]，[幻想环境]，[玩具般的CGI渲染]，[卡哇伊文化美学]
 ```
 #### **41.**
 
