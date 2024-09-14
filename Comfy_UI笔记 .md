@@ -749,7 +749,19 @@ sam_editor_cpu = False //使用CPU代替GPU
 ![](./note_img/Controlnet/20240725_160022.jpg)
 
 > **Tile技巧**：配合其他control使用，强度不宜太高。建议在 **0.35~0.4**
->
+
+```markdown
+Tile高清放大修复参数
+
+- Tile 预处理器:
+缩放系数：3.0；模糊强度：7.0
+
+- 缩放柔和权重
+base_multiplier：0.850
+
+- 高级controlnet应用
+权重：0.95；起始接入：0.0；停止介入：0.950
+```
 
 ![](./note_img/Controlnet/082921_309318550631046_00002_.png)
 
