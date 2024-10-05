@@ -1039,41 +1039,121 @@ metro on the tracks, surrounded by flowers,on top green grass, in the style of c
 
 （3D卡通风格），高度饱和的色彩，热带海滩设置，棕榈树，好玩的超大物体，充满活力的水果，光滑柔软的纹理，温暖的日光，阳光明媚的气氛，塑料光泽，欢快而异想天开，明亮而均匀的灯光，广角透镜，略低的相机视角，（电影构图），平滑的阴影，充满活力的调色板，[动漫赤壁风格的影响]，[幻想环境]，[玩具般的CGI渲染]，[卡哇伊文化美学]
 ```
-#### **41.**
+#### **41.**透明玻璃图标
+
+![](./note_img/Reference/20240929_210524.jpg)
+
+```markdown
+blue|light white icon,white background, studio lighting,Blue-violet, icon, many details, octane render, transparent glass texture, frosted glass, transparent technology sense, industrial design,  sunshine, flat, minimal, quasi-object, axisymmetric, blender, C4D, best quality, 4k, DDicon, Arylide blue, 
+蓝色|浅白色图标，白色背景，工作室灯光，蓝紫色，图标，诸多细节，辛烷渲染，透明玻璃质感，磨砂玻璃，透明科技感，工业设计，阳光，扁平，极简，准物体，轴对称，搅拌机、C4D、最佳质量、4k、DDicon、Arylide 蓝色、
+
+lowres,bad anatomy,((bad hands)),(worst quality:2),(low quality:2),(normal quality:2),paintings,sketches,lowres,bad anatomy,bad hands,text,error,missing fingers,nsfw,nsfw,
+```
+#### **42.金属徽章**
+
+![](./note_img/Reference/20241005_162026.jpg)
+
+```
+1、作品定位
+badge,--图案徽章
+
+2、客观描述
+rabbit head,--兔头
+
+3、艺术风格
+Line drawing,vector illustration---线条画，矢量插画
+```
+
+#### **43.**3D等轴风格图标
+
+![](./note_img/Reference/20241005_162328.jpg)
+
+```markdown
+1、作品定位
+Application icon,ui icon,Laser effect,--应用图标，用户界面图标，激光效应
+designed by Dieter rams,--由迪特・拉姆斯设计
+
+2、客观描述
+A delivery box containing a Pikachu doll,--装着一只皮卡丘公仔的送货箱
+
+3、艺术风格
+Gradient translucent glass molten body,--渐变半透明玻璃熔体，
+minimalistic,glowing,white background,--极简主义，发光，白色背景，
+industrial design,studio lighting,--工业设计，演播室照明
+Isometric Ul interface with 3D elements,clean shadows,--具有3D元素的等轴测U川界面，干净的阴影
+Caustic,High detail,C4d,oc render,4k,--干净的阴影焦散高细节C4D，OC渲染，4k
+```
+#### **44.**扁平化插画
+
+![](./note_img/Reference/20241005_165513.jpg)
+
+```markdown
+客观描述
+1、谁(who)：		一位戴着眼镜的女科学家
+2、哪里(where)：	在实验室里
+3、做什么(what)：	正在做实验
+4、怎么做(how)：		用一个试管
+
+风格细节
+1、扁平插画：Flat illustration
+2、使用场景：Ul illustration,GUl
+3、简约风格：minimalism，--极简
+4、背景颜色：white background，--白色背景
+5、整体色调：Brighe clour scheme，--明亮色调
+```
+#### **45.角色不同动作**
+
+![](./note_img/Reference/20241005_170727.jpg)
+
+```markdown
+1、作品定位
+Expression sheet character design sheetcharacter turnaround sheet
+不同表情，角色表，不同动作
+
+2、画面描述
+She is a lovely little girl,she has long curly hair,wears a blue skirt,she is very lively,
+她是一个可爱的小女孩，她有一头长长的卷发，穿着一条蓝色的裙子，她很活泼
+
+3、增强画面
+Children's picture books,children's stories,high saturation colors
+儿童绘本，儿童故事，高饱和度色彩
+```
+#### **46.**
 
 ![]()
 
 ```markdown
 
 ```
-#### **42.**
+#### **47.**
 
 ![]()
 
 ```markdown
 
 ```
-#### **43.**
+#### **48.**
 
 ![]()
 
 ```markdown
 
 ```
-#### **44.**
+#### **49.**
 
 ![]()
 
 ```markdown
 
 ```
-#### **45.**
+#### **50.**
 
 ![]()
 
 ```markdown
 
 ```
+
 
 ## 三、SDXL风格图
 
