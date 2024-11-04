@@ -1039,15 +1039,19 @@ metro on the tracks, surrounded by flowers,on top green grass, in the style of c
 
 （3D卡通风格），高度饱和的色彩，热带海滩设置，棕榈树，好玩的超大物体，充满活力的水果，光滑柔软的纹理，温暖的日光，阳光明媚的气氛，塑料光泽，欢快而异想天开，明亮而均匀的灯光，广角透镜，略低的相机视角，（电影构图），平滑的阴影，充满活力的调色板，[动漫赤壁风格的影响]，[幻想环境]，[玩具般的CGI渲染]，[卡哇伊文化美学]
 ```
-#### **41.**透明玻璃图标
+#### **41.**2.5D透明玻璃图标
 
 ![](./note_img/Reference/20240929_210524.jpg)
 
 ```markdown
-blue|light white icon,white background, studio lighting,Blue-violet, icon, many details, octane render, transparent glass texture, frosted glass, transparent technology sense, industrial design,  sunshine, flat, minimal, quasi-object, axisymmetric, blender, C4D, best quality, 4k, DDicon, Arylide blue, 
-蓝色|浅白色图标，白色背景，工作室灯光，蓝紫色，图标，诸多细节，辛烷渲染，透明玻璃质感，磨砂玻璃，透明科技感，工业设计，阳光，扁平，极简，准物体，轴对称，搅拌机、C4D、最佳质量、4k、DDicon、Arylide 蓝色、
+blue love icon,many details, octane render, transparent glass texture,frosted glass, transparent technology sense, industrial design, white background, studio lighting, sunshine, flat, minimal, quasi-object, axisymmetric, blender, C4D, best quality, 4k
+蓝色爱的图标，许多细节，辛烷值渲染，透明玻璃纹理，磨砂玻璃，透明的技术感，工业设计，白色背景，工作室照明，阳光，平面，最小，准物体，轴对称，搅拌机，C4D，最佳质量，4k
 
-lowres,bad anatomy,((bad hands)),(worst quality:2),(low quality:2),(normal quality:2),paintings,sketches,lowres,bad anatomy,bad hands,text,error,missing fingers,nsfw,nsfw,
+lowres,bad anatomy,((bad hands)),(worst quality:2),(low quality:2),(normal quality:2),paintings,sketches,lowres,bad anatomy,bad hands,text,error,missing fingers,ng_deepnegative_v1_75t,(badhandv4:1.2),EasyNegative,(worst quality:2),easynegative,drawing,painting,crayon,sketch,graphite,impressionist,noisy,blurry,soft,deformed,ugly,(deformed iris, deformed pupils, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.4),text,close up,cropped,out of frame,worst quality,low quality,jpeg artifacts,ugly,duplicate,morbid,mutilated,extra fingers,mutated hands,poorly drawn hands,poorly drawn face,mutation,deformed,blurry,dehydrated,bad anatomy,bad proportions,extra limbs,cloned face,disfigured,gross proportions,malformed limbs,missing arms,missing legs,extra arms,extra legs,fused fingers,too many fingers,long neck,((nsfw)),sketches,tattoo,(beard:1.3),(EasyNegative:1.3),badhandv4,(worst quality:2),(low quality:2),(normal quality:2),lowers,normal quality,facing away,looking away,text,error,extra digit,fewer digits,cropped,jpeg artifacts,signature,watermark,username,blurry,skin spots,acnes,skin blemishes,bad anatomy,fat,bad feet,cropped,poorly drawn hands,poorly drawn face,mutation,deformed,tilted head.bad anatomy.bad hands,extra fingers,fewer digits,extra limbs.extra arms,extra legs,malformed limbs.fused fingers,too many fingers,long neck,cross-eyed,mutated hands,bad body,bad proportions,gross proportions,text,error,missing fingers,missing arms,missing legs,extra digit,extra arms,extra leg,extra foot,missing fingers,(Worst quality,low quality,lowres:1.2),error,cropped,jpeg artifacts,out of frame,watermark,signature
+
+模型1：BDiconPro_B端三维图标，权重设置为0.8
+模型2：鲜创一派@3D立体玻璃_SDXL，权重设置为0.2
+模型3：透明水晶玻璃质感，权重设置为0.1
 ```
 #### **42.金属徽章**
 
