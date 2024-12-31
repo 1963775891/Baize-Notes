@@ -806,3 +806,47 @@ myenv\Scripts\activate
   bashCopy code
   deactivate
 ```
+
+## 7. 同步到Github
+
+```bash
+@echo off
+
+:: 切换到指定目录
+cd /d "D:\Baize-Notes"
+echo 当前目录: %cd%
+echo.
+
+:: 如果不存在.git文件夹，则初始化仓库并添加远程地址
+if not exist .git (
+    echo 初始化Git仓库...
+    git init
+    git branch -M main
+    git remote add origin https://github.com/仓库地址.git
+    echo.
+)
+
+:: 检查状态
+echo 检查文件状态...
+git status
+echo.
+
+:: 添加所有文件
+echo 添加更改到暂存区...
+git add .
+echo.
+
+:: 提交更改
+echo 提交更改...
+git commit -m "更新白泽笔记"
+echo.
+
+:: 使用令牌推送
+echo 推送到GitHub...
+git push https://令牌@github.com/仓库地址.git main
+echo.
+
+echo ====== 同步完成 ======
+echo 窗口将在3秒后自动关闭...
+timeout /t 3 /nobreak > nul
+```
