@@ -1,4 +1,6 @@
-## 1. 快捷键
+## 1.  基本设置
+
+#### 1.1 快捷键
 
 ```markdown
 【Ctrl+Enter】：将当前图形排队以供生成
@@ -8,7 +10,7 @@
 【Ctrl+A】：选择所有节点
 【Alt+C】：折叠/取消折叠选中的节
 【Ctrl+M】：禁用/启用所选节点
-**【Ctrl+B】**：绕过选定的节点(就像从图中删除了节点，重新连接了导线一样)
+【Ctrl+B】：绕过选定的节点(就像从图中删除了节点，重新连接了导线一样)
 【Delete/Backspace】：删除选中的节点
 【Ctrl+Delete】：删除当前图
 【空格】：当按住并移动光标时，移动画布
@@ -29,41 +31,7 @@
 
 ------
 
-## 2. 基本设置
-
-#### **2.1 插件**
-
-```markdown
-安装路径 .\custom_nodes
-1. ComfyUI_IPAdapter_plus(风格参考)
-2. ComfyUI-Manager(管理器)
-3. ComfyUI-Custom-Scripts(提示词自动补全)
-4. rgthree-comfy(快捷节点)
-5. ComfyUI-IC-Light(打光)
-6. comfyui-workspace-manager(管理器)
-7. Crystools(显示内存进度)
-8. comfyui-mixlab-nodes(投屏节点)
-9. ComfyUlCustom_Nodes_AlekPet(画板节点)
-10. ComfyUI_smZNodes(A1111节点)
-11. Easy-Use(简单使用)
-12. blibla-comfyui-extensions(解除冻结)
-13. segment_anything(语义分割)：多词组写法 face|boby
-14. lmpact Pack
-15. ComfyUI_frontend(修复文本溢出)
-16. Comfyui-ergouzi-DGNJD(二狗多功能节点)
-17. ComfyUI-N-Sidebar(侧边栏调出节点)
-18. ComfyUI-BrushNet(局部重绘)
-19. cg-use-everywhere(全局节点)
-20. was-node-suite-comfyui(合成，调色)
-21. ComfyUI-ResAdapter(协调尺寸对出图的权重)
-22. ComfyUI_essentials(基本节点补充)
-23. ComfyUI-Inspire-Pack(Lora分层)
-
-```
-
-------
-
-#### **2.2 输出文件夹命名**
+#### **1.2 输出文件夹命名**
 
 > **%date:yyyy-MM-dd%/%date:MMddhhmm%_%随机种.seed%**
 >
@@ -77,7 +45,7 @@
 
 ------
 
-#### **2.3 同步WebUI**
+#### **1.3 同步WebUI**
 
 1. WebUI随机种子改成GPU；
 2. CLIP提示词节点选择: 高级 < **(BNK)**，权重差值方式：**A1111；**
@@ -87,7 +55,7 @@
 
 ------
 
-#### **2.4 CLIP-ViT 模型**
+#### **1.4 CLIP-ViT 模型**
 
 ```markdown
 1.  CLIP-ViT-H-fp16.safetensors
@@ -107,7 +75,7 @@
 
 ------
 
-#### **2.5 SAM-ViT 模型对比及低显存推荐**
+#### **1.5 SAM-ViT 模型对比及低显存推荐**
 
 ```markdown
  1. sam_vit_b_01ec64.pth
@@ -139,7 +107,7 @@
 
 ------
 
-#### **2.6 groundingdino 模型**
+#### **1.6 groundingdino 模型**
 
 ```markdown
 1. groundingdino_swint_ogc.pth
@@ -155,7 +123,7 @@
 
 ------
 
-#### **2.7 IP-Adapter 模型对比及低显存推荐**
+#### **1.7 IP-Adapter 模型对比及低显存推荐**
 
 ```markdown
 1. ip-adapter_sdxl_vit-h.safetensors
@@ -187,9 +155,9 @@
 
 ------
 
-#### **2.8 Hyper 模型对比及低显存推荐**
+#### **1.8 Hyper 模型对比及低显存推荐**
 
-##### SD 1.5 系列
+##### 1.8.1 SD 1.5 系列
 
 ```markdown
 1. Hyper-SD15-12steps-CFG-lora.safetensors
@@ -219,7 +187,7 @@
 
 > 低显存推荐：Hyper-SD15-1step-lora.safetensors 
 
-##### SDXL 系列
+##### 1.8.2 SDXL 系列
 
 ```markdown
 1. Hyper-SDXL-12steps-CFG-lora.safetensors
@@ -292,7 +260,7 @@
 
 ------
 
-#### **2.9 数学表达式**
+#### **1.9 数学表达式**
 
 **操作符：**
 
@@ -331,7 +299,145 @@
 
 ------
 
-## 2.条件
+## 2.插件
+#### **2.1 必装插件**
+
+```markdown
+安装路径 .\custom_nodes
+1. ComfyUI_IPAdapter_plus(风格参考)
+2. ComfyUI-Manager(管理器)
+3. ComfyUI-Custom-Scripts(提示词自动补全)
+4. rgthree-comfy(快捷节点)
+5. ComfyUI-IC-Light(打光)
+6. comfyui-workspace-manager(管理器)
+7. Crystools(显示内存进度)	-
+8. comfyui-mixlab-nodes(投屏节点)
+9. ComfyUI_smZNodes(A1111节点)
+10. Easy-Use(简单使用)
+11. blibla-comfyui-extensions(解除冻结)
+12. segment_anything(语义分割)：多词组写法 face|boby
+13. ComfyUI-Impact-Pack(区域采样等)
+14. ComfyUI_frontend(修复文本溢出)
+15. Comfyui-ergouzi-DGNJD(二狗多功能节点)
+16. ComfyUI-BrushNet(局部重绘)
+17. cg-use-everywhere(全局节点)
+18. was-node-suite-comfyui(合成，调色)
+19. ComfyUI-ResAdapter(协调尺寸对出图的权重)
+20. ComfyUI_essentials(基本节点补充)
+21. ComfyUI-Inspire-Pack(Lora分层)
+22. ComfyUI-Fluxtapoz(Flux重绘)
+23. ComfyUI-FluxRegionAttention（lora局部控制）
+24. ComfyUI-RMBG（移除背景）
+25. ComfyUI_Custom_Nodes_AlekPet（中文翻译提示词）
+26. ComfyUI-Gemini
+27. ComfyUI_AdvancedRefluxControl（Redux高级）
+28. Comfyui_Flux_Style_Adjust（颜色、风格参考版）
+29. ComfyUI-GGUF
+30. ComfyUI_Comfyroll_CustomNodes	-----有设置布尔值，可搭配用于for循环
+31. comfyui-photoshop（联动photoshop）
+32. ComfyUI-Redux-Prompt（Redux提示词控制）
+33. BizyAir(反推提示词)
+34. AIGODLIKE-ComfyUI-Translation(节点翻译)
+
+```
+
+#### 2.2 插件报错处理
+
+```python
+# 更新python
+Python -m pip install --upgrade pip
+
+#安装缺失模块的依赖/依赖
+pip install 缺失模块名称
+pip install ...\requirements.txt
+
+# 查看本地ComfyUI安装的CUDA版本
+import torch
+print(torch.version.cuda)
+```
+
+------
+
+#### 2.3 ComfyUI-Impact-Pack(区域采样等)
+
+##### 2.3.1 分区域采样
+
+> lmpact Pack : 区域采样器 + 区域采样器
+>
+
+可以使用不同模型进行采样
+
+![](./note_img/Controlnet/20241231_095913.png)
+
+
+
+
+------
+
+
+
+#### 2.4 ComfyUI-Fluxtapoz(Flux重绘)
+
+##### 2.4.1 分区域参考
+
+![](./note_img/Controlnet/20241231_104135.png)
+
+
+
+
+
+
+------
+
+#### 2.5 ComfyUI_AdvancedRefluxControl（Reflux高级）
+
+
+
+
+------
+
+#### 2.6 ComfyUI-FluxRegionAttention（lora局部控制）
+
+
+
+
+------
+
+#### 2.7 Easy-Use(简单使用)
+
+##### 2.7.1 for 循环
+
+
+
+
+
+
+------
+
+#### 2.8 ComfyUI_essentials(基本节点补充)
+
+##### 2.8.1 图像分块和逆分块
+
+
+
+
+
+
+------
+
+#### 2.8 
+
+
+
+
+------
+
+
+
+
+
+
+## 3.条件
 
 > **条件联结：**以**第一个条件**为主导，将条件按排序进行叠加
 
@@ -360,7 +466,7 @@
 
 ------
 
-## 3. 遮罩
+## 4. 遮罩
 
 #### **3.1 手动遮罩：右键遮罩编辑器打开**
 
@@ -400,9 +506,9 @@ sam_editor_cpu = False //使用CPU代替GPU
 
 ------
 
-## 4. 语义分割/抠图
+## 5. 语义分割/抠图
 
-#### **4.1 segment_anything(语义分割)**
+#### **5.1 segment_anything(语义分割)**
 
 - 多词组写法 **face | boby** ，容易**有锯齿**
 
@@ -410,7 +516,7 @@ sam_editor_cpu = False //使用CPU代替GPU
 
 ------
 
-#### **4.2 CLIP 语义分割**
+#### **5.2 CLIP 语义分割**
 
 - 输入检测词进行分割，能调整**边缘模糊度**
 
@@ -418,14 +524,14 @@ sam_editor_cpu = False //使用CPU代替GPU
 
 ------
 
-#### **4.3 BiRefNet：自动抠图**
+#### **5.3 BiRefNet：自动抠图**
 
 ![](./note_img/Controlnet/20240723_173229.jpg)
 ![](./note_img/Controlnet/GJNZYkuX0AAfT5T.jpg)
 
 ------
 
-## 5. 局部重绘
+## 6. 局部重绘
 
 > 内补编码：会改变原图色调 (潜空间噪声)
 >
@@ -447,7 +553,7 @@ sam_editor_cpu = False //使用CPU代替GPU
 ![](./note_img/Controlnet/20240807_144000.jpg)
 ![](./note_img/Controlnet/20240807_144313.jpg)
 
-#### **5.1 局部重绘**（仅遮罩重绘）
+#### **6.1 局部重绘**（仅遮罩重绘）
 
 > 适合局部**重绘幅度小**，要丰富重绘提示词的，创造力会更强；
 >
@@ -476,7 +582,7 @@ sam_editor_cpu = False //使用CPU代替GPU
 
 ------
 
-#### **5.2 局部重绘 + ControlNet_Inpaint（仅遮罩重绘）**
+#### **6.2 局部重绘 + ControlNet_Inpaint（仅遮罩重绘）**
 
 > 适合局部重绘幅度大。
 >
@@ -488,7 +594,7 @@ sam_editor_cpu = False //使用CPU代替GPU
 
 ------
 
-#### **5.3 图生图+ ControlNet_Inpaint**（稍微影响原图）
+#### **6.3 图生图+ ControlNet_Inpaint**（稍微影响原图）
 
 > 适合重绘幅度小，调节全图画面。
 >
@@ -500,15 +606,15 @@ sam_editor_cpu = False //使用CPU代替GPU
 
 ------
 
-#### **5.4 面部修复**
+#### **6.4 面部修复**
 
 ![](./note_img/Controlnet/20240728_145424.jpg)
 
 ------
 
-## 6. IpAdapter
+## 7. IpAdapter
 
-#### 6.1 加载参考图
+#### 7.1 加载参考图
 
 > - IPAdapter特征图在导入时，编码器会将图像的大小调整为 **224×224**，并将其**裁剪到中心**。
 >
@@ -519,7 +625,7 @@ sam_editor_cpu = False //使用CPU代替GPU
 
 ------
 
-#### **6.2 条件缩放图形尺寸**
+#### **7.2 条件缩放图形尺寸**
 
 > 添加 **Easy Use** 的 **比较** 节点和 **Impact Pack** 的 **切换** 节点
 
@@ -527,7 +633,7 @@ sam_editor_cpu = False //使用CPU代替GPU
 
 ------
 
-#### **6.3  权重类型**
+#### **7.3  权重类型**
 
 ![](./note_img/Controlnet/20240801_161846.jpg)
 ![](./note_img/Controlnet/20240801_170831_看图王.jpg)
@@ -539,7 +645,7 @@ sam_editor_cpu = False //使用CPU代替GPU
 
 ------
 
-#### **6.4 解决过拟合**
+#### **7.4 解决过拟合**
 
 ![](./note_img/Controlnet/20240801_172010.jpg)
 
@@ -555,7 +661,7 @@ sam_editor_cpu = False //使用CPU代替GPU
 
 ------
 
-#### **6.5 合并嵌入组**
+#### **7.5 合并嵌入组**
 
 ```markdown
 当有多张参考图时，合并方式会影响画面的元素结果；
@@ -586,7 +692,7 @@ sam_editor_cpu = False //使用CPU代替GPU
 
 ------
 
-#### 6.5.1 使用遮罩对IP-Adapter的作用范围进行精确控制
+#### 7.5.1 使用遮罩对IP-Adapter的作用范围进行精确控制
 
 在应用IP-Adapter节点时，我们可以看到还有一个节点输入，那就是遮罩输入，利用这个节点我们可以精准控制多个特征在生成图片里的作用范围
 
@@ -602,7 +708,7 @@ sam_editor_cpu = False //使用CPU代替GPU
 
 2.  最好在遮罩与非遮罩区域加入过渡层
 
-#### 6.5.2 使用IP-Adapter可以用于放大图片或者模糊图片高清化
+#### 7.5.2 使用IP-Adapter可以用于放大图片或者模糊图片高清化
 
 通常我们想要修复模糊的图片使用单纯的图生图效果不会很理想，在基础的图生图上增加`IP-Adapter`
 
@@ -618,7 +724,7 @@ sam_editor_cpu = False //使用CPU代替GPU
 
 **6.6 IPAdapter 新版本**
 
-#### 6.6.1 核心应用节点调整（**IPAdapter Apply**）
+#### 7.6.1 核心应用节点调整（**IPAdapter Apply**）
 
 本次更新废弃了以前的核心节点**IPAdapter Apply**节点，但是我们可以用**IPAdapter Advanced**节点进行替换。![](https://img-blog.csdnimg.cn/direct/15ae3c8b4e514f4b8932bc1f4c06994e.png)
 
@@ -634,7 +740,7 @@ sam_editor_cpu = False //使用CPU代替GPU
 
 ![](https://img-blog.csdnimg.cn/direct/ed9513d46ae947bd9421e0a2dbaf3a6e.png)
 
-#### 6.6.2 批量[图片加载](https://so.csdn.net/so/search?q=%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD&spm=1001.2101.3001.7020)调整（Emcode **IPAdapter Image**）
+#### 7.6.2 批量[图片加载](https://so.csdn.net/so/search?q=%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD&spm=1001.2101.3001.7020)调整（Emcode **IPAdapter Image**）
 
 在以前我们想要批量加载图片并调整每个图片的权重需要使用如下节点完成
 
@@ -666,7 +772,7 @@ sam_editor_cpu = False //使用CPU代替GPU
 
 ------
 
-#### 6.6.3 合并模型加载节点（IPAdapter Unified Loader）
+#### 7.6.3 合并模型加载节点（IPAdapter Unified Loader）
 
 新版本提供了统一的模型加载节点，也就是说我们以前需要IPAdapter模型加载器，clip\_version模型加载器，现在直接二合一了。（Face ID相关模型加载要安装insightface）
 
@@ -704,7 +810,7 @@ sam_editor_cpu = False //使用CPU代替GPU
 - 已弃用 ip-adapter\_sd15\_light.safetensors，v1.0 轻型影响模型
 ```
 
-#### 6.6.4 IPadapter应用高级节点（**IPAdapter Advanced）**
+#### 7.6.4 IPadapter应用高级节点（**IPAdapter Advanced）**
 
 ![](https://img-blog.csdnimg.cn/direct/fde818c1ee864bb5a2203c2a7bb3bb6a.png)
 
@@ -718,7 +824,7 @@ sam_editor_cpu = False //使用CPU代替GPU
 
 ![](https://img-blog.csdnimg.cn/direct/a4eb7aa510624dcdb1c2f9d5eae96c43.png)
 
-##### 6.6.4.2 新**配置参数**
+##### 7.6.4.2 新**配置参数**
 
 *   **Weight**，IPAdapter 模型的权重。对于`linear` 类型（默认值，也是唯一老版本保留的类型），从 0.8开始一般效果比较好。如果使用其他类型，您可以尝试更高的值。
 
@@ -728,7 +834,7 @@ sam_editor_cpu = False //使用CPU代替GPU
 
 *   **embeds\_scaling**，IPAdapter 模型应用于 K,V 的方式。该参数对模型对文本提示的反应影响不大。`K+mean(V) w/ C penalty`在高权重 (>1.0) 下提供良好的质量，而不会烧坏图像。
 
-#### 6.6.5 图片编码节点（**IPAdapter Encoder）**
+#### 7.6.5 图片编码节点（**IPAdapter Encoder）**
 
 ![](https://img-blog.csdnimg.cn/direct/b1a8c851c1074bf89264ebd4e3475d45.png)
 
@@ -744,7 +850,7 @@ sam_editor_cpu = False //使用CPU代替GPU
 
 ------
 
-## 7. ControlNet工作流
+## 8. ControlNet工作流
 
 ![](./note_img/Controlnet/20240725_160022.jpg)
 
@@ -772,9 +878,9 @@ base_multiplier：0.850
 
 ------
 
-## 8. 采样器进阶
+## 9. 采样器进阶
 
-#### **8.1 基础采样器**
+#### **9.1 基础采样器**
 
 ![](./note_img/Controlnet/20240731_170508.jpg)
 
@@ -784,7 +890,7 @@ base_multiplier：0.850
 
 ------
 
-#### **8.2 高级采样器**
+#### **9.2 高级采样器**
 
 ![](./note_img/Controlnet/20240731_170446.jpg)
 
@@ -806,7 +912,7 @@ base_multiplier：0.850
 
 ------
 
-#### **8.3 提高效率技巧**
+#### **9.3 提高效率技巧**
 
 ![](./note_img/Controlnet/20240810_095237.jpg)
 
@@ -814,9 +920,9 @@ base_multiplier：0.850
 
 
 
-## 7. 放大
+## 10. 放大
 
-#### 7.1 Tile分块放大
+#### 10.1 Tile分块放大
 
 ![](./note_img/Controlnet/20240725_154224.jpg)
 ![](./note_img/Controlnet/20240809_161953.jpg)
@@ -827,7 +933,7 @@ base_multiplier：0.850
 
 ------
 
-#### 7.2 潜空间 ：Latent直接放大+采样
+#### 10.2 潜空间 ：Latent直接放大+采样
 
 ![](./note_img/Controlnet/20240725_192158.jpg)
 ![](./note_img/Controlnet/20240725_193913.jpg)
@@ -836,7 +942,7 @@ base_multiplier：0.850
 
 ------
 
-#### 7.3 像素空间：放大模型 (需解码，耗时长)
+#### 10.3 像素空间：放大模型 (需解码，耗时长)
 
 ![](./note_img/Controlnet/20240725_195303.jpg)
 
@@ -854,40 +960,40 @@ base_multiplier：0.850
 
 ------
 
-## 8. 节点
+## 11. 节点
 
-#### 8.1 comfy节点
+#### 11.1 comfy节点
 
 ![](./note_img/Controlnet/20240725_142039.jpg)
 ![](./note_img/Controlnet/20240725_142040.jpg)
 
 ------
-#### 8.2 Easy Use插件
+#### 11.2 Easy Use插件
 
 ![](./note_img/Controlnet/20240725_151513.jpg)
 ![](./note_img/Controlnet/20240725_152100.jpg)
 
 ------
-#### 8.3 RGthree插件
+#### 11.3 RGthree插件
 
 ![](./note_img/Controlnet/20240725_152227.jpg)
 
 ------
-#### 8.4 二狗插件
+#### 11.4 二狗插件
 
 ![](./note_img/Controlnet/20240725_152742.jpg)
 
 ------
 
-## 9.  XY图表
+## 12.  XY图表
 
-#### **9.1.1 脚本 --- XY输入**
+#### **12.1.1 脚本 --- XY输入**
 
 ![](./note_img/Controlnet/20240726_162507.jpg)
 
 ------
 
-#### **9.1.2 图像输出**
+#### **12.1.2 图像输出**
 
 > **Plot：网格图表；Images：单张图片**
 
@@ -895,7 +1001,7 @@ base_multiplier：0.850
 
 ------
 
-#### **9.1.3 多重Lora对比**
+#### **12.1.3 多重Lora对比**
 
 
 > 多重Lora测试叠加的lora权重对比时，要加一个Lora堆放置固定的Lora
@@ -904,7 +1010,7 @@ base_multiplier：0.850
 
 ------
 
-#### **9.1.4 文本切换**
+#### **12.1.4 文本切换**
 
 > **CR节点**(Comfyroll Studio) --- 实用工具 --- 逻辑 --- **文本切换(CR-4)**
 
@@ -912,22 +1018,62 @@ base_multiplier：0.850
 
 ------
 
-#### **9.1.5 替换提示词对比**
+#### **12.1.5 替换提示词对比**
 
 ![](./note_img/Controlnet/20240726_171710.jpg)
 
 ------
 
+## 13.Flux
+
+### 13.1 基础参数
+
+#### 13.1.1  引导值
+
+> 测试引导值
+>
+> ![](./note_img/Controlnet/20241231_102036.png)
+>
+> 
 
 
 
 
+------
+
+### 13.2 基础工作流
+
+#### 13.2.1  文生图
 
 
 
+------
+#### 13.2.2  图生图
 
 
 
+------
+#### 13.2.3  扩图
+
+
+
+------
+#### 13.2.4  局部重绘
+
+
+
+------
+#### 13.2.5  万物迁移
+
+
+
+------
+#### 13.2.6  风格参考
+
+
+
+------
+#### 13.2.7  语义重绘
 
 
 
@@ -974,7 +1120,7 @@ base_multiplier：0.850
 
 ------
 
-## 6. 工作流合集
+## 13. 工作流合集
 
 ```markdown
 文生图：Checkpoint → Lora  → CLIP  → ControlNet  → 采样器  → VAE解码  → 出图
