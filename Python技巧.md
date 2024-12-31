@@ -817,11 +817,9 @@ cd /d "D:\Baize-Notes"
 
 :: 如果不存在.git文件夹，则初始化仓库并添加远程地址
 if not exist .git (
-    echo 初始化Git仓库...
     git init
     git branch -M main
     git remote add origin https://github.com/仓库地址.git
-    echo.
 )
 
 :: 检查文件状态...
@@ -834,9 +832,7 @@ git add .
 git commit -m "Update Baize-Notes"
 
 :: 使用令牌推送
-echo 推送到GitHub...
 git push https://令牌@github.com/仓库地址.git main
-echo.
 
 echo ======OK ======
 echo
